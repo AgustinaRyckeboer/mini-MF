@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="esquema_verso_.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>El gaucho Martin Fierro</title>
+                    <author>José Hernández</author>
+                    <editor resp= "1">Maria Agustina Ryckeboer</editor>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>HD Lab</publisher>
+                    <availability>
+                        <licence>Creative Commons Compartir Igual 4.0 Internacional</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <bibl>[S.l.], Librería Martín Fierro, 1897</bibl>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body> 
+
+            <head>Canto V</head>
+                
+                <lg type="poema"  style="sexteto" unisonancia="singular" isometrismo="isométrico"  isoestrofismo="isoestrófico" asonancia="consonante" met="6x8">
+                </lg>
+
+
+</body>
+</text>
+    </TEI>
