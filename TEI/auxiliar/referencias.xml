@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Índice de referencias</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Gimena del Rio Riande</authority>
+            <availability>
+               <licence>
+                  <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                     Attribution-NonCommercial-ShareAlike 4.0 International</ref>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="AAV">
+               <persName type="standard">Alfonso Álvarez de Villasandino</persName>
+               <persName type="form">Alfonso Álvarez</persName>
+               <idno type="VIAF"
+                  >http://viaf.org/viaf/21146976/#Alvarez_de_Villasandino,_Alfonso,_approximately_1340-1424?</idno>
+            </person>
+            <person xml:id="PCO">
+               <persName type="standard">Frey Pedro de Colunga</persName>
+               <idno type="BETA">
+                  <![CDATA[http://pb.lib.berkeley.edu/saxon/SaxonServlet?source=BETA/Display/1081Person.xml&style=templates/Person.xsl&gobk=http%3A%2F%2Fpb.lib.berkeley.edu%2Fxtf%2Fservlet%2Forg.cdlib.xtf.crossQuery.CrossQuery%3Frmode%3Dphilobeta%26name%3DPedro+de+Colunga%26title%3D%26daterange%3D%26assocplace%3D%26affiliation%3D%26subject%3D%26everyone%3D%26text-join%3Dand%26rmode%3Dphilobeta%26browseout%3Dperson%26sort%3Dauthor]]></idno>
+            </person>
+            <person xml:id="AA">
+               <persName type="standard">Alfonso XI</persName>
+               <persName type="form">Cantor do senhor Infante</persName>
+               <idno type="MEDDB"
+                  >http://www.cirp.es/pls/bdo2/f?p=103:13:12130293107957607671::NO::P13_IDT,P13_SEQ_ID:020%2C1</idno>
+            </person>
+            <person xml:id="LV">
+               <persName type="standard">Luis Vaasquez</persName>
+               <persName type="form">Escolar</persName>
+            </person>
+            <person xml:id="BSA">
+               <persName type="standard">Bachiller en Artes de Salamanca</persName>
+               <idno type="BETA"
+                  ><![CDATA[http://pb.lib.berkeley.edu/saxon/SaxonServlet?source=BETA/Display/3534Person.xml&style=templates/Person.xsl&gobk=http%3A%2F%2Fpb.lib.berkeley.edu%2Fxtf%2Fservlet%2Forg.cdlib.xtf.crossQuery.CrossQuery%3Frmode%3Dphilobeta%26name%3DBachiller+de+Salamanca%26title%3D%26daterange%3D%26assocplace%3D%26affiliation%3D%26subject%3D%26everyone%3D%26text-join%3Dand%26rmode%3Dphilobeta%26browseout%3Dperson%26sort%3Dauthor]]></idno>
+            </person>
+            <person xml:id="GFG">
+               <persName type="standard">Garci Fernández de Gerena</persName>
+               
+               <idno type="BETA"><![CDATA[http://pb.lib.berkeley.edu/saxon/SaxonServlet?source=BETA/Display/3461Person.xml&style=templates/Person.xsl&gobk=http%3A%2F%2Fpb.lib.berkeley.edu%2Fxtf%2Fservlet%2Forg.cdlib.xtf.crossQuery.CrossQuery%3Fname%3DGarci%26title%3D%26daterange%3D%26assocplace%3D%26affiliation%3D%26subject%3D%26everyone%3D%26text-join%3Dand%26rmode%3Dphilobeta%26browseout%3Dperson%26sort%3Dauthor]]></idno>
+            </person>
+            <person xml:id="PCA">
+               <persName type="standard">Pedro Carrillo</persName>
+               <persName type="form">Pero Carrillo</persName>
+               <idno type="BETA"><![CDATA[http://pb.lib.berkeley.edu/saxon/SaxonServlet?source=BETA/Display/3536Person.xml&style=templates/Person.xsl&gobk=http%3A%2F%2Fpb.lib.berkeley.edu%2Fxtf%2Fsearch%3Fname%3Dcarrillo%26text-join%3Dand%26rmode%3Dphilobeta%26browseout%3Dperson%26sort%3Dauthor%26startDoc%3D21]]></idno>
+            </person>            
+            <person xml:id="NC">
+               <persName>Not Clear</persName>
+                <!-- Creo que hay mejores maneras de codificar identidades desconocidas. Pendiente de buscar -->
+            </person>
+            <person xml:id="FIM">
+               <persName type="standard"> Francisco Imperial</persName>
+               <persName type="form"> Micer Francisco Imperial</persName>
+               <idno type="VIAF">http://viaf.org/viaf/79427013/#Imperial,_Micer_Francisco.</idno>
+            </person>
+            <person xml:id="FPG">
+               <persName type="standard">Fernán Pérez de Guzmán</persName>
+               <persName type="form">Ferrán Pérez de Guzmán</persName>
+               <idno type="VIAF">http://viaf.org/viaf/9983425/#Pe%CC%81rez_de_Guzma%CC%81n,_Ferna%CC%81n_ca._1377/79_-_ca._1460</idno>
+            </person>
+            <person xml:id="GDT">
+               <persName type="standard">Gutierre de Toledo</persName>
+               <idno type="BETA">
+                  <![CDATA[http://pb.lib.berkeley.edu/saxon/SaxonServlet?source=BETA/Display/1528Person.xml&style=templates/Person.xsl&gobk=http%3A%2F%2Fpb.lib.berkeley.edu%2Fxtf%2Fservlet%2Forg.cdlib.xtf.crossQuery.CrossQuery%3Fname%3DGutierre+de+Toledo%26title%3D%26daterange%3D%26assocplace%3D%26affiliation%3D%26subject%3D%26everyone%3D%26text-join%3Dand%26rmode%3Dphilobeta%26browseout%3Dperson%26sort%3Dauthor]]>
+               </idno>
+            </person>
+            <person xml:id="JAB">
+               <persName type="standard">Juan Alfonso de Baena</persName>
+               <idno type="VIAF"> http://viaf.org/viaf/22265905/#Baena,_Juan_Alfonso_%CB%9Cde%C5%93</idno>
+            </person>    
+            
+            
+            
+            
+            
+            <person xml:id="FLM">
+               <persName type="standard">Fray Lope del Monte</persName>
+               <persName type="form">Fray Lope</persName>
+            </person>
+ 
+            <person xml:id="AMO">
+               <persName type="standard">Alfonso de Moraña</persName>
+               <persName type="form">Alfonso de Moraña</persName>
+            </person>
+            
+            <person xml:id="ASJ">
+               <persName type="standard">Alfonso Sánchez de Jahén</persName>
+               <persName type="form">Alfonso Sánchez</persName>
+               <idno type="VIAF">http://viaf.org/viaf/11976446/#Sanchez,_Afonso_ca._1280-1328</idno>   <!-- No estoy seguro si corresponde esta referencia de viaf -->
+            </person>
+
+            <person xml:id="REC">
+               <persName type="standard">Enrique III de Catilla y León</persName>
+               <persName type="form">Rey don Enrique</persName>
+               <idno type="VIAF">http://viaf.org/viaf/289885214/#Henrique_III_de_Castiella</idno>   
+            </person>
+
+            <person xml:id="CPF">
+               <persName type="standard">Cardenal Pedro de Frías</persName>        <!-- Hay un Pedro de Frías en Viaf, pero por las fechas creo que no es el mismo -->
+               <persName type="form">Cardenal</persName>
+            </person>
+         
+            <person xml:id="FML">
+               <persName type="standard">Ferrán Manuel de Lando</persName>
+               <persName type="form">Ferrant Manuel</persName>
+               <idno type="VIAF">http://viaf.org/viaf/300339660/#Lando,_Ferr%C3%A1n_Manuel_138.?-1449?</idno>
+            </person>
+            
+         </listPerson>
+         
+         
+         
+         <listPlace>     
+            
+            
+            <place xml:id="ESP">
+               <placeName>España</placeName>
+               <idno type="VIAF">http://viaf.org/viaf/133609710/#Espa%C3%B1a</idno>
+            </place>
+            
+            <place xml:id="LAN">
+               <placeName>Lando</placeName>     <!-- No encuentro una localidad de que se llame Lando en España, lo inlcuimos igual como place??? -->
+            </place>  
+            
+            <place xml:id="MOR">
+               <placeName>Moraña</placeName>
+               <idno type="VIAF">http://viaf.org/processed/BNE%7CXX457735</idno>
+            </place>
+            
+            <place xml:id="PAR">
+               <placeName>París</placeName>
+               <idno type="VIAF">http://viaf.org/viaf/158822968/#Par%C3%ADs</idno>
+            </place> 
+            
+            <place xml:id="TOR">
+               <placeName>Toro</placeName>
+               <idno type="VIAF">http://viaf.org/viaf/130186623/#Toro</idno>
+            </place> 
+            
+            <place xml:id="TOL">
+               <placeName>Toledo</placeName>
+               <idno type="VIAF">http://viaf.org/viaf/133640606/#Toledo</idno>
+            </place>
+
+            <place xml:id="CAP">
+               <placeName>Cabrejas del Pinar</placeName>
+               <idno type="VIAF">http://viaf.org/viaf/316733544/#Cabrejas_del_Pinar</idno>
+            </place>
+          
+            
+            
+    
+            <place xml:id="VI1">
+               <placeName>Villasandino</placeName>
+               <idno type="VIAF">http://viaf.org/processed/BNE|XX4575403</idno>
+            </place>
+            <place xml:id="CO1">
+               <placeName>Colunga</placeName>
+               <idno type="VIAF">http://viaf.org/viaf/148188785/#Colunga</idno>
+            </place>
+            <place xml:id="LI1">
+               <placeName>Lisboa</placeName>
+               <idno type="VIAF">https://viaf.org/processed/BNE%7CXX4575378</idno>
+            </place>
+            <place xml:id="SA1">
+               <placeName>Salamanca</placeName>
+               <idno type="VIAF">http://viaf.org/viaf/141322263/</idno>
+            </place>
+            <place xml:id="GE1">
+               <placeName>Gerena</placeName>
+               <idno type="VIAF">http://viaf.org/processed/BNE|XX452207</idno>
+            </place>
+            <place xml:id="BU1">
+               <placeName>Burgos</placeName>
+               <idno type="VIAF">http://viaf.org/viaf/159439709/</idno>
+            </place>
+            <place xml:id="GUA">
+               <placeName>Guadalajara </placeName>
+               <idno type="VIAF">http://viaf.org/viaf/316430152/</idno>
+            </place>
+            <place xml:id="BA1">
+               <placeName>Baena</placeName>
+               <idno type="VIAF">http://viaf.org/viaf/144288652/</idno>
+            </place>
+         </listPlace>
+         
+      </body>
+   </text>
+</TEI>

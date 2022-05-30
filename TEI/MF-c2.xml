@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:\C:\Users\María Agustina\Documents\Facultad\HDMC\MiniFierro\esquema_verso_.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>El gaucho Martin Fierro</title>
+                    <author>José Hernández</author>
+                    <editor resp= "1">Maria Agustina Ryckeboer</editor>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>HD Lab</publisher>
+                    <availability>
+                        <licence>Creative Commons Compartir Igual 4.0 Internacional</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <bibl>[S.l.], Librería Martín Fierro, 1897</bibl>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body> 
+
+            <head>Canto II</head>
+                
+                <lg type="poema"  style="sexteto" unisonancia="singular" isometrismo="isométrico"  isoestrofismo="isoestrófico" asonancia="consonante" met="6x8" >
+
+
+
+                <lg n="20" rhyme="abbccb"> 
+                <note>el último verso tiene rima asonante</note>
+                    <l>Ninguno me hable de p<rhyme label="enas" type="grave">enas</rhyme></l>
+                    <l>Porque yo penando v<rhyme label="ivo" type="grave">ivo</rhyme>-</l>
+                    <l>Y naides se muestre alt<rhyme label="ivo" type="grave">ivo</rhyme></l>
+                    <l>Aunque en el estribo est<rhyme label="e" type="aguda">é</rhyme>,</l>
+                    <l>Que suele quedarse á p<rhyme label="ie" type="aguda">ié</rhyme></l>
+                    <l>El gaucho mas alvert<rhyme label="ido" type="grave">ido</rhyme>.</l>                    
+                </lg>
+
+
+                <lg n="21" rhyme="abbccb">
+                    <l>Junta esperencia en la v<rhyme label="ida" type="grave">ida</rhyme></l>
+                    <l>Hasta pa dar y prest<rhyme label="ar" type="aguda">ar</rhyme>,</l>
+                    <l>Quien la tiene que pas<rhyme label="ar" type="aguda">ar</rhyme></l>
+                    <l>Entre sufrimiento y ll<rhyme label="anto" type="grave">anto</rhyme>;</l>
+                    <l>Porque nada enseña t<rhyme label="anto" type="grave">anto</rhyme></l>
+                    <l>Como el sufrir y el llor<rhyme label="ar" type="aguda">ar</rhyme>.</l>
+                </lg>
+
+                <lg n="22" rhyme="abbccb">
+                    <l>Viene el hombre ciego al m<rhyme label="undo" type="grave">undo</rhyme></l>
+                    <l><term n="10">Cuartiándolo</term> la esper<rhyme label="anza" type="grave">anza</rhyme>,</l>
+                    <l>Y á poco andar ya lo alc<rhyme label="anzan" type="grave">anzan</rhyme></l>
+                    <l>Las desgracias á empuj<rhyme label="ones" type="grave">ones</rhyme>;</l>
+                    <l>La pucha que trae lic<rhyme label="iones" type="grave">iones</rhyme></l>
+                    <l>El tiempo con sus mud<rhyme label="anzas" type="grave">anzas</rhyme>!</l>                   
+                </lg>
+
+                <lg n="23" rhyme="abbccb">
+                    <l>Yo he conocido esta t<rhyme label="ierra" type="grave">ierra</rhyme></l>
+                    <l>En que el paisano viv<rhyme label="ia" type="aguda">ia</rhyme></l>
+                    <l>Y su ranchito ten<rhyme label="ia" type="aguda">ia</rhyme></l>
+                    <l>Y sus hijos y muj<rhyme label="er" type="aguda">er</rhyme>....</l>
+                    <l>Era una delicia el v<rhyme label="er" type="aguda">er</rhyme></l>
+                    <l>Cómo pasaba sus d<rhyme label="ias" type="aguda">ias</rhyme>.</l>
+                </lg>
+
+                <lg n="24" rhyme="abbccb">
+                    <l>Entonces....cuando el luc<rhyme label="ero" type="grave">ero</rhyme></l>
+                    <l>Brillaba en el cielo s<rhyme label="anto" type="grave">anto</rhyme>,</l>
+                    <l>Y los gallos con su c<rhyme label="anto" type="grave">anto</rhyme></l>
+                    <l>Nos decían que el día lleg<rhyme label="aba" type="grave">aba</rhyme>,</l>
+                    <l>A la cocina rumb<rhyme label="iaba" type="grave">iaba</rhyme></l>
+                    <l>El gaucho...que era un enc<rhyme label="anto" type="grave">anto</rhyme>.</l>
+                </lg>
+
+                <lg n="25" rhyme="abbcbc">
+                    <l>Y sentao junto al jog<rhyme label="on" type="aguda">on</rhyme></l>
+                    <l>A esperar que venga el d<rhyme label="ia" type="aguda">ia</rhyme>,</l>
+                    <l>Al <term n="11">cimarron</term> le prend<rhyme label="ia" type="aguda">ia</rhyme></l>
+                    <l>Hasta ponerse rech<rhyme label="oncho" type="grave">oncho</rhyme>,</l>
+                    <l>Mientras su china dorm<rhyme label="ia" type="aguda">ia</rhyme></l>
+                    <l>Tapadita con su p<rhyme label="oncho" type="grave">oncho</rhyme>.</l>                   
+                </lg>
+
+                <lg n="26" rhyme="abbccb">
+                    <l>Y apenas la madrug<rhyme label="ada" type="grave">ada</rhyme></l>
+                    <l>Empezaba á color<rhyme label="iar" type="aguda">iar</rhyme>,</l>
+                    <l>Los pájaros á cant<rhyme label="ar" type="aguda">ar</rhyme>,</l>
+                    <l>Y las gallinas á ap<rhyme label="iarse" type="grave">iarse</rhyme>,</l>
+                    <l>Era cosa de larg<rhyme label="arse" type="grave">arse</rhyme></l>
+                    <l>Cada cual á trabaj<rhyme label="ar" type="aguda">ar</rhyme>.</l>                    
+                </lg>
+
+                <lg n="27" rhyme="abbcbc">
+                    <l>Este se ata las esp<rhyme label="uelas" type="grave">uelas</rhyme>,</l>
+                    <l>Se sale el otro cant<rhyme label="ando" type="grave">ando</rhyme>,</l>
+                    <l>Uno busca un <term n="12">pellon</term> bl<rhyme label="ando" type="grave">ando</rhyme>,</l>
+                    <l>Este un lazo, otro un <term n="13">reb<rhyme label="enque" type="grave">enque</rhyme></term>,</l>
+                    <l>Y los <term n="14">pingos</term> relinch<rhyme label="ando" type="grave">ando</rhyme></l>
+                    <l>Los llaman donde el <term n="15">pal<rhyme label="enque" type="grave">enque</rhyme></term>.</l>                    
+                </lg>
+
+                <lg n="28" rhyme="abbccb">
+                    <l>El que era pion domad<rhyme label="or" type="aguda">or</rhyme></l>
+                    <l>Enderezaba al corr<rhyme label="al" type="aguda">al</rhyme></l>
+                    <l>Ande estaba el anim<rhyme label="al" type="aguda">al</rhyme></l>
+                    <l>Bufidos que se las p<rhyme label="ela" type="grave">ela</rhyme>....</l>
+                    <l>Y mas malo que su ag<rhyme label="uela" type="grave">üela</rhyme></l>
+                    <l>Se hacia astillas el <term n="16">bag<rhyme label="ual" type="aguda">ual</rhyme></term>.</l>
+                </lg>
+
+                <lg n="29" rhyme="abbccb">
+                    <l>Y allí el gaucho intelig<rhyme label="ente" type="grave">ente</rhyme></l>
+                    <l>En cuanto el potro enriend<rhyme label="o" type="aguda">ó</rhyme>,</l>
+                    <l>Los cueros le acomod<rhyme label="o" type="aguda">ó</rhyme></l>
+                    <l>Y se le sentó en segu<rhyme label="ida" type="grave">ida</rhyme>,</l>
+                    <l>Que el hombre muestra en la v<rhyme label="ida" type="grave">ida</rhyme></l>
+                    <l>La astucia que Dios le d<rhyme label="io" type="aguda">ió</rhyme>.</l>                    
+                </lg>
+
+                <lg n="30" rhyme="abbccb">
+                    <l>Y en las playas corcob<rhyme label="iando" type="grave">iando</rhyme></l>
+                    <l>Pedazos se hacía el <term n="17">sotr<rhyme label="eta" type="grave">eta</rhyme></term>,</l>
+                    <l>Mientras él por las <term n="18">pal<rhyme label="etas" type="grave">etas</rhyme></term></l>
+                    <l>Le jugaba las <term n="19">llor<rhyme label="onas" type="grave">onas</rhyme></term>,</l>
+                    <l>Y al ruido de las <term n="20">car<rhyme label="onas" type="grave">onas</rhyme></term></l>
+                    <l>Salia haciéndose <term n="21">gamb<rhyme label="etas" type="grave">etas</rhyme></term>.</l>                
+                </lg>
+
+                <lg n="31" rhyme="abbccb">
+                    <l>¡Ah, tiempos!....si era un org<rhyme label="ullo" type="grave">ullo</rhyme></l>
+                    <l>Ver ginetear un pais<rhyme label="ano" type="grave">ano</rhyme>-</l>
+                    <l>Cuando era gaucho vaqu<rhyme label="iano" type="grave">iano</rhyme></l>
+                    <l>Aunque el potro se <term n="22">bol<rhyme label="iase" type="grave">iase</rhyme></term></l>
+                    <l>No habia uno que no par<rhyme label="ase" type="grave">ase</rhyme></l>
+                    <l>Con el <term n="23">cabresto</term> en la m<rhyme label="ano" type="grave">ano</rhyme>.</l>                    
+                </lg>
+
+                <lg n="32" rhyme="abbccb">
+                    <l>Y mientras domaban <rhyme label="unos" type="grave">unos</rhyme>,</l>
+                    <l>Otros al campo sal<rhyme label="ian" type="aguda">ian</rhyme>,</l>
+                    <l>Y la hacienda recog<rhyme label="ian" type="aguda">ian</rhyme>,</l>
+                    <l>Las manadas repunt<rhyme label="aban" type="grave">aban</rhyme>,</l>
+                    <l>Y ansi sin sentir pas<rhyme label="aban" type="grave">aban</rhyme></l>
+                    <l>Entretenidos el d<rhyme label="ia" type="aguda">ia</rhyme>.</l>                    
+                </lg>
+
+                <lg n="33" rhyme="abbcbc">
+                    <l>Y verlos al cair la n<rhyme label="oche" type="grave">oche</rhyme></l>
+                    <l>En la cocina riun<rhyme label="idos" type="grave">idos</rhyme></l>
+                    <l>Con el juego bien prend<rhyme label="ido" type="grave">ido</rhyme></l>
+                    <l>Y mil cosas que cont<rhyme label="ar" type="aguda">ar</rhyme>,</l>
+                    <l>Platicar muy divert<rhyme label="idos" type="grave">idos</rhyme></l>
+                    <l>Hasta despues de cen<rhyme label="ar" type="aguda">ar</rhyme>.</l>                   
+                </lg>
+
+                <lg n="34" rhyme="abbccb">
+                    <l>Y con el buche bien ll<rhyme label="eno" type="grave">eno</rhyme></l>
+                    <l>Era cosa super<rhyme label="ior" type="aguda">ior</rhyme></l>
+                    <l>Irse en brazos del am<rhyme label="or" type="aguda">or</rhyme></l>
+                    <l>A dormir como la g<rhyme label="ente" type="grave">ente</rhyme>,</l>
+                    <l>Pa empezar el dia sigu<rhyme label="iente" type="grave">iente</rhyme></l>
+                    <l>Las fainas del dia anter<rhyme label="ior" type="aguda">ior</rhyme>.</l>                    
+                </lg>
+
+                <lg n="35" rhyme="abbccb">
+                    <l>Ricuerdo!....¡Qué marav<rhyme label="illa" type="grave">illa</rhyme>!!</l>
+                    <l>Como andaba la gauch<rhyme label="ada" type="grave">ada</rhyme></l>
+                    <l>Siempre alegre y bien mont<rhyme label="ada" type="grave">ada</rhyme></l>
+                    <l>Y dispuesta pa el trab<rhyme label="ajo" type="grave">ajo</rhyme>....</l>
+                    <l>Pero hoy en el día....bar<rhyme label="ajo" type="grave">ajo</rhyme>!</l>
+                    <l>No se la vé de aporr<rhyme label="iada" type="grave">iada</rhyme>.</l>                   
+                </lg>
+
+                <lg n="36" rhyme="abbccb">
+                    <l>El gaucho mas infel<rhyme label="iz" type="aguda">iz</rhyme></l>
+                    <l>Tenia tropilla de un p<rhyme label="elo" type="grave">elo</rhyme>,</l>
+                    <l>No le faltaba un cons<rhyme label="uelo" type="grave">uelo</rhyme></l>
+                    <l>Y andaba la gente l<rhyme label="ista" type="grave">ista</rhyme>....</l>
+                    <l>Tendiendo al campo la v<rhyme label="ista" type="grave">ista</rhyme></l>
+                    <l>No via sino hacienda y c<rhyme label="ielo" type="grave">ielo</rhyme>.</l>                   
+                </lg>
+
+                <lg n="37" rhyme="abbccb">
+                    <l>Cuando llegaban las <term n="24">y<rhyme label="erras" type="grave">erras</rhyme></term>,</l>
+                    <l>¡Cosa que daba cal<rhyme label="or" type="aguda">or</rhyme>!</l>
+                    <l>Tanto gaucho <term n="25">pialad<rhyme label="or" type="aguda">or</rhyme></term></l>
+                    <l>Y <term n="26">tironiador</term> sin y<rhyme label="el" type="aguda">el</rhyme>-</l>
+                    <l>Ah tiempos!....pero si en <rhyme label="el" type="aguda">él</rhyme></l>
+                    <l>Se ha visto tanto prim<rhyme label="or" type="aguda">or</rhyme>.</l>
+                </lg>
+
+                <lg n="38" rhyme="abbccb">
+                    <l>Aquello no era trab<rhyme label="ajo" type="grave">ajo</rhyme>,</l>
+                    <l>Mas bien era una junc<rhyme label="ion" type="aguda">ion</rhyme>,</l>
+                    <l>Y despues de un güen tir<rhyme label="on" type="aguda">on</rhyme></l>
+                    <l>En que uno se daba m<rhyme label="aña" type="grave">aña</rhyme></l>
+                    <l>Pa darle un trago de c<rhyme label="aña" type="grave">aña</rhyme></l>
+                    <l>Solia llamarlo el patr<rhyme label="on" type="aguda">on</rhyme>.</l>
+                </lg>
+
+                <lg n="39" rhyme="abbccb">
+                    <l>Pues siempre la mamaju<rhyme label="ana" type="grave">ana</rhyme></l>
+                    <l>Vivia bajo la carr<rhyme label="eta" type="grave">eta</rhyme></l>
+                    <l>Y aquel que no era <term n="27">chancl<rhyme label="eta" type="grave">eta</rhyme></term></l>
+                    <l>En cuanto el <term n="28">goyete</term> v<rhyme label="ia" type="aguda">ia</rhyme>,</l>
+                    <l>Sin miedo se le prend<rhyme label="ia" type="aguda">ia</rhyme>,</l>
+                    <l>Como güérfano á la t<rhyme label="eta" type="grave">eta</rhyme>.</l>                    
+                </lg>
+
+                <lg n="40" rhyme="abbccb">
+                    <l>Y qué jugadas se arm<rhyme label="aban" type="grave">aban</rhyme></l>
+                    <l>Cuando estábamos riun<rhyme label="idos" type="grave">idos</rhyme>!</l>
+                    <l>Siempre íbamos preven<rhyme label="idos" type="grave">idos</rhyme></l>
+                    <l>Pues en tales ocas<rhyme label="iones" type="grave">iones</rhyme>,</l>
+                    <l>A ayudarles á los p<rhyme label="iones" type="grave">iones</rhyme></l>
+                    <l>Caiban muchos comed<rhyme label="idos" type="grave">idos</rhyme>.</l>
+                </lg>
+
+                <lg n="41" rhyme="abbccb">
+                    <l>Eran los dias del ap<rhyme label="uro" type="grave">uro</rhyme></l>
+                    <l>Y alboroto pa el hembr<rhyme label="aje" type="grave">aje</rhyme>,</l>
+                    <l>Pa preparar los pot<rhyme label="ajes" type="grave">ajes</rhyme></l>
+                    <l>Y osequiar bien á la g<rhyme label="ente" type="grave">ente</rhyme>,</l>
+                    <l>Y ansi, pues, muy grandem<rhyme label="ente" type="grave">ente</rhyme>,</l>
+                    <l>Pasaba siempre el gauch<rhyme label="aje" type="grave">aje</rhyme>.</l>                    
+                </lg>
+
+                <lg n="42" rhyme="abbccb">
+                <note>el último verso tiene rima asonante </note>
+                    <l>Venia la carne con cu<rhyme label="ero" type="grave">ero</rhyme>,</l>
+                    <l>La sabrosa carbon<rhyme label="ada" type="grave">ada</rhyme>,</l>
+                    <l>Mazamorra bien pis<rhyme label="ada" type="grave">ada</rhyme></l>
+                    <l>Los pasteles y el güen v<rhyme label="ino" type="grave">ino</rhyme>....</l>
+                    <l>Pero ha querido el dest<rhyme label="ino" type="grave">ino</rhyme></l>
+                    <l>Que todo aquello acab<rhyme label="ara" type="grave">ara</rhyme>.</l>                  
+                </lg>
+
+                <lg n="43" rhyme="abbccb">
+                    <l>Estaba el gaucho en su p<rhyme label="ago" type="grave">ago</rhyme></l>
+                    <l>Con toda sigurid<rhyme label="a" type="aguda">a</rhyme></l>
+                    <l>Pero aura....barbarid<rhyme label="a" type="aguda">a</rhyme>!</l>
+                    <l>La cosa anda tan frunc<rhyme label="ida" type="grave">ida</rhyme></l>
+                    <l>Que gasta el pobre la v<rhyme label="ida" type="grave">ida</rhyme></l>
+                    <l>En juir de la autorid<rhyme label="a" type="aguda">a</rhyme>.</l>
+                </lg>
+
+                <lg n="44" rhyme="abbcbc">
+                    <l>Pues si uste pisa en su r<rhyme label="ancho" type="grave">ancho</rhyme></l>
+                    <l>Y si el alcalde lo s<rhyme label="abe" type="grave">abe</rhyme></l>
+                    <l>Lo caza lo mesmo que <rhyme label="ave" type="grave">ave</rhyme>,</l>
+                    <l>Aunque su mujer ab<rhyme label="orte" type="grave">orte</rhyme>...</l>
+                    <l>No hay tiempo que no se ac<rhyme label="abe" type="grave">abe</rhyme></l>
+                    <l>Ni <term n="29">tiento</term> que no se c<rhyme label="orte" type="grave">orte</rhyme></l>                 
+                </lg>
+
+                <lg n="45" rhyme="abbccb">
+                    <l>Y al punto dése por m<rhyme label="erto" type="grave">uerto</rhyme></l>
+                    <l>Si el alcalde lo bol<rhyme label="ea" type="aguda">ea</rhyme>,</l>
+                    <l>Pues ay nomás se le ap<rhyme label="ea" type="aguda">ea</rhyme></l>
+                    <l>Con una felpa de p<rhyme label="alos" type="grave">alos</rhyme>,-</l>
+                    <l>Y despues dicen que es m<rhyme label="alo" type="grave">alo</rhyme></l>
+                    <l>El gaucho si los pel<rhyme label="ea" type="aguda">ea</rhyme>.</l>                    
+                </lg>
+
+                <lg n="46" rhyme="abbccb">
+                    <l>Y el lomo le hinchan á g<rhyme label="olpes" type="grave">olpes</rhyme>,</l>
+                    <l>Y le rompen la cab<rhyme label="eza" type="grave">eza</rhyme>,</l>
+                    <l>Y luego con lijer<rhyme label="eza" type="grave">eza</rhyme></l>
+                    <l>Ansí lastimao y t<rhyme label="odo" type="grave">odo</rhyme>,</l>
+                    <l>Lo amarran codo con c<rhyme label="odo" type="grave">odo</rhyme></l>
+                    <l>Y pa el cepo lo ender<rhyme label="iezan" type="grave">iezan</rhyme>.</l>                    
+                </lg>
+
+                <lg n="47" rhyme="abbccb">
+                    <l>Ay comienzan sus desgr<rhyme label="acias" type="grave">acias</rhyme></l>
+                    <l>Ay principia el peric<rhyme label="on" type="aguda">on</rhyme>;</l>
+                    <l>Porque ya no hay salvac<rhyme label="ion" type="aguda">ion</rhyme>,</l>
+                    <l>Y que uste quiera ó no qu<rhyme label="iera" type="grave">iera</rhyme></l>
+                    <l>Lo mandan á la front<rhyme label="era" type="grave">era</rhyme></l>
+                    <l>O lo echan á un batall<rhyme label="on" type="aguda">on</rhyme>.</l>                   
+                </lg>
+
+                <lg n="48" rhyme="abbccb">
+                    <l>Ansí empezaron mis m<rhyme label="ales" type="grave">ales</rhyme></l>
+                    <l>Lo mesmo que los de t<rhyme label="antos" type="grave">antos</rhyme></l>
+                    <l>Si gustan....en otros c<rhyme label="antos" type="grave">antos</rhyme></l>
+                    <l>Les diré lo que he sufr<rhyme label="ido" type="grave">ido</rhyme>-</l>
+                    <l>Despues que uno está perd<rhyme label="ido" type="grave">ido</rhyme></l>
+                    <l>No lo salvan ni los s<rhyme label="antos" type="grave">antos</rhyme>.</l>
+                </lg>
+
+                </lg>
+                </body>
+        </text>
+    </TEI>

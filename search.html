@@ -1,0 +1,48 @@
+---
+layout: page
+title: Búsqueda
+order: 10
+description: Herramienta de búsqueda textual
+---
+
+<form id="site_search">
+<p class="prosa">Realice su búsqueda en el corpus de Poesía Medieval. Puede buscar palabras individuales o parámetros relacionados con las características formales de los poemas. Para aprovechar al máximo el buscador recomendamos la lectura de nuestra guía de usuario:</p>
+<br>
+<input id="search" type="text" name="q" autofocus></form>
+
+<div id="results"></div>
+<ul id="search_results"></ul>
+<script src="{{site.baseurl}}/assets/js/elasticlunr.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="{{site.baseurl}}/assets/js/search.js"></script>
+
+<br>
+
+<h2>Guía de usuario para realizar búsquedas</h2>
+
+<br>
+<p class="prosa"><b>Palabras individuales:</b> Para realizar búsquedas léxicas debe tener en cuenta solo puede ingresar una palabra por vez, ya que al introducir un espacio o un signo no alfanumérico, el texto siguiente no influye en los resultados de la búsqueda.</p>
+<br>
+ <p class="prosa"><b>Parámetros formales de los poemas:</b> La función principal de nuestro buscador es ayudar a explorar las composiciones de nuestro corpus en relación a sus características formales. A continuación detallamos una serie de parámetros que pueden ser objeto de búsquedas y cómo debe ingresarse la información en el buscador para lograr los resultados deseados:</p>
+          <br>
+          <ul>
+            <li><b>Esquema métrico:</b> Para encontrar las composiciones que incluyen un determinado esquema métrico, debe introducirse en primer lugar el número de versos que forman la estrofa, seguido del número de sílabas de los versos, con un "x" minúscula entre ambos números (sin agregar espacios). Por ejemplo, si quiero encontrar las composiciones con estrofas de ocho versos de diez sílabas cada uno, debería introducir el siguiente texto en el buscador: <b>8x10</b>.</li>
+			<br>
+			<li><b>Esquema rimático:</b> Para encontrar las composiciones que incluyen un determinado esquema rimático, se asigna una letra a cada rima y se introduce una letra (en orden alfabético) por verso, repitiendo la misma letra de aquellos versos que riman entre sí. Por ejemplo, en una estrofa de cinco versos en los cuales el primero y los dos últimos riman entre sí, mientras que el segundo y el tercero riman entre sí, el esquema rimático debería buscarse de la siguiente forma: <b>ABBAA</b>.</li>
+			<br>
+			<li><b>Tipo de estrofa:</b> Otra opción es buscar las coposiciones que poseen un determinado tipo de estrofa por su nombre. Por ejemplo, pueden identificarse los poemas que contienen estrofas de ocho versos introduciendo en el buscador el termino <b>Octava</b>.</li>
+			<br>
+			<li><b>Asonancia:</b> Este parámetro permite dos opciones de búsqueda: <b>Asonante</b> y <b>Consonante</b>. La rima consonante es aquella en la que coinciden todos los fonemas (vocálicos y consonánticos) a partir del último acento, mientras que la rima asonante se produce cuando solo son iguales las vocales a partir del último acento.</li>
+			<br>
+			<li><b>Isoestrofismo:</b> El isoestrofismo de una composición indica si sus estrofas comparten el mismo esquema métrico o si este varía entre las estrofas de un mismo texto. Si todas comparten la misma cantidad de versos del mismo tipo, el isoestrofismo será <b>Isoestrófico</b>, en caso 
+			contrario será <b>Heteroestrófico</b>.</li>
+			<br>
+			<li><b>Isoemetrismo:</b> El isoemetrismo de una composición indica si los versos poseen todos la misma cantidad de sílabas, en cuyo caso el poema es <b>Isométrico</b>, o si por el contrario los versos que forman las estrofas tienen una cantidad variable de sílabas, en cuyo caso el poemas se identifica como <b>Heterométrico</b>.</li>
+			<br>
+			<li><b>Unisonancia:</b> La unisonancia indica si las estrofas comparten todas el mismo esquema rimático o si este varía. Los poemas que mantienen el mismo esquema rimático pueden encontrarse con la categoría <b>Singular</b>, mientras que aquellos en los que este varia se identifican como <b>Múltiple</b>.</li>
+		
+          </ul>
+
+   
+
+ 

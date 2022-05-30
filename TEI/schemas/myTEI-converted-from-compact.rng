@@ -1,0 +1,3241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar ns="http://www.tei-c.org/ns/1.0" xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <!--
+    Schema generated from ODD source 2015-09-04T12:12:27Z. .
+    TEI Edition: Version 2.8.0. Last updated on
+    	6th April 2015, revision 13197
+    TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 2.8.0/
+    
+  -->
+  <!---->
+  <define name="tei_macro.paraContent">
+    <zeroOrMore>
+      <choice>
+        <text/>
+        <ref name="tei_model.gLike"/>
+        <ref name="tei_model.phrase"/>
+        <ref name="tei_model.inter"/>
+        <ref name="tei_model.global"/>
+        <ref name="tei_lg"/>
+        <ref name="tei_l"/>
+      </choice>
+    </zeroOrMore>
+  </define>
+  <define name="tei_macro.phraseSeq">
+    <zeroOrMore>
+      <choice>
+        <text/>
+        <ref name="tei_model.gLike"/>
+        <ref name="tei_model.phrase"/>
+        <ref name="tei_model.global"/>
+      </choice>
+    </zeroOrMore>
+  </define>
+  <define name="tei_macro.phraseSeq.limited">
+    <zeroOrMore>
+      <choice>
+        <text/>
+        <ref name="tei_model.limitedPhrase"/>
+        <ref name="tei_model.global"/>
+      </choice>
+    </zeroOrMore>
+  </define>
+  <define name="tei_macro.specialPara">
+    <zeroOrMore>
+      <choice>
+        <text/>
+        <ref name="tei_model.gLike"/>
+        <ref name="tei_model.phrase"/>
+        <ref name="tei_model.inter"/>
+        <ref name="tei_model.divPart"/>
+        <ref name="tei_model.global"/>
+      </choice>
+    </zeroOrMore>
+  </define>
+  <define name="tei_macro.xtext">
+    <zeroOrMore>
+      <choice>
+        <text/>
+        <ref name="tei_model.gLike"/>
+      </choice>
+    </zeroOrMore>
+  </define>
+  <define name="tei_data.certainty">
+    <choice>
+      <value>high</value>
+      <value>medium</value>
+      <value>low</value>
+      <value>unknown</value>
+    </choice>
+  </define>
+  <define name="tei_data.probability">
+    <data type="double">
+      <param name="minInclusive">0</param>
+      <param name="maxInclusive">1</param>
+    </data>
+  </define>
+  <define name="tei_data.numeric">
+    <choice>
+      <data type="double"/>
+      <data type="token">
+        <param name="pattern">(\-?[\d]+/\-?[\d]+)</param>
+      </data>
+      <data type="decimal"/>
+    </choice>
+  </define>
+  <define name="tei_data.count">
+    <data type="nonNegativeInteger"/>
+  </define>
+  <define name="tei_data.temporal.w3c">
+    <choice>
+      <data type="date"/>
+      <data type="gYear"/>
+      <data type="gMonth"/>
+      <data type="gDay"/>
+      <data type="gYearMonth"/>
+      <data type="gMonthDay"/>
+      <data type="time"/>
+      <data type="dateTime"/>
+    </choice>
+  </define>
+  <define name="tei_data.truthValue">
+    <data type="boolean"/>
+  </define>
+  <define name="tei_data.xTruthValue">
+    <choice>
+      <data type="boolean"/>
+      <value>unknown</value>
+      <value>inapplicable</value>
+    </choice>
+  </define>
+  <define name="tei_data.language">
+    <choice>
+      <data type="language"/>
+      <value/>
+    </choice>
+  </define>
+  <define name="tei_data.pointer">
+    <data type="anyURI"/>
+  </define>
+  <define name="tei_data.version">
+    <data type="token">
+      <param name="pattern">[\d]+(\.[\d]+){0,2}</param>
+    </data>
+  </define>
+  <define name="tei_data.word">
+    <data type="token">
+      <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+    </data>
+  </define>
+  <define name="tei_data.sex">
+    <ref name="tei_data.word"/>
+  </define>
+  <define name="tei_data.text">
+    <data type="string"/>
+  </define>
+  <define name="tei_data.name">
+    <data type="Name"/>
+  </define>
+  <define name="tei_data.enumerated">
+    <ref name="tei_data.word"/>
+  </define>
+  <define name="tei_data.temporal.iso">
+    <choice>
+      <data type="date"/>
+      <data type="gYear"/>
+      <data type="gMonth"/>
+      <data type="gDay"/>
+      <data type="gYearMonth"/>
+      <data type="gMonthDay"/>
+      <data type="time"/>
+      <data type="dateTime"/>
+      <data type="token">
+        <param name="pattern">[0-9.,DHMPRSTWYZ/:+\-]+</param>
+      </data>
+    </choice>
+  </define>
+  <define name="tei_att.ascribed.attributes">
+    <ref name="tei_att.ascribed.attribute.who"/>
+  </define>
+  <define name="tei_att.ascribed.attribute.who">
+    <optional>
+      <attribute name="who">
+        <a:documentation>indica la persona o grupo de personas a las que se refiere el contenido del elemento.</a:documentation>
+        <list>
+          <oneOrMore>
+            <ref name="tei_data.pointer"/>
+          </oneOrMore>
+        </list>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.canonical.attributes">
+    <ref name="tei_att.canonical.attribute.key"/>
+    <ref name="tei_att.canonical.attribute.ref"/>
+  </define>
+  <define name="tei_att.canonical.attribute.key">
+    <optional>
+      <attribute name="key">
+        <a:documentation>provides an externally-defined means of identifying the entity (or entities) being named, using a coded value of some kind.</a:documentation>
+        <ref name="tei_data.text"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.canonical.attribute.ref">
+    <optional>
+      <attribute name="ref">
+        <a:documentation>(reference) provides an explicit means of locating a full definition for the entity being named by means of one or more URIs.</a:documentation>
+        <list>
+          <oneOrMore>
+            <ref name="tei_data.pointer"/>
+          </oneOrMore>
+        </list>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.ranging.attributes">
+    <ref name="tei_att.ranging.attribute.atLeast"/>
+    <ref name="tei_att.ranging.attribute.atMost"/>
+    <ref name="tei_att.ranging.attribute.min"/>
+    <ref name="tei_att.ranging.attribute.max"/>
+    <ref name="tei_att.ranging.attribute.confidence"/>
+  </define>
+  <define name="tei_att.ranging.attribute.atLeast">
+    <optional>
+      <attribute name="atLeast">
+        <a:documentation>gives a minimum estimated value for the approximate measurement.</a:documentation>
+        <ref name="tei_data.numeric"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.ranging.attribute.atMost">
+    <optional>
+      <attribute name="atMost">
+        <a:documentation>gives a maximum estimated value for the approximate measurement.</a:documentation>
+        <ref name="tei_data.numeric"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.ranging.attribute.min">
+    <optional>
+      <attribute name="min">
+        <a:documentation>where the measurement summarizes more than one observation or a range, supplies the minimum value observed.</a:documentation>
+        <ref name="tei_data.numeric"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.ranging.attribute.max">
+    <optional>
+      <attribute name="max">
+        <a:documentation>where the measurement summarizes more than one observation or a range, supplies the maximum value observed.</a:documentation>
+        <ref name="tei_data.numeric"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.ranging.attribute.confidence">
+    <optional>
+      <attribute name="confidence">
+        <a:documentation>specifies the degree of statistical confidence (between zero and one) that a value falls within the range specified by min and max, or the proportion of observed values that fall within that range.</a:documentation>
+        <ref name="tei_data.probability"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.dimensions.attributes">
+    <ref name="tei_att.ranging.attributes"/>
+    <ref name="tei_att.dimensions.attribute.unit"/>
+    <ref name="tei_att.dimensions.attribute.quantity"/>
+    <ref name="tei_att.dimensions.attribute.extent"/>
+    <ref name="tei_att.dimensions.attribute.precision"/>
+    <ref name="tei_att.dimensions.attribute.scope"/>
+  </define>
+  <define name="tei_att.dimensions.attribute.unit">
+    <optional>
+      <attribute name="unit">
+        <a:documentation>especifica las unidades usadas para la medición.
+Los valores sugeridos incluyen: 1] cm(centimetres) ; 2] mm(millimetres) ; 3] in(inches) ; 4] lines; 5] chars(characters) </a:documentation>
+        <choice>
+          <value>cm</value>
+          <a:documentation>(centímetros) </a:documentation>
+          <value>mm</value>
+          <a:documentation>(milímetros) </a:documentation>
+          <value>in</value>
+          <a:documentation>(pulgadas) </a:documentation>
+          <value>lines</value>
+          <a:documentation>líneas de texto</a:documentation>
+          <value>chars</value>
+          <a:documentation>(caracteres) caracteres del texto</a:documentation>
+          <data type="Name"/>
+        </choice>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.dimensions.attribute.quantity">
+    <optional>
+      <attribute name="quantity">
+        <a:documentation>especifica la longitud en las unidades especificadas</a:documentation>
+        <ref name="tei_data.numeric"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.dimensions.attribute.extent">
+    <optional>
+      <attribute name="extent">
+        <a:documentation>indicates the size of the object concerned using a project-specific vocabulary combining quantity and units in a single string of words.</a:documentation>
+        <ref name="tei_data.text"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.dimensions.attribute.precision">
+    <optional>
+      <attribute name="precision">
+        <a:documentation>characterizes the precision of the values specified by the other attributes.</a:documentation>
+        <ref name="tei_data.certainty"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.dimensions.attribute.scope">
+    <optional>
+      <attribute name="scope">
+        <a:documentation>especifica la aplicabilidad de esta medición, en los casos en que se mida más de un objeto.
+Posibles valores: 1] all; 2] most; 3] range</a:documentation>
+        <ref name="tei_data.enumerated"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.cReferencing.attributes">
+    <ref name="tei_att.cReferencing.attribute.cRef"/>
+  </define>
+  <define name="tei_att.cReferencing.attribute.cRef">
+    <optional>
+      <attribute name="cRef">
+        <a:documentation>(referencia canónica) especifica la destinación de un señalizador proporcionando una referencia canónica de un esquema definido en un elemento refsDecl en el encabezado TEI.</a:documentation>
+        <ref name="tei_data.text"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.datable.w3c.attributes">
+    <ref name="tei_att.datable.w3c.attribute.when"/>
+    <ref name="tei_att.datable.w3c.attribute.notBefore"/>
+    <ref name="tei_att.datable.w3c.attribute.notAfter"/>
+    <ref name="tei_att.datable.w3c.attribute.from"/>
+    <ref name="tei_att.datable.w3c.attribute.to"/>
+  </define>
+  <define name="tei_att.datable.w3c.attribute.when">
+    <optional>
+      <attribute name="when">
+        <a:documentation>proporciona el valor de una fecha o una hora en un formato estandard.</a:documentation>
+        <ref name="tei_data.temporal.w3c"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.datable.w3c.attribute.notBefore">
+    <optional>
+      <attribute name="notBefore">
+        <a:documentation>especifica la fecha más temprana posible para un evento en un formato estándard, p.ej. aaaa-mm-dd.</a:documentation>
+        <ref name="tei_data.temporal.w3c"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.datable.w3c.attribute.notAfter">
+    <optional>
+      <attribute name="notAfter">
+        <a:documentation>especifica la fecha más tardana posible para un evento en un formato estándard, p.ej. aaaa-mm-dd.</a:documentation>
+        <ref name="tei_data.temporal.w3c"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.datable.w3c.attribute.from">
+    <optional>
+      <attribute name="from">
+        <a:documentation>indica el punto de inicio del período en el formato estándard.</a:documentation>
+        <ref name="tei_data.temporal.w3c"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.datable.w3c.attribute.to">
+    <optional>
+      <attribute name="to">
+        <a:documentation>indica el punto final de un periodo en formato estándard.</a:documentation>
+        <ref name="tei_data.temporal.w3c"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.datable.attributes">
+    <ref name="tei_att.datable.w3c.attributes"/>
+    <ref name="tei_att.datable.iso.attributes"/>
+    <ref name="tei_att.datable.custom.attributes"/>
+    <ref name="tei_att.datable.attribute.calendar"/>
+    <ref name="tei_att.datable.attribute.period"/>
+  </define>
+  <define name="tei_att.datable.attribute.calendar">
+    <optional>
+      <attribute name="calendar">
+        <a:documentation>indica el sistema o calendario en que se muestra una fecha.</a:documentation>
+        <ref name="tei_data.pointer"/>
+      </attribute>
+    </optional>
+  </define>
+  <sch:pattern id="myTEI-att.datable-calendar-calendar-constraint-1">
+      <sch:rule context="tei:*[@calendar]">
+            <sch:assert test="string-length(.) gt 0">
+@calendar indicates the system or calendar to which the date represented by the content of this element
+belongs, but this <sch:name/>
+ element has no textual content.</sch:assert>
+
+          </sch:rule>
+
+   </sch:pattern>
+  <define name="tei_att.datable.attribute.period">
+    <optional>
+      <attribute name="period">
+        <a:documentation>suministra un indicador a una localización concreta que define un periodo de tiempo conocido dentro del cual el item datable se ha producido.</a:documentation>
+        <ref name="tei_data.pointer"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.declarable.attributes">
+    <ref name="tei_att.declarable.attribute.default"/>
+  </define>
+  <define name="tei_att.declarable.attribute.default">
+    <optional>
+      <attribute name="default" a:defaultValue="false">
+        <a:documentation>indica si el elemento es seleccionado automáticamente o no cuando es seleccionado el padre</a:documentation>
+        <choice>
+          <value>true</value>
+          <a:documentation>Este elemento se selecciona si sus padres son seleccionados</a:documentation>
+          <value>false</value>
+          <a:documentation>Este elemento sólo se puede seleccionar explícitamente, a menos que sea el único de su clase, en este caso se selecciona si su padre es seleccionado.</a:documentation>
+        </choice>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.declaring.attributes">
+    <ref name="tei_att.declaring.attribute.decls"/>
+  </define>
+  <define name="tei_att.declaring.attribute.decls">
+    <optional>
+      <attribute name="decls">
+        <a:documentation>identifica uno o más elementos declarables al interno del encabezado, los cuales son válidos para el elemento al cual es adscrito el atributo en cuestión y su contenido.</a:documentation>
+        <list>
+          <oneOrMore>
+            <ref name="tei_data.pointer"/>
+          </oneOrMore>
+        </list>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.fragmentable.attributes">
+    <ref name="tei_att.fragmentable.attribute.part"/>
+  </define>
+  <define name="tei_att.fragmentable.attribute.part">
+    <optional>
+      <attribute name="part" a:defaultValue="N">
+        <a:documentation>specifies whether or not its parent element is fragmented in some way, typically by some other overlapping structure: for example a speech which is divided between two or more verse stanzas, a paragraph which is split across a page division, a verse line which is divided between two speakers.</a:documentation>
+        <choice>
+          <value>Y</value>
+          <a:documentation>(yes) the element is fragmented in some (unspecified) respect</a:documentation>
+          <value>N</value>
+          <a:documentation>(no) either the element is not fragmented, or no claim is made as to its completeness.</a:documentation>
+          <value>I</value>
+          <a:documentation>(initial) this is the initial part of a fragmented element</a:documentation>
+          <value>M</value>
+          <a:documentation>(medial) this is a medial part of a fragmented element</a:documentation>
+          <value>F</value>
+          <a:documentation>(final) this is the final part of a fragmented element</a:documentation>
+        </choice>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.divLike.attribute.org">
+    <optional>
+      <attribute name="org" a:defaultValue="uniform">
+        <a:documentation>(organización) especifica cómo está organizado el contenido de una división textual.</a:documentation>
+        <choice>
+          <value>composite</value>
+          <a:documentation>contenido compuesto: es decir no se hace ninguna solicitud sobre la secuencia en la cual el contenido inmediato de esta división debe ser procesado, o en sus interrelaciones.</a:documentation>
+          <value>uniform</value>
+          <a:documentation>es decir el contenido inmediato de este elemento se considera integrante de una unidad lógica, para ser procesado en la secuencia.</a:documentation>
+        </choice>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.divLike.attribute.sample">
+    <optional>
+      <attribute name="sample" a:defaultValue="complete">
+        <a:documentation>indica si la división es una muestra de la fuente original y, en ese caso, de que parte de este se trata</a:documentation>
+        <choice>
+          <value>initial</value>
+          <a:documentation>la división falta el material presente en el extremo en la fuente.</a:documentation>
+          <value>medial</value>
+          <a:documentation>el fragmento carece de material al comienzo y al final.</a:documentation>
+          <value>final</value>
+          <a:documentation>el fragmento carece de material en el comienzo.</a:documentation>
+          <value>unknown</value>
+          <a:documentation>ubicación del material de muestra dentro del original desconocido.</a:documentation>
+          <value>complete</value>
+          <a:documentation>el fragmento no es una muestra.</a:documentation>
+        </choice>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.docStatus.attributes">
+    <ref name="tei_att.docStatus.attribute.status"/>
+  </define>
+  <define name="tei_att.docStatus.attribute.status">
+    <optional>
+      <attribute name="status" a:defaultValue="draft">
+        <a:documentation>describes the status of a document either currently or, when associated with a dated element, at the time indicated.
+Posibles valores: 1] approved; 2] candidate; 3] cleared; 4] deprecated; 5] draft; 6] embargoed; 7] expired; 8] frozen; 9] galley; 10] proposed; 11] published; 12] recommendation; 13] submitted; 14] unfinished; 15] withdrawn</a:documentation>
+        <ref name="tei_data.enumerated"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.global.responsibility.attributes">
+    <ref name="tei_att.global.responsibility.attribute.cert"/>
+    <ref name="tei_att.global.responsibility.attribute.resp"/>
+  </define>
+  <define name="tei_att.global.responsibility.attribute.cert">
+    <optional>
+      <attribute name="cert">
+        <a:documentation>(certeza) significa el grado de certeza asociado con la intervención o la interpretación.</a:documentation>
+        <ref name="tei_data.certainty"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.global.responsibility.attribute.resp">
+    <optional>
+      <attribute name="resp">
+        <a:documentation>(parte responsable) indica el agente responsable de la intervención o la interpretación, p.ej. un editor o un transcriptor.</a:documentation>
+        <list>
+          <oneOrMore>
+            <ref name="tei_data.pointer"/>
+          </oneOrMore>
+        </list>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.editLike.attributes">
+    <ref name="tei_att.dimensions.attributes"/>
+    <ref name="tei_att.source.attributes"/>
+    <ref name="tei_att.editLike.attribute.evidence"/>
+    <ref name="tei_att.editLike.attribute.instant"/>
+  </define>
+  <define name="tei_att.editLike.attribute.evidence">
+    <optional>
+      <attribute name="evidence">
+        <a:documentation>indica la naturaleza de las pruebas que sostienen la fiabilidad o precisión de la intervención o interpretación.
+Los valores sugeridos incluyen: 1] internal; 2] external; 3] conjecture</a:documentation>
+        <list>
+          <oneOrMore>
+            <choice>
+              <value>internal</value>
+              <a:documentation>existen pruebas internas que sostienen la intervención.</a:documentation>
+              <value>external</value>
+              <a:documentation>existen pruebas externas que sostienen la intervención.</a:documentation>
+              <value>conjecture</value>
+              <a:documentation>la intervención o interpretación ha sido hecho por el editor, catalogador o crítico en base a su experiencia.</a:documentation>
+              <data type="Name"/>
+            </choice>
+          </oneOrMore>
+        </list>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.editLike.attribute.instant">
+    <optional>
+      <attribute name="instant" a:defaultValue="false">
+        <a:documentation>indicates whether this is an instant revision or not.</a:documentation>
+        <ref name="tei_data.xTruthValue"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.global.rendition.attributes">
+    <ref name="tei_att.global.rendition.attribute.rend"/>
+    <ref name="tei_att.global.rendition.attribute.style"/>
+    <ref name="tei_att.global.rendition.attribute.rendition"/>
+  </define>
+  <define name="tei_att.global.rendition.attribute.rend">
+    <optional>
+      <attribute name="rend">
+        <a:documentation>(interpretación) indica cómo el elemento en cuestión ha sido dado o proporcionado en el texto fuente.</a:documentation>
+        <list>
+          <oneOrMore>
+            <ref name="tei_data.word"/>
+          </oneOrMore>
+        </list>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.global.rendition.attribute.style">
+    <optional>
+      <attribute name="style">
+        <a:documentation>contains an expression in some formal style definition language which defines the rendering or presentation used for this element in the source text</a:documentation>
+        <ref name="tei_data.text"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.global.rendition.attribute.rendition">
+    <optional>
+      <attribute name="rendition">
+        <a:documentation>indica una descripción de la representación o de la presentación empleada para este elemento en el texto original.</a:documentation>
+        <list>
+          <oneOrMore>
+            <ref name="tei_data.pointer"/>
+          </oneOrMore>
+        </list>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.global.attributes">
+    <ref name="tei_att.global.rendition.attributes"/>
+    <ref name="tei_att.global.responsibility.attributes"/>
+    <ref name="tei_att.global.attribute.xmlid"/>
+    <ref name="tei_att.global.attribute.n"/>
+    <ref name="tei_att.global.attribute.xmllang"/>
+    <ref name="tei_att.global.attribute.xmlbase"/>
+    <ref name="tei_att.global.attribute.xmlspace"/>
+  </define>
+  <define name="tei_att.global.attribute.xmlid">
+    <optional>
+      <attribute name="xml:id">
+        <a:documentation>(identificador) proporciona un identificador único para el elemento al cual se asocia el atributo.</a:documentation>
+        <data type="ID"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.global.attribute.n">
+    <optional>
+      <attribute name="n">
+        <a:documentation>(número) proporciona un número (u otra etiqueta) a un elemento que no es necesariamente único en el documento.</a:documentation>
+        <ref name="tei_data.text"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.global.attribute.xmllang">
+    <optional>
+      <attribute name="xml:lang">
+        <a:documentation>(lengua) indica la lengua del contenido del elemento utilizando los códigos extraídos de RFC 3066</a:documentation>
+        <ref name="tei_data.language"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.global.attribute.xmlbase">
+    <optional>
+      <attribute name="xml:base">
+        <a:documentation>proporciona una referencia URI de base gracias a la aplicación eventual de la cual pueden analizarse tanto referencias URI relativas como referencias URI absolutas.</a:documentation>
+        <ref name="tei_data.pointer"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.global.attribute.xmlspace">
+    <optional>
+      <attribute name="xml:space">
+        <a:documentation>señala la voluntad de hacer que el espaciado sea preservado por cualquier aplicación.</a:documentation>
+        <choice>
+          <value>default</value>
+          <a:documentation>signals that the application's default white-space processing modes are acceptable</a:documentation>
+          <value>preserve</value>
+          <a:documentation>indicates the intent that applications preserve all white space</a:documentation>
+        </choice>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.internetMedia.attributes">
+    <ref name="tei_att.internetMedia.attribute.mimeType"/>
+  </define>
+  <define name="tei_att.internetMedia.attribute.mimeType">
+    <optional>
+      <attribute name="mimeType">
+        <a:documentation>(Tipo de media del MIME) El tipo de MIME</a:documentation>
+        <list>
+          <oneOrMore>
+            <ref name="tei_data.word"/>
+          </oneOrMore>
+        </list>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.naming.attributes">
+    <ref name="tei_att.canonical.attributes"/>
+    <ref name="tei_att.naming.attribute.role"/>
+    <ref name="tei_att.naming.attribute.nymRef"/>
+  </define>
+  <define name="tei_att.naming.attribute.role">
+    <optional>
+      <attribute name="role">
+        <a:documentation>may be used to specify further information about the entity referenced by this name in the form of a set of whitespace-separated values, for example the occupation of a person, or the status of a place.</a:documentation>
+        <list>
+          <oneOrMore>
+            <ref name="tei_data.enumerated"/>
+          </oneOrMore>
+        </list>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.naming.attribute.nymRef">
+    <optional>
+      <attribute name="nymRef">
+        <a:documentation>(referencia al nombre canónico) proporciona los medios para localizar la forma canónica (nym) de los nombres asociados al objeto nombrado por el elemento que lo contiene.</a:documentation>
+        <list>
+          <oneOrMore>
+            <ref name="tei_data.pointer"/>
+          </oneOrMore>
+        </list>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.placement.attributes">
+    <ref name="tei_att.placement.attribute.place"/>
+  </define>
+  <define name="tei_att.placement.attribute.place">
+    <optional>
+      <attribute name="place">
+        <a:documentation>specifies where this item is placed
+Los valores sugeridos incluyen: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6] overleaf; 7] above; 8] end; 9] inline; 10] inspace</a:documentation>
+        <list>
+          <oneOrMore>
+            <choice>
+              <value>below</value>
+              <a:documentation>debajo de la línea</a:documentation>
+              <value>bottom</value>
+              <a:documentation>en el margen inferior</a:documentation>
+              <value>margin</value>
+              <a:documentation>in the margin (left, right, or both)</a:documentation>
+              <value>top</value>
+              <a:documentation>en el margen superior</a:documentation>
+              <value>opposite</value>
+              <a:documentation>en el opuesto,es decir en el anverso, reverso, etc.</a:documentation>
+              <value>overleaf</value>
+              <a:documentation>en la otra cara de la página</a:documentation>
+              <value>above</value>
+              <a:documentation>sobre la línea</a:documentation>
+              <value>end</value>
+              <a:documentation>al final del capítulo o del volumen.</a:documentation>
+              <value>inline</value>
+              <a:documentation>within the body of the text.</a:documentation>
+              <value>inspace</value>
+              <a:documentation>in a predefined space, for example left by an earlier scribe.</a:documentation>
+              <data type="Name"/>
+            </choice>
+          </oneOrMore>
+        </list>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.typed.attributes">
+    <ref name="tei_att.typed.attribute.type"/>
+    <ref name="tei_att.typed.attribute.subtype"/>
+  </define>
+  <define name="tei_att.typed.attribute.type">
+    <optional>
+      <attribute name="type">
+        <a:documentation>caracteriza el elemento utilizando una clasificación o tipología funcional.</a:documentation>
+        <ref name="tei_data.enumerated"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.typed.attribute.subtype">
+    <optional>
+      <attribute name="subtype">
+        <a:documentation>proporciona, si es necesario, una subcategorización del elemento.</a:documentation>
+        <ref name="tei_data.enumerated"/>
+      </attribute>
+    </optional>
+  </define>
+  <sch:pattern id="myTEI-att.typed-subtypeTyped-constraint-2">
+      <sch:rule context="*[@subtype]">
+        <sch:assert test="@type">The <sch:name/>
+ element should not be categorized in detail with @subtype
+ unless also categorized in general with @type</sch:assert>
+
+      </sch:rule>
+
+   </sch:pattern>
+  <define name="tei_att.pointing.attributes">
+    <ref name="tei_att.pointing.attribute.targetLang"/>
+    <ref name="tei_att.pointing.attribute.target"/>
+    <ref name="tei_att.pointing.attribute.evaluate"/>
+  </define>
+  <define name="tei_att.pointing.attribute.targetLang">
+    <optional>
+      <attribute name="targetLang">
+        <a:documentation>specifies the language of the content to be found at the destination referenced by target, using a language tag generated according to BCP 47.</a:documentation>
+        <ref name="tei_data.language"/>
+      </attribute>
+    </optional>
+  </define>
+  <sch:pattern id="myTEI-att.pointing-targetLang-targetLang-constraint-3">
+      <sch:rule context="tei:*[not(self::tei:schemaSpec)][@targetLang]">
+            <sch:assert test="count(@target)">@targetLang can only be used if @target is specified.</sch:assert>
+
+          </sch:rule>
+
+   </sch:pattern>
+  <define name="tei_att.pointing.attribute.target">
+    <optional>
+      <attribute name="target">
+        <a:documentation>especifica la destinación de una referencia proporcionando una o más referencias URI.</a:documentation>
+        <list>
+          <oneOrMore>
+            <ref name="tei_data.pointer"/>
+          </oneOrMore>
+        </list>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.pointing.attribute.evaluate">
+    <optional>
+      <attribute name="evaluate">
+        <a:documentation>indica el significado previsto cuando la meta de un indicador es también un indicador.</a:documentation>
+        <choice>
+          <value>all</value>
+          <a:documentation>si el elemento que señala a sí mismo es un indicador, entonces el target de ese indicador será tomado, y así sucesivamente, hasta que se encuentre un elemento que no sea un indicador.</a:documentation>
+          <value>one</value>
+          <a:documentation>si el elemento que señala a sí mismo es un puntero, entonces el target (puntero o no) se toma como el target de este puntero.</a:documentation>
+          <value>none</value>
+          <a:documentation>no se realiza ninguna otra evaluación de los targets más allá de la necesaria para encontrar el elemento especificado en el target del puntero.</a:documentation>
+        </choice>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.sortable.attributes">
+    <ref name="tei_att.sortable.attribute.sortKey"/>
+  </define>
+  <define name="tei_att.sortable.attribute.sortKey">
+    <optional>
+      <attribute name="sortKey">
+        <a:documentation>supplies the sort key for this element in an index, list or group which contains it.</a:documentation>
+        <ref name="tei_data.word"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.spanning.attributes">
+    <ref name="tei_att.spanning.attribute.spanTo"/>
+  </define>
+  <define name="tei_att.spanning.attribute.spanTo">
+    <optional>
+      <attribute name="spanTo">
+        <a:documentation>indica el final de un fragmento de texto iniciado con el elemento al cual es asignaado el atributo.</a:documentation>
+        <ref name="tei_data.pointer"/>
+      </attribute>
+    </optional>
+  </define>
+  <sch:pattern id="myTEI-att.spanning-spanTo-spanTo-2-constraint-4">
+      <sch:rule context="tei:*[@spanTo]">
+            <sch:assert test="id(substring(@spanTo,2)) and following::*[@xml:id=substring(current()/@spanTo,2)]">
+The element indicated by @spanTo (<sch:value-of select="@spanTo"/>
+) must follow the current element <sch:name/>
+
+                  </sch:assert>
+
+          </sch:rule>
+
+   </sch:pattern>
+  <define name="tei_att.citing.attributes">
+    <ref name="tei_att.citing.attribute.unit"/>
+    <ref name="tei_att.citing.attribute.from"/>
+    <ref name="tei_att.citing.attribute.to"/>
+  </define>
+  <define name="tei_att.citing.attribute.unit">
+    <optional>
+      <attribute name="unit">
+        <a:documentation>identifies the unit of information conveyed by the element, e.g. columns, pages, volume.
+Los valores sugeridos incluyen: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] part; 7] column</a:documentation>
+        <choice>
+          <value>volume</value>
+          <a:documentation>(el elemento contiene el número de un volumen.) el elemento contiene el número de volumen.</a:documentation>
+          <value>issue</value>
+          <a:documentation>el elemento contiene el número de la edición, o los números del volumen y de la edición.</a:documentation>
+          <value>page</value>
+          <a:documentation>(el elemento contiene un número de página o el intervalo de páginas.) el elemento contiene una página o un intervalo de páginas.</a:documentation>
+          <value>line</value>
+          <a:documentation>the element contains a line number or line range.</a:documentation>
+          <value>chapter</value>
+          <a:documentation>(capítulo) el elemento contiene la indicación del capítulo (número y/o el título)</a:documentation>
+          <value>part</value>
+          <a:documentation>el elemento identifica una parte de un libro o de una colección.</a:documentation>
+          <value>column</value>
+          <a:documentation>the element identifies a column.</a:documentation>
+          <data type="Name"/>
+        </choice>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.citing.attribute.from">
+    <optional>
+      <attribute name="from">
+        <a:documentation>specifies the starting point of the range of units indicated by the unit attribute.</a:documentation>
+        <ref name="tei_data.word"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.citing.attribute.to">
+    <optional>
+      <attribute name="to">
+        <a:documentation>specifies the end-point of the range of units indicated by the unit attribute.</a:documentation>
+        <ref name="tei_data.word"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_model.nameLike.agent">
+    <ref name="tei_persName"/>
+  </define>
+  <define name="tei_model.nameLike.agent_alternation">
+    <ref name="tei_persName"/>
+  </define>
+  <define name="tei_model.nameLike.agent_sequence">
+    <ref name="tei_persName"/>
+  </define>
+  <define name="tei_model.nameLike.agent_sequenceOptional">
+    <optional>
+      <ref name="tei_persName"/>
+    </optional>
+  </define>
+  <define name="tei_model.nameLike.agent_sequenceOptionalRepeatable">
+    <zeroOrMore>
+      <ref name="tei_persName"/>
+    </zeroOrMore>
+  </define>
+  <define name="tei_model.nameLike.agent_sequenceRepeatable">
+    <oneOrMore>
+      <ref name="tei_persName"/>
+    </oneOrMore>
+  </define>
+  <define name="tei_model.segLike">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.hiLike">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.hiLike_alternation">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.hiLike_sequence">
+    <empty/>
+  </define>
+  <define name="tei_model.hiLike_sequenceOptional">
+    <empty/>
+  </define>
+  <define name="tei_model.hiLike_sequenceOptionalRepeatable">
+    <empty/>
+  </define>
+  <define name="tei_model.hiLike_sequenceRepeatable">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.emphLike">
+    <choice>
+      <ref name="tei_term"/>
+      <ref name="tei_title"/>
+    </choice>
+  </define>
+  <define name="tei_model.emphLike_alternation">
+    <choice>
+      <ref name="tei_term"/>
+      <ref name="tei_title"/>
+    </choice>
+  </define>
+  <define name="tei_model.emphLike_sequence">
+    <ref name="tei_term"/>
+    <ref name="tei_title"/>
+  </define>
+  <define name="tei_model.emphLike_sequenceOptional">
+    <optional>
+      <ref name="tei_term"/>
+    </optional>
+    <optional>
+      <ref name="tei_title"/>
+    </optional>
+  </define>
+  <define name="tei_model.emphLike_sequenceOptionalRepeatable">
+    <zeroOrMore>
+      <ref name="tei_term"/>
+    </zeroOrMore>
+    <zeroOrMore>
+      <ref name="tei_title"/>
+    </zeroOrMore>
+  </define>
+  <define name="tei_model.emphLike_sequenceRepeatable">
+    <oneOrMore>
+      <ref name="tei_term"/>
+    </oneOrMore>
+    <oneOrMore>
+      <ref name="tei_title"/>
+    </oneOrMore>
+  </define>
+  <define name="tei_model.highlighted">
+    <choice>
+      <ref name="tei_model.hiLike"/>
+      <ref name="tei_model.emphLike"/>
+    </choice>
+  </define>
+  <define name="tei_model.dateLike">
+    <ref name="tei_date"/>
+  </define>
+  <define name="tei_model.dateLike_alternation">
+    <ref name="tei_date"/>
+  </define>
+  <define name="tei_model.dateLike_sequence">
+    <ref name="tei_date"/>
+  </define>
+  <define name="tei_model.dateLike_sequenceOptional">
+    <optional>
+      <ref name="tei_date"/>
+    </optional>
+  </define>
+  <define name="tei_model.dateLike_sequenceOptionalRepeatable">
+    <zeroOrMore>
+      <ref name="tei_date"/>
+    </zeroOrMore>
+  </define>
+  <define name="tei_model.dateLike_sequenceRepeatable">
+    <oneOrMore>
+      <ref name="tei_date"/>
+    </oneOrMore>
+  </define>
+  <define name="tei_model.measureLike">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.measureLike_alternation">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.measureLike_sequence">
+    <empty/>
+  </define>
+  <define name="tei_model.measureLike_sequenceOptional">
+    <empty/>
+  </define>
+  <define name="tei_model.measureLike_sequenceOptionalRepeatable">
+    <empty/>
+  </define>
+  <define name="tei_model.measureLike_sequenceRepeatable">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.egLike">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.egLike_alternation">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.egLike_sequence">
+    <empty/>
+  </define>
+  <define name="tei_model.egLike_sequenceOptional">
+    <empty/>
+  </define>
+  <define name="tei_model.egLike_sequenceOptionalRepeatable">
+    <empty/>
+  </define>
+  <define name="tei_model.egLike_sequenceRepeatable">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.graphicLike">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.offsetLike">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.offsetLike_alternation">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.offsetLike_sequence">
+    <empty/>
+  </define>
+  <define name="tei_model.offsetLike_sequenceOptional">
+    <empty/>
+  </define>
+  <define name="tei_model.offsetLike_sequenceOptionalRepeatable">
+    <empty/>
+  </define>
+  <define name="tei_model.offsetLike_sequenceRepeatable">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.pPart.msdesc">
+    <choice>
+      <ref name="tei_locus"/>
+      <ref name="tei_origDate"/>
+    </choice>
+  </define>
+  <define name="tei_model.pPart.editorial">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.pPart.editorial_alternation">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.pPart.editorial_sequence">
+    <empty/>
+  </define>
+  <define name="tei_model.pPart.editorial_sequenceOptional">
+    <empty/>
+  </define>
+  <define name="tei_model.pPart.editorial_sequenceOptionalRepeatable">
+    <empty/>
+  </define>
+  <define name="tei_model.pPart.editorial_sequenceRepeatable">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.pPart.transcriptional">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.pPart.transcriptional_alternation">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.pPart.transcriptional_sequence">
+    <empty/>
+  </define>
+  <define name="tei_model.pPart.transcriptional_sequenceOptional">
+    <empty/>
+  </define>
+  <define name="tei_model.pPart.transcriptional_sequenceOptionalRepeatable">
+    <empty/>
+  </define>
+  <define name="tei_model.pPart.transcriptional_sequenceRepeatable">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.pPart.edit">
+    <choice>
+      <ref name="tei_model.pPart.editorial"/>
+      <ref name="tei_model.pPart.transcriptional"/>
+    </choice>
+  </define>
+  <define name="tei_model.ptrLike">
+    <ref name="tei_ref"/>
+  </define>
+  <define name="tei_model.lPart">
+    <ref name="tei_rhyme"/>
+  </define>
+  <define name="tei_model.global.meta">
+    <ref name="tei_index"/>
+  </define>
+  <define name="tei_model.milestoneLike">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.gLike">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.oddDecl">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.oddDecl_alternation">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.oddDecl_sequence">
+    <empty/>
+  </define>
+  <define name="tei_model.oddDecl_sequenceOptional">
+    <empty/>
+  </define>
+  <define name="tei_model.oddDecl_sequenceOptionalRepeatable">
+    <empty/>
+  </define>
+  <define name="tei_model.oddDecl_sequenceRepeatable">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.phrase.xml">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.specDescLike">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.biblLike">
+    <choice>
+      <ref name="tei_bibl"/>
+      <ref name="tei_listBibl"/>
+      <ref name="tei_msDesc"/>
+    </choice>
+  </define>
+  <define name="tei_model.biblLike_alternation">
+    <choice>
+      <ref name="tei_bibl"/>
+      <ref name="tei_listBibl"/>
+      <ref name="tei_msDesc"/>
+    </choice>
+  </define>
+  <define name="tei_model.biblLike_sequence">
+    <ref name="tei_bibl"/>
+    <ref name="tei_listBibl"/>
+    <ref name="tei_msDesc"/>
+  </define>
+  <define name="tei_model.biblLike_sequenceOptional">
+    <optional>
+      <ref name="tei_bibl"/>
+    </optional>
+    <optional>
+      <ref name="tei_listBibl"/>
+    </optional>
+    <optional>
+      <ref name="tei_msDesc"/>
+    </optional>
+  </define>
+  <define name="tei_model.biblLike_sequenceOptionalRepeatable">
+    <zeroOrMore>
+      <ref name="tei_bibl"/>
+    </zeroOrMore>
+    <zeroOrMore>
+      <ref name="tei_listBibl"/>
+    </zeroOrMore>
+    <zeroOrMore>
+      <ref name="tei_msDesc"/>
+    </zeroOrMore>
+  </define>
+  <define name="tei_model.biblLike_sequenceRepeatable">
+    <oneOrMore>
+      <ref name="tei_bibl"/>
+    </oneOrMore>
+    <oneOrMore>
+      <ref name="tei_listBibl"/>
+    </oneOrMore>
+    <oneOrMore>
+      <ref name="tei_msDesc"/>
+    </oneOrMore>
+  </define>
+  <define name="tei_model.headLike">
+    <ref name="tei_head"/>
+  </define>
+  <define name="tei_model.headLike_alternation">
+    <ref name="tei_head"/>
+  </define>
+  <define name="tei_model.headLike_sequence">
+    <ref name="tei_head"/>
+  </define>
+  <define name="tei_model.headLike_sequenceOptional">
+    <optional>
+      <ref name="tei_head"/>
+    </optional>
+  </define>
+  <define name="tei_model.headLike_sequenceOptionalRepeatable">
+    <zeroOrMore>
+      <ref name="tei_head"/>
+    </zeroOrMore>
+  </define>
+  <define name="tei_model.headLike_sequenceRepeatable">
+    <oneOrMore>
+      <ref name="tei_head"/>
+    </oneOrMore>
+  </define>
+  <define name="tei_model.labelLike">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.labelLike_alternation">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.labelLike_sequence">
+    <empty/>
+  </define>
+  <define name="tei_model.labelLike_sequenceOptional">
+    <empty/>
+  </define>
+  <define name="tei_model.labelLike_sequenceOptionalRepeatable">
+    <empty/>
+  </define>
+  <define name="tei_model.labelLike_sequenceRepeatable">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.listLike">
+    <choice>
+      <ref name="tei_listPerson"/>
+      <ref name="tei_listPlace"/>
+    </choice>
+  </define>
+  <define name="tei_model.listLike_alternation">
+    <choice>
+      <ref name="tei_listPerson"/>
+      <ref name="tei_listPlace"/>
+    </choice>
+  </define>
+  <define name="tei_model.listLike_sequence">
+    <ref name="tei_listPerson"/>
+    <ref name="tei_listPlace"/>
+  </define>
+  <define name="tei_model.listLike_sequenceOptional">
+    <optional>
+      <ref name="tei_listPerson"/>
+    </optional>
+    <optional>
+      <ref name="tei_listPlace"/>
+    </optional>
+  </define>
+  <define name="tei_model.listLike_sequenceOptionalRepeatable">
+    <zeroOrMore>
+      <ref name="tei_listPerson"/>
+    </zeroOrMore>
+    <zeroOrMore>
+      <ref name="tei_listPlace"/>
+    </zeroOrMore>
+  </define>
+  <define name="tei_model.listLike_sequenceRepeatable">
+    <oneOrMore>
+      <ref name="tei_listPerson"/>
+    </oneOrMore>
+    <oneOrMore>
+      <ref name="tei_listPlace"/>
+    </oneOrMore>
+  </define>
+  <define name="tei_model.noteLike">
+    <ref name="tei_note"/>
+  </define>
+  <define name="tei_model.lLike">
+    <ref name="tei_l"/>
+  </define>
+  <define name="tei_model.lLike_alternation">
+    <ref name="tei_l"/>
+  </define>
+  <define name="tei_model.lLike_sequence">
+    <ref name="tei_l"/>
+  </define>
+  <define name="tei_model.lLike_sequenceOptional">
+    <optional>
+      <ref name="tei_l"/>
+    </optional>
+  </define>
+  <define name="tei_model.lLike_sequenceOptionalRepeatable">
+    <zeroOrMore>
+      <ref name="tei_l"/>
+    </zeroOrMore>
+  </define>
+  <define name="tei_model.lLike_sequenceRepeatable">
+    <oneOrMore>
+      <ref name="tei_l"/>
+    </oneOrMore>
+  </define>
+  <define name="tei_model.pLike">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.pLike_alternation">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.pLike_sequence">
+    <empty/>
+  </define>
+  <define name="tei_model.pLike_sequenceOptional">
+    <empty/>
+  </define>
+  <define name="tei_model.pLike_sequenceOptionalRepeatable">
+    <empty/>
+  </define>
+  <define name="tei_model.pLike_sequenceRepeatable">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.stageLike">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.stageLike_alternation">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.stageLike_sequence">
+    <empty/>
+  </define>
+  <define name="tei_model.stageLike_sequenceOptional">
+    <empty/>
+  </define>
+  <define name="tei_model.stageLike_sequenceOptionalRepeatable">
+    <empty/>
+  </define>
+  <define name="tei_model.stageLike_sequenceRepeatable">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.global.edit">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.divPart">
+    <choice>
+      <ref name="tei_model.lLike"/>
+      <ref name="tei_model.pLike"/>
+      <ref name="tei_lg"/>
+      <ref name="tei_sp"/>
+    </choice>
+  </define>
+  <define name="tei_model.persStateLike">
+    <ref name="tei_persName"/>
+  </define>
+  <define name="tei_model.persEventLike">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.personLike">
+    <ref name="tei_person"/>
+  </define>
+  <define name="tei_model.personPart">
+    <choice>
+      <ref name="tei_model.biblLike"/>
+      <ref name="tei_model.persStateLike"/>
+      <ref name="tei_model.persEventLike"/>
+      <ref name="tei_idno"/>
+    </choice>
+  </define>
+  <define name="tei_model.placeNamePart">
+    <ref name="tei_placeName"/>
+  </define>
+  <define name="tei_model.placeNamePart_alternation">
+    <ref name="tei_placeName"/>
+  </define>
+  <define name="tei_model.placeNamePart_sequence">
+    <ref name="tei_placeName"/>
+  </define>
+  <define name="tei_model.placeNamePart_sequenceOptional">
+    <optional>
+      <ref name="tei_placeName"/>
+    </optional>
+  </define>
+  <define name="tei_model.placeNamePart_sequenceOptionalRepeatable">
+    <zeroOrMore>
+      <ref name="tei_placeName"/>
+    </zeroOrMore>
+  </define>
+  <define name="tei_model.placeNamePart_sequenceRepeatable">
+    <oneOrMore>
+      <ref name="tei_placeName"/>
+    </oneOrMore>
+  </define>
+  <define name="tei_model.placeStateLike">
+    <ref name="tei_model.placeNamePart"/>
+  </define>
+  <define name="tei_model.placeStateLike_alternation">
+    <ref name="tei_model.placeNamePart_alternation"/>
+  </define>
+  <define name="tei_model.placeStateLike_sequence">
+    <ref name="tei_model.placeNamePart_sequence"/>
+  </define>
+  <define name="tei_model.placeStateLike_sequenceOptional">
+    <optional>
+      <ref name="tei_model.placeNamePart_sequenceOptional"/>
+    </optional>
+  </define>
+  <define name="tei_model.placeStateLike_sequenceOptionalRepeatable">
+    <zeroOrMore>
+      <ref name="tei_model.placeNamePart_sequenceOptionalRepeatable"/>
+    </zeroOrMore>
+  </define>
+  <define name="tei_model.placeStateLike_sequenceRepeatable">
+    <oneOrMore>
+      <ref name="tei_model.placeNamePart_sequenceRepeatable"/>
+    </oneOrMore>
+  </define>
+  <define name="tei_model.placeEventLike">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.publicationStmtPart.agency">
+    <ref name="tei_publisher"/>
+  </define>
+  <define name="tei_model.publicationStmtPart.detail">
+    <choice>
+      <ref name="tei_date"/>
+      <ref name="tei_pubPlace"/>
+      <ref name="tei_idno"/>
+      <ref name="tei_availability"/>
+    </choice>
+  </define>
+  <define name="tei_model.availabilityPart">
+    <ref name="tei_licence"/>
+  </define>
+  <define name="tei_model.quoteLike">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.quoteLike_alternation">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.quoteLike_sequence">
+    <empty/>
+  </define>
+  <define name="tei_model.quoteLike_sequenceOptional">
+    <empty/>
+  </define>
+  <define name="tei_model.quoteLike_sequenceOptionalRepeatable">
+    <empty/>
+  </define>
+  <define name="tei_model.quoteLike_sequenceRepeatable">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.qLike">
+    <ref name="tei_model.quoteLike"/>
+  </define>
+  <define name="tei_model.qLike_alternation">
+    <ref name="tei_model.quoteLike_alternation"/>
+  </define>
+  <define name="tei_model.qLike_sequence">
+    <ref name="tei_model.quoteLike_sequence"/>
+  </define>
+  <define name="tei_model.qLike_sequenceOptional">
+    <optional>
+      <ref name="tei_model.quoteLike_sequenceOptional"/>
+    </optional>
+  </define>
+  <define name="tei_model.qLike_sequenceOptionalRepeatable">
+    <zeroOrMore>
+      <ref name="tei_model.quoteLike_sequenceOptionalRepeatable"/>
+    </zeroOrMore>
+  </define>
+  <define name="tei_model.qLike_sequenceRepeatable">
+    <oneOrMore>
+      <ref name="tei_model.quoteLike_sequenceRepeatable"/>
+    </oneOrMore>
+  </define>
+  <define name="tei_model.respLike">
+    <choice>
+      <ref name="tei_author"/>
+      <ref name="tei_editor"/>
+    </choice>
+  </define>
+  <define name="tei_model.divWrapper">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.divTopPart">
+    <ref name="tei_model.headLike"/>
+  </define>
+  <define name="tei_model.divTop">
+    <choice>
+      <ref name="tei_model.divWrapper"/>
+      <ref name="tei_model.divTopPart"/>
+    </choice>
+  </define>
+  <define name="tei_model.divBottomPart">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.divBottom">
+    <choice>
+      <ref name="tei_model.divWrapper"/>
+      <ref name="tei_model.divBottomPart"/>
+    </choice>
+  </define>
+  <define name="tei_model.titlepagePart">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.msQuoteLike">
+    <ref name="tei_title"/>
+  </define>
+  <define name="tei_model.msItemPart">
+    <choice>
+      <ref name="tei_model.biblLike"/>
+      <ref name="tei_model.quoteLike"/>
+      <ref name="tei_model.respLike"/>
+      <ref name="tei_model.msQuoteLike"/>
+      <ref name="tei_idno"/>
+      <ref name="tei_msItem"/>
+    </choice>
+  </define>
+  <define name="tei_model.imprintPart">
+    <choice>
+      <ref name="tei_publisher"/>
+      <ref name="tei_biblScope"/>
+      <ref name="tei_pubPlace"/>
+    </choice>
+  </define>
+  <define name="tei_model.settingPart">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.addressLike">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.addressLike_alternation">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.addressLike_sequence">
+    <empty/>
+  </define>
+  <define name="tei_model.addressLike_sequenceOptional">
+    <empty/>
+  </define>
+  <define name="tei_model.addressLike_sequenceOptionalRepeatable">
+    <empty/>
+  </define>
+  <define name="tei_model.addressLike_sequenceRepeatable">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.nameLike">
+    <choice>
+      <ref name="tei_model.nameLike.agent"/>
+      <ref name="tei_model.offsetLike"/>
+      <ref name="tei_model.placeStateLike"/>
+      <ref name="tei_rs"/>
+      <ref name="tei_idno"/>
+      <ref name="tei_model.persNamePart"/>
+    </choice>
+  </define>
+  <define name="tei_model.nameLike_alternation">
+    <choice>
+      <ref name="tei_model.nameLike.agent_alternation"/>
+      <ref name="tei_model.offsetLike_alternation"/>
+      <ref name="tei_model.placeStateLike_alternation"/>
+      <ref name="tei_rs"/>
+      <ref name="tei_idno"/>
+      <ref name="tei_model.persNamePart_alternation"/>
+    </choice>
+  </define>
+  <define name="tei_model.nameLike_sequence">
+    <ref name="tei_model.nameLike.agent_sequence"/>
+    <ref name="tei_model.offsetLike_sequence"/>
+    <ref name="tei_model.placeStateLike_sequence"/>
+    <ref name="tei_rs"/>
+    <ref name="tei_idno"/>
+    <ref name="tei_model.persNamePart_sequence"/>
+  </define>
+  <define name="tei_model.nameLike_sequenceOptional">
+    <optional>
+      <ref name="tei_model.nameLike.agent_sequenceOptional"/>
+    </optional>
+    <optional>
+      <ref name="tei_model.offsetLike_sequenceOptional"/>
+    </optional>
+    <optional>
+      <ref name="tei_model.placeStateLike_sequenceOptional"/>
+    </optional>
+    <optional>
+      <ref name="tei_rs"/>
+    </optional>
+    <optional>
+      <ref name="tei_idno"/>
+    </optional>
+    <optional>
+      <ref name="tei_model.persNamePart_sequenceOptional"/>
+    </optional>
+  </define>
+  <define name="tei_model.nameLike_sequenceOptionalRepeatable">
+    <zeroOrMore>
+      <ref name="tei_model.nameLike.agent_sequenceOptionalRepeatable"/>
+    </zeroOrMore>
+    <zeroOrMore>
+      <ref name="tei_model.offsetLike_sequenceOptionalRepeatable"/>
+    </zeroOrMore>
+    <zeroOrMore>
+      <ref name="tei_model.placeStateLike_sequenceOptionalRepeatable"/>
+    </zeroOrMore>
+    <zeroOrMore>
+      <ref name="tei_rs"/>
+    </zeroOrMore>
+    <zeroOrMore>
+      <ref name="tei_idno"/>
+    </zeroOrMore>
+    <zeroOrMore>
+      <ref name="tei_model.persNamePart_sequenceOptionalRepeatable"/>
+    </zeroOrMore>
+  </define>
+  <define name="tei_model.nameLike_sequenceRepeatable">
+    <oneOrMore>
+      <ref name="tei_model.nameLike.agent_sequenceRepeatable"/>
+    </oneOrMore>
+    <oneOrMore>
+      <ref name="tei_model.offsetLike_sequenceRepeatable"/>
+    </oneOrMore>
+    <oneOrMore>
+      <ref name="tei_model.placeStateLike_sequenceRepeatable"/>
+    </oneOrMore>
+    <oneOrMore>
+      <ref name="tei_rs"/>
+    </oneOrMore>
+    <oneOrMore>
+      <ref name="tei_idno"/>
+    </oneOrMore>
+    <oneOrMore>
+      <ref name="tei_model.persNamePart_sequenceRepeatable"/>
+    </oneOrMore>
+  </define>
+  <define name="tei_model.global">
+    <choice>
+      <ref name="tei_model.global.meta"/>
+      <ref name="tei_model.milestoneLike"/>
+      <ref name="tei_model.noteLike"/>
+      <ref name="tei_model.global.edit"/>
+    </choice>
+  </define>
+  <define name="tei_model.biblPart">
+    <choice>
+      <ref name="tei_model.respLike"/>
+      <ref name="tei_model.imprintPart"/>
+      <ref name="tei_bibl"/>
+      <ref name="tei_availability"/>
+      <ref name="tei_msIdentifier"/>
+    </choice>
+  </define>
+  <define name="tei_model.pPart.data">
+    <choice>
+      <ref name="tei_model.dateLike"/>
+      <ref name="tei_model.measureLike"/>
+      <ref name="tei_model.addressLike"/>
+      <ref name="tei_model.nameLike"/>
+    </choice>
+  </define>
+  <define name="tei_model.inter">
+    <choice>
+      <ref name="tei_model.egLike"/>
+      <ref name="tei_model.oddDecl"/>
+      <ref name="tei_model.biblLike"/>
+      <ref name="tei_model.labelLike"/>
+      <ref name="tei_model.listLike"/>
+      <ref name="tei_model.stageLike"/>
+      <ref name="tei_model.qLike"/>
+    </choice>
+  </define>
+  <define name="tei_model.common">
+    <choice>
+      <ref name="tei_model.divPart"/>
+      <ref name="tei_model.inter"/>
+    </choice>
+  </define>
+  <define name="tei_model.phrase">
+    <choice>
+      <ref name="tei_model.segLike"/>
+      <ref name="tei_model.highlighted"/>
+      <ref name="tei_model.graphicLike"/>
+      <ref name="tei_model.pPart.msdesc"/>
+      <ref name="tei_model.pPart.edit"/>
+      <ref name="tei_model.ptrLike"/>
+      <ref name="tei_model.lPart"/>
+      <ref name="tei_model.phrase.xml"/>
+      <ref name="tei_model.specDescLike"/>
+      <ref name="tei_model.pPart.data"/>
+    </choice>
+  </define>
+  <define name="tei_model.limitedPhrase">
+    <choice>
+      <ref name="tei_model.hiLike"/>
+      <ref name="tei_model.emphLike"/>
+      <ref name="tei_model.pPart.msdesc"/>
+      <ref name="tei_model.pPart.editorial"/>
+      <ref name="tei_model.ptrLike"/>
+      <ref name="tei_model.phrase.xml"/>
+      <ref name="tei_model.pPart.data"/>
+    </choice>
+  </define>
+  <define name="tei_model.divLike">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.divGenLike">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.div1Like">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.teiHeaderPart">
+    <ref name="tei_profileDesc"/>
+  </define>
+  <define name="tei_model.sourceDescPart">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.profileDescPart">
+    <choice>
+      <ref name="tei_creation"/>
+      <ref name="tei_langUsage"/>
+      <ref name="tei_textClass"/>
+      <ref name="tei_particDesc"/>
+      <ref name="tei_settingDesc"/>
+    </choice>
+  </define>
+  <define name="tei_att.source.attributes">
+    <ref name="tei_att.source.attribute.source"/>
+  </define>
+  <define name="tei_att.source.attribute.source">
+    <optional>
+      <attribute name="source">
+        <a:documentation>provides a pointer to the bibliographical source from which a quotation or citation is drawn.</a:documentation>
+        <list>
+          <oneOrMore>
+            <ref name="tei_data.pointer"/>
+          </oneOrMore>
+        </list>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_model.resourceLike">
+    <notAllowed/>
+  </define>
+  <define name="tei_att.personal.attributes">
+    <ref name="tei_att.naming.attributes"/>
+    <ref name="tei_att.personal.attribute.full"/>
+    <ref name="tei_att.personal.attribute.sort"/>
+  </define>
+  <define name="tei_att.personal.attribute.full">
+    <optional>
+      <attribute name="full" a:defaultValue="yes">
+        <a:documentation>indica si el componente del nombre aparece por completo, como una abreviatura o como una inicial.</a:documentation>
+        <choice>
+          <value>yes</value>
+          <a:documentation>el componente nombre se deletrea por completo.</a:documentation>
+          <value>abb</value>
+          <a:documentation>(el componente del nombre aparece como forma abreviada.) el componente conocido se da en una forma abreviada.</a:documentation>
+          <value>init</value>
+          <a:documentation>(el componente del nombre aparece mediante la inicial.) el componente conocido es indicado solamente por una inicial.</a:documentation>
+        </choice>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.personal.attribute.sort">
+    <optional>
+      <attribute name="sort">
+        <a:documentation>especifica la posición del componente al interno del nombre propio de persona en relación con los otros componentes.</a:documentation>
+        <ref name="tei_data.count"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_model.placeLike">
+    <ref name="tei_place"/>
+  </define>
+  <define name="tei_term">
+    <element name="term">
+      <a:documentation>contiene una palabra simple, multipalabra o designación simbólica que se considera como un término técnico. [3.3.4. Terms, Glosses, Equivalents, and Descriptions]</a:documentation>
+      <ref name="tei_macro.phraseSeq"/>
+      <ref name="tei_att.global.attributes"/>
+      <ref name="tei_att.declaring.attributes"/>
+      <ref name="tei_att.pointing.attributes"/>
+      <ref name="tei_att.typed.attributes"/>
+      <ref name="tei_att.canonical.attributes"/>
+      <ref name="tei_att.sortable.attributes"/>
+      <ref name="tei_att.cReferencing.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_rs">
+    <element name="rs">
+      <a:documentation>(serie referencial) contiene un nombre de intención general o una serie referencial. [13.2.1. Personal Names 3.5.1. Referring Strings]</a:documentation>
+      <ref name="tei_macro.phraseSeq"/>
+      <ref name="tei_att.global.attributes"/>
+      <ref name="tei_att.naming.attributes"/>
+      <ref name="tei_att.typed.attributes"/>
+      <ref name="tei_att.source.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_date">
+    <element name="date">
+      <a:documentation>contiene una fecha en cualquier formato. [3.5.4. Dates and Times 2.2.4. Publication, Distribution,
+Licensing, etc. 2.5. The Revision Description 3.11.2.4. Imprint, Size of a Document, and Reprint Information 15.2.3. The Setting Description 13.3.6. Dates and Times]</a:documentation>
+      <zeroOrMore>
+        <choice>
+          <text/>
+          <ref name="tei_model.gLike"/>
+          <ref name="tei_model.phrase"/>
+          <ref name="tei_model.global"/>
+        </choice>
+      </zeroOrMore>
+      <ref name="tei_att.global.attributes"/>
+      <ref name="tei_att.datable.attributes"/>
+      <ref name="tei_att.editLike.attributes"/>
+      <ref name="tei_att.typed.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_ref">
+    <element name="ref">
+      <a:documentation>(referencia) define una referencia a otra localización, posiblemente modificada por un texto o comentario adicional. [3.6. Simple Links and Cross-References 16.1. Links]</a:documentation>
+      <ref name="tei_macro.paraContent"/>
+      <sch:pattern id="myTEI-ref-refAtts-constraint-1">
+            <sch:rule context="tei:ref">
+               <sch:report test="@target and @cRef">Only one of the
+	attributes @target' and @cRef' may be supplied on <sch:name/>
+
+               </sch:report>
+
+            </sch:rule>
+
+         </sch:pattern>
+      <ref name="tei_att.global.attributes"/>
+      <ref name="tei_att.pointing.attributes"/>
+      <ref name="tei_att.internetMedia.attributes"/>
+      <ref name="tei_att.typed.attributes"/>
+      <ref name="tei_att.declaring.attributes"/>
+      <ref name="tei_att.cReferencing.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_head">
+    <element name="head">
+      <a:documentation>(encabezamiento) contiene cualquier tipo de encabezamiento, por ejemplo el título de una sección o el encabezado de una lista, glosario, descripción de un manuscrito, etc. [4.2.1. Headings and Trailers]</a:documentation>
+      <zeroOrMore>
+        <choice>
+          <text/>
+          <ref name="tei_lg"/>
+          <ref name="tei_model.gLike"/>
+          <ref name="tei_model.phrase"/>
+          <ref name="tei_model.inter"/>
+          <ref name="tei_model.lLike"/>
+          <ref name="tei_model.global"/>
+        </choice>
+      </zeroOrMore>
+      <ref name="tei_att.global.attributes"/>
+      <ref name="tei_att.typed.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_note">
+    <element name="note">
+      <a:documentation>contiene una nota o aclaración [3.8.1. Notes and Simple Annotation 2.2.6. The Notes Statement 3.11.2.8. Notes and Statement of Language 9.3.5.4. Notes within Entries]</a:documentation>
+      <ref name="tei_macro.specialPara"/>
+      <ref name="tei_att.global.attributes"/>
+      <ref name="tei_att.placement.attributes"/>
+      <ref name="tei_att.pointing.attributes"/>
+      <ref name="tei_att.source.attributes"/>
+      <ref name="tei_att.typed.attributes"/>
+      <optional>
+        <attribute name="anchored" a:defaultValue="true">
+          <a:documentation>indica si el texto de copia muestra el lugar exacto de referencia para una nota.</a:documentation>
+          <ref name="tei_data.truthValue"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="targetEnd">
+          <a:documentation>indica el final de un periodo al cual una nota está enlazada, si la nota no está insertada en ese punto del texto.</a:documentation>
+          <list>
+            <oneOrMore>
+              <ref name="tei_data.pointer"/>
+            </oneOrMore>
+          </list>
+        </attribute>
+      </optional>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_index">
+    <element name="index">
+      <a:documentation>(entrada de un índice.) marca un punto para ser indexado por cualquier criterio. [3.8.2. Index Entries]</a:documentation>
+      <zeroOrMore>
+        <ref name="tei_term"/>
+        <optional>
+          <ref name="tei_index"/>
+        </optional>
+      </zeroOrMore>
+      <ref name="tei_att.global.attributes"/>
+      <ref name="tei_att.spanning.attributes"/>
+      <optional>
+        <attribute name="indexName">
+          <a:documentation>proporciona un nombre para especificar a qué índice (de entre varios) pertence la entrada de íncide.</a:documentation>
+          <ref name="tei_data.name"/>
+        </attribute>
+      </optional>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_author">
+    <element name="author">
+      <a:documentation>en una referencia bibliográfica, contiene el nombre del autor/es, personal o empresa de una obra; la declaración esencial de responsabilidad para cualquier ítem bibliográfico. [3.11.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement]</a:documentation>
+      <ref name="tei_macro.phraseSeq"/>
+      <ref name="tei_att.global.attributes"/>
+      <ref name="tei_att.naming.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_editor">
+    <element name="editor">
+      <a:documentation>declaración secundaria de responsabilidad para un ítem bibliográfico, por ejemplo un nombre particular, o institucional (o cualquier otro) que ha actuado como editor, compilador, traductor, etc. [3.11.2.2. Titles, Authors, and Editors]</a:documentation>
+      <ref name="tei_macro.phraseSeq"/>
+      <ref name="tei_att.global.attributes"/>
+      <ref name="tei_att.naming.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_title">
+    <element name="title">
+      <a:documentation>contiene el título completo de una obra de cualquier tipo. [3.11.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement 2.2.5. The Series Statement]</a:documentation>
+      <ref name="tei_macro.paraContent"/>
+      <ref name="tei_att.global.attributes"/>
+      <ref name="tei_att.canonical.attributes"/>
+      <ref name="tei_att.typed.attribute.subtype"/>
+      <optional>
+        <attribute name="type">
+          <a:documentation>clasifica el título de acuerdo con alguna tipología funcional.
+Posibles valores: 1] main; 2] sub(subordinate) ; 3] alt(alternate) ; 4] short; 5] desc(descriptive) </a:documentation>
+          <ref name="tei_data.enumerated"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="level">
+          <a:documentation>indica el tipo bibliográfico para un título, si este se identifica como un artículo, libro, revista, colección o material inédito.</a:documentation>
+          <choice>
+            <value>a</value>
+            <a:documentation>(analítico) título analítico (de artículo, de poema, o de otro elemento publicado como parte de un elemento más grande)</a:documentation>
+            <value>m</value>
+            <a:documentation>(monográfico) título monográfico (libro, colección, u otro elemento publicado como elemento distinto, incluído los volúmenes individuales de trabajos multivolúmenes)</a:documentation>
+            <value>j</value>
+            <a:documentation>(título
+                                                  de revista.) título de diario, periódico o revista</a:documentation>
+            <value>s</value>
+            <a:documentation>(series) título de serie</a:documentation>
+            <value>u</value>
+            <a:documentation>(unpublished) título de un material inédito (incluidas tesis y disertaciones que no sean publicadas por una editorial comercial)</a:documentation>
+          </choice>
+        </attribute>
+      </optional>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_publisher">
+    <element name="publisher">
+      <a:documentation>proporciona el nombre de la organización responsable de la publicación o la distribución de un elemento bibliográfico. [3.11.2.4. Imprint, Size of a Document, and Reprint Information 2.2.4. Publication, Distribution,
+Licensing, etc.]</a:documentation>
+      <ref name="tei_macro.phraseSeq"/>
+      <ref name="tei_att.global.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_biblScope">
+    <element name="biblScope">
+      <a:documentation>(extensión de una cita) define la extensión de una referencia bibliográfica, como por ejemplo los números de página u otra subdivisión numerada en la obra mayor. [3.11.2.5. Scopes and Ranges in Bibliographic Citations]</a:documentation>
+      <ref name="tei_macro.phraseSeq"/>
+      <ref name="tei_att.global.attributes"/>
+      <ref name="tei_att.citing.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_pubPlace">
+    <element name="pubPlace">
+      <a:documentation>(lugar de la publicación) contiene el nombre del lugar de publicación de un elemento bibliográfico. [3.11.2.4. Imprint, Size of a Document, and Reprint Information]</a:documentation>
+      <ref name="tei_macro.phraseSeq"/>
+      <ref name="tei_att.global.attributes"/>
+      <ref name="tei_att.naming.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_bibl">
+    <element name="bibl">
+      <a:documentation>(cita bibliográfica.) contiene una cita bibliográfica estructurada libremente, los componentes de la cual pueden nohaber sido etiquetados explícitamente. [3.11.1. Methods of Encoding Bibliographic References and Lists of References 2.2.7. The Source Description 15.3.2. Declarable Elements]</a:documentation>
+      <zeroOrMore>
+        <choice>
+          <text/>
+          <ref name="tei_model.gLike"/>
+          <ref name="tei_model.highlighted"/>
+          <ref name="tei_model.pPart.data"/>
+          <ref name="tei_model.pPart.edit"/>
+          <ref name="tei_model.segLike"/>
+          <ref name="tei_model.ptrLike"/>
+          <ref name="tei_model.biblPart"/>
+          <ref name="tei_model.global"/>
+        </choice>
+      </zeroOrMore>
+      <ref name="tei_att.global.attributes"/>
+      <ref name="tei_att.declarable.attributes"/>
+      <ref name="tei_att.typed.attributes"/>
+      <ref name="tei_att.sortable.attributes"/>
+      <ref name="tei_att.docStatus.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_listBibl">
+    <element name="listBibl">
+      <a:documentation>(lista de cita) contiene una lista de citas bibliográficas de cualquier tipo. [3.11.1. Methods of Encoding Bibliographic References and Lists of References 2.2.7. The Source Description 15.3.2. Declarable Elements]</a:documentation>
+      <group>
+        <zeroOrMore>
+          <ref name="tei_model.headLike"/>
+        </zeroOrMore>
+        <oneOrMore>
+          <choice>
+            <ref name="tei_model.biblLike"/>
+            <ref name="tei_model.milestoneLike"/>
+          </choice>
+        </oneOrMore>
+        <zeroOrMore>
+          <empty/>
+        </zeroOrMore>
+      </group>
+      <ref name="tei_att.global.attributes"/>
+      <ref name="tei_att.sortable.attributes"/>
+      <ref name="tei_att.declarable.attributes"/>
+      <ref name="tei_att.typed.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_l">
+    <element name="l">
+      <a:documentation>(verso) contiene un único verso, posiblemente incompleto. [3.12.1. Core Tags for Verse 3.12. Passages of Verse or Drama 7.2.5. Speech Contents]</a:documentation>
+      <ref name="tei_macro.paraContent"/>
+      <ref name="tei_att.global.attributes"/>
+      <ref name="tei_att.metrical.attributes"/>
+      <ref name="tei_att.enjamb.attributes"/>
+      <ref name="tei_att.fragmentable.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_lg">
+    <element name="lg">
+      <a:documentation>(grupo de versos) contiene un grupo de versos que funcionan como una unidad formal, p.ej. una estrofa, un refrán, un estribillo, etc. [3.12.1. Core Tags for Verse 3.12. Passages of Verse or Drama 7.2.5. Speech Contents]</a:documentation>
+      <group>
+        <zeroOrMore>
+          <choice>
+            <ref name="tei_model.divTop"/>
+            <ref name="tei_model.global"/>
+          </choice>
+        </zeroOrMore>
+        <choice>
+          <ref name="tei_model.lLike"/>
+          <ref name="tei_model.stageLike"/>
+          <ref name="tei_model.labelLike"/>
+          <ref name="tei_lg"/>
+        </choice>
+        <zeroOrMore>
+          <choice>
+            <ref name="tei_model.lLike"/>
+            <ref name="tei_model.stageLike"/>
+            <ref name="tei_model.labelLike"/>
+            <ref name="tei_model.global"/>
+            <ref name="tei_lg"/>
+          </choice>
+        </zeroOrMore>
+        <zeroOrMore>
+          <ref name="tei_model.divBottom"/>
+          <zeroOrMore>
+            <ref name="tei_model.global"/>
+          </zeroOrMore>
+        </zeroOrMore>
+      </group>
+      <sch:pattern id="myTEI-lg-atleast1oflggapl-constraint-5">
+            <sch:rule context="tei:lg">
+               <sch:assert test="count(descendant::tei:lg|descendant::tei:l|descendant::tei:gap) &gt; 0">An lg element
+        must contain at least one child l, lg or gap element.</sch:assert>
+
+            </sch:rule>
+
+         </sch:pattern>
+      <ref name="tei_att.global.attributes"/>
+      <ref name="tei_att.divLike.attribute.org"/>
+      <ref name="tei_att.divLike.attribute.sample"/>
+      <ref name="tei_att.metrical.attribute.real"/>
+      <ref name="tei_att.metrical.attribute.rhyme"/>
+      <ref name="tei_att.fragmentable.attribute.part"/>
+      <ref name="tei_att.typed.attributes"/>
+      <ref name="tei_att.declaring.attributes"/>
+      <optional>
+        <attribute name="isometrismo">
+          <a:documentation>isometrismo</a:documentation>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="isoestrofismo">
+          <a:documentation>isoestrofismo</a:documentation>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="asonancia">
+          <a:documentation>asonancia</a:documentation>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="unisonancia">
+          <a:documentation>unisonancia</a:documentation>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="met">
+          <a:documentation>(estructura métrica, convencional) métrica</a:documentation>
+        </attribute>
+      </optional>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_sp">
+    <element name="sp">
+      <a:documentation>(discurso) Un discurso individual de un texto dramático, o un pasaje en prosa o en verso presentado como tal. [3.12.2. Core Tags for Drama 3.12. Passages of Verse or Drama 7.2.2. Speeches and Speakers]</a:documentation>
+      <group>
+        <zeroOrMore>
+          <ref name="tei_model.global"/>
+        </zeroOrMore>
+        <optional>
+          <ref name="tei_speaker"/>
+          <zeroOrMore>
+            <ref name="tei_model.global"/>
+          </zeroOrMore>
+        </optional>
+        <oneOrMore>
+          <choice>
+            <ref name="tei_lg"/>
+            <ref name="tei_model.lLike"/>
+            <ref name="tei_model.pLike"/>
+            <ref name="tei_model.listLike"/>
+            <ref name="tei_model.stageLike"/>
+            <ref name="tei_model.qLike"/>
+          </choice>
+          <zeroOrMore>
+            <ref name="tei_model.global"/>
+          </zeroOrMore>
+        </oneOrMore>
+      </group>
+      <ref name="tei_att.global.attributes"/>
+      <ref name="tei_att.ascribed.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_speaker">
+    <element name="speaker">
+      <a:documentation>una forma especializada de encabezamiento o etiqueta, que da nombre a uno o más interlocutores de un texto o fragmento dramático. [3.12.2. Core Tags for Drama]</a:documentation>
+      <ref name="tei_macro.phraseSeq"/>
+      <ref name="tei_att.global.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_teiHeader">
+    <element name="teiHeader">
+      <a:documentation>(Encabezado TEI) proporciona información descriptiva y declarativa de una página de título electrónico prefijada como un texto conforme a TEI. [2.1.1. The TEI Header and Its Components 15.1. Varieties of Composite Text]</a:documentation>
+      <group>
+        <ref name="tei_fileDesc"/>
+        <zeroOrMore>
+          <ref name="tei_model.teiHeaderPart"/>
+        </zeroOrMore>
+        <optional>
+          <ref name="tei_revisionDesc"/>
+        </optional>
+      </group>
+      <ref name="tei_att.global.attributes"/>
+      <optional>
+        <attribute name="type" a:defaultValue="text">
+          <a:documentation>especifica el tipo de documento al cual el encabezado se refiere, por ejemplo si este es un corpus o un texto individual.
+Posibles valores: 1] text; 2] corpus</a:documentation>
+          <ref name="tei_data.enumerated"/>
+        </attribute>
+      </optional>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_fileDesc">
+    <element name="fileDesc">
+      <a:documentation>(Descripción del archivo.) contiene una descripción bibliográfica completa del archivo electrónico. [2.2. The File Description 2.1.1. The TEI Header and Its Components]</a:documentation>
+      <group>
+        <group>
+          <ref name="tei_titleStmt"/>
+          <ref name="tei_publicationStmt"/>
+        </group>
+        <oneOrMore>
+          <ref name="tei_sourceDesc"/>
+        </oneOrMore>
+      </group>
+      <ref name="tei_att.global.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_titleStmt">
+    <element name="titleStmt">
+      <a:documentation>(declaración del título) agrupa la información referente al título de una obra y a los responsables de su contenido intelectual. [2.2.1. The Title Statement 2.2. The File Description]</a:documentation>
+      <group>
+        <oneOrMore>
+          <ref name="tei_title"/>
+        </oneOrMore>
+        <zeroOrMore>
+          <ref name="tei_model.respLike"/>
+        </zeroOrMore>
+      </group>
+      <ref name="tei_att.global.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_publicationStmt">
+    <element name="publicationStmt">
+      <a:documentation>(declaración de la publicación) agrupa la información concerniente a la publicación o distribución de un texto electrónico u otro texto. [2.2.4. Publication, Distribution,
+Licensing, etc. 2.2. The File Description]</a:documentation>
+      <choice>
+        <oneOrMore>
+          <ref name="tei_model.publicationStmtPart.agency"/>
+          <zeroOrMore>
+            <ref name="tei_model.publicationStmtPart.detail"/>
+          </zeroOrMore>
+        </oneOrMore>
+        <oneOrMore>
+          <ref name="tei_model.pLike"/>
+        </oneOrMore>
+      </choice>
+      <ref name="tei_att.global.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_idno">
+    <element name="idno">
+      <a:documentation>(número identificativo) proporciona un número, estándard o no, usado para la identificación de un elemento bibliográfico. [2.2.4. Publication, Distribution,
+Licensing, etc. 2.2.5. The Series Statement 3.11.2.4. Imprint, Size of a Document, and Reprint Information]</a:documentation>
+      <zeroOrMore>
+        <choice>
+          <text/>
+          <ref name="tei_model.gLike"/>
+          <ref name="tei_idno"/>
+        </choice>
+      </zeroOrMore>
+      <ref name="tei_att.global.attributes"/>
+      <ref name="tei_att.sortable.attributes"/>
+      <optional>
+        <attribute name="type">
+          <a:documentation>clasifica el número, por ejemplo como un ISBN o cualquier otro número estándard.</a:documentation>
+          <ref name="tei_data.enumerated"/>
+        </attribute>
+      </optional>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_availability">
+    <element name="availability">
+      <a:documentation>proporciona información sobre la disponibilidad de un texto, por ejemplo cualquier restricción en cuanto a su uso o distribución, su copyright, etc. [2.2.4. Publication, Distribution,
+Licensing, etc.]</a:documentation>
+      <oneOrMore>
+        <choice>
+          <ref name="tei_model.availabilityPart"/>
+          <ref name="tei_model.pLike"/>
+        </choice>
+      </oneOrMore>
+      <ref name="tei_att.global.attributes"/>
+      <ref name="tei_att.declarable.attributes"/>
+      <optional>
+        <attribute name="status" a:defaultValue="unknown">
+          <a:documentation>proporciona un código identificativo de la disponibilidad actual del texto.</a:documentation>
+          <choice>
+            <value>free</value>
+            <a:documentation>el texto está libremente disponible.</a:documentation>
+            <value>unknown</value>
+            <a:documentation>el estatus del texto es desconocido.</a:documentation>
+            <value>restricted</value>
+            <a:documentation>el texto no está libremente disponible.</a:documentation>
+          </choice>
+        </attribute>
+      </optional>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_licence">
+    <element name="licence">
+      <a:documentation>contains information about a licence or other legal agreement applicable to the text. [2.2.4. Publication, Distribution,
+Licensing, etc.]</a:documentation>
+      <ref name="tei_macro.specialPara"/>
+      <ref name="tei_att.global.attributes"/>
+      <ref name="tei_att.pointing.attributes"/>
+      <ref name="tei_att.datable.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_sourceDesc">
+    <element name="sourceDesc">
+      <a:documentation>(descripción de la fuente) proporciona una descripción del texto (o textos) fuente del que un texto electrónico deriva o ha sido generado. [2.2.7. The Source Description]</a:documentation>
+      <choice>
+        <oneOrMore>
+          <ref name="tei_model.pLike"/>
+        </oneOrMore>
+        <oneOrMore>
+          <choice>
+            <ref name="tei_model.biblLike"/>
+            <ref name="tei_model.sourceDescPart"/>
+            <ref name="tei_model.listLike"/>
+          </choice>
+        </oneOrMore>
+      </choice>
+      <ref name="tei_att.global.attributes"/>
+      <ref name="tei_att.declarable.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_profileDesc">
+    <element name="profileDesc">
+      <a:documentation>(descripción del perfil del texto.) proporciona una descripción detallada de los aspectos no bibliográficos de un texto, especialmente las lenguas y jergas usadas, la situación en que se aparecen, los participantes que intervienen, etc. [2.4. The Profile Description 2.1.1. The TEI Header and Its Components]</a:documentation>
+      <zeroOrMore>
+        <ref name="tei_model.profileDescPart"/>
+      </zeroOrMore>
+      <ref name="tei_att.global.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_creation">
+    <element name="creation">
+      <a:documentation>contiene información sobre la creación del texto. [2.4.1. Creation 2.4. The Profile Description]</a:documentation>
+      <zeroOrMore>
+        <choice>
+          <text/>
+          <ref name="tei_model.limitedPhrase"/>
+          <ref name="tei_listChange"/>
+        </choice>
+      </zeroOrMore>
+      <ref name="tei_att.global.attributes"/>
+      <ref name="tei_att.datable.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_langUsage">
+    <element name="langUsage">
+      <a:documentation>(lengua empleada) describe las lenguas, jergas, registros, dialectos, etc. presentes en el texto. [2.4.2. Language Usage 2.4. The Profile Description 15.3.2. Declarable Elements]</a:documentation>
+      <oneOrMore>
+        <ref name="tei_language"/>
+      </oneOrMore>
+      <ref name="tei_att.global.attributes"/>
+      <ref name="tei_att.declarable.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_language">
+    <element name="language">
+      <a:documentation>caracteriza una lengua o jerga empleada en un texto. [2.4.2. Language Usage]</a:documentation>
+      <ref name="tei_macro.phraseSeq.limited"/>
+      <ref name="tei_att.global.attributes"/>
+      <attribute name="ident">
+        <a:documentation>(identificador) proporciona un código de lengua construido según se define en RFC 3066 (o en su sucesor) que se utiliza para identificar la lengua documentada por este elemento, y a la cual se hace referencia mediante el atributo globlal xml:lang.</a:documentation>
+        <ref name="tei_data.language"/>
+      </attribute>
+      <optional>
+        <attribute name="usage">
+          <a:documentation>especifica el porcentaje (de volumen) aproximado de texto que usa esa lengua.</a:documentation>
+          <data type="nonNegativeInteger">
+            <param name="maxInclusive">100</param>
+          </data>
+        </attribute>
+      </optional>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_textClass">
+    <element name="textClass">
+      <a:documentation>(clasificación de texto) agrupa información que describe la naturaleza o la temática de un texto en términos de un esquema de clasificación estándard. [2.4.3. The Text Classification]</a:documentation>
+      <zeroOrMore>
+        <ref name="tei_keywords"/>
+      </zeroOrMore>
+      <ref name="tei_att.global.attributes"/>
+      <ref name="tei_att.declarable.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_keywords">
+    <element name="keywords">
+      <a:documentation>contiene una lista de palabras clave o sintagmas que identifican la temática o la naturaleza del texto. [2.4.3. The Text Classification]</a:documentation>
+      <oneOrMore>
+        <ref name="tei_term"/>
+      </oneOrMore>
+      <ref name="tei_att.global.attributes"/>
+      <optional>
+        <attribute name="scheme">
+          <a:documentation>identifican el vocabulario con el que se define el conjunto de palabras clave referidas.</a:documentation>
+          <ref name="tei_data.pointer"/>
+        </attribute>
+      </optional>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_revisionDesc">
+    <element name="revisionDesc">
+      <a:documentation>(descripción de la revisión) resume el historial de la revisión de un archivo. [2.5. The Revision Description 2.1.1. The TEI Header and Its Components]</a:documentation>
+      <choice>
+        <ref name="tei_listChange"/>
+        <oneOrMore>
+          <ref name="tei_change"/>
+        </oneOrMore>
+      </choice>
+      <ref name="tei_att.global.attributes"/>
+      <ref name="tei_att.docStatus.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_change">
+    <element name="change">
+      <a:documentation>resume un cambio o corrección determinada llevada a cabo en una versión dada de un texto electrónico en el que trabajan diversos investigadores. [2.5. The Revision Description 2.4.1. Creation 11.7. Changes]</a:documentation>
+      <ref name="tei_macro.specialPara"/>
+      <ref name="tei_att.ascribed.attributes"/>
+      <ref name="tei_att.datable.attributes"/>
+      <ref name="tei_att.docStatus.attributes"/>
+      <ref name="tei_att.global.attributes"/>
+      <ref name="tei_att.typed.attributes"/>
+      <optional>
+        <attribute name="target">
+          <a:documentation>points to one or more elements that belong to this change.</a:documentation>
+          <list>
+            <oneOrMore>
+              <ref name="tei_data.pointer"/>
+            </oneOrMore>
+          </list>
+        </attribute>
+      </optional>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_listChange">
+    <element name="listChange">
+      <a:documentation>groups a number of change descriptions associated with either the creation of a source text or the revision of an encoded text. [2.5. The Revision Description 11.7. Changes]</a:documentation>
+      <oneOrMore>
+        <choice>
+          <ref name="tei_listChange"/>
+          <ref name="tei_change"/>
+        </choice>
+      </oneOrMore>
+      <ref name="tei_att.global.attributes"/>
+      <ref name="tei_att.sortable.attributes"/>
+      <optional>
+        <attribute name="ordered" a:defaultValue="true">
+          <a:documentation>indicates whether the ordering of its child change elements is to be considered significant or not</a:documentation>
+          <ref name="tei_data.truthValue"/>
+        </attribute>
+      </optional>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_TEI">
+    <element name="TEI">
+      <a:documentation>(documento TEI) contiene un único documento TEI-conforme, que comprende un encabezado y un texto, sea este aislado o parte de un elemento teiCorpus [4. Default Text Structure 15.1. Varieties of Composite Text]</a:documentation>
+      <group>
+        <ref name="tei_teiHeader"/>
+        <choice>
+          <group>
+            <oneOrMore>
+              <ref name="tei_model.resourceLike"/>
+            </oneOrMore>
+            <optional>
+              <ref name="tei_text"/>
+            </optional>
+          </group>
+          <ref name="tei_text"/>
+        </choice>
+      </group>
+      <sch:ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
+      <sch:ns prefix="xs" uri="http://www.w3.org/2001/XMLSchema"/>
+      <sch:ns prefix="rng" uri="http://relaxng.org/ns/structure/1.0"/>
+      <ref name="tei_att.global.attributes"/>
+      <optional>
+        <attribute name="version">
+          <a:documentation>Versión del esquema TEI</a:documentation>
+          <ref name="tei_data.version"/>
+        </attribute>
+      </optional>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_text">
+    <element name="text">
+      <a:documentation>contiene un único texto de cualquier tipo, sea este unitario o combinado, p.ej. un texto en verso o teatral, una recopilación de ensayos, una novela, un diccionario, o una fragmento de corpus. [4. Default Text Structure 15.1. Varieties of Composite Text]</a:documentation>
+      <group>
+        <zeroOrMore>
+          <ref name="tei_model.global"/>
+        </zeroOrMore>
+        <ref name="tei_body"/>
+        <zeroOrMore>
+          <ref name="tei_model.global"/>
+        </zeroOrMore>
+      </group>
+      <ref name="tei_att.global.attributes"/>
+      <ref name="tei_att.declaring.attributes"/>
+      <ref name="tei_att.typed.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_body">
+    <element name="body">
+      <a:documentation>(cuerpo del texto) contiene el cuerpo completo de un texto unitario, excluyendo los eventuales añadidos paratextuales (prólogos, dedicatorias, apéndices, etc.) al inicio o fin de un texto. [4. Default Text Structure]</a:documentation>
+      <group>
+        <zeroOrMore>
+          <ref name="tei_model.global"/>
+        </zeroOrMore>
+        <optional>
+          <ref name="tei_model.divTop"/>
+          <zeroOrMore>
+            <choice>
+              <ref name="tei_model.global"/>
+              <ref name="tei_model.divTop"/>
+            </choice>
+          </zeroOrMore>
+        </optional>
+        <optional>
+          <ref name="tei_model.divGenLike"/>
+          <zeroOrMore>
+            <choice>
+              <ref name="tei_model.global"/>
+              <ref name="tei_model.divGenLike"/>
+            </choice>
+          </zeroOrMore>
+        </optional>
+        <choice>
+          <oneOrMore>
+            <ref name="tei_model.divLike"/>
+            <zeroOrMore>
+              <choice>
+                <ref name="tei_model.global"/>
+                <ref name="tei_model.divGenLike"/>
+              </choice>
+            </zeroOrMore>
+          </oneOrMore>
+          <oneOrMore>
+            <ref name="tei_model.div1Like"/>
+            <zeroOrMore>
+              <choice>
+                <ref name="tei_model.global"/>
+                <ref name="tei_model.divGenLike"/>
+              </choice>
+            </zeroOrMore>
+          </oneOrMore>
+          <group>
+            <oneOrMore>
+              <ref name="tei_model.common"/>
+              <zeroOrMore>
+                <ref name="tei_model.global"/>
+              </zeroOrMore>
+            </oneOrMore>
+            <optional>
+              <choice>
+                <oneOrMore>
+                  <ref name="tei_model.divLike"/>
+                  <zeroOrMore>
+                    <choice>
+                      <ref name="tei_model.global"/>
+                      <ref name="tei_model.divGenLike"/>
+                    </choice>
+                  </zeroOrMore>
+                </oneOrMore>
+                <oneOrMore>
+                  <ref name="tei_model.div1Like"/>
+                  <zeroOrMore>
+                    <choice>
+                      <ref name="tei_model.global"/>
+                      <ref name="tei_model.divGenLike"/>
+                    </choice>
+                  </zeroOrMore>
+                </oneOrMore>
+              </choice>
+            </optional>
+          </group>
+        </choice>
+        <zeroOrMore>
+          <ref name="tei_model.divBottom"/>
+          <zeroOrMore>
+            <ref name="tei_model.global"/>
+          </zeroOrMore>
+        </zeroOrMore>
+      </group>
+      <ref name="tei_att.global.attributes"/>
+      <ref name="tei_att.declaring.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_att.msExcerpt.attributes">
+    <ref name="tei_att.msExcerpt.attribute.defective"/>
+  </define>
+  <define name="tei_att.msExcerpt.attribute.defective">
+    <optional>
+      <attribute name="defective" a:defaultValue="false">
+        <a:documentation>indica si el pasaje que se describe es completo o no, p.ej. si ha sufrido pérdidas o daños.</a:documentation>
+        <ref name="tei_data.xTruthValue"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_msDesc">
+    <element name="msDesc">
+      <a:documentation>(descripción del manuscrito) contiene la definición de un único manuscrito. [10.1. Overview]</a:documentation>
+      <group>
+        <ref name="tei_msIdentifier"/>
+        <zeroOrMore>
+          <ref name="tei_model.headLike"/>
+        </zeroOrMore>
+        <choice>
+          <oneOrMore>
+            <ref name="tei_model.pLike"/>
+          </oneOrMore>
+          <optional>
+            <ref name="tei_msContents"/>
+          </optional>
+        </choice>
+      </group>
+      <ref name="tei_att.global.attributes"/>
+      <ref name="tei_att.sortable.attributes"/>
+      <ref name="tei_att.typed.attributes"/>
+      <ref name="tei_att.declaring.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_locus">
+    <element name="locus">
+      <a:documentation>define una posición al interno de un manuscrito o de una de sus partes, generalmente como secuencia (no necesariamete contínua) de referencias de folios. [10.3.5. References to Locations within a Manuscript]</a:documentation>
+      <ref name="tei_macro.xtext"/>
+      <ref name="tei_att.global.attributes"/>
+      <ref name="tei_att.pointing.attributes"/>
+      <optional>
+        <attribute name="scheme">
+          <a:documentation>identifica la foliación en base a la posición especificada.</a:documentation>
+          <ref name="tei_data.pointer"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="from">
+          <a:documentation>indica el punto de inicio de una localización en una forma estándard.</a:documentation>
+          <ref name="tei_data.word"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="to">
+          <a:documentation>indica el punto final de una localización en una forma estándard.</a:documentation>
+          <ref name="tei_data.word"/>
+        </attribute>
+      </optional>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_origDate">
+    <element name="origDate">
+      <a:documentation>(fecha origen) contiene cualquier tipo de fecha utilizada para indicar la fecha de origen de un manuscrito o de una de sus partes. [10.3.1. Origination]</a:documentation>
+      <zeroOrMore>
+        <choice>
+          <text/>
+          <ref name="tei_model.gLike"/>
+          <ref name="tei_model.phrase"/>
+          <ref name="tei_model.global"/>
+        </choice>
+      </zeroOrMore>
+      <ref name="tei_att.global.attributes"/>
+      <ref name="tei_att.datable.attributes"/>
+      <ref name="tei_att.editLike.attributes"/>
+      <ref name="tei_att.typed.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_msIdentifier">
+    <element name="msIdentifier">
+      <a:documentation>(identificador del manuscrito) contiene la información necesaria para identificar el manuscrito que se examina. [10.4. The Manuscript Identifier]</a:documentation>
+      <group>
+        <group>
+          <ref name="tei_model.placeNamePart_sequenceOptional"/>
+          <optional>
+            <ref name="tei_repository"/>
+          </optional>
+          <optional>
+            <ref name="tei_idno"/>
+          </optional>
+        </group>
+        <zeroOrMore>
+          <ref name="tei_altIdentifier"/>
+        </zeroOrMore>
+      </group>
+      <sch:pattern id="myTEI-msIdentifier-msId_minimal-constraint-2">
+            <sch:rule context="tei:msIdentifier">
+               <sch:report test="not(parent::tei:msPart) and       (local-name(*[1])='idno' or       local-name(*[1])='altIdentifier' or       normalize-space(.)='')">An msIdentifier must contain either a repository or location of some type, or a manuscript name</sch:report>
+
+            </sch:rule>
+
+         </sch:pattern>
+      <ref name="tei_att.global.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_repository">
+    <element name="repository">
+      <a:documentation>contiene el nombre de un depósito, parte o no de una institución, en el que se conservan los manuscritos. [10.4. The Manuscript Identifier]</a:documentation>
+      <ref name="tei_macro.xtext"/>
+      <ref name="tei_att.global.attributes"/>
+      <ref name="tei_att.naming.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_altIdentifier">
+    <element name="altIdentifier">
+      <a:documentation>(identificador alternativo) contiene un identificador estructurado, alternativo o precedente, utilizado para un manuscrito, p.ej. un número antiguo de catalogación. [10.4. The Manuscript Identifier]</a:documentation>
+      <group>
+        <ref name="tei_model.placeNamePart_sequenceOptional"/>
+        <optional>
+          <ref name="tei_repository"/>
+        </optional>
+        <ref name="tei_idno"/>
+        <optional>
+          <ref name="tei_note"/>
+        </optional>
+      </group>
+      <ref name="tei_att.global.attributes"/>
+      <ref name="tei_att.typed.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_msContents">
+    <element name="msContents">
+      <a:documentation>(contenido del manuscrito) describe el contenido intelectual de un manuscrito o parte de un manuscrito, a través de párrafos o fragemtos del manuscrito. [10.6. Intellectual Content]</a:documentation>
+      <choice>
+        <oneOrMore>
+          <ref name="tei_model.pLike"/>
+        </oneOrMore>
+        <zeroOrMore>
+          <ref name="tei_msItem"/>
+        </zeroOrMore>
+      </choice>
+      <ref name="tei_att.global.attributes"/>
+      <ref name="tei_att.msExcerpt.attributes"/>
+      <optional>
+        <attribute name="class">
+          <a:documentation>dentifica la tipología textual u otras clasificaciones aplicables al objeto en cuestión.</a:documentation>
+          <list>
+            <oneOrMore>
+              <ref name="tei_data.pointer"/>
+            </oneOrMore>
+          </list>
+        </attribute>
+      </optional>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_msItem">
+    <element name="msItem">
+      <a:documentation>(elemento del manuscrito) describe una obra individual o un elemento al interno del contenido intelectual de un manuscrito o de una de sus partes. [10.6.1. The msItem and msItemStruct Elements]</a:documentation>
+      <group>
+        <zeroOrMore>
+          <ref name="tei_locus"/>
+        </zeroOrMore>
+        <choice>
+          <oneOrMore>
+            <ref name="tei_model.pLike"/>
+          </oneOrMore>
+          <oneOrMore>
+            <choice>
+              <ref name="tei_model.titlepagePart"/>
+              <ref name="tei_model.msItemPart"/>
+              <ref name="tei_model.global"/>
+            </choice>
+          </oneOrMore>
+        </choice>
+      </group>
+      <ref name="tei_att.global.attributes"/>
+      <ref name="tei_att.msExcerpt.attributes"/>
+      <optional>
+        <attribute name="class">
+          <a:documentation>identifica la tipología textual u otras clasificaciones aplicables al objeto en cuestión.</a:documentation>
+          <list>
+            <oneOrMore>
+              <ref name="tei_data.pointer"/>
+            </oneOrMore>
+          </list>
+        </attribute>
+      </optional>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_particDesc">
+    <element name="particDesc">
+      <a:documentation>(descripción de participación) describe los hablantes identificables, voces u otros participantes de una interacción lingüística. [15.2. Contextual Information]</a:documentation>
+      <choice>
+        <oneOrMore>
+          <ref name="tei_model.pLike"/>
+        </oneOrMore>
+        <oneOrMore>
+          <choice>
+            <ref name="tei_model.personLike"/>
+            <ref name="tei_listPerson"/>
+          </choice>
+        </oneOrMore>
+      </choice>
+      <ref name="tei_att.global.attributes"/>
+      <ref name="tei_att.declarable.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_settingDesc">
+    <element name="settingDesc">
+      <a:documentation>(descripción de realización) describe en prosa, o mediante una serie de elementos de realización, la realización o realizaciones dentro de las cuales una interacción lingüística tiene lugar. [15.2. Contextual Information 2.4. The Profile Description]</a:documentation>
+      <choice>
+        <oneOrMore>
+          <ref name="tei_model.pLike"/>
+        </oneOrMore>
+        <oneOrMore>
+          <choice>
+            <ref name="tei_setting"/>
+            <ref name="tei_model.placeLike"/>
+            <ref name="tei_listPlace"/>
+          </choice>
+        </oneOrMore>
+      </choice>
+      <ref name="tei_att.global.attributes"/>
+      <ref name="tei_att.declarable.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_setting">
+    <element name="setting">
+      <a:documentation>describe una realización particular en la que una interacción lingüística tiene lugar. [15.2.3. The Setting Description]</a:documentation>
+      <choice>
+        <oneOrMore>
+          <ref name="tei_model.pLike"/>
+        </oneOrMore>
+        <zeroOrMore>
+          <choice>
+            <ref name="tei_model.nameLike.agent"/>
+            <ref name="tei_model.dateLike"/>
+            <ref name="tei_model.settingPart"/>
+          </choice>
+        </zeroOrMore>
+      </choice>
+      <ref name="tei_att.global.attributes"/>
+      <ref name="tei_att.ascribed.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_att.datable.custom.attributes">
+    <ref name="tei_att.datable.custom.attribute.when-custom"/>
+    <ref name="tei_att.datable.custom.attribute.notBefore-custom"/>
+    <ref name="tei_att.datable.custom.attribute.notAfter-custom"/>
+    <ref name="tei_att.datable.custom.attribute.from-custom"/>
+    <ref name="tei_att.datable.custom.attribute.to-custom"/>
+    <ref name="tei_att.datable.custom.attribute.datingPoint"/>
+    <ref name="tei_att.datable.custom.attribute.datingMethod"/>
+  </define>
+  <define name="tei_att.datable.custom.attribute.when-custom">
+    <optional>
+      <attribute name="when-custom">
+        <a:documentation>supplies the value of a date or time in some custom standard form.</a:documentation>
+        <list>
+          <oneOrMore>
+            <ref name="tei_data.word"/>
+          </oneOrMore>
+        </list>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.datable.custom.attribute.notBefore-custom">
+    <optional>
+      <attribute name="notBefore-custom">
+        <a:documentation>specifies the earliest possible date for the event in some custom standard form.</a:documentation>
+        <list>
+          <oneOrMore>
+            <ref name="tei_data.word"/>
+          </oneOrMore>
+        </list>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.datable.custom.attribute.notAfter-custom">
+    <optional>
+      <attribute name="notAfter-custom">
+        <a:documentation>specifies the latest possible date for the event in some custom standard form.</a:documentation>
+        <list>
+          <oneOrMore>
+            <ref name="tei_data.word"/>
+          </oneOrMore>
+        </list>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.datable.custom.attribute.from-custom">
+    <optional>
+      <attribute name="from-custom">
+        <a:documentation>indicates the starting point of the period in some custom standard form.</a:documentation>
+        <list>
+          <oneOrMore>
+            <ref name="tei_data.word"/>
+          </oneOrMore>
+        </list>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.datable.custom.attribute.to-custom">
+    <optional>
+      <attribute name="to-custom">
+        <a:documentation>indicates the ending point of the period in some custom standard form.</a:documentation>
+        <list>
+          <oneOrMore>
+            <ref name="tei_data.word"/>
+          </oneOrMore>
+        </list>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.datable.custom.attribute.datingPoint">
+    <optional>
+      <attribute name="datingPoint">
+        <a:documentation>supplies a pointer to some location defining a named point in time with reference to which the datable item is understood to have occurred</a:documentation>
+        <ref name="tei_data.pointer"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.datable.custom.attribute.datingMethod">
+    <optional>
+      <attribute name="datingMethod">
+        <a:documentation>supplies a pointer to a calendar element or other means of interpreting the values of the custom dating attributes.</a:documentation>
+        <ref name="tei_data.pointer"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_model.persNamePart">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.persNamePart_alternation">
+    <notAllowed/>
+  </define>
+  <define name="tei_model.persNamePart_sequence">
+    <empty/>
+  </define>
+  <define name="tei_model.persNamePart_sequenceOptional">
+    <empty/>
+  </define>
+  <define name="tei_model.persNamePart_sequenceOptionalRepeatable">
+    <empty/>
+  </define>
+  <define name="tei_model.persNamePart_sequenceRepeatable">
+    <notAllowed/>
+  </define>
+  <define name="tei_att.datable.iso.attributes">
+    <ref name="tei_att.datable.iso.attribute.when-iso"/>
+    <ref name="tei_att.datable.iso.attribute.notBefore-iso"/>
+    <ref name="tei_att.datable.iso.attribute.notAfter-iso"/>
+    <ref name="tei_att.datable.iso.attribute.from-iso"/>
+    <ref name="tei_att.datable.iso.attribute.to-iso"/>
+  </define>
+  <define name="tei_att.datable.iso.attribute.when-iso">
+    <optional>
+      <attribute name="when-iso">
+        <a:documentation>proporciona el valor de fecha o de tiempo en una forma estándar.</a:documentation>
+        <ref name="tei_data.temporal.iso"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.datable.iso.attribute.notBefore-iso">
+    <optional>
+      <attribute name="notBefore-iso">
+        <a:documentation>indica la fecha más temprana posible para un evento en un formato estándard, p.ej. aaaa-mm-dd.</a:documentation>
+        <ref name="tei_data.temporal.iso"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.datable.iso.attribute.notAfter-iso">
+    <optional>
+      <attribute name="notAfter-iso">
+        <a:documentation>indica la fecha más tardana posible para un evento en un formato estándard, p.ej. aaaa-mm-dd.</a:documentation>
+        <ref name="tei_data.temporal.iso"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.datable.iso.attribute.from-iso">
+    <optional>
+      <attribute name="from-iso">
+        <a:documentation>indica el punto de inicio de un periodo de tiempo en formato estándard.</a:documentation>
+        <ref name="tei_data.temporal.iso"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.datable.iso.attribute.to-iso">
+    <optional>
+      <attribute name="to-iso">
+        <a:documentation>indica en forma estándard el punto de conclusión de un período.</a:documentation>
+        <ref name="tei_data.temporal.iso"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_persName">
+    <element name="persName">
+      <a:documentation>(nombre propio de persona) contiene un nombre propio o un sintagma identificable como un nombre propio, que se refiere a una persona y puede incluir cualquier o todos los nombres de pila, apellidos, títulos honoríficos, o nombres añadidos de la persona en cuestión. [13.2.1. Personal Names]</a:documentation>
+      <ref name="tei_macro.phraseSeq"/>
+      <ref name="tei_att.global.attributes"/>
+      <ref name="tei_att.datable.attributes"/>
+      <ref name="tei_att.editLike.attributes"/>
+      <ref name="tei_att.personal.attributes"/>
+      <ref name="tei_att.typed.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_placeName">
+    <element name="placeName">
+      <a:documentation>contiene la indicación absoluta o relativa de un nombre de lugar. [13.2.3. Place Names]</a:documentation>
+      <ref name="tei_macro.phraseSeq"/>
+      <ref name="tei_att.datable.attributes"/>
+      <ref name="tei_att.editLike.attributes"/>
+      <ref name="tei_att.global.attributes"/>
+      <ref name="tei_att.personal.attributes"/>
+      <ref name="tei_att.typed.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_listPerson">
+    <element name="listPerson">
+      <a:documentation>(lista de personas) contiene una lista de descripciones, y cada una de las cuales proporciona información relativa a una persona específica o a un grupo de personas, p.ej, los participantes de una interacción verbal o las personas referidas en una fuente histórica. [13.3.2. The Person Element 15.2. Contextual Information 2.4. The Profile Description 15.3.2. Declarable Elements]</a:documentation>
+      <group>
+        <zeroOrMore>
+          <ref name="tei_model.headLike"/>
+        </zeroOrMore>
+        <oneOrMore>
+          <choice>
+            <ref name="tei_model.personLike"/>
+            <ref name="tei_listPerson"/>
+          </choice>
+        </oneOrMore>
+        <zeroOrMore>
+          <empty/>
+        </zeroOrMore>
+      </group>
+      <ref name="tei_att.global.attributes"/>
+      <ref name="tei_att.typed.attributes"/>
+      <ref name="tei_att.declarable.attributes"/>
+      <ref name="tei_att.sortable.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_listPlace">
+    <element name="listPlace">
+      <a:documentation>(lista de lugares) contiene una lista de lugares, seguida opcionalmente por una lista de interelaciones (a excepción de la inclusión) definidas entre ellos. [2.2.7. The Source Description 13.3.4. Places]</a:documentation>
+      <group>
+        <zeroOrMore>
+          <ref name="tei_model.headLike"/>
+        </zeroOrMore>
+        <oneOrMore>
+          <choice>
+            <ref name="tei_model.placeLike"/>
+            <ref name="tei_listPlace"/>
+          </choice>
+        </oneOrMore>
+        <zeroOrMore>
+          <empty/>
+        </zeroOrMore>
+      </group>
+      <ref name="tei_att.global.attributes"/>
+      <ref name="tei_att.typed.attributes"/>
+      <ref name="tei_att.declarable.attributes"/>
+      <ref name="tei_att.sortable.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_person">
+    <element name="person">
+      <a:documentation>proporciona información relativa a un individuo específico, p.ej. un participante de una interacción verbal o una persona identificada por una fuente histórica. [13.3.2. The Person Element 15.2.2. The Participant Description]</a:documentation>
+      <choice>
+        <oneOrMore>
+          <ref name="tei_model.pLike"/>
+        </oneOrMore>
+        <zeroOrMore>
+          <choice>
+            <ref name="tei_model.personPart"/>
+            <ref name="tei_model.global"/>
+          </choice>
+        </zeroOrMore>
+      </choice>
+      <ref name="tei_att.global.attributes"/>
+      <ref name="tei_att.editLike.attributes"/>
+      <ref name="tei_att.sortable.attributes"/>
+      <optional>
+        <attribute name="role">
+          <a:documentation>establece el rol o la clasificación primaria de una persona.</a:documentation>
+          <list>
+            <oneOrMore>
+              <ref name="tei_data.enumerated"/>
+            </oneOrMore>
+          </list>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="sex">
+          <a:documentation>especifica el sexo de una persona.</a:documentation>
+          <list>
+            <oneOrMore>
+              <ref name="tei_data.sex"/>
+            </oneOrMore>
+          </list>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="age">
+          <a:documentation>especifica un intervalo de edad para una persona.</a:documentation>
+          <ref name="tei_data.enumerated"/>
+        </attribute>
+      </optional>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_place">
+    <element name="place">
+      <a:documentation>contiene los datos sobre una localización geográfica [13.3.4. Places]</a:documentation>
+      <group>
+        <zeroOrMore>
+          <ref name="tei_model.headLike"/>
+        </zeroOrMore>
+        <choice>
+          <zeroOrMore>
+            <ref name="tei_model.pLike"/>
+          </zeroOrMore>
+          <zeroOrMore>
+            <choice>
+              <ref name="tei_model.labelLike"/>
+              <ref name="tei_model.placeStateLike"/>
+              <ref name="tei_model.placeEventLike"/>
+            </choice>
+          </zeroOrMore>
+        </choice>
+        <zeroOrMore>
+          <choice>
+            <ref name="tei_model.noteLike"/>
+            <ref name="tei_model.biblLike"/>
+            <ref name="tei_idno"/>
+          </choice>
+        </zeroOrMore>
+        <zeroOrMore>
+          <choice>
+            <ref name="tei_model.placeLike"/>
+            <ref name="tei_listPlace"/>
+          </choice>
+        </zeroOrMore>
+      </group>
+      <ref name="tei_att.global.attributes"/>
+      <ref name="tei_att.typed.attributes"/>
+      <ref name="tei_att.editLike.attributes"/>
+      <ref name="tei_att.sortable.attributes"/>
+      <empty/>
+    </element>
+  </define>
+  <define name="tei_att.metrical.attributes">
+    <ref name="tei_att.metrical.attribute.isometrismo"/>
+    <ref name="tei_att.metrical.attribute.isoestrofismo"/>
+    <ref name="tei_att.metrical.attribute.asonancia"/>
+    <ref name="tei_att.metrical.attribute.unisonancia"/>
+    <ref name="tei_att.metrical.attribute.met"/>
+    <ref name="tei_att.metrical.attribute.real"/>
+    <ref name="tei_att.metrical.attribute.rhyme"/>
+  </define>
+  <define name="tei_att.metrical.attribute.isometrismo">
+    <optional>
+      <attribute name="isometrismo">
+        <a:documentation>isometrismo</a:documentation>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.metrical.attribute.isoestrofismo">
+    <optional>
+      <attribute name="isoestrofismo">
+        <a:documentation>isoestrofismo</a:documentation>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.metrical.attribute.asonancia">
+    <optional>
+      <attribute name="asonancia">
+        <a:documentation>asonancia</a:documentation>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.metrical.attribute.unisonancia">
+    <optional>
+      <attribute name="unisonancia">
+        <a:documentation>unisonancia</a:documentation>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.metrical.attribute.met">
+    <optional>
+      <attribute name="met">
+        <a:documentation>(estructura métrica, convencional) contiene una codificación definida por el usuario de la estructura métrica convencional del elemento.</a:documentation>
+        <data type="token"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.metrical.attribute.real">
+    <optional>
+      <attribute name="real">
+        <a:documentation>(estructura métrica, realizada) contiene un codificación definida por el usuario para la realización efectiva de la estructura métrica convencional aplicable al elemento.</a:documentation>
+        <data type="token"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.metrical.attribute.rhyme">
+    <optional>
+      <attribute name="rhyme">
+        <a:documentation>(esquema de la rima) especifica el esquema de la rima de un grupo de versos.</a:documentation>
+        <data type="token"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_att.enjamb.attributes">
+    <ref name="tei_att.enjamb.attribute.enjamb"/>
+  </define>
+  <define name="tei_att.enjamb.attribute.enjamb">
+    <optional>
+      <attribute name="enjamb">
+        <a:documentation>(encabalgamiento) indica que el final de un verso está caracterizada por un encabalgamiento.
+Posibles valores: 1] no; 2] yes; 3] weak; 4] strong</a:documentation>
+        <ref name="tei_data.enumerated"/>
+      </attribute>
+    </optional>
+  </define>
+  <define name="tei_rhyme">
+    <element name="rhyme">
+      <a:documentation>señala una parte del esquema rítmico de un verso [6.5. Rhyme]</a:documentation>
+      <ref name="tei_macro.paraContent"/>
+      <ref name="tei_att.global.attributes"/>
+      <ref name="tei_att.typed.attributes"/>
+      <optional>
+        <attribute name="label">
+          <a:documentation>proporciona una etiqueta que identifica que parte del esquema rítmico representa la serie de caracteres en cuestión.</a:documentation>
+          <ref name="tei_data.word"/>
+        </attribute>
+      </optional>
+      <empty/>
+    </element>
+  </define>
+  <start>
+    <ref name="tei_TEI"/>
+  </start>
+</grammar>

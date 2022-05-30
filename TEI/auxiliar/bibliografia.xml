@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Índice bibliográfico</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Gimena del Rio Riande</authority>
+            <availability>
+               <licence>
+                  <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+                                        International</ref>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listBibl>
+            <bibl type="url"> 
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts</publisher>
+                  
+                        <idno n="1225"> Dutton 1225</idno>
+                        <ref>http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&amp;sms=1&amp;item=85&amp;entry=ID1225%20R%201224#PN185ID1225_R_1224</ref>
+                    </bibl>
+            <bibl type="url"> 
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts</publisher>
+                        <idno n="172"> Dutton 172</idno>
+                        <ref>http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&amp;sms=1&amp;item=83&amp;entry=ID0172%20R%200171#PN183ID0172_R_0171</ref>
+                    </bibl>
+            <bibl type="url"> 
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts</publisher>
+  
+                        <idno n="1677">Dutton 1677</idno>
+                        <ref>http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&amp;sms=1&amp;item=554&amp;entry=ID1677%20R%201676#PN1554ID1677_R_1676</ref>
+                    </bibl>
+            <bibl type="url"> 
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts</publisher>
+  
+                        <idno n="1235">Dutton 1235</idno>
+                        <ref>http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&amp;sms=1&amp;item=95&amp;entry=ID1235%20R%201234#PN195ID1235_R_1234</ref>
+                    </bibl>
+            <bibl type="url"> 
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts</publisher>
+  
+                        <idno n="504">Dutton 504</idno>
+                        <ref>http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&amp;sms=1&amp;item=547&amp;entry=ID0504#PN1547ID0504</ref>
+                    </bibl>
+            <bibl type="url"> 
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts</publisher>
+  
+                        <idno n="1262">Dutton 1262</idno>
+                        <ref>http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&amp;sms=1&amp;item=122&amp;entry=ID1262#PN1122ID1262</ref>
+                    </bibl>
+            <bibl type="url"> 
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts</publisher>
+  
+                        <idno n="1224"> Duuton 1224</idno>
+                        <ref>http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&amp;sms=1&amp;item=84&amp;entry=ID1224#PN184ID1224</ref>
+                    </bibl>
+            <bibl type="url"> 
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts</publisher>
+  
+                        <idno n="1233">Dutton 1233</idno>
+                        <ref>http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&amp;sms=1&amp;item=93&amp;entry=ID1233%20R%201232#PN193ID1233_R_1232</ref>
+                    </bibl>
+            <bibl type="url"> 
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts</publisher>
+  
+                        <idno n="1228">Dutton 1228</idno>
+                        <ref>http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&amp;sms=1&amp;item=88&amp;entry=ID1228#PN188ID1228</ref>
+                    </bibl>
+            <bibl type="url"> 
+                            <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts</publisher>
+                            <idno n="171">Dutton 171</idno>
+                            <ref> http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&amp;sms=1&amp;item=82&amp;entry=ID0171#PN182ID0171</ref>
+                        </bibl>
+            <bibl type="url"> 
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts</publisher>
+  
+                        <idno n="1226">Dutton 1226</idno>
+                        <ref>http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&amp;sms=1&amp;item=86&amp;entry=ID1226#PN186ID1226</ref>
+                    </bibl>
+            <bibl type="url"> 
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts</publisher>
+  
+                        <idno n="1676">Dutton 1676</idno>
+                        <ref>http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&amp;sms=1&amp;item=553&amp;entry=ID1676#PN1553ID1676</ref>
+                    </bibl>
+            <bibl type="url"> 
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts</publisher>
+  
+                        <idno n="1231">Dutton 1231</idno>
+                        <ref>http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&amp;sms=1&amp;item=91&amp;entry=ID1231%20R%201230#PN191ID1231_R_1230</ref>
+                    </bibl>
+            <bibl type="url"> 
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts</publisher>
+  
+                        <idno n="1232">Dutton 1232</idno>
+                        <ref>http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&amp;sms=1&amp;item=107&amp;entry=ID1247#PN1107ID1247</ref>
+                    </bibl>
+            <bibl type="url"> 
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts</publisher>
+  
+                        <idno n="1232">Dutton 1232</idno>
+                        <ref>http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&amp;sms=1&amp;item=94&amp;entry=ID1234#PN194ID1234</ref>
+                    </bibl>
+            <bibl type="url"> 
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts</publisher>
+                        <idno n="505"> Dutton 505</idno>
+                        <ref>http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&amp;sms=1&amp;item=548&amp;entry=ID0505%20R%200504#PN1548ID0505_R_0504</ref>
+                    </bibl>
+            <bibl type="url">
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero
+                            Manuscripts</publisher>
+                        <idno n="1223"> Dutton 1223</idno>
+                        <ref>http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&amp;sms=1&amp;item=81&amp;entry=ID1223%20R%201222#PN181ID1223_R_1222</ref>
+                    </bibl>
+            <bibl type="url"> 
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts</publisher>
+                        <idno n="1250"> Dutton 1250</idno>
+                        <ref>http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&amp;sms=1&amp;item=110&amp;entry=ID1250%20R%201249#PN1110ID1250_R_1249</ref>
+                    </bibl>
+            <bibl type="url"> 
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts</publisher>
+                        <idno n="1249"> Dutton 1249</idno>
+                        <ref>http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&amp;sms=1&amp;item=109&amp;entry=ID1249%20R%201248#PN1109ID1249_R_1248</ref>
+                    </bibl>
+            <bibl type="url"> 
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts</publisher>
+  
+                        <idno n="1229">Dutton 1229</idno>
+                        <ref>http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&amp;sms=1&amp;item=89&amp;entry=ID1229%20R%201228#PN189ID1229_R_1228</ref>
+                    </bibl>
+            <bibl type="url"> 
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts</publisher>
+  
+                        <idno n="1261">Dutton 1261</idno>
+                        <ref>http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&amp;sms=1&amp;item=121&amp;entry=ID1261#PN1121ID1261</ref>
+                    </bibl>
+            <bibl type="url"> 
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts</publisher>
+  
+                        <idno n="1248">Dutton 1248</idno>
+                        <ref>http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&amp;sms=1&amp;item=108&amp;entry=ID1248#PN1108ID1248</ref>
+                    </bibl>
+            <bibl type="url"> 
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts</publisher>
+  
+                        <idno n="1674">Dutton 1674</idno>
+                        <ref>http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&amp;sms=1&amp;item=550&amp;entry=ID1674#PN1550ID1674</ref>
+                    </bibl>
+            <bibl type="url"> 
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts</publisher>
+  
+                        <idno n="1232">Dutton 1232</idno>
+                        <ref>http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&amp;sms=1&amp;item=92&amp;entry=ID1232#PN192ID1232</ref>
+                    </bibl>
+            <bibl type="url"> 
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts</publisher>
+  
+                        <idno n="1230">Dutton 1230</idno>
+                        <ref>http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&amp;sms=1&amp;item=90&amp;entry=ID1230#PN190ID1230</ref>
+                    </bibl>
+            <bibl type="url"> 
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts</publisher>
+  
+                        <idno n="1673">Dutton 1673</idno>
+                        <ref>http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&amp;sms=1&amp;item=549&amp;entry=ID1673#PN1549ID1673</ref>
+                    </bibl>
+            <bibl type="url"> 
+                            <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts</publisher>
+                            <idno n="1221">Dutton 1221</idno>
+                            <ref> http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&amp;sms=1&amp;item=80&amp;entry=ID1222#PN180ID1222</ref>
+                        </bibl>
+            <bibl type="url"> 
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts</publisher>
+  
+                        <idno n="504">Dutton 504</idno>
+                        <ref>http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&amp;sms=1&amp;item=547&amp;entry=ID0504#PN1547ID0504</ref>
+                    </bibl>
+            <bibl type="url"> 
+                        <publisher>An Electronic Corpus of 15th Century Castilian Cancionero Manuscripts</publisher>
+  
+                        <idno n="1227">Dutton 1227</idno>
+                        <ref>http://cancionerovirtual.liv.ac.uk/AnaServer?dutton+0+start.anv+ms=PN&amp;sms=1&amp;item=87&amp;entry=ID1227%20R%201226#PN187ID1227_R_1226</ref>
+                    </bibl>
+         </listBibl>
+      </body>
+   </text>
+</TEI>

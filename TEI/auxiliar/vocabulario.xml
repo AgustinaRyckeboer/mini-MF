@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Vocabulario terminológico: poética</title>
+            <respStmt>
+               <resp>Recolección de datos, modelado y codificación</resp>
+               <name role="editor">Gimena del Rio Riande</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Gimena del Rio Riande</authority>
+            <availability>
+               <licence>
+                  <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+                                        International</ref>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <refsDecl xml:id="PMC">
+            <cRefPattern matchPattern="(.+)"
+                         replacementPattern="http://vocabularios.caicyt.gov.ar/pmc/$1">
+               <p/>
+            </cRefPattern>
+         </refsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div corresp="#PMC">
+            <entryFree>
+               <term n="17">Cantiga</term>
+            </entryFree>
+            <entryFree>
+               <term n="43">Contrafactum</term>
+            </entryFree>
+            <entryFree>
+               <term n="89">Razón</term>
+            </entryFree>
+            <entryFree>
+               <term n="113">Religión</term>
+            </entryFree>
+            <entryFree>
+               <term n="162">Pregunta</term>
+            </entryFree>
+            <entryFree>
+               <term n="163">Respuesta</term>
+            </entryFree>
+            <entryFree>
+               <term n="166">Consonantes</term>
+            </entryFree>
+            <entryFree>
+               <term n="168">Metrificar</term>
+            </entryFree>
+            <entryFree>
+               <term n="169">Apocalipsis</term>
+            </entryFree>
+            <entryFree>
+               <term n="171">Sotil</term>
+            </entryFree>
+            <entryFree>
+               <term n="173">Fundado</term>
+            </entryFree>
+            <entryFree>
+               <term n="174">Fazer</term>
+            </entryFree>
+            <entryFree>
+               <term n="175">Ordenar</term>
+            </entryFree>
+            <entryFree>
+               <term n="178">Lindo</term>
+            </entryFree>
+            <entryFree>
+               <term n="179">Declarar</term>
+            </entryFree>
+            <entryFree>
+               <term n="180">Dezir</term>
+            </entryFree>
+            <entryFree>
+               <term n="182">Poeta</term>
+            </entryFree>
+            <entryFree>
+               <term n="183">Sabidor</term>
+            </entryFree>
+            <entryFree>
+               <term n="184">Letrado</term>
+            </entryFree>
+            <entryFree>
+               <term n="186">Artezilla</term>
+            </entryFree>
+            <entryFree>
+               <term n="187">Dezir</term>
+            </entryFree>
+            <entryFree>
+               <term n="189">Limado</term>
+            </entryFree>
+            <entryFree>
+               <term n="190">Sabio</term>
+            </entryFree>
+            <entryFree>
+               <term n="191">Engeñoso</term>
+            </entryFree>
+            <entryFree>
+               <term n="192">Fazaña</term>
+            </entryFree>
+            <entryFree>
+               <term n="193">Poetría</term>
+            </entryFree>
+            <entryFree>
+               <term n="194">Compuesto</term>
+            </entryFree>
+            <entryFree>
+               <term n="195">Ciencia</term>
+            </entryFree>
+            <entryFree>
+               <term n="196">Fablilla</term>
+            </entryFree>
+            <entryFree>
+               <term n="197">Retoricado</term>
+            </entryFree>
+            <entryFree>
+               <term n="198">Arte</term>
+            </entryFree>
+            <entryFree>
+               <term n="199">Seguida</term>
+            </entryFree>
+            <entryFree>
+               <term n="200">Dictado</term>
+            </entryFree>
+            <entryFree>
+               <term n="202">Replicación</term>
+            </entryFree>
+            <entryFree>
+               <term n="203">Requesta</term>
+            </entryFree>
+            <entryFree>
+               <term n="204">Oscuro</term>
+            </entryFree>
+            <entryFree>
+               <term n="205">Fundado</term>
+            </entryFree>
+            <entryFree>
+               <term n="206">Fermoso</term>
+            </entryFree>
+            <entryFree>
+               <term n="207">Gayo</term>
+            </entryFree>
+            <entryFree>
+               <term n="208">Trovador</term>
+            </entryFree>
+            <entryFree>
+               <term n="209">Maestría</term>
+            </entryFree>
+            <entryFree>
+               <term n="210">Trovar</term>
+            </entryFree>
+            <entryFree>
+               <term n="211">Escandido</term>
+            </entryFree>
+            <entryFree>
+               <term n="212">Repregunta</term>
+            </entryFree>
+            
+            <entryFree>    
+               <term n="312">Metáfora</term>
+            </entryFree>
+        
+            <entryFree>
+               <term n="34">Copla</term>
+            </entryFree>
+            
+            
+         </div>
+      </body>
+   </text>
+</TEI>

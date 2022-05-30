@@ -1,0 +1,14 @@
+<script>
+    clicked = true;
+    $(document).ready(function(){
+        $("button").click(function(){
+            if(clicked){
+                $('.info').css('display', 'block');
+                clicked  = false;
+            } else {
+                $('.info').css('display', 'none');
+                clicked  = true;
+            }   
+        });
+    });
+</script>

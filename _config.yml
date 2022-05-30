@@ -1,0 +1,21 @@
+
+title: Poesía Medieval
+description: Reconstrucción y contrafactum en la poesía ibérica medieval.
+baseurl: "/Poesia-Medieval" # the subpath of your site, e.g. /blog
+url: "http://hdlab.space/" # the base hostname & protocol for your site
+github_repo: Poesia-Medieval # the GitHub repo name for your project
+github_username: hdcaicyt
+
+social_link: twitter
+social_username: hdcaicyt
+
+theme_color: light
+
+# Build settings
+markdown: kramdown
+
+collections:
+    cantigas:
+      output: true
+    preguntas_respuestas:
+      output: true

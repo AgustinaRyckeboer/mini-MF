@@ -1,0 +1,21 @@
+body {
+	font-family: arial;
+	font-size: 12px;
+	color: black;
+}
+.poem {
+	font-family: arial;
+	font-size: 10px;
+	color: black;
+}
+.celda_poema {
+	overflow-y:scroll;
+	max-height:250px;
+	max-width:300px;
+}
+.celda_simple{
+	max-width:250px;
+	word-wrap: break-word; 
+	overflow-wrap: break-word;
+}
+
