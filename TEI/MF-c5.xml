@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="esquema_verso_.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../MiniFierro/esquema_verso_.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
         <teiHeader>
             <fileDesc>
@@ -25,6 +25,205 @@
             <head>Canto V</head>
                 
                 <lg type="poema"  style="sexteto" unisonancia="singular" isometrismo="isométrico"  isoestrofismo="isoestrófico" asonancia="consonante" met="6x8">
+                    
+                    <lg n="134" rhyme="abbcbc">
+                        <l>Yo andaba desesper<rhyme>ao</rhyme>,</l>
+                        <l>Aguardando una ocas<rhyme>ion</rhyme></l>
+                        <l>Que los indios un mal<rhyme>on</rhyme></l>
+                        <l>Nos dieran, y entre el estr<rhyme>ago</rhyme></l>
+                        <l>Hacérmeles cimarr<rhyme>on</rhyme></l>
+                        <l>Y volverme pa mí p<rhyme>ago</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="135" rhyme="abbccb">
+                        <l>Aquello no era serv<rhyme>icio</rhyme></l>
+                        <l>Ni defender la front<rhyme>era</rhyme>-</l>
+                        <l>Aquello era raton<rhyme>era</rhyme></l>
+                        <l>En que es mas gato, el mas j<rhyme>uerte</rhyme>-</l>
+                        <l>Era jugar á la s<rhyme>uerte</rhyme></l>
+                        <l>Con una taba cul<rhyme>era</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="136" rhyme="abbccb">
+                        <l>Allí tuito vá al rev<rhyme>és</rhyme>;</l>
+                        <l>Los milicos se hacen pi<rhyme>ones</rhyme>,</l>
+                        <l>Y andan por las poblac<rhyme>iones</rhyme></l>
+                        <l>Emprestaos pa trabaj<rhyme>ar</rhyme>-</l>
+                        <l>Los rejuntan pa peli<rhyme>ar</rhyme></l>
+                        <l>Cuando entran Indios ladr<rhyme>ones</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="137" rhyme="abbccb">
+                        <l>Yo he visto en esa mil<rhyme>onga</rhyme></l>
+                        <l>Muchos Gefes con est<rhyme>ancia</rhyme>,</l>
+                        <l>Y piones en abund<rhyme>ancia</rhyme>,</l>
+                        <l>Y majadas y rod<rhyme>eos</rhyme>;</l>
+                        <l>He visto negocios f<rhyme>eos</rhyme></l>
+                        <l>A pesar de mi inor<rhyme>ancia</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="138" rhyme="abbccb"> 
+                        <l>Y colijo que no q<rhyme>uieren</rhyme></l>
+                        <l>La barunda compon<rhyme>er</rhyme>-</l>
+                        <l>Para esto no ha de ten<rhyme>er</rhyme></l>
+                        <l>El Gefe, aunque esté de est<rhyme>able</rhyme>-</l>
+                        <l>Mas que su poncho, y su s<rhyme>able</rhyme>,</l>
+                        <l>Su caballo y su deb<rhyme>er</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="139" rhyme="abbccb">
+                        <l>Ansina, pues, conoc<rhyme>iendo</rhyme></l>
+                        <l>Que aquel mal no tiene c<rhyme>ura</rhyme>,</l>
+                        <l>Que tal vez mi sepult<rhyme>ura</rhyme></l>
+                        <l>Si me quedo iba á encontr<rhyme>ar</rhyme></l>
+                        <l>Pensé en mandarme mud<rhyme>ar</rhyme></l>
+                        <l>Como cosa mas sig<rhyme>ura</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="140" rhyme="abbcbc">
+                        <l>Y pa mejor, una n<rhyme>oche</rhyme></l>
+                        <l>Qué estaquiada me peg<rhyme>aron</rhyme>!</l>
+                        <l>Casi me descoyunt<rhyme>aron</rhyme></l>
+                        <l>Por motivo de una gr<rhyme>esca</rhyme>-</l>
+                        <l>Ay juna, si me estir<rhyme>aron</rhyme></l>
+                        <l>Lo mesmo que guasca fr<rhyme>esca</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="141" rhyme="abbccb"> 
+                        <l>Jamás me puedo olvid<rhyme>ar</rhyme></l>
+                        <l>Lo que esa vez me pas<rhyme>ó</rhyme>-</l>
+                        <l>Dentrando una noche y<rhyme>o</rhyme></l>
+                        <l>Al fortin-un enganch<rhyme>ao</rhyme></l>
+                        <l>Que estaba medio mam<rhyme>ao</rhyme></l>
+                        <l>Allí me desconoci<rhyme>ó</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="142" rhyme="abbcbc">
+                        <l>Era un gringo tan b<rhyme>ozal</rhyme>,</l>
+                        <l>Que nada se le entend<rhyme>ia</rhyme>-</l>
+                        <l>¡Quién sabe de ande ser<rhyme>ia</rhyme>!</l>
+                        <l>Tal vez no juera crist<rhyme>iano</rhyme>;</l>
+                        <l>Pues lo único que dec<rhyme>ia</rhyme></l>
+                        <l>Es que era papo-lit<rhyme>ano</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="143" rhyme="abbcbc"> 
+                        <l>Estaba de centin<rhyme>ela</rhyme></l>
+                        <l>Y por causa del pel<rhyme>udo</rhyme></l>
+                        <l>Verme mas claro no p<rhyme>udo</rhyme></l>
+                        <l>Y esa jué la culpa t<rhyme>oda</rhyme>-</l>
+                        <l>El bruto se asustó al ñ<rhyme>udo</rhyme></l>
+                        <l>Y fí el pavo de la b<rhyme>oda</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="144" rhyme="abbccb"> 
+                        <l>Cuanto me vido acerc<rhyme>ar</rhyme></l>
+                        <l>"Quen vivore"....pregunt<rhyme>ó</rhyme>,</l>
+                        <l>"Qué vívoras"-dije y<rhyme>o</rhyme>-</l>
+                        <l>"Ha-garto"-me pegó el gr<rhyme>ito</rhyme>:</l>
+                        <l>Y yo dije despac<rhyme>ito</rhyme></l>
+                        <l>"Mas lagarto serás v<rhyme>os</rhyme>."</l>
+                    </lg>
+                    
+                    <lg n="145" rhyme="abbccb">
+                        <l>Ay no mas-Cristo me v<rhyme>alga</rhyme>!</l>
+                        <l>Rastrillar el jusil s<rhyme>iento</rhyme>-</l>
+                        <l>Me agaché, y en el mom<rhyme>ento</rhyme></l>
+                        <l>El bruto me largó un ch<rhyme>umbo</rhyme>-</l>
+                        <l>Mamao, me tiré sin r<rhyme>umbo</rhyme></l>
+                        <l>Que sinó, no cuento el c<rhyme>uento</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="146" rhyme="abbccb">
+                        <l>Por de contao, con el t<rhyme>iro</rhyme></l>
+                        <l>Se alborotó el abisp<rhyme>ero</rhyme>-</l>
+                        <l>Los Oficiales sal<rhyme>ieron</rhyme></l>
+                        <l>Y se empezó la junc<rhyme>ion</rhyme>-</l>
+                        <l>Quedó en su puesto el nac<rhyme>ion</rhyme>-</l>
+                        <l>Y yo fí al estaquiad<rhyme>ero</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="147" rhyme="abbccb">
+                    <note>el tercer verso tiene rima asonante</note>    
+                        <l>Entre cuatro bayon<rhyme>etas</rhyme></l>
+                        <l>Me tendieron en el s<rhyme>uelo</rhyme>-</l>
+                        <l>Vino el Mayor medio en p<rhyme>edo</rhyme>,</l>
+                        <l>Y allí se puso á grit<rhyme>ar</rhyme></l>
+                        <l>"Pícaro, te he de enseñ<rhyme>ar</rhyme></l>
+                        <l>"A andar declamando s<rhyme>ueldos</rhyme>."</l>
+                    </lg>
+                    
+                    <lg n="148" rhyme="abbccb">
+                        <l>De las manos y las p<rhyme>atas</rhyme></l>
+                        <l>Me ataron cuatro sinch<rhyme>ones</rhyme>-</l>
+                        <l>Les aguanté los tir<rhyme>ones</rhyme></l>
+                        <l>Sin que ni un ay! se me oy<rhyme>era</rhyme>,</l>
+                        <l>Y al gringo la noche ent<rhyme>era</rhyme></l>
+                        <l>Lo harté con mis maldic<rhyme>iones</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="149" rhyme="abbccb">
+                        <l>Yo no sé porque el Gob<rhyme>ierno</rhyme></l>
+                        <l>Nos manda aquí á la front<rhyme>era</rhyme></l>
+                        <l>Gringada que ni siqu<rhyme>iera</rhyme></l>
+                        <l>Se sabe atracar á un p<rhyme>ingo</rhyme>-</l>
+                        <l>¡Si crerá al mandar un gr<rhyme>ingo</rhyme></l>
+                        <l>¡Que nos manda alguna f<rhyme>iera</rhyme>!!</l>
+                    </lg>
+                    
+                    <lg n="150" rhyme="abbccb">
+                        <l>No hacen mas que dar trab<rhyme>ajo</rhyme></l>
+                        <l>Pues no saben ni ensill<rhyme>ar</rhyme>,-</l>
+                        <l>No sirven ni pa carn<rhyme>iar</rhyme>,</l>
+                        <l>Y yo he visto muchas v<rhyme>eces</rhyme>,</l>
+                        <l>Que ni voltiadas las r<rhyme>eses</rhyme></l>
+                        <l>Se les querían arrim<rhyme>ar</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="151" rhyme="abbccb">
+                        <l>Y lo pasan sus merc<rhyme>edes</rhyme></l>
+                        <l>Lengüetiando pico á p<rhyme>ico</rhyme>-</l>
+                        <l>Hasta que viene un mil<rhyme>ico</rhyme></l>
+                        <l>A servirles al as<rhyme>ao</rhyme>-</l>
+                        <l>Y eso sí en lo delic<rhyme>aos</rhyme></l>
+                        <l>Parecen hijos de r<rhyme>ico</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="152" rhyme="abbccb">
+                        <l>Si hay calor, ya no son g<rhyme>ente</rhyme>,</l>
+                        <l>Si yela, todos tir<rhyme>itan</rhyme>-</l>
+                        <l>Si usté no les da, no p<rhyme>itan</rhyme></l>
+                        <l>Por no gastar en tab<rhyme>aco</rhyme>,-</l>
+                        <l>Y cuando pescan un n<rhyme>aco</rhyme></l>
+                        <l>Uno á otros se lo q<rhyme>uitan</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="153" rhyme="abbccb">
+                        <l>Cuando llueve se acoq<rhyme>uinan</rhyme></l>
+                        <l>Como perro que oye tr<rhyme>uenos</rhyme>-</l>
+                        <l>Qué diablos-Solo son g<rhyme>üenos</rhyme></l>
+                        <l>Pa vivir entre mar<rhyme>icas</rhyme>-</l>
+                        <l>Y nunca se andan con ch<rhyme>icas</rhyme></l>
+                        <l>Para alzar ponchos ag<rhyme>enos</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="154" rhyme="abbccb">
+                        <l>Pa vichar son como c<rhyme>iegos</rhyme>,</l>
+                        <l>Ni hay ejemplo de que ent<rhyme>iendan</rhyme>,</l>
+                        <l>No hay uno solo que apr<rhyme>ienda</rhyme></l>
+                        <l>Al ver un bulto que cr<rhyme>uza</rhyme>,</l>
+                        <l>A saber si es avestr<rhyme>uza</rhyme></l>
+                        <l>O si es ginete, ó hac<rhyme>ienda</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="155" rhyme="abbccb">
+                        <l>Si salen á perseg<rhyme>uir</rhyme></l>
+                        <l>Despues de mucho apar<rhyme>ato</rhyme></l>
+                        <l>Tuitos se pelan al r<rhyme>ato</rhyme></l>
+                        <l>Y vá quedando el tend<rhyme>al</rhyme>-</l>
+                        <l>Esto es como en un nid<rhyme>al</rhyme></l>
+                        <l>Echarle güebos á un g<rhyme>ato</rhyme>.</l> 
+                    </lg>
                 </lg>
 
 
