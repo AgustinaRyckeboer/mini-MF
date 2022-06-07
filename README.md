@@ -1,6 +1,6 @@
 # Martín Fierro
 
-Repositorio de proyectos HD CAICYT Lab / IIBICRIT sobre
+Edición digital del Martín Fierro con Minimal Computing y TEI XML para HD Lab (CONICET)
 
 
 ## Equipo
@@ -8,4 +8,4 @@ Repositorio de proyectos HD CAICYT Lab / IIBICRIT sobre
 
   Gimena del Rio (HD Lab - IIBICRIT, CONICET - UBA) - Dirección
 	
-  María Agustina Ryckeboer (USal)
+  María Agustina Ryckeboer (USAL)
