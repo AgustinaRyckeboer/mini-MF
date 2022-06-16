@@ -26,261 +26,293 @@
                 
                 <lg type="poema" style="sexteto" unisonancia="singular" isometrismo="isométrico" isoestrofismo="isoestrófico" asonancia="consonante" met="6x8">
 
-                156
-vamos dentrando recién
-a la parte mas sentida,
-aunque es todita mi vida
-de males una cadena:
-a cada alma dolorida
-le gusta cantar sus penas.
+                    <lg n="156" rhyme="abbcbc">
+                        <l>Vamos dentrando rec<rhyme label="ien" type="aguda">ien</rhyme></l>
+                        <l>A la parte mas sent<rhyme label="ida" type="grave">ida</rhyme>,</l>
+                        <l>Aunque es todita mi v<rhyme label="ida" type="grave">ida</rhyme></l>
+                        <l>De males una cad<rhyme label="ena" type="grave">ena</rhyme>-</l>
+                        <l>A cada alma dolor<rhyme label="ida" type="grave">ida</rhyme></l>
+                        <l>Le gusta cantar sus p<rhyme label="enas" type="grave">enas</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="157" rhyme="abbccb">
+                        <l>Se empezó en aquel ent<rhyme label="onces" type="grave">onces</rhyme></l>
+                        <l>A rejuntar caball<rhyme label="ada" type="grave">ada</rhyme>,</l>
+                        <l>Y riunir la milic<rhyme label="ada" type="grave">ada</rhyme></l>
+                        <l>Teniéndola en el cant<rhyme label="on" type="aguda">on</rhyme>,</l>
+                        <l>Para una despedic<rhyme label="ion" type="aguda">ion</rhyme></l>
+                        <l>A sorprender á la Ind<rhyme label="iada" type="grave">iada</rhyme>.</l>
+                    </lg>
 
-157
-Se empezó en aquel entonces
-a rejuntar caballada,
-y riunir la milicada
-teniéndola en el cantón,
-para una despedición
-a sorprender a la indiada.
+                    <lg n="158" rhyme="abbccb">
+                        <l>Nos anunciaban que ir<rhyme label="iamos" type="grave">iamos</rhyme></l>
+                        <l>Sin carretas ni bag<rhyme label="ages" type="grave">ages</rhyme></l>
+                        <l>A golpiar á los salv<rhyme label="ages" type="grave">ages</rhyme></l>
+                        <l>En sus mesmas tolder<rhyme label="ias" type="grave">ías</rhyme>,-</l>
+                        <l>Que á la güelta pagar<rhyme label="ias" type="grave">ian</rhyme></l>
+                        <l>Licenciándolo al gauch<rhyme label="aje" type="grave">aje</rhyme>.</l>
+                    </lg>
 
-158
-Nos anunciaban que iríamos
-sin carretas ni bagajes
-a golpiar a los salvajes
-en sus mesmas tolderías;
-que a la güelta pagarían
-licenciándolo al gauchaje;
+                    <lg n="159" rhyme="abbccb">
+                        <l>Que en esta despedic<rhyme label="ion" type="aguda">ion</rhyme></l>
+                        <l>Tuviéramos la esper<rhyme label="anza" type="grave">anza</rhyme>,</l>
+                        <l>Que iva á venir sin tard<rhyme label="anza" type="grave">anza</rhyme></l>
+                        <l>Sigun el Gefe cont<rhyme label="o" type="aguda">ó</rhyme>,</l>
+                        <l>Un Menistro ó qué sé y<rhyme label="o" type="aguda">o</rhyme>-</l>
+                        <l>Que le llamaban Don G<rhyme label="anza" type="grave">anza</rhyme>.</l>
+                    </lg>
 
-159
-que en esta despedición
-tuviéramos la esperanza;
-que iba a venir sin tardanza,
-según el jefe contó,
-un menistro o qué sé yo-
-que le llamaban don ganza;
+                    <lg n="160" rhyme="abbcbc">
+                        <l>Que iba á riunir el Ej<rhyme label="ercito" type="esdrújula">ército</rhyme></l>
+                        <l>Y tuitos los batall<rhyme label="ones" type="grave">ones</rhyme>-</l>
+                        <l>Y que traiba unos cañ<rhyme label="ones" type="grave">ones</rhyme></l>
+                        <l>Con mas rayas que un <term n="78">cot<rhyme label="in" type="aguda">in</rhyme></term>-</l>
+                        <l>Pucha....las conversas<rhyme label="iones" type="grave">iones</rhyme></l>
+                        <l>Por allá no tenian f<rhyme label="in" type="aguda">in</rhyme>.</l>
+                    </lg>
 
-160
-que iba a riunir el ejército
-y tuitos los batallones,
-y que traiba unos cañones
-con más rayas que un cotín;
-¡pucha!- Las conversaciones
-por allá no tenían fin.
+                    <lg n="161" rhyme="abbcbc">
+                        <l>Pero esas trampas no enr<rhyme label="iedan" type="grave">iedan</rhyme></l>
+                        <l>A los zorros de mi l<rhyme label="aya" type="grave">aya</rhyme>;</l>
+                        <l>Que el Menistro venga ó v<rhyme label="aya" type="grave">aya</rhyme></l>
+                        <l>Poco le importa á un matr<rhyme label="ero" type="grave">ero</rhyme>-</l>
+                        <l>Yo tambien dejé las r<rhyme label="ayas" type="grave">ayas</rhyme>....</l>
+                        <l>En los libros del pulp<rhyme label="ero" type="grave">ero</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="162" rhyme="abbccb">
+                        <l>Nunca juí gaucho dorm<rhyme label="ido" type="grave">ido</rhyme></l>
+                        <l>Siempre pronto, siempre l<rhyme label="isto" type="grave">isto</rhyme>-</l>
+                        <l>Yo soy un hombre, qué Cr<rhyme label="isto" type="grave">isto</rhyme>!,</l>
+                        <l>Que nada me ha acobard<rhyme label="ao" type="grave">ao</rhyme>,</l>
+                        <l>Y siempre salí par<rhyme label="ao" type="grave">ao</rhyme></l>
+                        <l>En los trances que me he v<rhyme label="isto" type="grave">isto</rhyme>.</l>
+                    </lg>
 
-161
-Pero esas trampas no enriedan
-a los zorros de mi laya;
-que esa ganza venga o vaya,
-poco le importa a un matrero.
-Yo también dejé las rayas-
-en los libros del pulpero.
+                    <lg n="163" rhyme="abbccb"> 
+                        <l>Dende chiquito gan<rhyme label="e" type="aguda">é</rhyme></l>
+                        <l>La vida con mi trab<rhyme label="ajo" type="grave">ajo</rhyme>,</l>
+                        <l>Y aunque siempre estuve ab<rhyme label="ajo" type="grave">ajo</rhyme></l>
+                        <l>Y no sé lo que es sub<rhyme label="ir" type="aguda">ir</rhyme>-</l>
+                        <l>Tambien el mucho sufr<rhyme label="ir" type="aguda">ir</rhyme></l>
+                        <l>Suele cansarnos-bar<rhyme label="ajo" type="grave">ajo</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="164" rhyme="abbccb">
+                        <l>En medio de mi inor<rhyme label="ancia" type="grave">ancia</rhyme></l>
+                        <l>Conozco que nada v<rhyme label="algo" type="grave">algo</rhyme>-</l>
+                        <l>Soy la liebre ó soy el g<rhyme label="algo" type="grave">algo</rhyme></l>
+                        <l>Asigun los tiempos <rhyme label="andan" type="grave">andan</rhyme></l>
+                        <l>Pero tambíen los que m<rhyme label="andan" type="grave">andan</rhyme></l>
+                        <l>Debieran cuidarnos <rhyme label="algo" type="grave">algo</rhyme>.</l>
+                    </lg>
 
-162
-Nunca juí gaucho dormido;
-siempre pronto, siempre listo,
-yo soy un hombre, ¡qué cristo!,
-Que nada me ha acobardao,
-y siempre salí parao
-en los trances que me he visto.
+                    <lg n="165" rhyme="abbccb">
+                        <l>Una noche que riun<rhyme label="idos" type="grave">idos</rhyme></l>
+                        <l>Estaban en la carp<rhyme label="eta" type="grave">eta</rhyme></l>
+                        <l>Empinando una <term n="79">lim<rhyme label="eta" type="grave">eta</rhyme></term></l>
+                        <l>El Gefe y el Juez de P<rhyme label="az" type="aguda">az</rhyme>-</l>
+                        <l>Yo no quise aguardar m<rhyme label="as" type="aguda">as</rhyme>,</l>
+                        <l>Y me hice humo en un sotr<rhyme label="eta" type="grave">eta</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="166" rhyme="abbccb">
+                        <l>Para mí el campo son fl<rhyme label="ores" type="grave">ores</rhyme></l>
+                        <l>Dende que libre me v<rhyme label="eo" type="grave">eo</rhyme>-</l>
+                        <l>Donde me lleva el des<rhyme label="eo" type="grave">eo</rhyme></l>
+                        <l>Allí mis pasos dir<rhyme label="ijo" type="grave">ijo</rhyme>-</l>
+                        <l>Y hasta en las sombras, de f<rhyme label="ijo" type="grave">ijo</rhyme></l>
+                        <l>Que adonde quiera rumb<rhyme label="eo" type="grave">eo</rhyme>.</l>
+                    </lg>
 
-163
-Dende chiquito gané
-la vida con mi trabajo,
-y aunque siempre estuve abajo
-y no sé lo que es subir
-también el mucho sufrir
-suele cansarnos, ¡barajo!
+                    <lg n="167" rhyme="abbccb">
+                        <l>Entro y salgo del pel<rhyme label="igro" type="grave">igro</rhyme></l>
+                        <l>Sin que me espante el estr<rhyme label="ago" type="grave">ago</rhyme>,</l>
+                        <l>No aflojo al primer am<rhyme label="ago" type="grave">ago</rhyme></l>
+                        <l>Ni jamás fí gaucho l<rhyme label="erdo" type="grave">erdo</rhyme>;-</l>
+                        <l>Soy pa rumbiar como el c<rhyme label="erdo" type="grave">erdo</rhyme></l>
+                        <l>Y pronto caí á mi p<rhyme label="ago" type="grave">ago</rhyme>.</l>
+                    </lg>
 
-164
-En medio de mi inorancia
-conozco que nada valgo:
-soy la liebre o soy el galgo
-asigún los tiempos andan;
-pero también los que mandan
-debieran cuidarnos algo.
+                    <lg n="168" rhyme="abbcbc">
+                        <l>Volvia al cabo de tres <rhyme label="años" type="grave">años</rhyme></l>
+                        <l>De tanto sufrir al ñ<rhyme label="udo" type="grave">udo</rhyme>,</l>
+                        <l>Resertor, pobre y desn<rhyme label="udo" type="grave">udo</rhyme>-</l>
+                        <l>A procurar suerte n<rhyme label="ueva" type="grave">ueva</rhyme>-</l>
+                        <l>Y lo mesmo que el pel<rhyme label="udo" type="grave">udo</rhyme></l>
+                        <l>Enderesé pa mi c<rhyme label="ueva" type="grave">ueva</rhyme>.</l>
+                    </lg>
 
-165
-Una noche que riunidos
-estaban en la carpeta
-empinando una limeta
-el jefe y el juez de paz,
-yo no quise aguardar más,
-y me hice humo en un sotreta.
+                    <lg n="169" rhyme="abbccb">
+                        <l>No hallé ni rastro del r<rhyme label="ancho" type="grave">ancho</rhyme>-</l>
+                        <l>Solo estaba la tap<rhyme label="era" type="grave">era</rhyme>!-</l>
+                        <l>Por Cristo, si aquello <rhyme label="era" type="grave">era</rhyme></l>
+                        <l>Pa enlutar el coraz<rhyme label="on" type="aguda">on</rhyme>-</l>
+                        <l>Yo juré en esa ocas<rhyme label="ion" type="aguda">ion</rhyme></l>
+                        <l>Ser mas malo que una f<rhyme label="iera" type="grave">iera</rhyme>!</l>
+                    </lg>
 
-166
-Me parece el campo orégano
-dende que libre me veo;
-donde me lleva el deseo
-allí mis pasos dirijo,
-y hasta en las sombras de fijo
-que donde quiera rumbeo.
+                    <lg n="170" rhyme="abbccb">
+                        <l>¡Quién no sentirá lo m<rhyme label="esmo" type="grave">esmo</rhyme></l>
+                        <l>Cuando ansí padece t<rhyme label="anto" type="grave">anto</rhyme>!!</l>
+                        <l>Puedo asigurar que el ll<rhyme label="anto" type="grave">anto</rhyme></l>
+                        <l>Como una mujer largu<rhyme label="e" type="aguda">é</rhyme>-</l>
+                        <l>Ay mi Dios-si me qued<rhyme label="e" type="aguda">é</rhyme></l>
+                        <l>Mas triste que Jueves S<rhyme label="anto" type="grave">anto</rhyme>.</l>
+                    </lg>
 
-167
-Entro y salgo del peligro
-sin que me espante el estrago,
-no aflojo al primer amago
-ni jamás fi gaucho lerdo:
-soy pa rumbiar como el cerdo,
-y pronto caí a mi pago.
+                    <lg n="171" rhyme="abbccb">
+                        <l>Solo se oiban los aull<rhyme label="idos" type="grave">idos</rhyme></l>
+                        <l>De un gato que se salv<rhyme label="o" type="aguda">ó</rhyme>,</l>
+                        <l>El pobre se guarec<rhyme label="io" type="aguda">ió</rhyme></l>
+                        <l>Cerca, en una <term n="80">vizcach<rhyme label="era" type="grave">era</rhyme></term>-</l>
+                        <l>Venia como si sup<rhyme label="iera" type="grave">iera</rhyme></l>
+                        <l>Que estaba de güelta y<rhyme label="o" type="aguda">o</rhyme>.</l>
+                    </lg>
 
-168
-Volvía al cabo de tres años
-de tanto sufrir al ñudo
-resertor, pobre y desnudo,
-a procurar suerte nueva;
-y lo mesmo que el peludo
-enderecé pa mi cueva.
+                    <lg n="172" rhyme="abbccb">
+                        <l>Al dirme dejé la hac<rhyme label="ienda" type="grave">ienda</rhyme></l>
+                        <l>Que era todito mi hab<rhyme label="er" type="aguda">er</rhyme>-</l>
+                        <l>Pronto debíamos volv<rhyme label="er" type="aguda">er</rhyme></l>
+                        <l>Segun el Juez promet<rhyme label="ia" type="grave">ia</rhyme>,</l>
+                        <l>Y hasta entonces cuidar<rhyme label="ia" type="grave">ia</rhyme></l>
+                        <l>De los bienes, la muj<rhyme label="er" type="aguda">er</rhyme>.</l>
+                    </lg>
 
-169
-No hallé ni rastro del rancho:
-¡sólo estaba la tapera!
-¡Por cristo si aquello era
-pa enlutar el corazón!
-¡Yo juré en esa ocasión
-ser mas malo que una fiera!
+                    <lg n="173" rhyme="abbccb">
+                        <l>Despues me contó un vec<rhyme label="ino" type="grave">ino</rhyme></l>
+                        <l>Que el campo se lo pid<rhyme label="ieron" type="grave">ieron</rhyme>-</l>
+                        <l>La hacienda se la vend<rhyme label="ieron" type="grave">ieron</rhyme></l>
+                        <l>Pa pagar arrendam<rhyme label="ientos" type="grave">ientos</rhyme>,</l>
+                        <l>Y qué sé yo, cuantos c<rhyme label="uentos" type="grave">uentos</rhyme></l>
+                        <l>Pero todo lo fund<rhyme label="ieron" type="grave">ieron</rhyme>.</l>
+                    </lg>
 
-170
-¡Quién no sentirá lo mesmo
-cuando ansí padece tanto!
-Puedo asigurar que el llanto
-como una mujer largué:
-¡ay, mi Dios: si me quedé
-más triste que jueves santo!
+                    <lg n="174" rhyme="abbcbc">
+                        <l>Los pobrecitos much<rhyme label="achos" type="grave">achos</rhyme></l>
+                        <l>Entre tantas aflic<rhyme label="iones" type="grave">iones</rhyme></l>
+                        <l>Se conchavaron de p<rhyme label="iones" type="grave">iones</rhyme></l>
+                        <l>¡Mas que ivan á trabaj<rhyme label="ar" type="aguda">ar</rhyme></l>
+                        <l>Si eran como los pich<rhyme label="ones" type="grave">ones</rhyme></l>
+                        <l>Sin acabar de emplum<rhyme label="ar" type="aguda">ar</rhyme>!</l>
+                    </lg>
 
-171
-Sólo se oíban los aullidos
-de un gato que se salvó;
-el pobre se guareció
-cerca, en una vizcachera:
-venía como si supiera
-que estaba de güelta yo.
+                    <lg n="175" rhyme="abbccb">
+                        <l>Por ay andaran sufr<rhyme label="iendo" type="grave">iendo</rhyme></l>
+                        <l>De nuestra suerte el rig<rhyme label="or" type="aguda">or</rhyme>:</l>
+                        <l>Me han contado que el may<rhyme label="or" type="aguda">or</rhyme></l>
+                        <l>Nunca dejaba á su herm<rhyme label="ano" type="grave">ano</rhyme>-</l>
+                        <l>Puede ser que algun crist<rhyme label="iano" type="grave">iano</rhyme></l>
+                        <l>Los recoja por fav<rhyme label="or" type="aguda">or</rhyme>.</l>
+                    </lg>
 
-172
-Al dirme dejé la hacienda
-que era todito mi haber;
-pronto debíamos volver,
-sigún el juez prometía,
-y hasta entonces cuidaría
-de los bienes, la mujer.
+                    <lg n="176" rhyme="abbccb">
+                        <l>Y la pobre mi muj<rhyme label="er" type="aguda">er</rhyme>,</l>
+                        <l>Dios sabe cuánto sufri<rhyme label="o" type="aguda">ó</rhyme>!-</l>
+                        <l>Me dicen que se vol<rhyme label="o" type="aguda">ó</rhyme></l>
+                        <l>Con no sé qué gavil<rhyme label="an" type="aguda">án</rhyme>-</l>
+                        <l>Sin duda á buscar el p<rhyme label="an" type="aguda">an</rhyme></l>
+                        <l>Que no podia darle y<rhyme label="o" type="aguda">o</rhyme>.</l>
+                    </lg>
 
-173
-Después me contó un vecino
-que el campo se lo pidieron;
-la hacienda se la vendieron
-pa pagar arrendamientos,
-y qué sé yo cuantos cuentos;
-pero todo lo fundieron,
+                    <lg n="177" rhyme="abbcbc">
+                        <l>No es raro que á uno le falt<rhyme label="e" type="aguda">e</rhyme></l>
+                        <l>Lo que a algun otro le s<rhyme label="obre" type="grave">obre</rhyme>-</l>
+                        <l>Si no le quedó ni un c<rhyme label="obre" type="grave">obre</rhyme></l>
+                        <l>Sinó de hijos un enj<rhyme label="ambre" type="grave">ambre</rhyme>,</l>
+                        <l>Qué más iba á hacer la p<rhyme label="obre" type="grave">obre</rhyme></l>
+                        <l>Para no morirse de h<rhyme label="ambre" type="grave">ambre</rhyme>.</l>
+                    </lg>
 
-174
-los pobrecitos muchachos,
-entre tantas afliciones,
-se conchabaron de piones;
-¡mas qué iban a trabajar,
-si eran como los pichones
-sin acabar de emplumar!
+                    <lg n="178" rhyme="abbccb">
+                        <l>¡Tal vez no te vuelva á v<rhyme label="er" type="aguda">er</rhyme></l>
+                        <l>Prienda de mi coraz<rhyme label="on" type="aguda">on</rhyme>!</l>
+                        <l>Dios te dé su protec<rhyme label="ion" type="aguda">ion</rhyme></l>
+                        <l>Ya que no me la dió á m<rhyme label="i" type="aguda">í</rhyme>-</l>
+                        <l>Y á mis hijos dende aqu<rhyme label="i" type="aguda">í</rhyme></l>
+                        <l>Les echo mi bendic<rhyme label="ion" type="aguda">ión</rhyme>.</l>
+                    </lg>
 
-175
-Por ahi andarán sufriendo
-de nuestra suerte el rigor:
-me han contao que el mayor
-nunca dejaba a su hermano;
-puede ser que algún cristiano
-los recoja por favor.
+                    <lg n="179" rhyme="abbccb">
+                        <l>Como hijitos de la c<rhyme label="una" type="grave">una</rhyme></l>
+                        <l>Andaban por ahy sin m<rhyme label="adre" type="grave">adre</rhyme>-</l>
+                        <l>Ya se quedaron sin p<rhyme label="adre" type="grave">adre</rhyme></l>
+                        <l>Y ansi la suerte los d<rhyme label="eja" type="grave">eja</rhyme>,</l>
+                        <l>Sin naides que los prot<rhyme label="eja" type="grave">eja</rhyme></l>
+                        <l>Y sin perro que los l<rhyme label="adre" type="grave">adre</rhyme>.</l>
+                    </lg>
 
-176
-¡Y la pobre mi mujer,
-Dios sabe cuánto sufrió!
-Me dicen que se voló
-con no sé qué gavilán:
-sin duda a buscar el pan
-que no podía darle yo.
+                    <lg n="180" rhyme="abbccb">
+                        <l>Los pobrecitos tal v<rhyme label="ez" type="aguda">ez</rhyme></l>
+                        <l>No tengan ande abrig<rhyme label="arse" type="grave">arse</rhyme>,</l>
+                        <l>Ni ramada ande gan<rhyme label="arse" type="grave">arse</rhyme>,</l>
+                        <l>Ni rincon ande met<rhyme label="erse" type="grave">erse</rhyme>,</l>
+                        <l>Ni camisa que pon<rhyme label="erse" type="grave">erse</rhyme></l>
+                        <l>Ni poncho con que tap<rhyme label="arse" type="grave">arse</rhyme>.</l>
+                    </lg>
 
-177
-No es raro que a uno le falte
-lo que a algún otro le sobre
-si no le quedó ni un cobre
-sino de hijos un enjambre.
-Que más iba a hacer la pobre
-para no morirse de hambre?
+                    <lg n="181" rhyme="abbcbc">
+                        <l>Tal vez los veran sufr<rhyme label="ir" type="aguda">ir</rhyme></l>
+                        <l>Sin tenerles compas<rhyme label="ion" type="aguda">ion</rhyme>-</l>
+                        <l>Puede que alguna ocas<rhyme label="ion" type="aguda">ion</rhyme></l>
+                        <l>Aunque lo vean tirit<rhyme label="ando" type="grave">ando</rhyme>,</l>
+                        <l>Los echen de algun jog<rhyme label="on" type="aguda">on</rhyme></l>
+                        <l>Pa que no esten estorb<rhyme label="ando" type="grave">ando</rhyme>.</l>
+                    </lg>
 
-178
-¡Tal vez no te vuelva a ver,
-prienda de mi corazón!
-Dios te dé su proteción
-ya que no me la dio a mí,
-y a mis hijos dende aquí
-les echo mi bendición.
+                    <lg n="182" rhyme="abbccb">
+                        <l>Y al verse ansina espant<rhyme label="aos" type="grave">aos</rhyme></l>
+                        <l>Como se espanta á los p<rhyme label="erros" type="grave">erros</rhyme></l>
+                        <l>Iran los hijos de F<rhyme label="ierro" type="grave">ierro</rhyme></l>
+                        <l>Con la cola entre las p<rhyme label="iernas" type="grave">iernas</rhyme>,</l>
+                        <l>A buscar almas mas t<rhyme label="iernas" type="grave">iernas</rhyme></l>
+                        <l>O esconderse en algun c<rhyme label="erro" type="grave">erro</rhyme>.</l>
+                    </lg>
 
-179
-Como hijitos de la cuna
-andarán por ahi sin madre;
-ya se quedaron sin padre,
-y ansí la suerte los deja
-sin naides que los proteja
-y sin perro que les ladre.
+                    <lg n="183" rhyme="abbccb">
+                        <l>Mas tambien en este j<rhyme label="uego" type="grave">uego</rhyme>,</l>
+                        <l>Voy á pedir mi <term n="81">vol<rhyme label="ada" type="grave">ada</rhyme></term>-</l>
+                        <l>A naides le debo n<rhyme label="ada" type="grave">ada</rhyme>,</l>
+                        <l>Ni pido cuartel ni d<rhyme label="oy" type="aguda">oy</rhyme>;-</l>
+                        <l>Y ninguno dende h<rhyme label="oy" type="aguda">oy</rhyme></l>
+                        <l>Ha de llevarme en la arm<rhyme label="ada" type="grave">ada</rhyme></l>
+                    </lg>
+                    
+                    <lg n="184" rhyme="aabcbc">
+                        <l>Yo he sido manso prim<rhyme label="ero" type="grave">ero</rhyme>,</l>
+                        <l>Y seré gaucho matr<rhyme label="ero" type="grave">ero</rhyme>-</l>
+                        <l>En mi triste circunst<rhyme label="ancia" type="grave">ancia</rhyme></l>
+                        <l>Aunque es mi mal tan proj<rhyme label="undo" type="grave">undo</rhyme>,</l>
+                        <l>Nací, y me he criado en est<rhyme label="ancia" type="grave">ancia</rhyme></l>
+                        <l>Pero ya conozco el m<rhyme label="undo" type="grave">undo</rhyme>.</l>
+                    </lg>           
 
-180
-Los pobrecitos tal vez
-no tengan ande abrigarse,
-ni ramada ande ganarse,
-ni rincón ande meterse,
-ni camisa que ponerse,
-ni poncho con que taparse.
+                    <lg n="185" rhyme="aabccb">
+                        <l>Ya le conozco sus m<rhyme label="añas" type="aguda">añas</rhyme>,</l>
+                        <l>Le conozco sus <term n="82">cuc<rhyme label="añas" type="aguda">añas</rhyme></term>,</l>
+                        <l>Se como hacen la part<rhyme label="ida" type="aguda">ida</rhyme>,</l>
+                        <l>La enriedan y la man<rhyme label="ejan" type="grave">ejan</rhyme>-</l>
+                        <l>Desaceré la mad<rhyme label="eja" type="grave">eja</rhyme></l>
+                        <l>Aunque me cueste la v<rhyme label="ida" type="aguda">ida</rhyme>.</l>
+                    </lg>
 
-181
-Tal vez los verán sufrir
-sin tenerles compasión;
-puede que alguna ocasión,
-aunque los vean tiritando,
-los echen de algún jogón
-pa que no estén estorbando.
+                    <lg n="186" rhyme="abbccb">
+                        <l>Y aguante el que no se an<rhyme label="ime" type="grave">ime</rhyme></l>
+                        <l>A meterse en tanto eng<rhyme label="orro" type="grave">orro</rhyme>,</l>
+                        <l>O si no apretese el g<rhyme label="orro" type="grave">orro</rhyme></l>
+                        <l>Y para otra tierra em<rhyme label="igre" type="grave">igre</rhyme>-</l>
+                        <l>Pero yo ando como el t<rhyme label="igre" type="grave">igre</rhyme></l>
+                        <l>Que le roban los cach<rhyme label="orros" type="grave">orros</rhyme>.</l>
+                    </lg>
 
-182
-Y al verse ansina espantaos
-como se espanta a los perros,
-irán los hijos de Fierro,
-con la cola entre las piernas,
-a buscar almas más tiernas
-o esconderse en algún cerro.
-
-183
-Mas también en este juego
-voy a pedir mi bolada;
-a naides le debo nada,
-ni pido cuartel ni doy:
-y ninguno dende hoy
-ha de llevarme en la armada.
-
-184
-Yo he sido manso primero,
-y seré gaucho matrero;
-en mi triste circunstancia,
-aunque es mi mal tan projundo,
-nací y me he criado en estancia.
-Pero ya conozco el mundo.
-
-185
-Ya les conozco sus mañas,
-le conozco sus cucañas;
-sé como hacen la partida,
-la enriedan y la manejan;
-deshaceré la madeja
-aunque me cueste la vida.
-
-186
-Y aguante el que no se anime
-a meterse en tanto engorro
-o si no aprétese el gorro
-y para otra tierra emigre;
-pero yo ando como el tigre
-que le roban los cachorros.
-
-187
-Aunque muchos creen que el gaucho
-tiene alma de reyuno,
-no se encontrará a ninguno
-que no le dueblen las penas;
-mas no debe aflojar uno
-mientras hay sangre en las venas 
+                    <lg n="187" rhyme="abbcbc">
+                        <l>Aunque muchos creen que el g<rhyme label="aucho" type="grave">aucho</rhyme></l>
+                        <l>Tiene alma de rey<rhyme label="uno" type="grave">uno</rhyme>-</l>
+                        <l>No se encontrará ning<rhyme label="uno" type="grave">uno</rhyme></l>
+                        <l>Que no le dueblen las p<rhyme label="enas" type="grave">enas</rhyme>-</l>
+                        <l>Mas no debe aflojar <rhyme label="uno" type="grave">uno</rhyme></l>
+                        <l>Mientras hay sangre en las v<rhyme label="enas" type="grave">enas</rhyme></l>
+                    </lg>
 
 
                 </lg>
