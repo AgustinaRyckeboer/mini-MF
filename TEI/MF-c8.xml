@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../MiniFierro/esquema_verso_.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>El gaucho Martin Fierro</title>
+                    <author>José Hernández</author>
+                    <editor resp= "1">Maria Agustina Ryckeboer</editor>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>HD Lab</publisher>
+                    <availability>
+                        <licence>Creative Commons Compartir Igual 4.0 Internacional</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <bibl>[S.l.], Librería Martín Fierro, 1897</bibl>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body> 
+
+            <head>Canto VIII</head>
+             <lg type="poema" style="sexteto" unisonancia="singular" isometrismo="isométrico" isoestrofismo="isoestrófico" asonancia="consonante" met="6x8">
+             
+             
+             222
+otra vez en un boliche
+estaba haciendo la tarde;
+cayó un gaucho que hacia alarde
+de guapo y peliador;
+
+223
+a la llegada metió
+el pingo hasta la ramada,
+y yo sin decirle nada
+me quedé en el mostrador.
+
+224
+Era un terne de aquel pago
+que naides lo reprendía,
+que sus enriedos tenía
+con el señor comendante;
+
+225
+y como era protegido,
+andaba muy entonao,
+y a cualquier desgraciao
+lo llevaba por delante.
+
+226
+¡Ah pobre! Si él mismo creiba
+que la vida le sobraba;
+ninguno diría que andaba
+aguaitándolo la muerte.
+
+227
+Pero ansí pasa en el mundo,
+es ansí la triste vida:
+pa todos está escondida
+la güena o la mala suerte.
+
+228
+Se tiró al suelo; al dentrar
+le dio un empellón a un vasco,
+y me alargó un medio frasco
+diciendo: beba cuñao.
+Por su hermana, contesté.
+Que por la mía no hay cuidao.
+
+229
+¡Ah, gaucho!, Me respondió;
+¿de que pago será crioyo?
+¿Lo andará buscando el hoyo?
+Deberá tener güen cuero;
+pero ande bala este toro
+no bala ningún ternero.
+
+230
+Y ya salimos trenzaos
+porque el hombre no era lerdo,
+mas como el tino no pierdo,
+y soy medio ligerón,
+le dejé mostrando el sebo
+de un revés con el facón.
+
+231
+Y como con la justicia
+no andaba bien por allí,
+cuanto pataliar lo vi,
+y el pulpero pegó el grito,
+ya pa el palenque salí
+como haciéndome chiquito.
+
+232
+Monté y me encomendé a Dios,
+rumbiando para otro pago,
+que el gaucho que llaman vago
+no puede tener querencia,
+y ansí de estrago en estrago
+vive llorando la ausencia.
+
+233
+éL andaba siempre juyendo,
+siempre pobre y perseguido,
+no tiene cueva ni nido
+como si juera maldito;
+porque el ser gaucho- ¡barajo!,
+El ser gaucho es un delito.
+
+ 234
+Es como el patrio de posta;
+lo larga éste, aquél lo toma,
+nunca se acaba la broma;
+dende chico se parece
+al arbolito que crece
+desamparao en la loma.
+
+235
+Le echan la agua del bautismo
+aquél que nació en la selva;
+busca madre que te envuelva,
+le dice el fraire y lo larga.
+Y dentra a cruzar el mundo
+como burro con la carga.
+
+236
+Y se cría viviendo al viento
+como oveja sin trasquila;
+mientras su padre en las filas
+anda sirviendo al gobierno,
+aunque tirite en invierno,
+naides lo ampara ni asila.
+
+237
+Le llaman gaucho mamao
+si lo pillan divertido,
+y que es mal entretenido
+si en un baile lo sorprienden;
+hace mal si se defiende
+y si no, se ve- fundido.
+
+238
+No tiene hijos ni mujer,
+ni amigos ni protetores,
+pues todos son sus señores
+sin que ninguno lo ampare:
+tiene la suerte del güey,
+y ¿donde irá el güey que no are?
+
+239
+Su casa es el pajonal,
+su guarida es el desierto;
+y si de hambre medio muerto
+le echa el lazo a algún mamón,
+lo persiguen como a plaito,
+porque es un gaucho ladrón.
+
+240
+Y si de un golpe por ahi
+lo dan güelta panza arriba,
+no hay un alma compasiva
+que le rece una oración;
+tal vez como cimarrón
+en una cueva lo tiran.
+
+241
+Él nada gana en la paz
+y es el primero en la guerra;
+no le perdonan si yerra,
+que no saben perdonar,
+porque el gaucho en esta tierra
+sólo sirve pa votar.
+
+242
+Para el son los calabozos,
+para el las duras prisiones,
+en su boca no hay razones
+aunque la razón le sobre;
+que son campanas de palo
+las razones de los pobres.
+
+243
+Si uno aguanta, es gaucho bruto;
+si no aguanta es gaucho malo.
+¡Dele azote, dele palo,
+porque es lo que él necesita!
+De todo el que nació gaucho
+ésta es la suerte maldita. 
+
+244
+Vamos suerte, vamos juntos
+dende que juntos nacimos;
+y ya que juntos vivimos
+sin podernos dividir-
+yo abriré con mi cuchillo
+el camino pa seguir 
+
+ </lg>
+
+
+            </body>
+                </text>
+                     </TEI>
