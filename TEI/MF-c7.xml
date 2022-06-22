@@ -25,218 +25,254 @@
             <head>Canto VII</head>
                 
                 <lg type="poema" style="sexteto" unisonancia="singular" isometrismo="isométrico" isoestrofismo="isoestrófico" asonancia="consonante" met="6x8">
-188
-De carta de más me vía
-sin saber a donde dirme;
-mas dijeron que era vago
-y entraron a perseguirme.
-
-189
-Nunca se achican los males,
-van poco a poco creciendo,
-y ansina me vide pronto
-obligado a andar juyendo.
-
-190
-No tenía mujer ni rancho
-y a más, era resertor;
-no tenía una prenda güena
-ni un peso en el tirador.
-
-191
-a mis hijos infelices
-pensé volverlos a hallar,
-y andaba de un lao al otro
-sin tener ni qué pitar.
-
-192
-Supe una vez por desgracia
-que había un baile por allí,
-y medio desesperao
-a ver la milonga fui.
-
-193
-Riunidos al pericón
-tantos amigos hallé,
-que alegre de verme entre ellos
-esa noche me apedé.
-
-194
-Como nunca, en la ocasión
-por peliar me dio la tranca.
-Y la emprendí con un negro
-que trujo una negra en ancas.
-
-195
-Al ver llegar la morena,
-que no hacía caso de naides,
-le dije con la mamúa:
-va-ca-yendo gente al baile.
-
-196
-La negra entendió la cosa
-y no tardó en contestarme,
-mirándome como a un perro:
-más vaca será su madre.
-
-197
-Y dentró al baile muy tiesa
-con más cola que una zorra,
-haciendo blanquiar los dientes
-lo mesmo que mazamorra.
-
-198
-!Negra linda!- Dije yo.
-Me gusta- pa la carona;
-y me puse a champurriar
-esta coplita fregona:
-
-199
-a los blancos hizo Dios,
-a los mulatos san pedro,
-a los negros hizo el diablo
-para tizón del infierno.
-
-200
-Había estao juntando rabia
-el moreno dende ajuera;
-en lo escuro le brillaban
-los ojos como linterna.
-
-201
-Lo conocí retobao,
-me acerqué y le dije presto:
-po-r-rudo que un hombre sea
-nunca se enoja por esto.
-
-202
-Corcovió el de los tamangos
-y creyéndose muy fijo:
-¡más porrudo serás vos,
-gaucho rotoso!, Me dijo.
-
-203
-Y ya se me vino al humo
-como a buscarme la hebra,
-y un golpe le acomodé
-con el porrón de ginebra.
-
-204
-Ahi nomás pegó el de hollín
-mas gruñidos que un chanchito,
-y pelando el envenao
-me atropelló dando gritos.
-
-205
-Pegué un brinco y abrí cancha
-diciéndoles: caballeros,
-dejen venir ese toro.
-Solo nací- solo muero.
-
-206
-El negro, después del golpe,
-se había el poncho refalao
-y dijo: vas a saber
-si es solo o acompañado.
-
-207
-Y mientras se arremangó,
-yo me saqué las espuelas,
-pues malicié que aquel tío
-no era de arriar con las riendas.
-
-208
-No hay cosa como el peligro
-pa refrescar un mamao;
-hasta la vista se aclara
-por mucho que haiga chupao.
-
-209
-El negro me atropelló
-como a quererme comer;
-me hizo dos tiros seguidos
-y los dos le abarajé.
-
-210
-Yo tenía un facón con s,
-que era de lima de acero;
-le hice un tiro, lo quitó
-y vino ciego el moreno;
-
-211
-y en el medio de las aspas
-un planazo le asenté,
-que lo largué culebriando
-lo mesmo que buscapié.
-
-212
-Le coloriaron las motas
-con la sangre de la herida,
-y volvió a venir jurioso
-como una tigra parida.
-
-213
-Y ya me hizo relumbrar
-por los ojos el cuchillo,
-alcanzando con la punta
-a cortarme en un carrillo.
-
-214
-Me hirvió la sangre en las venas
-y me le afirmé al moreno,
-dándole de punta y hacha
-pa dejar un diablo menos.
-
-215
-Por fin en una topada
-en el cuchillo lo alcé,
-y como un saco de güesos
-contra un cerco lo largué.
-
-216
-Tiró unas cuantas patadas
-y ya cantó pal carnero:
-nunca me puedo olvidar
-de la agonía de aquel negro.
-
-217
-En esto la negra vino
-con los ojos como ají
-y empezó la pobre allí
-a bramar como una loba.
-Yo quise darle una soba
-a ver si la hacía callar,
-mas pude reflesionar
-que era malo en aquel punto,
-y por respeto al dijunto
-no la quise castigar.
-
-218
-Limpié el facón en los pastos,
-desaté mi redomón,
-monté despacio y salí
-al tranco pa el cañadón.
-
-219
-Después supe que al finao
-ni siquiera lo velaron,
-y retobao en un cuero,
-sin rezarle lo enterraron.
-
-220
-Y dicen que dende entonces,
-cuando es la noche serena
-suele verse una luz mala
-como de alma que anda en pena.
-
-221
-Yo tengo intención a veces,
-para que no pene tanto,
-de sacar de allí los güesos
-y echarlos al camposanto. 
+                    
+                    <lg n="188"> 
+                        <l>De carta de mas me v<rhyme>ia</rhyme></l>
+                        <l>Sin saber á donde d<rhyme>irme</rhyme>,</l>
+                        <l>Mas dijeron que era v<rhyme>ago</rhyme></l>
+                        <l>Y entraron á persegu<rhyme>irme</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="189">
+                        <l>Nunca se achican los m<rhyme>ales</rhyme></l>
+                        <l>Van poco á poco crec<rhyme>iendo</rhyme></l>
+                        <l>Y ansina me vide pr<rhyme>onto</rhyme></l>
+                        <l>Obligao á andar juy<rhyme>endo</rhyme></l>
+                    </lg>
+                    
+                    <lg n="190">
+                        <l>No tenia muger ni r<rhyme>ancho</rhyme>,</l>
+                        <l>Y á mas, era resert<rhyme>or</rhyme>,</l>
+                        <l>No tenia una prenda g<rhyme>üena</rhyme></l>
+                        <l>Ni un peso en el tirad<rhyme>or</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="191">
+                        <l>A mis hijos infel<rhyme>ices</rhyme></l>
+                        <l>Pensé volverlos á hall<rhyme>ar</rhyme>-</l>
+                        <l>Y andaba de un lao al <rhyme>otro</rhyme></l>
+                        <l>Sin tener ni que pit<rhyme>ar</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="192">
+                        <l>Supe una vez por desgr<rhyme>acia</rhyme></l>
+                        <l>Que habia un baile por all<rhyme>i</rhyme>-</l>
+                        <l>Y medio desesper<rhyme>ao</rhyme></l>
+                        <l>A ver la <term n="83">milonga</term> f<rhyme>ui</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="193">
+                        <l>Riunidos al <term n="84">peric<rhyme>on</rhyme></term></l>
+                        <l>Tantos amigos hall<rhyme>é</rhyme></l>
+                        <l>Que alegre de verme entre <rhyme>ellos</rhyme></l>
+                        <l>Esa noche me aped<rhyme>é</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="194">
+                        <l>Como nunca, en la ocas<rhyme>ion</rhyme></l>
+                        <l>Por peliar me dió la tr<rhyme>anca</rhyme>.</l>
+                        <l>Y la emprendi con un n<rhyme>egro</rhyme></l>
+                        <l>Que trujo una negra en <rhyme>ancas</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="195">
+                        <l>Al ver llegar la mor<rhyme>ena</rhyme></l>
+                        <l>Que no hacia caso de n<rhyme>aides</rhyme>,</l>
+                        <l>Le dije con la mam<rhyme>úa</rhyme></l>
+                        <l>"Va....ca....yendo gente al b<rhyme>aile</rhyme>"</l>
+                    </lg>
+                    
+                    <lg n="196">
+                        <l>La negra entendió la c<rhyme>osa</rhyme></l>
+                        <l>Y no tardó en contest<rhyme>arme</rhyme>-</l>
+                        <l>Mirandome como á p<rhyme>erro</rhyme>-</l>
+                        <l>"Mas vaca será su m<rhyme>adre</rhyme>"</l>
+                    </lg>
+                    
+                    <lg n="197">
+                        <l>Y dentró al baile muy t<rhyme>iesa</rhyme></l>
+                        <l>Con mas cola que una z<rhyme>orra</rhyme></l>
+                        <l>Haciendo blanquiar los d<rhyme>ientes</rhyme></l>
+                        <l>Lo mesmo que <term n="85">mazam<rhyme>orra</rhyme></term>.</l>
+                    </lg>
+                    
+                    <lg n="198">
+                        <l>"Negra linda"....dije y<rhyme>o</rhyme>-</l>
+                        <l>"Me gusta pa la <term n="86">car<rhyme>ona</rhyme></term>"-</l>
+                        <l>Y me puse á talar<rhyme>iar</rhyme></l>
+                        <l>Esta coplita freg<rhyme>ona</rhyme>:</l>
+                    </lg>
+                    
+                    <lg n="199">
+                        <l>"A los blancos hizo D<rhyme>ios</rhyme></l>
+                        <l>"A los mulatos San P<rhyme>edro</rhyme></l>
+                        <l>"A los negros hizo el d<rhyme>iablo</rhyme></l>
+                        <l>"Para tizon del inf<rhyme>ierno</rhyme>"</l>
+                    </lg>
+                    
+                    <lg n="200">
+                        <l>Habia estao juntando r<rhyme>abia</rhyme></l>
+                        <l>El moreno dende aj<rhyme>uera</rhyme>-</l>
+                        <l>En lo escuro le brill<rhyme>aban</rhyme></l>
+                        <l>Los ojos como lint<rhyme>erna</rhyme>.</l>
+                    </lg>
+                                        
+                    <lg n="201">
+                        <l>Lo conoci retob<rhyme>ao</rhyme></l>
+                        <l>Me acerqué y le dije pr<rhyme>esto</rhyme>:</l>
+                        <l>"Po....r....rudo que un hombre s<rhyme>ea</rhyme></l>
+                        <l>"Nunca se enoja por <rhyme>esto</rhyme>"</l>
+                    </lg>
+                    
+                    <lg n="202">
+                        <l>Corcobió el de los <term n="87">tam<rhyme>angos</rhyme></term></l>
+                        <l>Y creyendose muy f<rhyme>ijo</rhyme>-</l>
+                        <l>"Mas <term n="88">porrudo</term> serás v<rhyme>oz</rhyme>,</l>
+                        <l>"Gaucho rotoso" me d<rhyme>ijo</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="203">
+                        <l>Y ya se me vino al h<rhyme>umo</rhyme></l>
+                        <l>Como á buscarme la h<rhyme>ebra</rhyme>-</l>
+                        <l>Y un golpe le acomod<rhyme>é</rhyme></l>
+                        <l>Con el porron de gin<rhyme>ebra</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="204">
+                        <l>Ay no mas pegó el de oll<rhyme>ín</rhyme></l>
+                        <l>Mas gruñidos que un chanch<rhyme>ito</rhyme>,</l>
+                        <l>Y pelando el enven<rhyme>ao</rhyme></l>
+                        <l>Me atropello dando gr<rhyme>itos</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="205">
+                        <l>Pegué un brinco y abrí c<rhyme>ancha</rhyme></l>
+                        <l>Diciendoles "Caball<rhyme>eros</rhyme></l>
+                        <l>"Dejen venir á ese t<rhyme>oro</rhyme>"</l>
+                        <l>"Solo naci....solo m<rhyme>uero</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="206">
+                        <l>El negro despues del g<rhyme>olpe</rhyme></l>
+                        <l>Se habia el poncho refal<rhyme>ao</rhyme></l>
+                        <l>Y dijo "Vas á sab<rhyme>er</rhyme></l>
+                        <l>"Si es solo ó acompañ<rhyme>ao</rhyme>"</l>
+                    </lg>
+                    
+                    <lg n="207">
+                        <l>Y mientras se arremang<rhyme>ó</rhyme></l>
+                        <l>Yo me saqué las esp<rhyme>uelas</rhyme>,</l>
+                        <l>Pues malicié que aquel t<rhyme>io</rhyme></l>
+                        <l>No era de arriar con las r<rhyme>iendas</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="208">
+                        <l>No hay cosa como el pel<rhyme>igro</rhyme></l>
+                        <l>Pa refrescar un mam<rhyme>ao</rhyme>,</l>
+                        <l>Hasta la vista se acl<rhyme>ara</rhyme></l>
+                        <l>Por mucho que aiga chup<rhyme>ao</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="209">
+                        <l>El negro me atropell<rhyme>ó</rhyme></l>
+                        <l>Como á quererme com<rhyme>er</rhyme>-</l>
+                        <l>Me hizo dos tiros segu<rhyme>idos</rhyme></l>
+                        <l>Y los dos le abaraj<rhyme>é</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="210">
+                        <l>Yo tenia un facon con S</l>
+                        <l>Que era de lima de ac<rhyme>ero</rhyme></l>
+                        <l>Le hize un tiro, lo quit<rhyme>o</rhyme></l>
+                        <l>Y vino ciego el mor<rhyme>eno</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="211">
+                        <l>y en el medio de las <term n="89"><rhyme>aspas</rhyme></term></l>
+                        <l>Un <term n="90">planaso</term> le asent<rhyme>é</rhyme></l>
+                        <l>Que lo largué culebr<rhyme>iando</rhyme></l>
+                        <l>Lo mesmo que <term n="91">buscap<rhyme>ie</rhyme></term>.</l>
+                    </lg>
+                    
+                    <lg n="212">
+                        <l>Le coloriaron las <term n="92">m<rhyme>otas</rhyme></term></l>
+                        <l>Con la sangre de la her<rhyme>ida</rhyme></l>
+                        <l>Y volvio á venir fur<rhyme>ioso</rhyme></l>
+                        <l>Como una tigra par<rhyme>ida</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="213">
+                        <l>Y ya me hizo relumbr<rhyme>ar</rhyme></l>
+                        <l>Por los ojos el cuch<rhyme>illo</rhyme>-</l>
+                        <l>Alcansando con la p<rhyme>unta</rhyme></l>
+                        <l>A cortarme en un <term n="93">carr<rhyme>illo</rhyme></term>.</l>
+                    </lg>
+                    
+                    <lg n="214">
+                        <l>Me hirbió la sangre en las v<rhyme>enas</rhyme></l>
+                        <l>Y me le afirmé al mor<rhyme>eno</rhyme></l>
+                        <l>Dandole de punta y h<rhyme>acha</rhyme></l>
+                        <l>Pa dejar un diablo m<rhyme>enos</rhyme>.</l>
+                    </lg>
+                                        
+                    <lg n="215">
+                        <l>Por fin en una top<rhyme>ada</rhyme></l>
+                        <l>En el cuchillo lo alc<rhyme>é</rhyme></l>
+                        <l>Y como un saco de g<rhyme>üesos</rhyme></l>
+                        <l>Contra el cerco lo largu<rhyme>é</rhyme></l>
+                    </lg>
+                    
+                    <lg n="216">
+                        <l>Tiró unas cuantas pat<rhyme>adas</rhyme></l>
+                        <l>Y ya cantó pa el carn<rhyme>ero</rhyme>-</l>
+                        <l>Nunca me puedo olvid<rhyme>ar</rhyme></l>
+                        <l>De la agonia de aquel n<rhyme>egro</rhyme>.</l>
+                    </lg>
+                                        
+                    <lg n="217">
+                        <l>En esto la negra v<rhyme>ino</rhyme></l>
+                        <l>Con los ojos como ag<rhyme>i</rhyme>-</l>
+                        <l>Y empeso la pobre all<rhyme>i</rhyme></l>
+                        <l>A bramar como una l<rhyme>oba</rhyme>-</l>
+                        <l>Yo quise darle una s<rhyme>oba</rhyme></l>
+                        <l>A ver si la hacia call<rhyme>ar</rhyme></l>
+                        <l>Mas, pude reflesion<rhyme>ar</rhyme></l>
+                        <l>Que era malo en aquel p<rhyme>unto</rhyme>,</l>
+                        <l>Y por respeto al dij<rhyme>unto</rhyme></l>
+                        <l>No la quise castig<rhyme>ar</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="218">
+                        <l>Limpié el facón en los p<rhyme>atos</rhyme>,</l>
+                        <l>Desaté mi redom<rhyme>on</rhyme>,</l>
+                        <l>Monte despacio, y sal<rhyme>í</rhyme></l>
+                        <l>Al tranco pa el cañad<rhyme>ón</rhyme></l>
+                    </lg>
+                    
+                    <lg n="219">
+                        <l>Despues supe que al fin<rhyme>ao</rhyme></l>
+                        <l>Ni siquiera lo vel<rhyme>aron</rhyme></l>
+                        <l>Y <term n="94">retobao</term> en un c<rhyme>uero</rhyme></l>
+                        <l>Sin resarle lo enterr<rhyme>aron</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="220">
+                        <l>Y dicen que dende ent<rhyme>onces</rhyme></l>
+                        <l>Cuando es la noche ser<rhyme>ena</rhyme></l>
+                        <l>Suele verse una luz m<rhyme>ala</rhyme></l>
+                        <l>Como de alma que anda en p<rhyme>ena</rhyme>,</l>
+                    </lg>
+                    
+                    <lg n="221">
+                        <l>Yo tengo intencion á v<rhyme>eces</rhyme>,</l>
+                        <l>Para que no pene t<rhyme>anto</rhyme>,</l>
+                        <l>De sacar de alli los g<rhyme>uesos</rhyme></l>
+                        <l>Y echarlos al campo s<rhyme>anto</rhyme></l>
+                    </lg> 
+                    
                 </lg>
 
 
-</body>
-</text>
-    </TEI>
+            </body>
+                </text>
+                     </TEI>
