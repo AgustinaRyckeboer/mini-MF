@@ -23,180 +23,210 @@
             <body> 
 
             <head>Canto VIII</head>
-             <lg type="poema" style="sexteto" unisonancia="singular" isometrismo="isométrico" isoestrofismo="isoestrófico" asonancia="consonante" met="6x8">
+             <lg type="poema" style="cuarteto" unisonancia="singular" isometrismo="isométrico" isoestrofismo="isoestrófico" asonancia="libre" met="4x8">
              
              
-             222
-otra vez en un boliche
-estaba haciendo la tarde;
-cayó un gaucho que hacia alarde
-de guapo y peliador;
-
-223
-a la llegada metió
-el pingo hasta la ramada,
-y yo sin decirle nada
-me quedé en el mostrador.
-
-224
-Era un terne de aquel pago
-que naides lo reprendía,
-que sus enriedos tenía
-con el señor comendante;
-
-225
-y como era protegido,
-andaba muy entonao,
-y a cualquier desgraciao
-lo llevaba por delante.
-
-226
-¡Ah pobre! Si él mismo creiba
-que la vida le sobraba;
-ninguno diría que andaba
-aguaitándolo la muerte.
-
-227
-Pero ansí pasa en el mundo,
-es ansí la triste vida:
-pa todos está escondida
-la güena o la mala suerte.
-
-228
-Se tiró al suelo; al dentrar
-le dio un empellón a un vasco,
-y me alargó un medio frasco
-diciendo: beba cuñao.
-Por su hermana, contesté.
-Que por la mía no hay cuidao.
-
-229
-¡Ah, gaucho!, Me respondió;
-¿de que pago será crioyo?
-¿Lo andará buscando el hoyo?
-Deberá tener güen cuero;
-pero ande bala este toro
-no bala ningún ternero.
-
-230
-Y ya salimos trenzaos
-porque el hombre no era lerdo,
-mas como el tino no pierdo,
-y soy medio ligerón,
-le dejé mostrando el sebo
-de un revés con el facón.
-
-231
-Y como con la justicia
-no andaba bien por allí,
-cuanto pataliar lo vi,
-y el pulpero pegó el grito,
-ya pa el palenque salí
-como haciéndome chiquito.
-
-232
-Monté y me encomendé a Dios,
-rumbiando para otro pago,
-que el gaucho que llaman vago
-no puede tener querencia,
-y ansí de estrago en estrago
-vive llorando la ausencia.
-
-233
-éL andaba siempre juyendo,
-siempre pobre y perseguido,
-no tiene cueva ni nido
-como si juera maldito;
-porque el ser gaucho- ¡barajo!,
-El ser gaucho es un delito.
-
- 234
-Es como el patrio de posta;
-lo larga éste, aquél lo toma,
-nunca se acaba la broma;
-dende chico se parece
-al arbolito que crece
-desamparao en la loma.
-
-235
-Le echan la agua del bautismo
-aquél que nació en la selva;
-busca madre que te envuelva,
-le dice el fraire y lo larga.
-Y dentra a cruzar el mundo
-como burro con la carga.
-
-236
-Y se cría viviendo al viento
-como oveja sin trasquila;
-mientras su padre en las filas
-anda sirviendo al gobierno,
-aunque tirite en invierno,
-naides lo ampara ni asila.
-
-237
-Le llaman gaucho mamao
-si lo pillan divertido,
-y que es mal entretenido
-si en un baile lo sorprienden;
-hace mal si se defiende
-y si no, se ve- fundido.
-
-238
-No tiene hijos ni mujer,
-ni amigos ni protetores,
-pues todos son sus señores
-sin que ninguno lo ampare:
-tiene la suerte del güey,
-y ¿donde irá el güey que no are?
-
-239
-Su casa es el pajonal,
-su guarida es el desierto;
-y si de hambre medio muerto
-le echa el lazo a algún mamón,
-lo persiguen como a plaito,
-porque es un gaucho ladrón.
-
-240
-Y si de un golpe por ahi
-lo dan güelta panza arriba,
-no hay un alma compasiva
-que le rece una oración;
-tal vez como cimarrón
-en una cueva lo tiran.
-
-241
-Él nada gana en la paz
-y es el primero en la guerra;
-no le perdonan si yerra,
-que no saben perdonar,
-porque el gaucho en esta tierra
-sólo sirve pa votar.
-
-242
-Para el son los calabozos,
-para el las duras prisiones,
-en su boca no hay razones
-aunque la razón le sobre;
-que son campanas de palo
-las razones de los pobres.
-
-243
-Si uno aguanta, es gaucho bruto;
-si no aguanta es gaucho malo.
-¡Dele azote, dele palo,
-porque es lo que él necesita!
-De todo el que nació gaucho
-ésta es la suerte maldita. 
-
-244
-Vamos suerte, vamos juntos
-dende que juntos nacimos;
-y ya que juntos vivimos
-sin podernos dividir-
-yo abriré con mi cuchillo
-el camino pa seguir 
+                    <lg n="222" rhyme="abbc">             
+                        <l>Otra vez en un bol<rhyme label="iche" type="grave">iche</rhyme></l>
+                        <l>Estaba haciendo la t<rhyme label="arde" type="grave">arde</rhyme></l>
+                        <l>Cayó un gaucho que hacia al<rhyme label="arde" type="grave">arde</rhyme></l>
+                        <l>De guapo y de peliad<rhyme label="or" type="aguda">or</rhyme>-</l>
+                    </lg>
+                                     
+                    <lg n="223" rhyme="abba">
+                        <l>A la llegada met<rhyme label="io" type="aguda">ió</rhyme></l>
+                        <l>El pingo <term n="95">hasta la ram<rhyme label="ada" type="grave">ada</rhyme></term>-</l>
+                        <l>Y yo sin decirle n<rhyme label="ada" type="grave">ada</rhyme></l>
+                        <l>Me quedé en el mostrad<rhyme label="or" type="aguda">or</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="224" rhyme="abbc">
+                        <l>Era un terne de aquel p<rhyme label="ago" type="grave">ago</rhyme></l>
+                        <l>Que naides lo reprend<rhyme label="ia" type="grave">ia</rhyme>,</l>
+                        <l>Que sus enriedos ten<rhyme label="ia" type="grave">ia</rhyme></l>
+                        <l>Con el señor Comend<rhyme label="ante" type="grave">ante</rhyme>:-</l>
+                    </lg>
+                    
+                    <lg n="225" rhyme="abbc">
+                        <l>Y como era protej<rhyme label="ido" type="grave">ido</rhyme>,</l>
+                        <l>Andaba muy enton<rhyme label="ao" type="grave">ao</rhyme>-</l>
+                        <l>Y á cualquier desgraci<rhyme label="ao" type="grave">ao</rhyme></l>
+                        <l>Lo llevaba por del<rhyme label="ante" type="grave">ante</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="226" rhyme="abbc">
+                        <l>Ah! pobre! si él mismo cr<rhyme label="eiba" type="grave">eiba</rhyme>,</l>
+                        <l>Que la vida le sobr<rhyme label="aba" type="grave">aba</rhyme>,</l>
+                        <l>Ninguno diria que and<rhyme label="aba" type="grave">aba</rhyme></l>
+                        <l>Aguaitandolo la m<rhyme label="uerte" type="grave">uerte</rhyme>-</l>
+                    </lg>
+                    
+                    <lg n="227" rhyme="abbc">
+                        <l>Pero ansi pasaba en el m<rhyme label="undo" type="grave">undo</rhyme>,</l>
+                        <l>Es ansi la triste v<rhyme label="ida" type="grave">ida</rhyme>-</l>
+                        <l>Pa todos está escond<rhyme label="ida" type="grave">ida</rhyme>,</l>
+                        <l>La buena ó la mala s<rhyme label="uerte" type="grave">uerte</rhyme>.</l>
+                    </lg>
+                          </lg>
+                    
+                <lg type="poema" style="sexteto" unisonancia="singular" isometrismo="isométrico" isoestrofismo="isoestrófico" asonancia="consonante" met="6x8">
+                     
+                    <lg n="228" rhyme="abbcdc">
+                        <l>Se tiró al suelo; al dentr<rhyme label="ar" type="aguda">ar</rhyme></l>
+                        <l>Le dió un empeyón á un v<rhyme label="asco" type="grave">asco</rhyme>-</l>
+                        <l>Y me alargó un medio fr<rhyme label="asco" type="grave">asco</rhyme></l>
+                        <l>Diciendo: "Beba cuñ<rhyme label="ao" type="grave">ao</rhyme>"-</l>
+                        <l>"Por su hermana" contest<rhyme label="e" type="aguda">é</rhyme></l>
+                        <l>"Que por la mia no hay cuid<rhyme label="ao" type="grave">ao</rhyme>"</l>
+                    </lg>
+                    
+                    <lg n="229" rhyme="abbcbc">
+                    <note>el quinto verso tiene rima asonante</note>
+                        <l>"Ah! gaucho, me respond<rhyme label="io" type="aguda">ió</rhyme></l>
+                        <l>"De que pago será cri<rhyme label="ollo" type="grave">ollo</rhyme>-</l>
+                        <l>"Lo andará buscando el <term n="96"><rhyme label="oyo" type="grave">oyo</rhyme></term></l>
+                        <l>"Deberá tener güen c<rhyme label="uero" type="grave">uero</rhyme>-</l>
+                        <l>"Pero ande bala este t<rhyme label="oro" type="grave">oro</rhyme></l>
+                        <l>"No bala ningun tern<rhyme label="ero" type="grave">ero</rhyme>"</l>
+                    </lg>
+                    
+                    <lg n="230" rhyme="abbcbc">
+                    <note>el quinto verso tiene rima asonante</note>
+                        <l>Y ya salimos trens<rhyme label="aos" type="grave">aos</rhyme></l>
+                        <l>Por que el hombre no era l<rhyme label="erdo" type="grave">erdo</rhyme>-</l>
+                        <l>Mas como el tino no p<rhyme label="ierdo" type="grave">ierdo</rhyme>,</l>
+                        <l>Y soy medio lijer<rhyme label="on" type="aguda">on</rhyme>,</l>
+                        <l>Le dejé mostrando el <term n="97">s<rhyme label="ebo" type="grave">ebo</rhyme></term></l>
+                        <l>De un revéz con el fac<rhyme label="on" type="aguda">on</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="231" rhyme="abbcbc">
+                        <l>Y como con la just<rhyme label="icia" type="grave">icia</rhyme></l>
+                        <l>No andaba bien por all<rhyme label="i" type="aguda">í</rhyme>,</l>
+                        <l>Cuanto pataliar lo v<rhyme label="i" type="aguda">i</rhyme>,</l>
+                        <l>Y el pulpero pegó el gr<rhyme label="ito" type="grave">ito</rhyme>,</l>
+                        <l>Ya pa el palenque sal<rhyme label="i" type="aguda">í</rhyme></l>
+                        <l>Como haciendome chiqu<rhyme label="ito" type="grave">ito</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="232" rhyme="abbcbc">
+                        <l>Monté, y me encomendé á D<rhyme label="ios" type="aguda">ios</rhyme>,</l>
+                        <l>Rumbiando para otro p<rhyme label="ago" type="grave">ago</rhyme>-</l>
+                        <l>Que el gaucho que llaman v<rhyme label="ago" type="grave">ago</rhyme></l>
+                        <l>No puede tener quer<rhyme label="encia" type="grave">encia</rhyme>,</l>
+                        <l>Y ansi de estrago en estr<rhyme label="ago" type="grave">ago</rhyme></l>
+                        <l>Vive yorando la aus<rhyme label="encia" type="grave">encia</rhyme></l>
+                    </lg>
+                    
+                    <lg n="233" rhyme="abbcdc">
+                        <l>Él anda siempre juy<rhyme label="endo" type="grave">endo</rhyme></l>
+                        <l>Siempre pobre y persegu<rhyme label="ido" type="grave">ido</rhyme>,</l>
+                        <l>No tiene cueva ni n<rhyme label="ido" type="grave">ido</rhyme></l>
+                        <l>Como si juera mald<rhyme label="ito" type="grave">ito</rhyme>-</l>
+                        <l>Por que el ser gaucho...bar<rhyme label="ajo" type="grave">ajo</rhyme></l>
+                        <l>El ser gaucho es un del<rhyme label="ito" type="grave">ito</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="234" rhyme="abbccb">
+                        <l>Es como el <term n="98">patrio de p<rhyme label="osta" type="grave">osta</rhyme></term></l>
+                        <l>Lo larga este, aquel lo t<rhyme label="oma" type="grave">oma</rhyme>-</l>
+                        <l>Nunca se acaba la br<rhyme label="oma" type="grave">oma</rhyme>-</l>
+                        <l>Dende chico se par<rhyme label="ece" type="grave">ece</rhyme></l>
+                        <l>Al arbolito que cr<rhyme label="ece" type="grave">ece</rhyme></l>
+                        <l>Desamparao en la l<rhyme label="oma" type="grave">oma</rhyme></l>
+                    </lg>
+                    
+                    <lg n="235" rhyme="abbcdc">
+                        <l>Le echan la agua del baut<rhyme label="ismo" type="grave">ismo</rhyme></l>
+                        <l>Aquel que nacio en la s<rhyme label="elva" type="grave">elva</rhyme>,</l>
+                        <l>"Busca madre que te env<rhyme label="uelva" type="grave">uelva</rhyme>"</l>
+                        <l>Se dice el fraire y lo l<rhyme label="arga" type="grave">arga</rhyme>,</l>
+                        <l>Y dentra á crusar el m<rhyme label="undo" type="grave">undo</rhyme></l>
+                        <l>Como burro con la c<rhyme label="arga" type="grave">arga</rhyme></l>
+                    </lg>
+                    
+                    <lg n="236" rhyme="abbccb">
+                        <l>Y se cria viviendo al v<rhyme label="iento" type="grave">iento</rhyme></l>
+                        <l>Como oveja sin trasqu<rhyme label="ila" type="grave">ila</rhyme>-</l>
+                        <l>Míentras su padre en las f<rhyme label="ilas" type="grave">ilas</rhyme></l>
+                        <l>Anda sirviendo al Gob<rhyme label="ierno" type="grave">ierno</rhyme>-</l>
+                        <l>Aunque tirite en inv<rhyme label="ierno" type="grave">ierno</rhyme></l>
+                        <l>Naides lo ampara ni as<rhyme label="ila" type="grave">ila</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="237" rhyme="abbccb">
+                        <l>Le llaman "gaucho mam<rhyme label="ao" type="grave">ao</rhyme>"</l>
+                        <l>Si lo pillan divert<rhyme label="ido" type="grave">ido</rhyme>,</l>
+                        <l>Y que es mal entreten<rhyme label="ido" type="grave">ido</rhyme></l>
+                        <l>Si en un baile lo sorpr<rhyme label="ienden" type="grave">ienden</rhyme>-</l>
+                        <l>Hase mal si se def<rhyme label="iende" type="grave">iende</rhyme></l>
+                        <l>Y si no, se vé....fund<rhyme label="ido" type="grave">ido</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="238" rhyme="abbcdc">
+                        <l>No tiene hijos, ni muj<rhyme label="er" type="aguda">er</rhyme>,</l>
+                        <l>Ni amigos, ni protet<rhyme label="ores" type="grave">ores</rhyme>,</l>
+                        <l>Pues todos son sus señ<rhyme label="ores" type="grave">ores</rhyme></l>
+                        <l>Sin que ninguno lo amp<rhyme label="are" type="grave">are</rhyme>-</l>
+                        <l>Tiene la suerte del g<rhyme label="uey" type="aguda">üey</rhyme>-</l>
+                        <l>Y donde irá el guey que no <rhyme label="are" type="grave">are</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="239" rhyme="">
+                        <l>Su casa es el pajon<rhyme label="al" type="aguda">al</rhyme></l>
+                        <l>Su guarida es el des<rhyme label="ierto" type="grave">ierto</rhyme>;-</l>
+                        <l>Y si de hambre medio m<rhyme label="uerto" type="grave">uerto</rhyme></l>
+                        <l>Le echa el lazo á algun mam<rhyme label="ao" type="grave">ao</rhyme>,</l>
+                        <l>Lo persiguen como á <term n="99">pl<rhyme label="aito" type="grave">aito</rhyme></term></l>
+                        <l>Porque es un "gaucho ladr<rhyme label="on" type="aguda">on</rhyme>"</l>
+                    </lg>
+                    
+                    <lg n="240" rhyme="abbccb">
+                    <note>el último verso tiene rima asonante</note>    
+                        <l>Y si de un golpe por <rhyme label="ay" type="aguda">ay</rhyme></l>
+                        <l>Lo dan vuelta panza arr<rhyme label="iba" type="grave">iba</rhyme></l>
+                        <l>No hay un alma compas<rhyme label="iva" type="grave">iva</rhyme></l>
+                        <l>Que le rese una orac<rhyme label="ion" type="aguda">ion</rhyme>-</l>
+                        <l>Tal vez como cimarr<rhyme label="on" type="aguda">on</rhyme></l>
+                        <l>En una cueva lo t<rhyme label="iran" type="grave">iran</rhyme></l>
+                    </lg>
+                    
+                    <lg n="241" rhyme="abbcbc">
+                        <l>El nada gana en la p<rhyme label="az" type="aguda">az</rhyme></l>
+                        <l>Y es el primero en la gu<rhyme label="erra" type="grave">erra</rhyme>-</l>
+                        <l>No le perdonan si y<rhyme label="erra" type="grave">erra</rhyme></l>
+                        <l>Que no saben perdon<rhyme label="ar" type="grave">ar</rhyme>,-</l>
+                        <l>Porque el gaucho en esta t<rhyme label="ierra" type="grave">ierra</rhyme></l>
+                        <l>Solo sirve pa vot<rhyme label="ar" type="grave">ar</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="242" rhyme="abbcdc">
+                        <l>Para él son los calab<rhyme label="ozos" type="grave">ozos</rhyme>,</l>
+                        <l>Para él las duras pris<rhyme label="iones" type="grave">iones</rhyme>-</l>
+                        <l>En su boca no hay raz<rhyme label="ones" type="grave">ones</rhyme></l>
+                        <l>Aunque la razon le s<rhyme label="obre" type="grave">obre</rhyme>,</l>
+                        <l>Que son <term n="100">campanas de p<rhyme label="alo" type="grave">alo</rhyme></term></l>
+                        <l>Las razones de los p<rhyme label="obres" type="grave">obres</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="243" rhyme="abbcdc">
+                        <l>Si uno aguanta, es gaucho br<rhyme label="uto" type="grave">uto</rhyme>-</l>
+                        <l>Si no aguanta es gaucho m<rhyme label="alo" type="grave">alo</rhyme>-</l>
+                        <l>Dele azote dele p<rhyme label="alo" type="grave">alo</rhyme>!</l>
+                        <l>Porque es lo que el neces<rhyme label="ita" type="grave">ita</rhyme>!!</l>
+                        <l>De todo el que nació g<rhyme label="aucho" type="grave">aucho</rhyme>-</l>
+                        <l>Esta es la suerte mald<rhyme label="ita" type="grave">ita</rhyme>,</l> 
+                    </lg>
+                    
+                    <lg n="244" rhyme="abbcbc">
+                    <note>el quinto verso tiene rima asonante</note>
+                        <l>Vamos suerte-vamos j<rhyme label="untos" type="grave">untos</rhyme></l>
+                        <l>Dende que juntos nac<rhyme label="imos" type="grave">imos</rhyme>-</l>
+                        <l>Y ya que juntos viv<rhyme label="imos" type="grave">imos</rhyme></l>
+                        <l>Sin podernos divid<rhyme label="ir" type="aguda">ir</rhyme>....</l>
+                        <l>Yo abrire con mi cuch<rhyme label="illo" type="grave">illo</rhyme></l>
+                        <l>El camino pa segu<rhyme label="ir" type="aguda">ir</rhyme>.</l>
+                    </lg>
 
  </lg>
 

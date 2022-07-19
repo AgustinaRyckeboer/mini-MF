@@ -24,250 +24,250 @@
 
             <head>Canto VII</head>
                 
-                <lg type="poema" style="sexteto" unisonancia="singular" isometrismo="isométrico" isoestrofismo="isoestrófico" asonancia="consonante" met="6x8">
+                <lg type="poema" style="cuarteto" unisonancia="singular" isometrismo="isométrico" isoestrofismo="isoestrófico" asonancia="libre" met="4x8">
                     
-                    <lg n="188"> 
-                        <l>De carta de mas me v<rhyme>ia</rhyme></l>
-                        <l>Sin saber á donde d<rhyme>irme</rhyme>,</l>
-                        <l>Mas dijeron que era v<rhyme>ago</rhyme></l>
-                        <l>Y entraron á persegu<rhyme>irme</rhyme>.</l>
+                    <lg n="188" rhyme="abcb"> 
+                        <l>De carta de mas me v<rhyme label="ia" type="aguda">ia</rhyme></l>
+                        <l>Sin saber á donde d<rhyme label="irme" type="grave">irme</rhyme>,</l>
+                        <l>Mas dijeron que era v<rhyme label="ago" type="grave">ago</rhyme></l>
+                        <l>Y entraron á persegu<rhyme label="irme" type="grave">irme</rhyme>.</l>
                     </lg>
                     
-                    <lg n="189">
-                        <l>Nunca se achican los m<rhyme>ales</rhyme></l>
-                        <l>Van poco á poco crec<rhyme>iendo</rhyme></l>
-                        <l>Y ansina me vide pr<rhyme>onto</rhyme></l>
-                        <l>Obligao á andar juy<rhyme>endo</rhyme></l>
+                    <lg n="189" rhyme="abcb">
+                        <l>Nunca se achican los m<rhyme label="ales" type="grave">ales</rhyme></l>
+                        <l>Van poco á poco crec<rhyme label="iendo" type="grave">iendo</rhyme></l>
+                        <l>Y ansina me vide pr<rhyme label="onto" type="grave">onto</rhyme></l>
+                        <l>Obligao á andar juy<rhyme label="endo" type="grave">endo</rhyme></l>
                     </lg>
                     
-                    <lg n="190">
-                        <l>No tenia muger ni r<rhyme>ancho</rhyme>,</l>
-                        <l>Y á mas, era resert<rhyme>or</rhyme>,</l>
-                        <l>No tenia una prenda g<rhyme>üena</rhyme></l>
-                        <l>Ni un peso en el tirad<rhyme>or</rhyme>.</l>
+                    <lg n="190" rhyme="abcb">
+                        <l>No tenia muger ni r<rhyme label="ancho" type="grave">ancho</rhyme>,</l>
+                        <l>Y á mas, era resert<rhyme label="or" type="aguda">or</rhyme>,</l>
+                        <l>No tenia una prenda g<rhyme label="uena" type="grave">üena</rhyme></l>
+                        <l>Ni un peso en el tirad<rhyme label="or" type="aguda">or</rhyme>.</l>
                     </lg>
                     
-                    <lg n="191">
-                        <l>A mis hijos infel<rhyme>ices</rhyme></l>
-                        <l>Pensé volverlos á hall<rhyme>ar</rhyme>-</l>
-                        <l>Y andaba de un lao al <rhyme>otro</rhyme></l>
-                        <l>Sin tener ni que pit<rhyme>ar</rhyme>.</l>
+                    <lg n="191" rhyme="abcb">
+                        <l>A mis hijos infel<rhyme label="ices" type="grave">ices</rhyme></l>
+                        <l>Pensé volverlos á hall<rhyme label="ar" type="aguda">ar</rhyme>-</l>
+                        <l>Y andaba de un lao al <rhyme label="otro" type="grave">otro</rhyme></l>
+                        <l>Sin tener ni que pit<rhyme label="ar" type="aguda">ar</rhyme>.</l>
                     </lg>
                     
-                    <lg n="192">
-                        <l>Supe una vez por desgr<rhyme>acia</rhyme></l>
-                        <l>Que habia un baile por all<rhyme>i</rhyme>-</l>
-                        <l>Y medio desesper<rhyme>ao</rhyme></l>
-                        <l>A ver la <term n="83">milonga</term> f<rhyme>ui</rhyme>.</l>
+                    <lg n="192" rhyme="abcb">
+                        <l>Supe una vez por desgr<rhyme label="acia" type="grave">acia</rhyme></l>
+                        <l>Que habia un baile por all<rhyme label="i" type="aguda">i</rhyme>-</l>
+                        <l>Y medio desesper<rhyme label="ao" type="grave">ao</rhyme></l>
+                        <l>A ver la <term n="83">milonga</term> f<rhyme label="ui" type="aguda">ui</rhyme>.</l>
                     </lg>
                     
-                    <lg n="193">
-                        <l>Riunidos al <term n="84">peric<rhyme>on</rhyme></term></l>
-                        <l>Tantos amigos hall<rhyme>é</rhyme></l>
-                        <l>Que alegre de verme entre <rhyme>ellos</rhyme></l>
-                        <l>Esa noche me aped<rhyme>é</rhyme>.</l>
+                    <lg n="193" rhyme="abcb">
+                        <l>Riunidos al <term n="84">peric<rhyme label="on" type="aguda">on</rhyme></term></l>
+                        <l>Tantos amigos hall<rhyme label="e" type="aguda">é</rhyme></l>
+                        <l>Que alegre de verme entre <rhyme label="ellos" type="grave">ellos</rhyme></l>
+                        <l>Esa noche me aped<rhyme label="e" type="aguda">é</rhyme>.</l>
                     </lg>
                     
-                    <lg n="194">
-                        <l>Como nunca, en la ocas<rhyme>ion</rhyme></l>
-                        <l>Por peliar me dió la tr<rhyme>anca</rhyme>.</l>
-                        <l>Y la emprendi con un n<rhyme>egro</rhyme></l>
-                        <l>Que trujo una negra en <rhyme>ancas</rhyme>.</l>
+                    <lg n="194" rhyme="abcb">
+                        <l>Como nunca, en la ocas<rhyme label="ion" type="aguda">ion</rhyme></l>
+                        <l>Por peliar me dió la tr<rhyme label="anca" type="grave">anca</rhyme>.</l>
+                        <l>Y la emprendi con un n<rhyme label="egro" type="grave">egro</rhyme></l>
+                        <l>Que trujo una negra en <rhyme label="ancas" type="grave">ancas</rhyme>.</l>
                     </lg>
                     
-                    <lg n="195">
-                        <l>Al ver llegar la mor<rhyme>ena</rhyme></l>
-                        <l>Que no hacia caso de n<rhyme>aides</rhyme>,</l>
-                        <l>Le dije con la mam<rhyme>úa</rhyme></l>
-                        <l>"Va....ca....yendo gente al b<rhyme>aile</rhyme>"</l>
+                    <lg n="195" rhyme="abcb">
+                        <l>Al ver llegar la mor<rhyme label="ena" type="grave">ena</rhyme></l>
+                        <l>Que no hacia caso de n<rhyme label="aides" type="grave">aides</rhyme>,</l>
+                        <l>Le dije con la mam<rhyme label="ua" type="grave">úa</rhyme></l>
+                        <l>"Va....ca....yendo gente al b<rhyme label="aile" type="grave">aile</rhyme>"</l>
                     </lg>
                     
-                    <lg n="196">
-                        <l>La negra entendió la c<rhyme>osa</rhyme></l>
-                        <l>Y no tardó en contest<rhyme>arme</rhyme>-</l>
-                        <l>Mirandome como á p<rhyme>erro</rhyme>-</l>
-                        <l>"Mas vaca será su m<rhyme>adre</rhyme>"</l>
+                    <lg n="196" rhyme="abcb">
+                        <l>La negra entendió la c<rhyme label="osa" type="grave">osa</rhyme></l>
+                        <l>Y no tardó en contest<rhyme label="arme" type="grave">arme</rhyme>-</l>
+                        <l>Mirandome como á p<rhyme label="erro" type="grave">erro</rhyme>-</l>
+                        <l>"Mas vaca será su m<rhyme label="adre" type="grave">adre</rhyme>"</l>
                     </lg>
                     
-                    <lg n="197">
-                        <l>Y dentró al baile muy t<rhyme>iesa</rhyme></l>
-                        <l>Con mas cola que una z<rhyme>orra</rhyme></l>
-                        <l>Haciendo blanquiar los d<rhyme>ientes</rhyme></l>
-                        <l>Lo mesmo que <term n="85">mazam<rhyme>orra</rhyme></term>.</l>
+                    <lg n="197" rhyme="abcb">
+                        <l>Y dentró al baile muy t<rhyme label="iesa" type="grave">iesa</rhyme></l>
+                        <l>Con mas cola que una z<rhyme label="orra" type="grave">orra</rhyme></l>
+                        <l>Haciendo blanquiar los d<rhyme label="ientes" type="grave">ientes</rhyme></l>
+                        <l>Lo mesmo que <term n="85">mazam<rhyme label="orra" type="grave">orra</rhyme></term>.</l>
                     </lg>
                     
-                    <lg n="198">
-                        <l>"Negra linda"....dije y<rhyme>o</rhyme>-</l>
-                        <l>"Me gusta pa la <term n="86">car<rhyme>ona</rhyme></term>"-</l>
-                        <l>Y me puse á talar<rhyme>iar</rhyme></l>
-                        <l>Esta coplita freg<rhyme>ona</rhyme>:</l>
+                    <lg n="198" rhyme="abcb">
+                        <l>"Negra linda"....dije y<rhyme label="o" type="aguda">o</rhyme>-</l>
+                        <l>"Me gusta pa la <term n="86">car<rhyme label="ona" type="grave">ona</rhyme></term>"-</l>
+                        <l>Y me puse á talar<rhyme label="iar" type="aguda">iar</rhyme></l>
+                        <l>Esta coplita freg<rhyme label="ona" type="grave">ona</rhyme>:</l>
                     </lg>
                     
-                    <lg n="199">
-                        <l>"A los blancos hizo D<rhyme>ios</rhyme></l>
-                        <l>"A los mulatos San P<rhyme>edro</rhyme></l>
-                        <l>"A los negros hizo el d<rhyme>iablo</rhyme></l>
-                        <l>"Para tizon del inf<rhyme>ierno</rhyme>"</l>
+                    <lg n="199" rhyme="abcb">
+                        <l>"A los blancos hizo D<rhyme label="ios" type="aguda">ios</rhyme></l>
+                        <l>"A los mulatos San P<rhyme label="edro" type="grave">edro</rhyme></l>
+                        <l>"A los negros hizo el d<rhyme label="eablo" type="grave">iablo</rhyme></l>
+                        <l>"Para tizon del inf<rhyme label="ierno" type="grave">ierno</rhyme>"</l>
                     </lg>
                     
-                    <lg n="200">
-                        <l>Habia estao juntando r<rhyme>abia</rhyme></l>
-                        <l>El moreno dende aj<rhyme>uera</rhyme>-</l>
-                        <l>En lo escuro le brill<rhyme>aban</rhyme></l>
-                        <l>Los ojos como lint<rhyme>erna</rhyme>.</l>
+                    <lg n="200" rhyme="abcb">
+                        <l>Habia estao juntando r<rhyme label="abia" type="grave">abia</rhyme></l>
+                        <l>El moreno dende aj<rhyme label="uera" type="grave">uera</rhyme>-</l>
+                        <l>En lo escuro le brill<rhyme label="aban" type="grave">aban</rhyme></l>
+                        <l>Los ojos como lint<rhyme label="erna" type="grave">erna</rhyme>.</l>
                     </lg>
                                         
-                    <lg n="201">
-                        <l>Lo conoci retob<rhyme>ao</rhyme></l>
-                        <l>Me acerqué y le dije pr<rhyme>esto</rhyme>:</l>
-                        <l>"Po....r....rudo que un hombre s<rhyme>ea</rhyme></l>
-                        <l>"Nunca se enoja por <rhyme>esto</rhyme>"</l>
+                    <lg n="201" rhyme="abcb">
+                        <l>Lo conoci retob<rhyme label="ao" type="grave">ao</rhyme></l>
+                        <l>Me acerqué y le dije pr<rhyme label="esto" type="grave">esto</rhyme>:</l>
+                        <l>"Po....r....rudo que un hombre s<rhyme label="ea" type="grave">ea</rhyme></l>
+                        <l>"Nunca se enoja por <rhyme label="esto" type="grave">esto</rhyme>"</l>
                     </lg>
                     
-                    <lg n="202">
-                        <l>Corcobió el de los <term n="87">tam<rhyme>angos</rhyme></term></l>
-                        <l>Y creyendose muy f<rhyme>ijo</rhyme>-</l>
-                        <l>"Mas <term n="88">porrudo</term> serás v<rhyme>oz</rhyme>,</l>
-                        <l>"Gaucho rotoso" me d<rhyme>ijo</rhyme>.</l>
+                    <lg n="202" rhyme="abcb">
+                        <l>Corcobió el de los <term n="87">tam<rhyme label="angos" type="grave">angos</rhyme></term></l>
+                        <l>Y creyendose muy f<rhyme label="ijo" type="grave">ijo</rhyme>-</l>
+                        <l>"Mas <term n="88">porrudo</term> serás v<rhyme label="oz" type="aguda">oz</rhyme>,</l>
+                        <l>"Gaucho rotoso" me d<rhyme label="ijo" type="grave">ijo</rhyme>.</l>
                     </lg>
                     
-                    <lg n="203">
-                        <l>Y ya se me vino al h<rhyme>umo</rhyme></l>
-                        <l>Como á buscarme la h<rhyme>ebra</rhyme>-</l>
-                        <l>Y un golpe le acomod<rhyme>é</rhyme></l>
-                        <l>Con el porron de gin<rhyme>ebra</rhyme>.</l>
+                    <lg n="203" rhyme="abcb">
+                        <l>Y ya se me vino al h<rhyme label="umo" type="grave">umo</rhyme></l>
+                        <l>Como á buscarme la h<rhyme label="ebra" type="grave">ebra</rhyme>-</l>
+                        <l>Y un golpe le acomod<rhyme label="e" type="aguda">é</rhyme></l>
+                        <l>Con el porron de gin<rhyme label="ebra" type="grave">ebra</rhyme>.</l>
                     </lg>
                     
-                    <lg n="204">
-                        <l>Ay no mas pegó el de oll<rhyme>ín</rhyme></l>
-                        <l>Mas gruñidos que un chanch<rhyme>ito</rhyme>,</l>
-                        <l>Y pelando el enven<rhyme>ao</rhyme></l>
-                        <l>Me atropello dando gr<rhyme>itos</rhyme>.</l>
+                    <lg n="204" rhyme="abcb">
+                        <l>Ay no mas pegó el de oll<rhyme label="in" type="aguda">ín</rhyme></l>
+                        <l>Mas gruñidos que un chanch<rhyme label="ito" type="ito">ito</rhyme>,</l>
+                        <l>Y pelando el enven<rhyme label="ao" type="grave">ao</rhyme></l>
+                        <l>Me atropello dando gr<rhyme label="itos" type="ito">itos</rhyme>.</l>
                     </lg>
                     
-                    <lg n="205">
-                        <l>Pegué un brinco y abrí c<rhyme>ancha</rhyme></l>
-                        <l>Diciendoles "Caball<rhyme>eros</rhyme></l>
-                        <l>"Dejen venir á ese t<rhyme>oro</rhyme>"</l>
-                        <l>"Solo naci....solo m<rhyme>uero</rhyme>.</l>
+                    <lg n="205" rhyme="abcb">
+                        <l>Pegué un brinco y abrí c<rhyme label="ancha" type="grave">ancha</rhyme></l>
+                        <l>Diciendoles "Caball<rhyme label="eros" type="grave">eros</rhyme></l>
+                        <l>"Dejen venir á ese t<rhyme label="oro" type="grave">oro</rhyme>"</l>
+                        <l>"Solo naci....solo m<rhyme label="uero" type="grave">uero</rhyme>.</l>
                     </lg>
                     
-                    <lg n="206">
-                        <l>El negro despues del g<rhyme>olpe</rhyme></l>
-                        <l>Se habia el poncho refal<rhyme>ao</rhyme></l>
-                        <l>Y dijo "Vas á sab<rhyme>er</rhyme></l>
-                        <l>"Si es solo ó acompañ<rhyme>ao</rhyme>"</l>
+                    <lg n="206" rhyme="abab">
+                        <l>El negro despues del g<rhyme label="olpe" type="grave">olpe</rhyme></l>
+                        <l>Se habia el poncho refal<rhyme label="ao" type="grave">ao</rhyme></l>
+                        <l>Y dijo "Vas á sab<rhyme label="er" type="aguda">er</rhyme></l>
+                        <l>"Si es solo ó acompañ<rhyme label="ao" type="grave">ao</rhyme>"</l>
                     </lg>
                     
-                    <lg n="207">
-                        <l>Y mientras se arremang<rhyme>ó</rhyme></l>
-                        <l>Yo me saqué las esp<rhyme>uelas</rhyme>,</l>
-                        <l>Pues malicié que aquel t<rhyme>io</rhyme></l>
-                        <l>No era de arriar con las r<rhyme>iendas</rhyme>.</l>
+                    <lg n="207" rhyme="abab">
+                        <l>Y mientras se arremang<rhyme label="o" type="aguda">ó</rhyme></l>
+                        <l>Yo me saqué las esp<rhyme label="uelas" type="gave">uelas</rhyme>,</l>
+                        <l>Pues malicié que aquel t<rhyme label="io" type="grave">io</rhyme></l>
+                        <l>No era de arriar con las r<rhyme label="iendas" type="grave">iendas</rhyme>.</l>
                     </lg>
                     
-                    <lg n="208">
-                        <l>No hay cosa como el pel<rhyme>igro</rhyme></l>
-                        <l>Pa refrescar un mam<rhyme>ao</rhyme>,</l>
-                        <l>Hasta la vista se acl<rhyme>ara</rhyme></l>
-                        <l>Por mucho que aiga chup<rhyme>ao</rhyme>.</l>
+                    <lg n="208" rhyme="abcb">
+                        <l>No hay cosa como el pel<rhyme label="igro" type="grave">igro</rhyme></l>
+                        <l>Pa refrescar un mam<rhyme label="ao" type="grave">ao</rhyme>,</l>
+                        <l>Hasta la vista se acl<rhyme label="ara" type="grave">ara</rhyme></l>
+                        <l>Por mucho que aiga chup<rhyme label="ao" type="grave">ao</rhyme>.</l>
                     </lg>
                     
-                    <lg n="209">
-                        <l>El negro me atropell<rhyme>ó</rhyme></l>
-                        <l>Como á quererme com<rhyme>er</rhyme>-</l>
-                        <l>Me hizo dos tiros segu<rhyme>idos</rhyme></l>
-                        <l>Y los dos le abaraj<rhyme>é</rhyme>.</l>
+                    <lg n="209" rhyme="abab">
+                        <l>El negro me atropell<rhyme label="o" type="aguda">ó</rhyme></l>
+                        <l>Como á quererme com<rhyme label="er" type="aguda">er</rhyme>-</l>
+                        <l>Me hizo dos tiros segu<rhyme label="idos" type="grave">idos</rhyme></l>
+                        <l>Y los dos le abaraj<rhyme label="er" type="aguda">é</rhyme>.</l>
                     </lg>
                     
-                    <lg n="210">
+                    <lg n="210" rhyme="abcb">
                         <l>Yo tenia un facon con S</l>
-                        <l>Que era de lima de ac<rhyme>ero</rhyme></l>
-                        <l>Le hize un tiro, lo quit<rhyme>o</rhyme></l>
-                        <l>Y vino ciego el mor<rhyme>eno</rhyme>.</l>
+                        <l>Que era de lima de ac<rhyme label="ero" type="grave">ero</rhyme></l>
+                        <l>Le hize un tiro, lo quit<rhyme label="o" type="aguda">o</rhyme></l>
+                        <l>Y vino ciego el mor<rhyme label="eno" type="grave">eno</rhyme>.</l>
                     </lg>
                     
-                    <lg n="211">
-                        <l>y en el medio de las <term n="89"><rhyme>aspas</rhyme></term></l>
-                        <l>Un <term n="90">planaso</term> le asent<rhyme>é</rhyme></l>
-                        <l>Que lo largué culebr<rhyme>iando</rhyme></l>
-                        <l>Lo mesmo que <term n="91">buscap<rhyme>ie</rhyme></term>.</l>
+                    <lg n="211" rhyme="abcb">
+                        <l>y en el medio de las <term n="89"><rhyme label="aspas" type="grave">aspas</rhyme></term></l>
+                        <l>Un <term n="90">planaso</term> le asent<rhyme label="e" type="aguda">é</rhyme></l>
+                        <l>Que lo largué culebr<rhyme label="iando" type="grave">iando</rhyme></l>
+                        <l>Lo mesmo que <term n="91">buscap<rhyme label="ie" type="aguda">ie</rhyme></term>.</l>
                     </lg>
                     
-                    <lg n="212">
-                        <l>Le coloriaron las <term n="92">m<rhyme>otas</rhyme></term></l>
-                        <l>Con la sangre de la her<rhyme>ida</rhyme></l>
-                        <l>Y volvio á venir fur<rhyme>ioso</rhyme></l>
-                        <l>Como una tigra par<rhyme>ida</rhyme>.</l>
+                    <lg n="212" rhyme="abcb">
+                        <l>Le coloriaron las <term n="92">m<rhyme label="otas" type="grave">otas</rhyme></term></l>
+                        <l>Con la sangre de la her<rhyme label="ida" type="grave">ida</rhyme></l>
+                        <l>Y volvio á venir fur<rhyme label="ioso" type="grave">ioso</rhyme></l>
+                        <l>Como una tigra par<rhyme label="ida" type="grave">ida</rhyme>.</l>
                     </lg>
                     
-                    <lg n="213">
-                        <l>Y ya me hizo relumbr<rhyme>ar</rhyme></l>
-                        <l>Por los ojos el cuch<rhyme>illo</rhyme>-</l>
-                        <l>Alcansando con la p<rhyme>unta</rhyme></l>
-                        <l>A cortarme en un <term n="93">carr<rhyme>illo</rhyme></term>.</l>
+                    <lg n="213" rhyme="abcb">
+                        <l>Y ya me hizo relumbr<rhyme label="ar" type="aguda">ar</rhyme></l>
+                        <l>Por los ojos el cuch<rhyme label="illo" type="grave">illo</rhyme>-</l>
+                        <l>Alcansando con la p<rhyme label="unta" type="grave">unta</rhyme></l>
+                        <l>A cortarme en un <term n="93">carr<rhyme label="illo" type="grave">illo</rhyme></term>.</l>
                     </lg>
                     
-                    <lg n="214">
-                        <l>Me hirbió la sangre en las v<rhyme>enas</rhyme></l>
-                        <l>Y me le afirmé al mor<rhyme>eno</rhyme></l>
-                        <l>Dandole de punta y h<rhyme>acha</rhyme></l>
-                        <l>Pa dejar un diablo m<rhyme>enos</rhyme>.</l>
+                    <lg n="214" rhyme="abcb">
+                        <l>Me hirbió la sangre en las v<rhyme label="enas" type="grave">enas</rhyme></l>
+                        <l>Y me le afirmé al mor<rhyme label="eno" type="grave">eno</rhyme></l>
+                        <l>Dandole de punta y h<rhyme label="acha" type="grave">acha</rhyme></l>
+                        <l>Pa dejar un diablo m<rhyme label="enos" type="grave">enos</rhyme>.</l>
                     </lg>
                                         
-                    <lg n="215">
-                        <l>Por fin en una top<rhyme>ada</rhyme></l>
-                        <l>En el cuchillo lo alc<rhyme>é</rhyme></l>
-                        <l>Y como un saco de g<rhyme>üesos</rhyme></l>
-                        <l>Contra el cerco lo largu<rhyme>é</rhyme></l>
+                    <lg n="215" rhyme="abcb">
+                        <l>Por fin en una top<rhyme label="ada" type="grave">ada</rhyme></l>
+                        <l>En el cuchillo lo alc<rhyme label="e" type="aguda">é</rhyme></l>
+                        <l>Y como un saco de g<rhyme label="uesos" type="grave">üesos</rhyme></l>
+                        <l>Contra el cerco lo largu<rhyme label="e" type="aguda">é</rhyme></l>
                     </lg>
                     
-                    <lg n="216">
-                        <l>Tiró unas cuantas pat<rhyme>adas</rhyme></l>
-                        <l>Y ya cantó pa el carn<rhyme>ero</rhyme>-</l>
-                        <l>Nunca me puedo olvid<rhyme>ar</rhyme></l>
-                        <l>De la agonia de aquel n<rhyme>egro</rhyme>.</l>
+                    <lg n="216" rhyme="abab">
+                        <l>Tiró unas cuantas pat<rhyme label="adas" type="grave">adas</rhyme></l>
+                        <l>Y ya cantó pa el carn<rhyme label="ero" type="grave">ero</rhyme>-</l>
+                        <l>Nunca me puedo olvid<rhyme label="ar" type="aguda">ar</rhyme></l>
+                        <l>De la agonia de aquel n<rhyme label="egro" type="grave">egro</rhyme>.</l>
                     </lg>
                                         
-                    <lg n="217">
-                        <l>En esto la negra v<rhyme>ino</rhyme></l>
-                        <l>Con los ojos como ag<rhyme>i</rhyme>-</l>
-                        <l>Y empeso la pobre all<rhyme>i</rhyme></l>
-                        <l>A bramar como una l<rhyme>oba</rhyme>-</l>
-                        <l>Yo quise darle una s<rhyme>oba</rhyme></l>
-                        <l>A ver si la hacia call<rhyme>ar</rhyme></l>
-                        <l>Mas, pude reflesion<rhyme>ar</rhyme></l>
-                        <l>Que era malo en aquel p<rhyme>unto</rhyme>,</l>
-                        <l>Y por respeto al dij<rhyme>unto</rhyme></l>
-                        <l>No la quise castig<rhyme>ar</rhyme>.</l>
+                    <lg n="217" style="décima" asonancia="consonante" rhyme="abbccddeed" met="10x8">
+                        <l>En esto la negra v<rhyme label="ino" type="grave">ino</rhyme></l>
+                        <l>Con los ojos como ag<rhyme label="i" type="aguda">i</rhyme>-</l>
+                        <l>Y empeso la pobre all<rhyme label="i" type="aguda">i</rhyme></l>
+                        <l>A bramar como una l<rhyme label="oba" type="grave">oba</rhyme>-</l>
+                        <l>Yo quise darle una s<rhyme label="oba" type="grave">oba</rhyme></l>
+                        <l>A ver si la hacia call<rhyme label="ar" type="aguda">ar</rhyme></l>
+                        <l>Mas, pude reflesion<rhyme label="ar" type="aguda">ar</rhyme></l>
+                        <l>Que era malo en aquel p<rhyme label="unto" type="grave">unto</rhyme>,</l>
+                        <l>Y por respeto al dij<rhyme label="unto" type="grave">unto</rhyme></l>
+                        <l>No la quise castig<rhyme label="ar" type="aguda">ar</rhyme>.</l>
                     </lg>
                     
-                    <lg n="218">
-                        <l>Limpié el facón en los p<rhyme>atos</rhyme>,</l>
-                        <l>Desaté mi redom<rhyme>on</rhyme>,</l>
-                        <l>Monte despacio, y sal<rhyme>í</rhyme></l>
-                        <l>Al tranco pa el cañad<rhyme>ón</rhyme></l>
+                    <lg n="218" rhyme="abcb">
+                        <l>Limpié el facón en los p<rhyme label="atos" type="atos">atos</rhyme>,</l>
+                        <l>Desaté mi redom<rhyme label="on" type="aguda">on</rhyme>,</l>
+                        <l>Monte despacio, y sal<rhyme label="i" type="aguda">í</rhyme></l>
+                        <l>Al tranco pa el cañad<rhyme label="on" type="aguda">ón</rhyme></l>
                     </lg>
                     
-                    <lg n="219">
-                        <l>Despues supe que al fin<rhyme>ao</rhyme></l>
-                        <l>Ni siquiera lo vel<rhyme>aron</rhyme></l>
-                        <l>Y <term n="94">retobao</term> en un c<rhyme>uero</rhyme></l>
-                        <l>Sin resarle lo enterr<rhyme>aron</rhyme>.</l>
+                    <lg n="219" rhyme="abcb">
+                        <l>Despues supe que al fin<rhyme label="ao" type="aguda">ao</rhyme></l>
+                        <l>Ni siquiera lo vel<rhyme label="aron" type="grave">aron</rhyme></l>
+                        <l>Y <term n="94">retobao</term> en un c<rhyme label="uero" type="grave">uero</rhyme></l>
+                        <l>Sin resarle lo enterr<rhyme label="aron" type="grave">aron</rhyme>.</l>
                     </lg>
                     
-                    <lg n="220">
-                        <l>Y dicen que dende ent<rhyme>onces</rhyme></l>
-                        <l>Cuando es la noche ser<rhyme>ena</rhyme></l>
-                        <l>Suele verse una luz m<rhyme>ala</rhyme></l>
-                        <l>Como de alma que anda en p<rhyme>ena</rhyme>,</l>
+                    <lg n="220" rhyme="abcb">
+                        <l>Y dicen que dende ent<rhyme label="onces" type="grave">onces</rhyme></l>
+                        <l>Cuando es la noche ser<rhyme label="ena" type="grave">ena</rhyme></l>
+                        <l>Suele verse una luz m<rhyme label="ala" type="grave">ala</rhyme></l>
+                        <l>Como de alma que anda en p<rhyme label="ena" type="grave">ena</rhyme>,</l>
                     </lg>
                     
-                    <lg n="221">
-                        <l>Yo tengo intencion á v<rhyme>eces</rhyme>,</l>
-                        <l>Para que no pene t<rhyme>anto</rhyme>,</l>
-                        <l>De sacar de alli los g<rhyme>uesos</rhyme></l>
-                        <l>Y echarlos al campo s<rhyme>anto</rhyme></l>
+                    <lg n="221" rhyme="abcb">
+                        <l>Yo tengo intencion á v<rhyme label="eces" type="grave">eces</rhyme>,</l>
+                        <l>Para que no pene t<rhyme label="anto" type="grave">anto</rhyme>,</l>
+                        <l>De sacar de alli los g<rhyme label="uesos" type="grave">uesos</rhyme></l>
+                        <l>Y echarlos al campo s<rhyme label="anto" type="grave">anto</rhyme></l>
                     </lg> 
                     
                 </lg>
