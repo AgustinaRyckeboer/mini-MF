@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../MiniFierro/esquema_verso_.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-model href="schemas/TEI_verso.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
         <teiHeader>
             <fileDesc>
@@ -179,8 +180,9 @@
                         <l>De los bienes, la muj<rhyme label="er" type="aguda">er</rhyme>.</l>
                     </lg>
                     
-                    <lg>
-                        <l>----------------------------</l>
+                    <lg> 
+                        <note> esta estrofa esta marcada en la edición como ilegible</note>   
+                        <l>-------------------------------</l>
                     </lg>
 
                     <lg n="173" rhyme="abbccb">

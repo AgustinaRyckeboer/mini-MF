@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- *********************************************************************************************************** -->
+<!-- *********************************************************************************************************** -->
+<error msg="to RNG then Trang to make RNC failed: org.xml.sax.SAXParseException; Premature end of file." exclass="class java.io.IOException" >java.io.IOException: to RNG then Trang to make RNC failed: org.xml.sax.SAXParseException; Premature end of file.
+	at pl.psnc.dl.ege.tei.TEIConverter.convertDocument(TEIConverter.java:306)
+	at pl.psnc.dl.ege.tei.TEIConverter.convert(TEIConverter.java:154)
+	at pl.psnc.dl.ege.component.NamedConverter.convert(NamedConverter.java:44)
+	at pl.psnc.dl.ege.ConversionPerformer.run(ConversionPerformer.java:45)
+	at java.lang.Thread.run(Thread.java:748)
+</error>
+
+<!-- *********************************************************************************************************** -->
+<!-- *********************************************************************************************************** -->

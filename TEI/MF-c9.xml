@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../MiniFierro/esquema_verso_.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+
+<?xml-model href="schemas/TEI_verso.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
         <teiHeader>
             <fileDesc>
@@ -15,7 +17,7 @@
                     </availability>
                 </publicationStmt>
                 <sourceDesc>
-                    <bibl>[S.l.], Librería Martín Fierro, 1897</bibl>
+                    <bibl>Imprenta de La Pampa, 1872</bibl>
                 </sourceDesc>
             </fileDesc>
         </teiHeader>
@@ -37,7 +39,7 @@
                 <lg n="246">
                     <l>Viva el gaucho que ande mal</l>
                     <l>Como zorro perseguido-</l>
-                    <l>Hasta que al menor descuido</l>
+                    <l>Hasta que al <corr>menor</corr> descuido</l>
                     <l>Se lo atarazquen los perros</l>
                     <l>Pues nunca le falta un yerro</l>
                     <l>Al hombre mas alvertido.</l>
