@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../MiniFierro/esquema_verso_.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/TEI_verso.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
         <teiHeader>
             <fileDesc>
@@ -28,281 +28,303 @@
 
                    
 
-<lg>291
-<l>amigazo, pa sufrir</l>
-<l>han nacido los varones;</l>
-<l>estas son las ocasiones</l>
-<l>de mostrarse un hombre juerte,</l>
-<l>hasta que venga la muerte</l>
-<l>y lo agarre a coscorrones.</l>
-</lg>
-
-<lg>292
-<l>El andar tan despilchao</l>
-<l>ningún mérito me quita;</l>
-<l>sin ser un alma bendita</l>
-<l>me duelo del mal ajeno:</l>
-<l>soy un pastel con relleno</l>
-<l>que parece torta frita.</l>
-</lg>
-
-<lg>293
-<l>Tampoco me faltan males</l>
-<l>y desgracias, le prevengo;</l>
-<l>también mis desdichas tengo,</l>
-<l>aunque esto poco me aflige:</l>
-<l>yo sé hacerme el chango rengo</l>
-<l>cuando la cosa lo esige.</l>
-</lg>
+                <lg n="293">
+                    <l>Amigazo, pa sufrir</l>
+                    <l>Han nacido los varones;</l>
+                    <l>Estas son las ocasiones</l>
+                    <l>De mostrarse un hombre juerte,</l>
+                    <l>Hasta que venga la muerte</l>
+                    <l>Y lo agarre a coscorrones.</l>
+                </lg>
                 
-<lg>294
-<l>Y con algunos ardiles</l>
-<l>voy viviendo, aunque rotoso;</l>
-<l>a veces me hago el sarnoso</l>
-<l>y no tengo ni un granito,</l>
-<l>pero al chifle voy ganoso</l>
-<l>como panzón al maíz frito.</l>
-</lg>
-
-<lg>295
-<l>A mí no me matan penas</l>
-<l>mientras tenga el cuero sano;</l>
-<l>venga el sol en el verano</l>
-<l>y la escarcha en el invierno</l>
-<l>¿por qué afligirse el cristiano?</l>
-</lg>
-
-<lg>296
-<l>Hagámosle cara fiera</l>
-<l>a los males, compañero,</l>
-<l>porque el zorro más matrero</l>
-<l>suele cair como un chorlito;</l>
-<l>viene por un corderito</l>
-<l>y en la estaca deja el cuero.</l>
-</lg>
-
-<lg>297
-<l>Hoy tenemos que sufrir</l>
-<l>males que no tienen nombre,</l>
-<l>pero esto a nadies lo asombre</l>
-<l>porque ansina es el pastel,</l>
-<l>y tiene que dar el hombre</l>
-<l>mas güeltas que un carretel.</l>
-</lg>
+                <lg n="294">
+                    <l>El andar tan despilchao</l>
+                    <l>Ningún mérito me quita;</l>
+                    <l>Sin ser un alma bendita</l>
+                    <l>Me duelo del mal ajeno:</l>
+                    <l>Soy un pastel con relleno</l>
+                    <l>Que parece torta frita.</l>
+                </lg>
                 
-<lg>298
-Yo nunca me he de entregar
-a los brazos de la muerte;
-arrastro mi triste suerte
-paso a paso y como pueda,
-que donde el débil se queda
-se suele escapar el juerte.
-</lg>
+                <lg n="295">
+                    <l>Tampoco me faltan males</l>
+                    <l>Y desgracias, le prevengo;</l>
+                    <l>También mis desdichas tengo,</l>
+                    <l>Aunque esto poco me aflige:</l>
+                    <l>Yo sé hacerme el chango rengo</l>
+                    <l>Cuando la cosa lo esige.</l>
+                </lg>
+                                
+                <lg n="296">
+                    <l>Y con algunos ardiles</l>
+                    <l>Voy viviendo, aunque rotoso;</l>
+                    <l>A veces me hago el sarnoso</l>
+                    <l>Y no tengo ni un granito,</l>
+                    <l>Pero al chifle voy ganoso</l>
+                    <l>Como panzón al maíz frito.</l>
+                </lg>
                 
-<lg>299
-Y ricuerde cada cual
-lo que cada cual sufrió,
-que lo que es, amigo, yo,
-hago ansí la cuenta mía:
-ya lo pasado pasó;
-mañana será otro día.</lg>
-
-<lg>300
-Yo también tuve una pilcha
-que me enllenó el corazón,
-y si en aquella ocasión
-alguien me hubiera buscao,
-siguro que me había hallao
-más prendido que un botón.</lg>
-
-<lg>301
-En la güeya del querer
-no hay animal que se pierda-
-las mujeres no son lerdas,
-y todo gaucho es dotor
-si pa cantarle al amor
-tiene que templar las cuerdas.</lg>
-
-<lg>302
-¡Quién es de una alma tan dura
-que no quiera una mujer!
-Lo alivia en su padecer:
-si no sale calavera
-es la mejor compañera
-que el hombre puede tener.
-</lg>
+                <lg n="297">
+                    <l>A mí no me matan penas</l>
+                    <l>Mientras tenga el cuero sano;</l>
+                    <l>Venga el sol en el verano</l>
+                    <l>Y la escarcha en el invierno</l>
+                    <l>¿Por qué afligirse el cristiano?</l>
+                </lg>
                 
-<lg>303
-Si es güena, no lo abandona
-cuando lo ve desgraciao,
-lo asiste con su cuidao,
-y con afán cariñoso,
-y usté tal vez ni un rebozo
-ni una pollera le ha dao.
-</lg>
+                <lg n="298">
+                    <l>Hagámosle cara fiera</l>
+                    <l>A los males, compañero,</l>
+                    <l>Porque el zorro más matrero</l>
+                    <l>Suele cair como un chorlito;</l>
+                    <l>Viene por un corderito</l>
+                    <l>Y en la estaca deja el cuero.</l>
+                </lg>
                 
-<lg>304
-¡Grandemente lo pasaba
-con aquella prenda mía,
-viviendo con alegría
-como la mosca en la miel!
-¡Amigo, qué tiempo aquel!
-¡La pucha, que la quería!</lg>
+                <lg n="299">
+                    <l>Hoy tenemos que sufrir</l>
+                    <l>Males que no tienen nombre,</l>
+                    <l>Pero esto a nadies lo asombre</l>
+                    <l>Porque ansina es el pastel,</l>
+                    <l>Y tiene que dar el hombre</l>
+                    <l>Mas güeltas que un carretel.</l>
+                </lg>
+                                
+                <lg n="300">
+                    <l>Yo nunca me he de entregar</l>
+                    <l>A los brazos de la muerte;</l>
+                    <l>Arrastro mi triste suerte</l>
+                    <l>Paso a paso y como pueda,</l>
+                    <l>Que donde el débil se queda</l>
+                    <l>Se suele escapar el juerte.</l>
+                </lg>
+                                
+                <lg n="301">
+                    <l>Y ricuerde cada cual</l>
+                    <l>Lo que cada cual sufrió,</l>
+                    <l>Que lo que es, amigo, yo,</l>
+                    <l>Hago ansí la cuenta mía:</l>
+                    <l>Ya lo pasado pasó;</l>
+                    <l>Mañana será otro día.</l>
+                </lg>
+                    
+                <lg n="302">
+                    <l>Yo también tuve una pilcha</l>
+                    <l>Que me enllenó el corazón,</l>
+                    <l>Y si en aquella ocasión</l>
+                    <l>Alguien me hubiera buscao,</l>
+                    <l>Siguro que me había hallao</l>
+                    <l>Más prendido que un botón.</l>
+                </lg>
+                
+                <lg n="303">
+                    <l>En la güeya del querer</l>
+                    <l>No hay animal que se pierda-</l>
+                    <l>Las mujeres no son lerdas,</l>
+                    <l>Y todo gaucho es dotor</l>
+                    <l>Si pa cantarle al amor</l>
+                    <l>Tiene que templar las cuerdas.</l>
+                </lg>
+                
+                <lg n="304">
+                    <l>¡Quién es de una alma tan dura</l>
+                    <l>Que no quiera una mujer!</l>
+                    <l>Lo alivia en su padecer:</l>
+                    <l>Si no sale calavera</l>
+                    <l>Es la mejor compañera</l>
+                    <l>Que el hombre puede tener.</l>
+                </lg>
+                                
+                <lg n="305">
+                    <l>Si es güena, no lo abandona</l>
+                    <l>Cuando lo ve desgraciao,</l>
+                    <l>Lo asiste con su cuidao,</l>
+                    <l>Y con afán cariñoso,</l>
+                    <l>Y usté tal vez ni un rebozo</l>
+                    <l>Ni una pollera le ha dao.</l>
+                </lg>
+                                
+                <lg n="306">
+                    <l>¡Grandemente lo pasaba</l>
+                    <l>Con aquella prenda mía,</l>
+                    <l>Viviendo con alegría</l>
+                    <l>Como la mosca en la miel!</l>
+                    <l>¡Amigo, qué tiempo aquel!</l>
+                    <l>¡La pucha, que la quería!</l>
+                </lg>
+                
+                <lg n="307">
+                    <l>Era la águila que a un árbol</l>
+                    <l>Dende las nubes bajó;</l>
+                    <l>Era más linda que el alba</l>
+                    <l>Cuando va rayando el sol;</l>
+                    <l>Era la flor deliciosa</l>
+                    <l>Que entre el trebolar creció.</l>
+                </lg>
+                
+                <lg n="308">
+                    <l>Pero, amigo, el comendante</l>
+                    <l>Que mandaba la milicia,</l>
+                    <l>Como que no desperdicia</l>
+                    <l>Se fue refalando a casa;</l>
+                    <l>Yo le conocí en la traza</l>
+                    <l>Que el hombre traiba malicia.</l>
+                </lg>
+                
+                <lg n="309">
+                    <l>Él me daba voz de amigo,</l>
+                    <l>Pero no le tenía fe;</l>
+                    <l>Era el jefe, y ya se ve,</l>
+                    <l>No podía competir yo;</l>
+                    <l>En mi rancho se pegó</l>
+                    <l>Lo mesmo que un saguaipé.</l>
+                </lg>
+                
+                <lg n="310">
+                    <l>A poco andar, conocí</l>
+                    <l>Que ya me había desbancao,</l>
+                    <l>Y él siempre muy entonao,</l>
+                    <l>Aunque sin darme ni un cobre,</l>
+                    <l>Me tenía de lao a lao</l>
+                    <l>Como encomienda de pobre.</l>
+                </lg>
+                
+                <lg n="311">
+                    <l>A cada rato, de chasque</l>
+                    <l>Me hacía dir a gran distancia;</l>
+                    <l>Ya me mandaba a una estancia,</l>
+                    <l>Ya al pueblo, ya a la frontera;</l>
+                    <l>Pero él en la comendancia</l>
+                    <l>No ponía los pies siquiera.</l>
+                </lg>
+                
+                <lg n="312">
+                    <l>Es triste a no poder más</l>
+                    <l>El hombre en su padecer,</l>
+                    <l>Si no tiene una mujer</l>
+                    <l>Que lo ampare y lo consuele:</l>
+                    <l>Mas pa que otro se la pele</l>
+                    <l>Lo mejor es no tener.</l>
+                </lg>
+                
+                <lg n="313">
+                    <l>No me gusta que otro gallo</l>
+                    <l>Le cacaree a mi gallina;</l>
+                    <l>Yo andaba ya con la espina,</l>
+                    <l>Hasta que en una ocasión</l>
+                    <l>Lo pille junto al jogón</l>
+                    <l>Abrazándome a la china.</l>
+                </lg>
+                
+                <lg n="314">
+                    <l>Tenía el viejito una cara</l>
+                    <l>De ternero mal lamido,</l>
+                    <l>Y al verle tan atrevido</l>
+                    <l>Le dije: ¡que le aproveche!-</l>
+                    <l>Que había sido pa el amor</l>
+                    <l>Como gaucho pa la leche.</l>
+                </lg>
+                
+                <lg n="315">
+                    <l>Peló la espalda y se vino</l>
+                    <l>Como a quererme ensartar,</l>
+                    <l>Pero yo sin tutubiar</l>
+                    <l>Le volví al punto a decir:</l>
+                    <l>¡Cuidado!, No te vas a per-tigo;</l>
+                    <l>Poné cuarta pa salir.</l>
+                </lg>
+                
+                <lg n="316">
+                    <l>Un puntazo me largó,</l>
+                    <l>Pero el cuerpo le saqué,</l>
+                    <l>Y en cuanto se lo quité,</l>
+                    <l>Para no matar un viejo,</l>
+                    <l>Con cuidado, medio de lejos</l>
+                    <l>Un palazo le asenté.</l>
+                </lg>
+                
+                <lg n="317">
+                    <l>Y como nunca al que manda</l>
+                    <l>Le falta algún adulón,</l>
+                    <l>Uno que en esa ocasión</l>
+                    <l>De encontraba allí presente,</l>
+                    <l>Vino apretando los dientes</l>
+                    <l>Como perrito mamón.</l>
+                </lg>
+                
+                <lg n="318">
+                    <l>Me hizo un tiro de revuélver</l>
+                    <l>Que el hombre creyó siguro;</l>
+                    <l>Era confiado y le juro</l>
+                    <l>Que cerquita se arrimaba,</l>
+                    <l>Pero, siempre en un apuro</l>
+                    <l>Se desentumen mis tabas.</l>
+                </lg>
+                
+                <lg n="319">
+                    <l>Él me siguió menudiando</l>
+                    <l>Mas sin poderme acertar,</l>
+                    <l>Y yo, dele culebriar,</l>
+                    <l>Hasta que al fin le dentré</l>
+                    <l>Y ahi no más lo despaché</l>
+                    <l>Sin dejarlo resollar.</l>
+                </lg>
+                
+                <lg n="320">
+                    <l>Dentré a campiar en seguida</l>
+                    <l>Al viejito enamorao-</l>
+                    <l>El pobre se había ganao</l>
+                    <l>En un noque de lejía.</l>
+                    <l>¡Quién sabe cómo estaría</l>
+                    <l>Del susto que había llevao!</l>
+                </lg>
+                
+                <lg n="321">
+                    <l>¡Es zonzo el cristiano macho</l>
+                    <l>Cuando el amor lo domina!</l>
+                    <l>Él la miraba a la indina,</l>
+                    <l>Y una cosa tan jedionda</l>
+                    <l>Sentí yo, que ni en la fonda</l>
+                    <l>He visto tal jedentina</l>
+                </lg>
+                
+                <lg n="322">
+                    <l>Y le dije: pa su agüela</l>
+                    <l>Han de ser esas perdices.</l>
+                    <l>Yo me tapé las narices,</l>
+                    <l>Y me salí esternudando,</l>
+                    <l>Y el viejo quedó olfatiando</l>
+                    <l>Como chico con lumbrices.</l>
+                </lg>
+                
+                <lg n="323">
+                    <l>Cuando la mula recula,</l>
+                    <l>Señal que quiere cociar,</l>
+                    <l>Ansí se suele portar</l>
+                    <l>Aunque ella lo disimula;</l>
+                    <l>Recula como la mula</l>
+                    <l>La mujer, para olvidar.</l>
+                </lg>
+                
+                <lg n="324">
+                    <l>Alcé mis ponchos y mis prendas</l>
+                    <l>Y me largué a padecer</l>
+                    <l>Por culpa de una mujer</l>
+                    <l>Que quiso engañar a dos;</l>
+                    <l>Al rancho le dije adiós,</l>
+                    <l>Para nunca más volver.</l>
+                </lg>
+                
+                <lg n="325">
+                    <l>Las mujeres, dende entonces,</l>
+                    <l>Conocí a todas en una;</l>
+                    <l>Ya no he de probar fortuna</l>
+                    <l>Con carta tan conocida:</l>
+                    <l>Mujer y perra parida,</l>
+                    <l>¡No se me acerca ninguna!.</l>
+                </lg>
 
-<lg>305
-Era la águila que a un árbol
-dende las nubes bajó;
-era más linda que el alba
-cuando va rayando el sol;
-era la flor deliciosa
-que entre el trebolar creció.</lg>
-
-<lg>306
-Pero, amigo, el comendante
-que mandaba la milicia,
-como que no desperdicia
-se fue refalando a casa;
-yo le conocí en la traza
-que el hombre traiba malicia.</lg>
-
-<lg>307
-Él me daba voz de amigo,
-pero no le tenía fe;
-era el jefe, y ya se ve,
-no podía competir yo;
-en mi rancho se pegó
-lo mesmo que un saguaipé.</lg>
-
-<lg>308
-A poco andar, conocí
-que ya me había desbancao,
-y él siempre muy entonao,
-aunque sin darme ni un cobre,
-me tenía de lao a lao
-como encomienda de pobre.</lg>
-
-<lg>309
-A cada rato, de chasque
-me hacía dir a gran distancia;
-ya me mandaba a una estancia,
-ya al pueblo, ya a la frontera;
-pero él en la comendancia
-no ponía los pies siquiera.</lg>
-
-<lg>310
-Es triste a no poder más
-el hombre en su padecer,
-si no tiene una mujer
-que lo ampare y lo consuele:
-mas pa que otro se la pele
-lo mejor es no tener.</lg>
-
-<lg>311
-No me gusta que otro gallo
-le cacaree a mi gallina;
-yo andaba ya con la espina,
-hasta que en una ocasión
-lo pille junto al jogón
-abrazándome a la china.</lg>
-
-<lg>312
-Tenía el viejito una cara
-de ternero mal lamido,
-y al verle tan atrevido
-le dije: ¡que le aproveche!-
-Que había sido pa el amor
-como gaucho pa la leche.</lg>
-
-                <lg>
-313
-Peló la espalda y se vino
-como a quererme ensartar,
-pero yo sin tutubiar
-le volví al punto a decir:
-¡cuidado!, No te vas a per-tigo;
-poné cuarta pa salir.</lg>
-
-<lg>314
-Un puntazo me largó,
-pero el cuerpo le saqué,
-y en cuanto se lo quité,
-para no matar un viejo,
-con cuidado, medio de lejos
-un palazo le asenté.</lg>
-
-<lg>315
-Y como nunca al que manda
-le falta algún adulón,
-uno que en esa ocasión
-se encontraba allí presente,
-vino apretando los dientes
-como perrito mamón.</lg>
-
-<lg>316
-Me hizo un tiro de revuélver
-que el hombre creyó siguro;
-era confiado y le juro
-que cerquita se arrimaba,
-pero, siempre en un apuro
-se desentumen mis tabas.</lg>
-
-<lg>317
-Él me siguió menudiando
-mas sin poderme acertar,
-y yo, dele culebriar,
-hasta que al fin le dentré
-y ahi no más lo despaché
-sin dejarlo resollar.</lg>
-
-<lg>318
-Dentré a campiar en seguida
-al viejito enamorao-
-el pobre se había ganao
-en un noque de lejía.
-¡Quién sabe cómo estaría
-del susto que había llevao!</lg>
-
-<lg>319
-¡Es zonzo el cristiano macho
-cuando el amor lo domina!
-Él la miraba a la indina,
-y una cosa tan jedionda
-sentí yo, que ni en la fonda
-he visto tal jedentina</lg>
-
-<lg>320
-Y le dije: pa su agüela
-han de ser esas perdices.
-Yo me tapé las narices,
-y me salí esternudando,
-y el viejo quedó olfatiando
-como chico con lumbrices.</lg>
-
-<lg>321
-Cuando la mula recula,
-señal que quiere cociar,
-ansí se suele portar
-aunque ella lo disimula;
-recula como la mula
-la mujer, para olvidar.</lg>
-
-<lg>322
-Alcé mis ponchos y mis prendas
-y me largué a padecer
-por culpa de una mujer
-que quiso engañar a dos;
-al rancho le dije adiós,
-para nunca más volver.</lg>
-
-<lg>323
-Las mujeres, dende entonces,
-conocí a todas en una;
-ya no he de probar fortuna
-con carta tan conocida:
-mujer y perra parida,
-¡no se me acerca ninguna!.</lg>
-
-</lg>
+            </lg>
                  
                 </body>
         </text>
