@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../MiniFierro/esquema_verso_.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/TEI_verso.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
         <teiHeader>
             <fileDesc>
@@ -104,7 +104,7 @@
                         <l>¡Quién sabe de ande ser<rhyme label="ia" type="grave">ia</rhyme>!</l>
                         <l>Tal vez no juera crist<rhyme label="iano" type="grave">iano</rhyme>;</l>
                         <l>Pues lo único que dec<rhyme label="ia" type="grave">ia</rhyme></l>
-                        <l>Es que era papo-lit<rhyme label="ano" type="grave">ano</rhyme>.</l>
+                        <l>Es que era <watermark>papo-lit<rhyme label="ano" type="grave">ano</rhyme></watermark>.</l>
                     </lg>
                     
                     <lg n="143" rhyme="abbcbc"> 
@@ -118,11 +118,11 @@
                     
                     <lg n="144" rhyme="abbccb"> 
                         <l>Cuanto me vido acerc<rhyme label="ar" type="aguda">ar</rhyme></l>
-                        <l>"Quen vivore"....pregunt<rhyme label="o" type="aguda">ó</rhyme>,</l>
-                        <l>"Qué vívoras"-dije y<rhyme label="o" type="aguda">o</rhyme>-</l>
-                        <l>"Ha-garto"-me pegó el gr<rhyme label="ito" type="grave">ito</rhyme>:</l>
+                        <l><watermark>"Quen vivore"</watermark>....pregunt<rhyme label="o" type="aguda">ó</rhyme>,</l>
+                        <l><watermark>"Qué vívoras"</watermark>-dije y<rhyme label="o" type="aguda">o</rhyme>-</l>
+                        <l><watermark>"Ha-garto"</watermark>-me pegó el gr<rhyme label="ito" type="grave">ito</rhyme>:</l>
                         <l>Y yo dije despac<rhyme label="ito" type="grave">ito</rhyme></l>
-                        <l>"Mas lagarto serás v<rhyme label="os" type="aguda">os</rhyme>."</l>
+                        <l><watermark>"Mas lagarto serás v<rhyme label="os" type="aguda">os</rhyme>."</watermark></l>
                     </lg>
                     
                     <lg n="145" rhyme="abbccb">

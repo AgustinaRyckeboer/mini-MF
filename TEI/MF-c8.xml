@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../MiniFierro/esquema_verso_.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/TEI_verso.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
         <teiHeader>
             <fileDesc>
@@ -176,7 +176,7 @@
                         <l>Su casa es el pajon<rhyme label="al" type="aguda">al</rhyme></l>
                         <l>Su guarida es el des<rhyme label="ierto" type="grave">ierto</rhyme>;-</l>
                         <l>Y si de hambre medio m<rhyme label="uerto" type="grave">uerto</rhyme></l>
-                        <l>Le echa el lazo á algun mam<rhyme label="ao" type="grave">ao</rhyme>,</l>
+                        <l>Le echa el lazo á algun <corr>mam<rhyme label="on" type="grave">on</rhyme></corr>,</l>
                         <l>Lo persiguen como á <term n="99">pl<rhyme label="aito" type="grave">aito</rhyme></term></l>
                         <l>Porque es un "gaucho ladr<rhyme label="on" type="aguda">on</rhyme>"</l>
                     </lg>

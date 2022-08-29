@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="esquema_verso_.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schemas/TEI_verso.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
         <teiHeader>
             <fileDesc>
@@ -175,7 +175,7 @@
                             <l>Pues nunca lo ví lleg<rhyme label="ar" type="grave">ar</rhyme></l>
                             <l>Y al cabo de muchos d<rhyme label="ias" type="grave">ias</rhyme>-</l>
                             <l>En la mesma pulper<rhyme label="ia" type="grave">ia</rhyme></l>
-                            <l>Dieron una buena c<rhyme label="uenta" type="grave">uenta</rhyme>-</l>
+                            <l>Dieron una <watermark>buena c<rhyme label="uenta" type="grave">uenta</rhyme></watermark>-</l>
                             <l>Que la gente muy cont<rhyme label="enta" type="grave">enta</rhyme></l>
                             <l>De tan pobre receb<rhyme label="ia" type="grave">ia</rhyme>.</l>
                         </lg>
