@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schemas/TEI_verso.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>El gaucho Martin Fierro</title>
+                    <author>José Hernández</author>
+                    <editor resp= "1">Maria Agustina Ryckeboer</editor>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>HD Lab</publisher>
+                    <availability>
+                        <licence>Creative Commons Compartir Igual 4.0 Internacional</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <bibl>Buenos Aires, Imprenta de La Pampa, 1872</bibl>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body> 
+
+            <head>Canto XIII</head>
+
+            <lg type="poema"  style="sexteto" unisonancia="singular" isometrismo="isométrico"  isoestrofismo="isoestrófico" asonancia="consonante" met="6x8">
+367
+ya veo que somos los dos
+astillas del mesmo palo:
+yo paso por gaucho malo
+y usté anda del mesmo modo;
+y yo, pa acabarlo todo,
+a los indios me refalo.
+
+368
+Pido perdón a mi Dios
+que tantos bienes me hizo,
+pero dende que es preciso
+que viva entre los infeles,
+yo seré cruel con los crueles:
+ansí mi suerte lo quiso.
+
+369
+Dios formó lindas las flores,
+delicadas como son;
+le dio toda perfeción
+y cuanto él era capaz,
+pero al hombre le dio más
+cuando le dio el corazón.
+
+370
+Le dio claridá a la luz,
+juerza en su carrera al viento,
+le dio vida y movimiento
+dende la águila al gusano;
+pero más le dio al cristiano
+al darle el entendimiento.
+
+371
+Y aunque a las aves les dio,
+con otras cosas que inoro,
+esos piquitos como oro
+y un plumaje como tabla
+le dio al hombre más tesoro
+al darle una lengua que habla.
+
+372
+Y dende que dio a las fieras
+esa juria tan inmensa,
+que no hay poder que las venza
+ni nada que las asombre,
+¿qué menos le daría al hombre
+que el valor pa su defensa?
+
+373
+Pero tantos bienes juntos
+al darle, malicio yo
+que en sus adentros pensó
+que el hombre los precisaba
+que los bienes igualaba
+con las penas que le dio.
+
+374
+Y yo empujao por las mías
+quiero salir de este infierno:
+ya no soy pichón muy tierno
+y sé manejar la lanza,
+y hasta los indios no alcanza
+la facultá de gobierno
+
+375
+yo sé que allá los caciques
+amparan a los cristianos,
+y que los tratan de
+cuando se van por su gusto.
+¡A qué andar pasando sustos-!
+Alcemos el poncho y vamos.
+
+376
+En la cruzada hay peligros,
+pero ni aun esto me aterra:
+yo ruedo sobre la tierra
+arrastrao por mi destino;
+y si erramos el camino-
+no es el primero que lo erra.
+
+377
+Si hemos de salvar o no,
+de esto naides nos responde;
+derecho ande el sol se esconde
+tierra adentro hay que tirar;
+algún día hemos de llegar-
+después sabremos a dónde.
+
+378
+No hemos de perder el rumbo:
+los dos somos güena yunta.
+El que es gaucho ve ande apunta
+aunque inora ande se encuentra;
+pa el lao en que el sol se dentra
+dueblan los pastos la punta.
+
+379
+De hambre no pereceremos,
+pues, sigún otros me han dicho,
+en los campos se hallan bichos
+de los que uno necesita-
+gamas, matacos, mulitas
+avestruces y quirquinchos.
+
+380
+Cuando se anda en el desierto
+se come uno hasta las colas;
+lo han cruzao mujeres solas
+llegando al fin con salú,
+y ha de ser gaucho el ñandú
+que se escape de mis bolas.
+
+381
+Tampoco a la sé le temo;
+yo la aguanto muy contento;
+busco agua olfatiando el viento
+y, dende que no soy manco,
+ande hay duraznillo blanco
+cavo, y la saco al momento.
+
+382
+Allá habrá siguridá
+ya que aquí no la tenemos;
+menos males pasaremos
+y ha de haber grande alegría
+el día que nos descolguemos
+en alguna toldería.
+
+383
+Fabricaremos un toldo,
+como lo hacen tantos otros,
+con unos cueros de potro,
+que sea sala y sea cocina.
+¡Tal vez no falte una china
+que se apiade de nosotros!
+
+384
+Allá no hay que trabajar,
+vive uno como un señor;
+de cuando en cuando un malón,
+y si de él sale con vida,
+lo pasa echao panza arriba
+mirando dar güelta el sol
+
+385
+Y ya que a juerza de golpes
+la suerte nos dejó aflús
+puede que allá veamos luz
+y se acaben nuestras penas:
+todas las tierras son güenas;
+vamonós, amigo Cruz.
+
+386
+El que maneja las bolas,
+el que sabe echar un pial
+y sentársele a un bagual
+sin miedo de que lo baje,
+entre los mesmos salvajes
+no puede pasarlo mal.
+
+387
+El amor como la guerra
+lo hace el criollo con canciones;
+a más de eso en los malones
+podemos aviarnos de algo;
+en fin amigo, yo salgo
+de estas pelegrinaciones.
+
+388
+En este punto el cantor
+buscó un porrón pa consuelo,
+echó un trago como un cielo,
+dando fin a su argumento;
+y de un golpe el instrumento
+lo hizo astillas contra el suelo.
+
+389
+Ruempo, dijo, la guitarra,
+pa no volverme a tentar;
+ninguno la ha de tocar,
+por siguro tengaló;
+pues naides ha de cantar
+cuando este gaucho cantó.
+
+390
+Y daré fin a mis coplas
+con aire de relación;
+nunca falta un preguntón
+más curioso que mujer,
+y tal vez quiera saber
+como jué la conclusión.
+
+391
+Cruz y Fierro de una estancia
+una tropilla se arriaron;
+por delante se la echaron
+como criollos entendidos,
+y pronto sin ser sentidos
+por la frontera cruzaron.
+
+392
+Y cuando la habían pasao,
+una madrugada clara
+le dijo Cruz que mirara
+las últimas poblaciones,
+y a Fierro dos lagrimones
+le rodaron por la cara.
+
+393
+Y siguiendo el fiel del rumbo
+se entraron en el desierto,
+no sé si los habrán muerto
+en alguna correría,
+pero espero que algún día
+sabré de ellos algo cierto.
+
+394
+Y ya con estas noticias
+mi relación acabé;
+por ser ciertas las conté,
+todas la desgracias dichas:
+es un telar de desdichas
+cada gaucho que usté ve.
+
+395
+Pero ponga su esperanza
+en el Dios que lo formó;
+y aquí me despido yo
+que he relatao a mi modo
+MALES QUE CONOCEN TODOS,
+PERO QUE NAIDES CONTÓ.
+
+
+             </lg>
+                 
+                </body>
+        </text>
+    </TEI>

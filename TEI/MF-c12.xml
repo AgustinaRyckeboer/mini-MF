@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schemas/TEI_verso.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>El gaucho Martin Fierro</title>
+                    <author>José Hernández</author>
+                    <editor resp= "1">Maria Agustina Ryckeboer</editor>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>HD Lab</publisher>
+                    <availability>
+                        <licence>Creative Commons Compartir Igual 4.0 Internacional</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <bibl>Buenos Aires, Imprenta de La Pampa, 1872</bibl>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body> 
+
+            <head>Canto XII</head>
+
+            <lg type="poema"  style="sexteto" unisonancia="singular" isometrismo="isométrico"  isoestrofismo="isoestrófico" asonancia="consonante" met="6x8">
+347
+Yo no sé qué tantos meses
+esta vida me duró;
+a veces nos obligó
+la miseria a comer potro:
+me había acompañao con otros
+tan desgraciaos como yo
+
+348
+Mas ¿para qué platicar
+sobre esos males, canejos?
+Nace el gaucho y se hace viejo,
+sin que mejore su suerte,
+hasta que por ahi la muerte
+sale a cobrarle el pellejo.
+
+349
+Pero como no hay desgracia
+que no acabe alguna vez,
+me aconteció que después
+de sufrir tanto rigor,
+un amigo, por favor,
+me compuso con el juez.
+
+350
+Le alvertiré que en mi pago
+ya no va quedando un criollo:
+se los ha tragao el hoyo,
+o juido o muerto en la guerra;
+porque, amigo, en esta tierra
+nunca se acaba el embrollo.
+
+351
+Colijo que jué por eso
+que me llamó el juez un día,
+y me dijo que quería
+hacerme a su lao venir,
+y que dentrase a servir
+de soldao de polecía.
+
+352
+Y me largó una proclama
+tratándome de valiente;
+que yo era un hombre decente,
+y que dende aquel momento
+me nombraba de sargento
+pa que mandara la gente.
+
+353
+Ansí estuve en la partida,
+pero ¿qué había de mandar?
+Anoche al irlo a tomar
+vide güena coyontura,
+y a mí no me gusta andar
+con la lata a la cintura.
+
+354
+Ya conoce, pues, quién soy;
+tenga confianza conmigo:
+Cruz le dio mano de amigo,
+y no lo ha de abandonar;
+juntos podemos buscar
+pa los dos un mesmo abrigo.
+
+355
+Andaremos de matreros
+si es preciso pa salvar;
+nunca nos ha de faltar
+ni un güen pingo pa juir,
+ni un pajal ande dormir,
+ni un matambre que ensartar.
+
+356
+Y cuando sin trapo alguno
+nos haiga el tiempo dejao,
+yo le pediré emprestao
+el cuero a cualquiera lobo,
+y hago un poncho, si lo sobo,
+mejor que poncho engomao.
+
+357
+Para mí la cola es pecho
+y el espinazo es cadera
+hago mi nido ande quiera
+y de lo que encuentro como;
+me echo tierra sobre el lomo
+y me apeo en cualquier tranquera.
+
+358
+Y dejo rodar la bola,
+que algún día se ha de parar-
+tiene el gaucho que aguantar
+hasta que lo trague el hoyo,
+o hasta que venga algún criollo
+en esta tierra a mandar.
+
+359
+Todos se güelven proyetos
+de colonias y carriles,
+y tirar la plata a miles
+en los gringos enganchaos,
+mientras al pobre soldao
+le pelan la cucha- ¡ah, viles!
+
+360
+Pero si siguen las cosas
+como van hasta el presente,
+puede ser que redepente
+veamos el campo disierto,
+y blanquiando solamente
+los güesos de los que han muerto.
+
+361
+Lo miran al pobre gaucho
+como carne de cogote:
+lo tratan al estricote
+y si ansí las cosas andan,
+porque quieren los que mandan,
+aguantemos los azotes.
+
+362
+¡Pucha! Si usté los oyera,
+como yo en una ocasión
+tuita la conversación
+que con otro tuvo el juez;
+le asiguro que esa vez
+se me achicó el corazón.
+
+363
+Hablaban de hacerse ricos
+con campos en la fronteras,
+de sacarla más ajuera,
+donde había campos baldidos
+y llevar de los partidos
+gente que la defendiera.
+
+364
+Hace mucho que sufrimos
+la suerte reculativa
+trabaja el gaucho y no arriba
+porque a lo mejor del caso,
+lo levantan de un sogazo
+sin dejarle ni saliva.
+
+365
+De los males que sufrimos
+hablan mucho los puebleros,
+pero hacen como los teros
+para esconder sus niditos:
+en un lao pegan los gritos
+y en otro tienen los güevos.
+
+366
+Y se hacen los que no aciertan
+a dar con la coyontura:
+mientras al gaucho lo apura
+con rigor la autoridá,
+ellos a la enfermedá
+le están errando la cura. 
+
+
+            </lg>
+                 
+                </body>
+        </text>
+    </TEI>
