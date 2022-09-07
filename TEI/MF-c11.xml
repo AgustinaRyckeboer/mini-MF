@@ -28,211 +28,211 @@
 
 
 
-                <lg n="327">
-                    <l>A otros les brotan las coplas</l>
-                    <l>Como água de manantial:</l>
-                    <l>Pues á mí me pasa igual</l>
-                    <l>Aunque las mias nada valen,</l>
-                    <l>De la boca se me salen</l>
-                    <l>Como ovejas del corral.</l>
+                <lg n="327" rhyme="abbccb">
+                    <l>A otros les brotan las c<rhyme label="oplas" type="grave">oplas</rhyme></l>
+                    <l>Como água de manant<rhyme label="ial" type="aguda">ial</rhyme>:</l>
+                    <l>Pues á mí me pasa ig<rhyme label="ual" type="aguda">ual</rhyme></l>
+                    <l>Aunque las mias nada v<rhyme label="alen" type="grave">alen</rhyme>,</l>
+                    <l>De la boca se me s<rhyme label="alen" type="grave">alen</rhyme></l>
+                    <l>Como ovejas del corr<rhyme label="al" type="aguda">al</rhyme>.</l>
                 </lg>
                 
-                <lg n="328">
-                    <l>Que en puertiando la primera</l>
-                    <l>Ya la siguen las demás,</l>
-                    <l>Y en montones las de atras</l>
-                    <l>Contra los palos se estrellan,</l>
-                    <l>Y saltan y se atropellan</l>
-                    <l>Sin que se corten jamás.</l>
+                <lg n="328" rhyme="abbccb">
+                    <l>Que en puertiando la prim<rhyme label="era" type="grave">era</rhyme></l>
+                    <l>Ya la siguen las dem<rhyme label="as" type="aguda">ás</rhyme>,</l>
+                    <l>Y en montones las de atr<rhyme label="as" type="aguda">as</rhyme></l>
+                    <l>Contra los palos se estr<rhyme label="ellan" type="grave">ellan</rhyme>,</l>
+                    <l>Y saltan y se atrop<rhyme label="ellan" type="grave">ellan</rhyme></l>
+                    <l>Sin que se corten jam<rhyme label="as" type="aguda">ás</rhyme>.</l>
                 </lg>
                 
-                <lg n="329">
-                    <l>Y aunque yo por mi inorancia</l>
-                    <l>Con gran trabajo me esplico,</l>
-                    <l>Cuando llego á abrir el pico</l>
-                    <l>Tengalo por cosa cierta,</l>
-                    <l>Sale un verso y en la puerta</l>
-                    <l>Ya asoma el otro el hocico.</l>
+                <lg n="329" rhyme="abbccb">
+                    <l>Y aunque yo por mi inor<rhyme label="ancia" type="grave">ancia</rhyme></l>
+                    <l>Con gran trabajo me espl<rhyme label="ico" type="grave">ico</rhyme>,</l>
+                    <l>Cuando llego á abrir el p<rhyme label="ico" type="grave">ico</rhyme></l>
+                    <l>Tengalo por cosa c<rhyme label="ierta" type="grave">ierta</rhyme>,</l>
+                    <l>Sale un verso y en la p<rhyme label="uerta" type="grave">uerta</rhyme></l>
+                    <l>Ya asoma el otro el hoc<rhyme label="ico" type="grave">ico</rhyme>.</l>
                 </lg>
                 
-                <lg n="330">
-                    <l>Y empresteme su atencion</l>
-                    <l>Me oirá relatar las penas</l>
-                    <l>De que traigo la alma llena-</l>
-                    <l>Porque en toda circustancia,</l>
-                    <l>Paga el gaucho su inorancia</l>
-                    <l>Con la sangre de las venas.</l>
+                <lg n="330" rhyme="abbccb">
+                    <l>Y empresteme su atenc<rhyme label="ion" type="aguda">ion</rhyme></l>
+                    <l>Me oirá relatar las p<rhyme label="enas" type="grave">enas</rhyme></l>
+                    <l>De que traigo la alma ll<rhyme label="ena" type="grave">ena</rhyme>-</l>
+                    <l>Porque en toda circust<rhyme label="ancia" type="grave">ancia</rhyme>,</l>
+                    <l>Paga el gaucho su inor<rhyme label="ancia" type="grave">ancia</rhyme></l>
+                    <l>Con la sangre de las v<rhyme label="enas" type="grave">enas</rhyme>.</l>
                 </lg>
                 
-                <lg n="331">
-                    <l>Despues de aquella desgracia</l>
-                    <l>Me guareci en los pajales,</l>
-                    <l>Anduve entre los cardales</l>
-                    <l>Como vicho sin guarida-</l>
-                    <l>Pero, amigo, es esa vida</l>
-                    <l>Como vida de animales.</l>
+                <lg n="331" rhyme="abbccb">
+                    <l>Despues de aquella desgr<rhyme label="acia" type="grave">acia</rhyme></l>
+                    <l>Me guareci en los paj<rhyme label="ales" type="grave">ales</rhyme>,</l>
+                    <l>Anduve entre los card<rhyme label="ales" type="grave">ales</rhyme></l>
+                    <l>Como vicho sin guar<rhyme label="ida" type="grave">ida</rhyme>-</l>
+                    <l>Pero, amigo, es esa v<rhyme label="ida" type="grave">ida</rhyme></l>
+                    <l>Como vida de anim<rhyme label="ales" type="grave">ales</rhyme>.</l>
                 </lg>
                 
-                <lg n="332">
-                    <l>Y son tantas las miserias</l>
-                    <l>En que me he sabido ver</l>
-                    <l>Que con tanto padecer</l>
-                    <l>Y sufrir tanta aflicion</l>
-                    <l>Malicio que he de tener</l>
-                    <l>Un callo en el corazon.</l>
+                <lg n="332" rhyme="abbcbc">
+                    <l>Y son tantas las mis<rhyme label="erias" type="grave">erias</rhyme></l>
+                    <l>En que me he sabido v<rhyme label="er" type="aguda">er</rhyme></l>
+                    <l>Que con tanto padec<rhyme label="er" type="aguda">er</rhyme></l>
+                    <l>Y sufrir tanta aflic<rhyme label="ion" type="aguda">ion</rhyme></l>
+                    <l>Malicio que he de ten<rhyme label="er" type="aguda">er</rhyme></l>
+                    <l>Un callo en el coraz<rhyme label="on" type="aguda">on</rhyme>.</l>
                 </lg>
                 
-                <lg n="333">
-                    <l>Ansi andaba como guacho</l>
-                    <l>Cuando pasa el temporal-</l>
-                    <l>Supe una vez pa mi mal</l>
-                    <l>De una milonga que habia,</l>
-                    <l>Y ya pa la pulperia</l>
-                    <l>Enderezé mi bagual.</l>
+                <lg n="333" rhyme="abbccb">
+                    <l>Ansi andaba como g<rhyme label="uacho" type="grave">uacho</rhyme></l>
+                    <l>Cuando pasa el tempor<rhyme label="al" type="aguda">al</rhyme>-</l>
+                    <l>Supe una vez pa mi m<rhyme label="al" type="aguda">al</rhyme></l>
+                    <l>De una milonga que hab<rhyme label="ia" type="aguda">ia</rhyme>,</l>
+                    <l>Y ya pa la pulper<rhyme label="ia" type="aguda">ia</rhyme></l>
+                    <l>Enderezé mi bag<rhyme label="ual" type="aguda">ual</rhyme>.</l>
                 </lg>
                 
-                <lg n="334">
-                    <l>Era la casa del baile</l>
-                    <l>Un rancho de mala muerte,</l>
-                    <l>Y se enllenó de tal suerte</l>
-                    <l>Que andábamos á empujones:-</l>
-                    <l>Nunca faltan encontrones</l>
-                    <l>Cuando el pobre se divierte.</l>
+                <lg n="334" rhyme="abbccb">
+                    <l>Era la casa del b<rhyme label="aile" type="grave">aile</rhyme></l>
+                    <l>Un rancho de mala m<rhyme label="uerte" type="grave">uerte</rhyme>,</l>
+                    <l>Y se enllenó de tal s<rhyme label="uerte" type="grave">uerte</rhyme></l>
+                    <l>Que andábamos á empuj<rhyme label="ones" type="grave">ones</rhyme>:-</l>
+                    <l>Nunca faltan encontr<rhyme label="ones" type="grave">ones</rhyme></l>
+                    <l>Cuando el pobre se div<rhyme label="ierte" type="grave">ierte</rhyme>.</l>
                 </lg>
                 
-                <lg n="335">
-                    <l>Yo tenia unas medias botas,</l>
-                    <l>Con tamaños berdugones-</l>
-                    <l>Me pusieron los talones</l>
-                    <l>Con crestas como los gallos,</l>
-                    <l>Si viera mis afliciones</l>
-                    <l>Pensando yo que eran callos.</l>
+                <lg n="335" rhyme="abbcbc">
+                    <l>Yo tenia unas medias b<rhyme label="otas" type="grave">otas</rhyme>,</l>
+                    <l>Con tamaños <term n="123">berdug<rhyme label="ones" type="grave">ones</rhyme></term>-</l>
+                    <l>Me pusieron los tal<rhyme label="ones" type="grave">ones</rhyme></l>
+                    <l>Con crestas como los g<rhyme label="allos" type="grave">allos</rhyme>,</l>
+                    <l>Si viera mis aflic<rhyme label="iones" type="grave">iones</rhyme></l>
+                    <l>Pensando yo que eran c<rhyme label="allos" type="grave">allos</rhyme>.</l>
                 </lg>
                 
-                <lg n="336">
-                    <l>Con gato y con fandanguillo</l>
-                    <l>Habia empezao el changango</l>
-                    <l>Y para ver el fandango</l>
-                    <l>Me colé haciendome bola-</l>
-                    <l>Mas, metió el diablo la cola</l>
-                    <l>Y todo se volvió pango.</l>
+                <lg n="336" rhyme="abbccb">
+                    <l>Con gato y con <term n="124">fandangu<rhyme label="iillo" type="grave">illo</rhyme></term></l>
+                    <l>Habia empezao el <term n="125">chang<rhyme label="ango" type="grave">ango</rhyme></term></l>
+                    <l>Y para ver el fand<rhyme label="ango" type="grave">ango</rhyme></l>
+                    <l>Me colé haciendome b<rhyme label="ola" type="grave">ola</rhyme>-</l>
+                    <l>Mas, metió el diablo la c<rhyme label="ola" type="grave">ola</rhyme></l>
+                    <l>Y todo se volvió <term n="126">p<rhyme label="ango" type="grave">ango</rhyme></term>.</l>
                 </lg>
                 
-                <lg n="337">
-                    <l>Habia sido el guitarrero</l>
-                    <l>Un gaucho duro de boca-</l>
-                    <l>Yo tengo paciencia poca</l>
-                    <l>Pa aguantar cuando no debo,-</l>
-                    <l>A ninguno me le atrevo-</l>
-                    <l>Pero me halla el que me toca.</l>
+                <lg n="337" rhyme="abbccb">
+                    <l>Habia sido el guitarr<rhyme label="ero" type="grave">ero</rhyme></l>
+                    <l>Un gaucho duro de b<rhyme label="oca" type="grave">oca</rhyme>-</l>
+                    <l>Yo tengo paciencia p<rhyme label="oca" type="grave">oca</rhyme></l>
+                    <l>Pa aguantar cuando no d<rhyme label="ebo" type="grave">ebo</rhyme>,-</l>
+                    <l>A ninguno me le atr<rhyme label="evo" type="grave">evo</rhyme>-</l>
+                    <l>Pero me halla el que me t<rhyme label="oca" type="grave">oca</rhyme>.</l>
                 </lg>
                                 
-                <lg n="338">
-                    <l>A bailar un pericon</l>
-                    <l>Con una moza sali,</l>
-                    <l>Y cuanto me vido allí</l>
-                    <l>Sin duda me conoció-</l>
-                    <l>Y estas coplitas cantó</l>
-                    <l>Como por rairse de mí:</l>
+                <lg n="338" rhyme="abbccb">
+                    <l>A bailar un peric<rhyme label="on" type="aguda">on</rhyme></l>
+                    <l>Con una moza sal<rhyme label="i" type="aguda">i</rhyme>,</l>
+                    <l>Y cuanto me vido all<rhyme label="i" type="aguda">í</rhyme></l>
+                    <l>Sin duda me conoc<rhyme label="io" type="aguda">ió</rhyme>-</l>
+                    <l>Y estas coplitas cant<rhyme label="o" type="aguda">ó</rhyme></l>
+                    <l>Como por rairse de m<rhyme label="i" type="aguda">í</rhyme>:</l>
                 </lg>
                                 
-                <lg n="339">
-                    <l>"Las mujeres son todas</l>
-                    <l>"Como las mulas-</l>
-                    <l>"Yo no digo que todas</l>
-                    <l>"Pero hay algunas</l>
-                    <l>"Que á las aves que vuelan</l>
-                    <l>"Les sacan plumas"</l>
+                <lg n="339" rhyme="">
+                    <l>"Las mujeres son t<rhyme label="odas" type="grave">odas</rhyme></l>
+                    <l>"Como las m<rhyme label="ulas" type="grave">ulas</rhyme>-</l>
+                    <l>"Yo no digo que t<rhyme label="odas" type="grave">odas</rhyme></l>
+                    <l>"Pero hay alg<rhyme label="unas" type="grave">unas</rhyme></l>
+                    <l>"Que á las aves que v<rhyme label="uelan" type="grave">uelan</rhyme></l>
+                    <l>"Les sacan pl<rhyme label="umas" type="grave">umas</rhyme>"</l>
                 </lg>
                 
-                <lg n="340">
-                    <l>"Hay gauchos que presumen</l>
-                    <l>"De tener damas-</l>
-                    <l>"No digo que presumen</l>
-                    <l>"Pero se alaban</l>
-                    <l>"Y á lo mejor los dejan</l>
-                    <l>"Tocando tablas"</l>
+                <lg n="340" rhyme="">
+                    <l>"Hay gauchos que pres<rhyme label="umen" type="grave">umen</rhyme></l>
+                    <l>"De tener d<rhyme label="amas" type="grave">amas</rhyme>-</l>
+                    <l>"No digo que pres<rhyme label="umen" type="grave">umen</rhyme></l>
+                    <l>"Pero se al<rhyme label="aban" type="grave">aban</rhyme></l>
+                    <l>"Y á lo mejor los d<rhyme label="ejan" type="grave">ejan</rhyme></l>
+                    <l>"Tocando t<rhyme label="ablas" type="grave">ablas</rhyme>"</l>
                 </lg>
                 
-                <lg n="341">
-                    <l>Se secretiaron las hembras-</l>
-                    <l>Y yo ya me encocoré-</l>
-                    <l>Volié la anca y le grité</l>
-                    <l>"Dejá de cantar....chicharra"</l>
-                    <l>Y de un tajo ´2 la guitarra</l>
-                    <l>Tuitas las cuerdas corté.</l>
+                <lg n="341" rhyme="abbccb">
+                    <l>Se secretiaron las h<rhyme label="embras" type="grave">embras</rhyme>-</l>
+                    <l>Y yo ya me encocor<rhyme label="e" type="aguda">é</rhyme>-</l>
+                    <l>Volié la anca y le grit<rhyme label="e" type="aguda">é</rhyme></l>
+                    <l>"Dejá de cantar....chich<rhyme label="arra" type="grave">arra</rhyme>"</l>
+                    <l>Y de un tajo á la guit<rhyme label="arra" type="grave">arra</rhyme></l>
+                    <l>Tuitas las cuerdas cort<rhyme label="e" type="aguda">é</rhyme>.</l>
                 </lg>
                                 
-                <lg n="342">
-                    <l>Al grito salió de adentro</l>
-                    <l>Un gringo con un jusil-</l>
-                    <l>Pero nunca he sido vil,</l>
-                    <l>Poco el peligro me espanta-</l>
-                    <l>Ya me refalé la manta</l>
-                    <l>Y la eché sobre el candil.</l>
+                <lg n="342" rhyme="abbccb">
+                    <l>Al grito salió de ad<rhyme label="entro" type="grave">entro</rhyme></l>
+                    <l>Un gringo con un jus<rhyme label="il" type="aguda">il</rhyme>-</l>
+                    <l>Pero nunca he sido v<rhyme label="il" type="aguda">il</rhyme>,</l>
+                    <l>Poco el peligro me esp<rhyme label="anta" type="grave">anta</rhyme>-</l>
+                    <l>Ya me refalé la m<rhyme label="anta" type="grave">anta</rhyme></l>
+                    <l>Y la eché sobre el cand<rhyme label="il" type="aguda">il</rhyme>.</l>
                 </lg>
                 
-                <lg n="343">
-                    <l>Gané en seguida la puerta</l>
-                    <l>Gritando:-"Nadies me ataje"</l>
-                    <l>Y alborotao el embraje</l>
-                    <l>Lo que todo quedó escuro,</l>
-                    <l>Empezó a verse en apuro</l>
-                    <l>Mesturao con el gauchage.</l>
+                <lg n="343" rhyme="abbccb">
+                    <l>Gané en seguida la p<rhyme label="uerta" type="grave">uerta</rhyme></l>
+                    <l>Gritando:-"Nadies me at<rhyme label="aje" type="grave">aje</rhyme>"</l>
+                    <l>Y alborotao el embr<rhyme label="aje" type="grave">aje</rhyme></l>
+                    <l>Lo que todo quedó esc<rhyme label="uro" type="grave">uro</rhyme>,</l>
+                    <l>Empezó a verse en ap<rhyme label="uro" type="grave">uro</rhyme></l>
+                    <l>Mesturao con el gauch<rhyme label="age" type="grave">age</rhyme>.</l>
                 </lg>
                 
-                <lg n="344">
-                    <l>El primero que salió</l>
-                    <l>Fué el cantor y se me vino-</l>
-                    <l>Pero yo no pierdo el tino</l>
-                    <l>Aunque haiga tomao un trago-</l>
-                    <l>Y hay algunos por mi pago</l>
-                    <l>Que me tienen por ladino.-</l>
+                <lg n="344" rhyme="abbccb">
+                    <l>El primero que sal<rhyme label="io" type="aguda">ió</rhyme></l>
+                    <l>Fué el cantor y se me v<rhyme label="ino" type="grave">ino</rhyme>-</l>
+                    <l>Pero yo no pierdo el t<rhyme label="ino" type="grave">ino</rhyme></l>
+                    <l>Aunque haiga tomao un tr<rhyme label="ago" type="grave">ago</rhyme>-</l>
+                    <l>Y hay algunos por mi p<rhyme label="ago" type="grave">ago</rhyme></l>
+                    <l>Que me tienen por lad<rhyme label="ino" type="grave">ino</rhyme>.-</l>
                 </lg>
                 
-                <lg n="345">
-                    <l>No ha de haber achocao otro-</l>
-                    <l>Le salió cara la broma-</l>
-                    <l>A su amigo cuando toma</l>
-                    <l>Se le despeja el sentido,</l>
-                    <l>Y el pobrecito habia sido</l>
-                    <l>Como carne de paloma.</l>
+                <lg n="345" rhyme="abbccb">
+                    <l>No ha de haber achocao <rhyme label="otro" type="grave">otro</rhyme>-</l>
+                    <l>Le salió cara la br<rhyme label="oma" type="grave">oma</rhyme>-</l>
+                    <l>A su amigo cuando t<rhyme label="oma" type="grave">oma</rhyme></l>
+                    <l>Se le despeja el sent<rhyme label="ido" type="grave">ido</rhyme>,</l>
+                    <l>Y el pobrecito habia s<rhyme label="ido" type="grave">ido</rhyme></l>
+                    <l>Como carne de pal<rhyme label="oma" type="grave">oma</rhyme>.</l>
                 </lg>
                 
-                <lg n="346">
-                    <l>Para prestar un socorro</l>
-                    <l>Las mujeres no son lerdas-</l>
-                    <l>Antes que la sangre pierda</l>
-                    <l>Lo arrimaron á unas pipas-</l>
-                    <l>Ay lo dejé con las tripas</l>
-                    <l>Como pa que hiciera cuerdas.</l>
+                <lg n="346" rhyme="abbccb">
+                    <l>Para prestar un soc<rhyme label="orro" type="grave">orro</rhyme></l>
+                    <l>Las mujeres no son l<rhyme label="erdas" type="grave">erdas</rhyme>-</l>
+                    <l>Antes que la sangre p<rhyme label="ierda" type="grave">ierda</rhyme></l>
+                    <l>Lo arrimaron á unas <term n="127">p<rhyme label="ipas" type="grave">ipas</rhyme></term>-</l>
+                    <l>Ay lo dejé con las tr<rhyme label="ipas" type="grave">ipas</rhyme></l>
+                    <l>Como pa que hiciera c<rhyme label="uerdas" type="grave">uerdas</rhyme>.</l>
                 </lg>
                 
-                <lg n="347">
-                    <l>Monté y me largué á los campos</l>
-                    <l>Mas libre que el pensamiento,</l>
-                    <l>Como las nubes al viento</l>
-                    <l>A vivir sin paradero,</l>
-                    <l>Que no tiene el que es matrero</l>
-                    <l>Nido, ni rancho, ni asiento.</l>
+                <lg n="347" rhyme="abbccb">
+                    <l>Monté y me largué á los c<rhyme label="ampos" type="grave">ampos</rhyme></l>
+                    <l>Mas libre que el pensam<rhyme label="iento" type="grave">iento</rhyme>,</l>
+                    <l>Como las nubes al v<rhyme label="iento" type="grave">iento</rhyme></l>
+                    <l>A vivir sin parad<rhyme label="ero" type="grave">ero</rhyme>,</l>
+                    <l>Que no tiene el que es matr<rhyme label="ero" type="grave">ero</rhyme></l>
+                    <l>Nido, ni rancho, ni as<rhyme label="iento" type="grave">iento</rhyme>.</l>
                 </lg>
                 
-                <lg n="348">
-                    <l>No hay fuerza contra el destino</l>
-                    <l>Que le ha señalao el cielo-</l>
-                    <l>Y aunque no tenga consuelo</l>
-                    <l>Aguante el que está en trabajo-</l>
-                    <l>¡Nadies se rasca pa abajo!</l>
-                    <l>¡Ni se lonjéa contra el pelo!</l>
+                <lg n="348" rhyme="abbccb">
+                    <l>No hay fuerza contra el dest<rhyme label="ino" type="grave">ino</rhyme></l>
+                    <l>Que le ha señalao el c<rhyme label="ielo" type="grave">ielo</rhyme>-</l>
+                    <l>Y aunque no tenga cons<rhyme label="uelo" type="grave">uelo</rhyme></l>
+                    <l>Aguante el que está en trab<rhyme label="ajo" type="grave">ajo</rhyme>-</l>
+                    <l>¡Nadies se rasca pa ab<rhyme label="ajo" type="grave">ajo</rhyme>!</l>
+                    <l>¡Ni se <term n="128">lonjéa</term> contra el p<rhyme label="elo" type="grave">elo</rhyme>!</l>
                 </lg>
                 
-                <lg n="349">
-                    <l>Con el gaucho desgraciao</l>
-                    <l>No hay uno que no se entone-</l>
-                    <l>La mesma falta lo espone</l>
-                    <l>A andar con los avestruces!</l>
-                    <l>Faltan otros con mas luces</l>
-                    <l>Y siempre hay quien los perdone.</l>
+                <lg n="349" rhyme="abbccb">
+                    <l>Con el gaucho desgrac<rhyme label="iao" type="grave">iao</rhyme></l>
+                    <l>No hay uno que no se ent<rhyme label="one" type="grave">one</rhyme>-</l>
+                    <l>La mesma falta lo esp<rhyme label="one" type="grave">one</rhyme></l>
+                    <l>A andar con los avestr<rhyme label="uces" type="grave">uces</rhyme>!</l>
+                    <l>Faltan otros con mas l<rhyme label="uces" type="grave">uces</rhyme></l>
+                    <l>Y siempre hay quien los perd<rhyme label="one" type="grave">one</rhyme>.</l>
                 </lg>
 
               </lg>
