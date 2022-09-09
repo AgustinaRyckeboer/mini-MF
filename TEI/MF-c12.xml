@@ -24,166 +24,193 @@
 
             <head>Canto XII</head>
 
-            <lg type="poema"  style="sexteto" unisonancia="singular" isometrismo="isométrico"  isoestrofismo="isoestrófico" asonancia="consonante" met="6x8">
-347
-Yo no sé qué tantos meses
-esta vida me duró;
-a veces nos obligó
-la miseria a comer potro:
-me había acompañao con otros
-tan desgraciaos como yo
-
-348
-Mas ¿para qué platicar
-sobre esos males, canejos?
-Nace el gaucho y se hace viejo,
-sin que mejore su suerte,
-hasta que por ahi la muerte
-sale a cobrarle el pellejo.
-
-349
-Pero como no hay desgracia
-que no acabe alguna vez,
-me aconteció que después
-de sufrir tanto rigor,
-un amigo, por favor,
-me compuso con el juez.
-
-350
-Le alvertiré que en mi pago
-ya no va quedando un criollo:
-se los ha tragao el hoyo,
-o juido o muerto en la guerra;
-porque, amigo, en esta tierra
-nunca se acaba el embrollo.
-
-351
-Colijo que jué por eso
-que me llamó el juez un día,
-y me dijo que quería
-hacerme a su lao venir,
-y que dentrase a servir
-de soldao de polecía.
-
-352
-Y me largó una proclama
-tratándome de valiente;
-que yo era un hombre decente,
-y que dende aquel momento
-me nombraba de sargento
-pa que mandara la gente.
-
-353
-Ansí estuve en la partida,
-pero ¿qué había de mandar?
-Anoche al irlo a tomar
-vide güena coyontura,
-y a mí no me gusta andar
-con la lata a la cintura.
-
-354
-Ya conoce, pues, quién soy;
-tenga confianza conmigo:
-Cruz le dio mano de amigo,
-y no lo ha de abandonar;
-juntos podemos buscar
-pa los dos un mesmo abrigo.
-
-355
-Andaremos de matreros
-si es preciso pa salvar;
-nunca nos ha de faltar
-ni un güen pingo pa juir,
-ni un pajal ande dormir,
-ni un matambre que ensartar.
-
-356
-Y cuando sin trapo alguno
-nos haiga el tiempo dejao,
-yo le pediré emprestao
-el cuero a cualquiera lobo,
-y hago un poncho, si lo sobo,
-mejor que poncho engomao.
-
-357
-Para mí la cola es pecho
-y el espinazo es cadera
-hago mi nido ande quiera
-y de lo que encuentro como;
-me echo tierra sobre el lomo
-y me apeo en cualquier tranquera.
-
-358
-Y dejo rodar la bola,
-que algún día se ha de parar-
-tiene el gaucho que aguantar
-hasta que lo trague el hoyo,
-o hasta que venga algún criollo
-en esta tierra a mandar.
-
-359
-Todos se güelven proyetos
-de colonias y carriles,
-y tirar la plata a miles
-en los gringos enganchaos,
-mientras al pobre soldao
-le pelan la cucha- ¡ah, viles!
-
-360
-Pero si siguen las cosas
-como van hasta el presente,
-puede ser que redepente
-veamos el campo disierto,
-y blanquiando solamente
-los güesos de los que han muerto.
-
-361
-Lo miran al pobre gaucho
-como carne de cogote:
-lo tratan al estricote
-y si ansí las cosas andan,
-porque quieren los que mandan,
-aguantemos los azotes.
-
-362
-¡Pucha! Si usté los oyera,
-como yo en una ocasión
-tuita la conversación
-que con otro tuvo el juez;
-le asiguro que esa vez
-se me achicó el corazón.
-
-363
-Hablaban de hacerse ricos
-con campos en la fronteras,
-de sacarla más ajuera,
-donde había campos baldidos
-y llevar de los partidos
-gente que la defendiera.
-
-364
-Hace mucho que sufrimos
-la suerte reculativa
-trabaja el gaucho y no arriba
-porque a lo mejor del caso,
-lo levantan de un sogazo
-sin dejarle ni saliva.
-
-365
-De los males que sufrimos
-hablan mucho los puebleros,
-pero hacen como los teros
-para esconder sus niditos:
-en un lao pegan los gritos
-y en otro tienen los güevos.
-
-366
-Y se hacen los que no aciertan
-a dar con la coyontura:
-mientras al gaucho lo apura
-con rigor la autoridá,
-ellos a la enfermedá
-le están errando la cura. 
+            <lg type="poema" style="sexteto" unisonancia="singular" isometrismo="isométrico"  isoestrofismo="isoestrófico" asonancia="consonante" met="6x8">
+                
+                    <lg n="350" rhyme="abbccb">
+                        <l>Yo no sé que tantos m<rhyme label="eses" type="grave">eses</rhyme></l>
+                        <l>Esta vida me dur<rhyme label="o" type="aguda">ó</rhyme>,</l>
+                        <l>A veces nos oblig<rhyme label="o" type="aguda">ó</rhyme></l>
+                        <l>La miseria á comer p<rhyme label="otro" type="grave">otro</rhyme>-</l>
+                        <l>Me habia acompañao con <rhyme label="otros" type="grave">otros</rhyme></l>
+                        <l>Tan desgraciaos como y<rhyme label="o" type="aguda">o</rhyme>.-</l>
+                    </lg>
+                    
+                    <lg n="351" rhyme="abbccb">
+                        <l>Mas ¿para que platic<rhyme label="ar" type="aguda">ar</rhyme></l>
+                        <l>Sobre esos males,-can<rhyme label="ejo" type="grave">ejo</rhyme>?</l>
+                        <l>Nace el gaucho y se hace v<rhyme label="iejo" type="grave">iejo</rhyme>,</l>
+                        <l>Sin que mejore su s<rhyme label="uerte" type="grave">uerte</rhyme>,</l>
+                        <l>Hasta que por ay la m<rhyme label="uerte" type="grave">uerte</rhyme></l>
+                        <l>Sale á cobrarle el pell<rhyme label="ejo" type="grave">ejo</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="352" rhyme="abbccb">
+                        <l>Pero como no hay desgr<rhyme label="acia" type="grave">acia</rhyme></l>
+                        <l>Que no acabe alguna v<rhyme label="ez" type="aguda">ez</rhyme>,</l>
+                        <l>Me aconteció que desp<rhyme label="ues" type="aguda">ues</rhyme></l>
+                        <l>De sufrir tanto rig<rhyme label="or" type="aguda">or</rhyme>,</l>
+                        <l>Un amigo, por fav<rhyme label="or" type="aguda">or</rhyme>,</l>
+                        <l>Me compuso con el j<rhyme label="uez" type="aguda">uez</rhyme>.</l>
+                    </lg>
+                                    
+                    <lg n="353" rhyme="abbccb">
+                        <l>Le alvertiré que en mi p<rhyme label="ago" type="grave">ago</rhyme></l>
+                        <l>Ya no vá quedando un cr<rhyme label="iollo" type="grave">iollo</rhyme>,</l>
+                        <l>Se los ha tragao el <rhyme label="oyo" type="grave">oyo</rhyme>,</l>
+                        <l>O juido ó muerto en la gu<rhyme label="erra" type="grave">erra</rhyme></l>
+                        <l>Porque, amigo, en esta t<rhyme label="ierra" type="grave">ierra</rhyme></l>
+                        <l>Nunca se acaba el embr<rhyme label="ollo" type="grave">ollo</rhyme>-</l>
+                    </lg>
+                    
+                    <lg n="354" rhyme="abbccb">
+                        <l>Colijo que jué para <rhyme label="eso" type="grave">eso</rhyme></l>
+                        <l>Que me llamó el juez un d<rhyme label="ia" type="grave">ia</rhyme>,</l>
+                        <l>Y me dijo que quer<rhyme label="ia" type="grave">ia</rhyme></l>
+                        <l>Hacerme á su lao ven<rhyme label="ir" type="aguda">ir</rhyme>,</l>
+                        <l>Y que dentrase á serv<rhyme label="ir" type="aguda">ir</rhyme></l>
+                        <l>De soldao de Polec<rhyme label="ia" type="grave">ia</rhyme>.-</l>
+                    </lg>
+                    
+                    <lg n="355" rhyme="abbccb">
+                        <l>Y me largó una procl<rhyme label="ama" type="grave">ama</rhyme></l>
+                        <l>Tratandome de val<rhyme label="iente" type="grave">iente</rhyme>,</l>
+                        <l>Que yo era un hombre dec<rhyme label="ente" type="grave">ente</rhyme>,</l>
+                        <l>Y que dende aquel mom<rhyme label="ento" type="grave">ento</rhyme></l>
+                        <l>Me nombraba de sarg<rhyme label="ento" type="grave">ento</rhyme></l>
+                        <l>Pa que mandára la g<rhyme label="ente" type="grave">ente</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="356" rhyme="abbcbc">
+                        <l>Ansi estuve en la part<rhyme label="ida" type="grave">ida</rhyme></l>
+                        <l>Pero, ¡que habia de mand<rhyme label="ar" type="aguda">ar</rhyme>!</l>
+                        <l>Anoche al irlo á tom<rhyme label="ar" type="aguda">ar</rhyme></l>
+                        <l>Vide güena coyont<rhyme label="ura" type="grave">ura</rhyme>-</l>
+                        <l>Y ami no me gusta and<rhyme label="ar" type="aguda">ar</rhyme></l>
+                        <l>Con la <term n="129">lata</term> á la cint<rhyme label="ura" type="grave">ura</rhyme>.</l>
+                    </lg>
+                
+                    <lg>
+                      <note>estrofa marcada como no legible</note>
+                      <l>-------------------------------</l>  
+                    </lg>
+                    
+                    <lg n="357" rhyme="abbccb">
+                        <l>Ya conoce, pues, quien s<rhyme label="oy" type="aguda">oy</rhyme>,</l>
+                        <l>Tenga confianza con m<rhyme label="igo" type="grave">igo</rhyme>,</l>
+                        <l>Cruz le dió mano de am<rhyme label="igo" type="grave">igo</rhyme></l>
+                        <l>Y no lo ha de abandon<rhyme label="ar" type="aguda">ar</rhyme>-</l>
+                        <l>Juntos podemos busc<rhyme label="ar" type="aguda">ar</rhyme></l>
+                        <l>Pa los dos un mesmo abr<rhyme label="igo" type="grave">igo</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="358" rhyme="abbccb">
+                        <l>Andaremos de matr<rhyme label="eros" type="grave">eros</rhyme></l>
+                        <l>Si es preciso pa salv<rhyme label="ar" type="aguda">ar</rhyme>-</l>
+                        <l>Nunca nos ha de falt<rhyme label="ar" type="aguda">ar</rhyme></l>
+                        <l>Ni un buen pingo pa j<rhyme label="uir" type="aguda">uir</rhyme>,</l>
+                        <l>Ni un pajal ande dorm<rhyme label="ir" type="aguda">ir</rhyme>,</l>
+                        <l>Ni un matambre que ensart<rhyme label="ar" type="aguda">ar</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="359" rhyme="abbccb">
+                        <l>Y cuando sin trapo alg<rhyme label="uno" type="grave">uno</rhyme></l>
+                        <l>Nos haiga el tiempo dej<rhyme label="ao" type="grave">ao</rhyme>-</l>
+                        <l>Yo le pediré emprest<rhyme label="ao" type="grave">ao</rhyme></l>
+                        <l>El cuero á cualquiera l<rhyme label="obo" type="grave">obo</rhyme></l>
+                        <l>Y hago un poncho, si lo s<rhyme label="obo" type="grave">obo</rhyme>,</l>
+                        <l>Mejor que poncho engom<rhyme label="ao" type="grave">ao</rhyme>.</l>
+                    </lg>
+                                    
+                    <lg n="360" rhyme="abbccb">
+                        <l>Para mi la cola es p<rhyme label="echo" type="grave">echo</rhyme></l>
+                        <l>Y el espinaso es cad<rhyme label="era" type="grave">era</rhyme>-</l>
+                        <l>Hago mi nido ande qu<rhyme label="iera" type="grave">iera</rhyme></l>
+                        <l>Y de lo que encuentre c<rhyme label="omo" type="grave">omo</rhyme>-</l>
+                        <l>Me echo tierra sobre el l<rhyme label="omo" type="grave">omo</rhyme></l>
+                        <l>Y me apéo en cualquier tranqu<rhyme label="era" type="grave">era</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="361" rhyme="abbccb">
+                        <l>Y deje rodar la b<rhyme label="ola" type="grave">ola</rhyme></l>
+                        <l>Que algun dia se ha <corr>de</corr> par<rhyme label="ar" type="aguda">ar</rhyme>-</l>
+                        <l>Tiene el gaucho que aguant<rhyme label="ar" type="aguda">ar</rhyme></l>
+                        <l>Hasta que lo trague al <rhyme label="oyo" type="grave">oyo</rhyme>,</l>
+                        <l>O hasta que venga algun cr<rhyme label="iollo" type="grave">iollo</rhyme></l>
+                        <l>En esta tierra á mand<rhyme label="ar" type="aguda">ar</rhyme>.</l>
+                    </lg>
+                
+                    <lg n="362" rhyme="abbccb">
+                        <l>Lo miran al pobre g<rhyme label="aucho" type="grave">aucho</rhyme></l>
+                        <l>Como carne de cog<rhyme label="ote" type="grave">ote</rhyme>:</l>
+                        <l>Lo tratan al <term n="130">estric<rhyme label="ote" type="grave">ote</rhyme></term>-</l>
+                        <l>Y si ansi las cosas <rhyme label="andan" type="grave">andan</rhyme>,</l>
+                        <l>Porque quieren los que m<rhyme label="andan" type="grave">andan</rhyme></l>
+                        <l>Aguantemos los az<rhyme label="otes" type="grave">otes</rhyme>.</l>
+                    </lg>
+                
+                    <lg n="363" rhyme="abbccb">
+                        <l>Pucha- si usté los oy<rhyme label="era" type="grave">era</rhyme></l>
+                        <l>Como yo en una ocas<rhyme label="ion" type="aguda">ion</rhyme></l>
+                        <l>Tuita la conversac<rhyme label="ion" type="aguda">ion</rhyme></l>
+                        <l>Que con otro tuvo el j<rhyme label="uez" type="aguda">uez</rhyme>-</l>
+                        <l>Le asiguro que esa v<rhyme label="ez" type="aguda">ez</rhyme></l>
+                        <l>Se me achicó el coraz<rhyme label="on" type="aguda">on</rhyme>.</l>
+                    </lg>
+                
+                    <lg n="364" rhyme="abbccb">
+                        <l>Hablaban de hacerse r<rhyme label="icos" type="grave">icos</rhyme></l>
+                        <l>Con campos en la front<rhyme label="era" type="grave">era</rhyme>-</l>
+                        <l>De sacarla mas aj<rhyme label="uera" type="grave">uera</rhyme></l>
+                        <l>Donde habia campos bald<rhyme label="idos" type="grave">idos</rhyme>-</l>
+                        <l>Y llevar de los part<rhyme label="idos" type="grave">idos</rhyme></l>
+                        <l>Gentes que la defend<rhyme label="iera" type="grave">iera</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="365" rhyme="abbccb">
+                        <l>Todos se güelven proy<rhyme label="etos" type="grave">etos</rhyme></l>
+                        <l>De colonias y carr<rhyme label="iles" type="grave">iles</rhyme>-</l>
+                        <l>Y tirar la plata á m<rhyme label="iles" type="grave">iles</rhyme></l>
+                        <l>En los gringos enganch<rhyme label="aos" type="grave">aos</rhyme>,</l>
+                        <l>Mientras al pobre sold<rhyme label="ao" type="grave">ao</rhyme></l>
+                        <l>Le pelan la chaucha-ah! v<rhyme label="iles" type="grave">iles</rhyme>!-</l>
+                    </lg>
+                    
+                    <lg n="366" rhyme="abbcbc">
+                        <l>Pero si siguen las c<rhyme label="osas" type="grave">osas</rhyme></l>
+                        <l>Como ván hasta el pres<rhyme label="ente" type="grave">ente</rhyme></l>
+                        <l>Pueden ser que redep<rhyme label="ente" type="grave">ente</rhyme></l>
+                        <l>Veamos el campo dis<rhyme label="ierto" type="grave">ierto</rhyme>,</l>
+                        <l>Y blanquiando solam<rhyme label="ente" type="grave">ente</rhyme></l>
+                        <l>Los güesos de los que han m<rhyme label="uerto" type="grave">uerto</rhyme>.</l>
+                    </lg>
+                                                    
+                    <lg n="367" rhyme="abbccb">
+                        <l>Hace mucho que sufr<rhyme label="imos" type="grave">imos</rhyme></l>
+                        <l>La suerte <term n="131">reculat<rhyme label="iva" type="grave">iva</rhyme></term>-</l>
+                        <l>Trabaja el gaucho y no arr<rhyme label="iba" type="grave">iba</rhyme>,</l>
+                        <l>Pues a lo mejor del c<rhyme label="aso" type="grave">aso</rhyme>,</l>
+                        <l>Lo levantan de un sog<rhyme label="aso" type="grave">aso</rhyme></l>
+                        <l>Sin dejarle ni sal<rhyme label="iva" type="grave">iva</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="368" rhyme="abbccb">
+                      <note>el último verso tiene rima asonante</note>
+                        <l>De los males que sufr<rhyme label="imos" type="grave">imos</rhyme></l>
+                        <l>Hablan mucho los puebl<rhyme label="eros" type="grave">eros</rhyme>,</l>
+                        <l>Pero hacen como los t<rhyme label="eros" type="grave">eros</rhyme></l>
+                        <l>Para esconder sus nid<rhyme label="itos" type="grave">itos</rhyme>:</l>
+                        <l>En un lao pegan los gr<rhyme label="itos" type="grave">itos</rhyme></l>
+                        <l>Y en otro tienen los g<rhyme label="uevos" type="grave">üevos</rhyme>.</l>
+                    </lg>
+                    
+                    <lg n="369" rhyme="abbccb">
+                        <l>Y se hacen los que no <orig>a <rhyme label="iertan" type="grave">iertan</rhyme></orig></l>
+                        <l>A dar con la coyont<rhyme label="ura" type="grave">ura</rhyme>-</l>
+                        <l>Mientras al gaucho lo ap<rhyme label="ura" type="grave">ura</rhyme></l>
+                        <l>Con rigor la autorid<rhyme label="a" type="aguda">á</rhyme>,</l>
+                        <l>Ellos á la enfermed<rhyme label="a" type="aguda">á</rhyme></l>
+                        <l>Le estan errando la c<rhyme label="ura" type="grave">ura</rhyme>.</l> 
+                    </lg>
 
 
             </lg>
