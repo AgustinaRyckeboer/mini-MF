@@ -27,193 +27,195 @@
 
             <lg type="poema"  style="sexteto" unisonancia="singular" isometrismo="isométrico"  isoestrofismo="isoestrófico" asonancia="consonante" met="6x8">
                 
-                <lg n="370">
-                    <l>Ya veo que somos los dos</l>
-                    <l>Astillas del mesmo palo-</l>
-                    <l>Yo paso por gaucho malo</l>
-                    <l>Y usté anda del mesmo modo,</l>
-                    <l>Y yo pa acabarlo todo</l>
-                    <l>A los Yndios me refalo.</l>
+                <lg n="370" rhyme="abbccb">
+                    <l>Ya veo que somos los d<rhyme label="os" type="aguda">os</rhyme></l>
+                    <l>Astillas del mesmo p<rhyme label="alo" type="grave">alo</rhyme>-</l>
+                    <l>Yo paso por gaucho m<rhyme label="alo" type="grave">alo</rhyme></l>
+                    <l>Y usté anda del mesmo m<rhyme label="odo" type="grave">odo</rhyme>,</l>
+                    <l>Y yo pa acabarlo t<rhyme label="odo" type="grave">odo</rhyme></l>
+                    <l>A los Yndios me ref<rhyme label="alo" type="grave">alo</rhyme>.</l>
                 </lg>
                 
-                <lg n="371">
-                    <l>Pido perdón á mi Dios</l>
-                    <l>Que tantos bienes me hizo-</l>
-                    <l>Pero dende que es preciso</l>
-                    <l>Que viva entre los infeles-</l>
-                    <l>Yo seré cruel con los crueles-</l>
-                    <l>Ansi mi suerte lo quiso.</l>
+                <lg n="371" rhyme="abbccb">
+                    <l>Pido perdón á mi D<rhyme label="ios" type="aguda">ios</rhyme></l>
+                    <l>Que tantos bienes me h<rhyme label="izo" type="grave">izo</rhyme>-</l>
+                    <l>Pero dende que es prec<rhyme label="iso" type="grave">iso</rhyme></l>
+                    <l>Que viva entre los inf<rhyme label="ieles" type="grave">ieles</rhyme>-</l>
+                    <l>Yo seré cruel con los cr<rhyme label="ueles" type="grave">ueles</rhyme>-</l>
+                    <l>Ansi mi suerte lo qu<rhyme label="iso" type="grave">iso</rhyme>.</l>
                 </lg>
                 
-                <lg n="372">
-                    <l>Dios formó lindas las flores,</l>
-                    <l>Delicadas como son-</l>
-                    <l>Le dió toda perfecion</l>
-                    <l>Y cuanto él era capaz-</l>
-                    <l>Pero al hombre le dió mas</l>
-                    <l>Cuando le dió el corazon.</l>
+                <lg n="372" rhyme="abbccb">
+                    <l>Dios formó lindas las fl<rhyme label="ores" type="grave">ores</rhyme>,</l>
+                    <l>Delicadas como s<rhyme label="on" type="aguda">on</rhyme>-</l>
+                    <l>Le dió toda perfec<rhyme label="ion" type="aguda">ion</rhyme></l>
+                    <l>Y cuanto él era cap<rhyme label="az" type="aguda">az</rhyme>-</l>
+                    <l>Pero al hombre le dió m<rhyme label="as" type="aguda">as</rhyme></l>
+                    <l>Cuando le dió el coraz<rhyme label="on" type="aguda">on</rhyme>.</l>
                 </lg>
                 
-                <lg n="373">
-                    <l>Le dio claridá á la luz,</l>
-                    <l>Juerza en su carrera al viento,</l>
-                    <l>Le dio vida y movimiento</l>
-                    <l>Dende la águila al gusano-</l>
-                    <l>Pero mas le dió al cristiano</l>
-                    <l>Al darle el entendimiento.</l>
+                <lg n="373" rhyme="abbccb">
+                    <l>Le dio claridá á la l<rhyme label="uz" type="aguda">uz</rhyme>,</l>
+                    <l>Juerza en su carrera al v<rhyme label="iento" type="grave">iento</rhyme>,</l>
+                    <l>Le dio vida y movim<rhyme label="iento" type="grave">iento</rhyme></l>
+                    <l>Dende la águila al gus<rhyme label="ano" type="grave">ano</rhyme>-</l>
+                    <l>Pero mas le dió al crist<rhyme label="iano" type="grave">iano</rhyme></l>
+                    <l>Al darle el entendim<rhyme label="iento" type="grave">iento</rhyme>.</l>
                 </lg>
                                 
-                <lg n="374">
-                    <l>Y aunque á las aves les dió</l>
-                    <l>Con otras cosas que inoro,</l>
-                    <l>Esos piquitos como oro</l>
-                    <l>Y un plumaje como tabla-</l>
-                    <l>Le dió al hombre mas tesoro</l>
-                    <l>Al darle una lengua que habla.</l>
+                <lg n="374" rhyme="abbcbc">
+                    <l>Y aunque á las aves les d<rhyme label="io" type="aguda">ió</rhyme></l>
+                    <l>Con otras cosas que in<rhyme label="oro" type="grave">oro</rhyme>,</l>
+                    <l>Esos piquitos como <rhyme label="oro" type="grave">oro</rhyme></l>
+                    <l>Y un plumaje como t<rhyme label="abla" type="grave">abla</rhyme>-</l>
+                    <l>Le dió al hombre mas tes<rhyme label="oro" type="grave">oro</rhyme></l>
+                    <l>Al darle una lengua que h<rhyme label="abla" type="grave">abla</rhyme>.</l>
                 </lg>
                                 
-                <lg n="375">
-                    <l>Y dende que dió a las fieras</l>
-                    <l>Esa juria tan inmensa,</l>
-                    <l>Que no hay poder que las vensa</l>
-                    <l>Ni nada que las asombre-</l>
-                    <l>¿Qué menos le daria al hombre</l>
-                    <l>Que el valor pa su defensa.?</l>
+                <lg n="375" rhyme="abbccb">
+                    <l>Y dende que dió a las f<rhyme label="ieras" type="grave">ieras</rhyme></l>
+                    <l>Esa juria tan inm<rhyme label="ensa" type="grave">ensa</rhyme>,</l>
+                    <l>Que no hay poder que las v<rhyme label="ensa" type="grave">ensa</rhyme></l>
+                    <l>Ni nada que las as<rhyme label="ombre" type="grave">ombre</rhyme>-</l>
+                    <l>¿Qué menos le daria al h<rhyme label="ombre" type="grave">ombre</rhyme></l>
+                    <l>Que el valor pa su def<rhyme label="ensa" type="grave">ensa</rhyme>.?</l>
                 </lg>
                 
-                <lg n="376">
-                    <l>Pero tantos bienes juntos</l>
-                    <l>Al darle, malicio yo</l>
-                    <l>Que en sus adentros pensó</l>
-                    <l>Que el hombre los precisaba,</l>
-                    <l>Que los bienes igualaba</l>
-                    <l>Con las penas que le dió.</l>
+                <lg n="376" rhyme="abbccb">
+                    <l>Pero tantos bienes j<rhyme label="untos" type="grave">untos</rhyme></l>
+                    <l>Al darle, malicio y<rhyme label="o" type="aguda">o</rhyme></l>
+                    <l>Que en sus adentros pens<rhyme label="o" type="aguda">ó</rhyme></l>
+                    <l>Que el hombre los precis<rhyme label="aba" type="grave">aba</rhyme>,</l>
+                    <l>Que los bienes igual<rhyme label="aba" type="grave">aba</rhyme></l>
+                    <l>Con las penas que le d<rhyme label="io" type="aguda">ió</rhyme>.</l>
                 </lg>
                 
-                <lg n="377">
-                    <l>Y yo empujao por las mias</l>
-                    <l>Quiero salir de este infierno:-</l>
-                    <l>Ya no soy pichon muy tierno</l>
-                    <l>Y sé manejar la lanza-</l>
-                    <l>Y hasta los indios no alcanza</l>
-                    <l>La facultá del Gobierno</l>
+                <lg n="377" rhyme="abbccb">
+                    <l>Y yo empujao por las m<rhyme label="ias" type="aguda">ias</rhyme></l>
+                    <l>Quiero salir de este inf<rhyme label="ierno" type="grave">ierno</rhyme>:-</l>
+                    <l>Ya no soy pichon muy t<rhyme label="ierno" type="grave">ierno</rhyme></l>
+                    <l>Y sé manejar la l<rhyme label="anza" type="grave">anza</rhyme>-</l>
+                    <l>Y hasta los indios no alc<rhyme label="anza" type="grave">anza</rhyme></l>
+                    <l>La facultá del Gob<rhyme label="ierno" type="grave">ierno</rhyme></l>
                 </lg>
                 
-                <lg n="378">
-                    <l>Yo sé que allá los caciques</l>
-                    <l>Amparan á los cristianos,</l>
-                    <l>Y que los tratan de "Hermanos"</l>
-                    <l>Cuando se van por su gusto-</l>
-                    <l>A que andar pasando sustos....</l>
-                    <l>Alcemos el poncho y vamos.</l>
+                <lg n="378" rhyme="abbccb">
+                    <note>el último verso tiene rima asonante</note>
+                    <l>Yo sé que allá los cac<rhyme label="iques" type="grave">iques</rhyme></l>
+                    <l>Amparan á los crist<rhyme label="ianos" type="grave">ianos</rhyme>,</l>
+                    <l>Y que los tratan de "Herm<rhyme label="anos" type="grave">anos</rhyme>"</l>
+                    <l>Cuando se van por su g<rhyme label="usto" type="grave">usto</rhyme>-</l>
+                    <l>A que andar pasando s<rhyme label="ustos" type="grave">ustos</rhyme>....</l>
+                    <l>Alcemos el poncho y v<rhyme label="amos" type="grave">amos</rhyme>.</l>
                 </lg>
                 
-                <lg n="379">
-                    <l>En la cruzada hay peligros</l>
-                    <l>Pero ni aun esto me aterra-</l>
-                    <l>Yo ruedo sobre la tierra</l>
-                    <l>Arrastrao por mi destino-</l>
-                    <l>Y si erramos el camino....</l>
-                    <l>No es el primero que lo erra.</l>
+                <lg n="379" rhyme="abbccb">
+                    <l>En la cruzada hay pel<rhyme label="igros" type="grave">igros</rhyme></l>
+                    <l>Pero ni aun esto me at<rhyme label="erra" type="grave">erra</rhyme>-</l>
+                    <l>Yo ruedo sobre la t<rhyme label="ierra" type="grave">ierra</rhyme></l>
+                    <l>Arrastrao por mi dest<rhyme label="ino" type="grave">ino</rhyme>-</l>
+                    <l>Y si erramos el cam<rhyme label="ino" type="grave">ino</rhyme>....</l>
+                    <l>No es el primero que lo <rhyme label="erra" type="grave">erra</rhyme>.</l>
                 </lg>
                 
-                <lg n="380">
-                    <l>Si hemos de salvar ó no-</l>
-                    <l>De esto naides nos responde,</l>
-                    <l>Derecho ande el sol se esconde</l>
-                    <l>Tierra adentro hay que tirar,</l>
-                    <l>Algun dia hemos de llegar</l>
-                    <l>Despues sabremos adonde.</l>
+                <lg n="380" rhyme="abbccb">
+                    <l>Si hemos de salvar ó n<rhyme label="o" type="aguda">o</rhyme>-</l>
+                    <l>De esto naides nos resp<rhyme label="onde" type="grave">onde</rhyme>,</l>
+                    <l>Derecho ande el sol se esc<rhyme label="onde" type="grave">onde</rhyme></l>
+                    <l>Tierra adentro hay que tir<rhyme label="ar" type="aguda">ar</rhyme>,</l>
+                    <l>Algun dia hemos de lleg<rhyme label="ar" type="aguda">ar</rhyme></l>
+                    <l>Despues sabremos ad<rhyme label="onde" type="grave">onde</rhyme>.</l>
                 </lg>
                 
-                <lg n="381">
-                    <l>No hemos de perder el rumbo</l>
-                    <l>Los dos somos güena yunta-</l>
-                    <l>El que es gaucho ve ande apunta,</l>
-                    <l>Aunque inore ande se encuentra;</l>
-                    <l>Pa el lao en que el sol se dentra</l>
-                    <l>Dueblan los pastos la punta.</l>
+                <lg n="381" rhyme="abbccb">
+                    <l>No hemos de perder el r<rhyme label="umbo" type="grave">umbo</rhyme></l>
+                    <l>Los dos somos güena y<rhyme label="unta" type="grave">unta</rhyme>-</l>
+                    <l>El que es gaucho ve ande ap<rhyme label="unta" type="grave">unta</rhyme>,</l>
+                    <l>Aunque inore ande se enc<rhyme label="uentra" type="grave">uentra</rhyme>;</l>
+                    <l>Pa el lao en que el sol se d<rhyme label="entra" type="grave">entra</rhyme></l>
+                    <l>Dueblan los pastos la p<rhyme label="unta" type="grave">unta</rhyme>.</l>
                 </lg>
                 
-                <lg n="382">
-                    <l>De hambre no pereceremos</l>
-                    <l>Pues segun otros me han dicho</l>
-                    <l>En los campos se hallan vichos</l>
-                    <l>De los que uno necesita....</l>
-                    <l>Gamas, matacos, mulitas,</l>
-                    <l>Avestruces y quirquinchos.</l>
+                <lg n="382" rhyme="abbccb">
+                    <l>De hambre no perecer<rhyme label="emos" type="grave">emos</rhyme></l>
+                    <l>Pues segun otros me han d<rhyme label="icho" type="grave">icho</rhyme></l>
+                    <l>En los campos se hallan v<rhyme label="ichos" type="grave">ichos</rhyme></l>
+                    <l>De los que uno neces<rhyme label="ita" type="grave">ita</rhyme>....</l>
+                    <l>Gamas, matacos, mul<rhyme label="itas" type="grave">itas</rhyme>,</l>
+                    <l>Avestruces y quirqu<rhyme label="inchos" type="grave">inchos</rhyme>.</l>
                 </lg>
                 
-                <lg n="383">
-                    <l>Cuando se anda en el disierto</l>
-                    <l>Se come uno hasta las colas-</l>
-                    <l>Lo han cruzao mugeres solas</l>
-                    <l>Llegando al fin con salú-</l>
-                    <l>Y á de ser gaucho el ñandú</l>
-                    <l>Que se escape de mis bolas.</l>
+                <lg n="383" rhyme="abbccb">
+                    <l>Cuando se anda en el dis<rhyme label="ierto" type="grave">ierto</rhyme></l>
+                    <l>Se come uno hasta las c<rhyme label="olas" type="grave">olas</rhyme>-</l>
+                    <l>Lo han cruzao mugeres s<rhyme label="olas" type="grave">olas</rhyme></l>
+                    <l>Llegando al fin con sal<rhyme label="u" type="aguda">ú</rhyme>-</l>
+                    <l>Y á de ser gaucho el ñand<rhyme label="u" type="aguda">ú</rhyme></l>
+                    <l>Que se escape de mis b<rhyme label="olas" type="grave">olas</rhyme>.</l>
                 </lg>
                 
-                <lg n="384">
-                    <l>Tampoco á la sé le temo,</l>
-                    <l>Yo la aguanto muy contento,</l>
-                    <l>Busco agua olfatiando el viento</l>
-                    <l>Y dende que no soy manco.</l>
-                    <l>Ande hay duraznillo blanco</l>
-                    <l>Cabo, y la saco al momento.</l>
+                <lg n="384" rhyme="abbccb">
+                    <l>Tampoco á la sé le t<rhyme label="emo" type="grave">emo</rhyme>,</l>
+                    <l>Yo la aguanto muy cont<rhyme label="ento" type="grave">ento</rhyme>,</l>
+                    <l>Busco agua olfatiando el v<rhyme label="iento" type="grave">iento</rhyme></l>
+                    <l>Y dende que no soy m<rhyme label="anco" type="grave">anco</rhyme>.</l>
+                    <l>Ande hay duraznillo bl<rhyme label="anco" type="grave">anco</rhyme></l>
+                    <l>Cabo, y la saco al mom<rhyme label="ento" type="grave">ento</rhyme>.</l>
                 </lg>
                 
-                <lg n="385">
-                    <l>Allá habrá siguridá</l>
-                    <l>Ya que aqui no la tenemos,</l>
-                    <l>Menos males pasaremos</l>
-                    <l>Y ha de haber grande alegria,</l>
-                    <l>El dia que nos descolguemos</l>
-                    <l>En alguna tolderia.</l>
+                <lg n="385" rhyme="abbcbc">
+                    <l>Allá habrá sigurid<rhyme label="a" type="aguda">á</rhyme></l>
+                    <l>Ya que aqui no la ten<rhyme label="emos" type="grave">emos</rhyme>,</l>
+                    <l>Menos males pasar<rhyme label="emos" type="grave">emos</rhyme></l>
+                    <l>Y ha de haber grande alegr<rhyme label="ia" type="grave">ia</rhyme>,</l>
+                    <l>El dia que nos descolgu<rhyme label="emos" type="grave">emos</rhyme></l>
+                    <l>En alguna tolder<rhyme label="ia" type="grave">ia</rhyme>.</l>
                 </lg>
                 
-                <lg n="386">
-                    <l>Fabricaremos un toldo</l>
-                    <l>Como lo hacen tantos otros,</l>
-                    <l>Con unos cueros de potro</l>
-                    <l>Que sea sala y sea cocina,</l>
-                    <l>¡Tal vez no falte una china</l>
-                    <l>Que se apiade de nosotros!</l>
+                <lg n="386" rhyme="abbccb">
+                    <l>Fabricaremos un t<rhyme label="oldo" type="grave">oldo</rhyme></l>
+                    <l>Como lo hacen tantos <rhyme label="otros" type="grave">otros</rhyme>,</l>
+                    <l>Con unos cueros de p<rhyme label="otro" type="grave">otro</rhyme></l>
+                    <l>Que sea sala y sea coc<rhyme label="ina" type="grave">ina</rhyme>,</l>
+                    <l>¡Tal vez no falte una ch<rhyme label="ina" type="grave">ina</rhyme></l>
+                    <l>Que se apiade de nos<rhyme label="otros" type="grave">otros</rhyme>!</l>
                 </lg>
                 
-                <lg n="387">
-                    <l>Allá no hay que trabajar,</l>
-                    <l>Vive uno como un señor-</l>
-                    <l>De cuando en cuando un malon</l>
-                    <l>Y si de él sale con vida,</l>
-                    <l>Lo pasa echao panza arriba</l>
-                    <l>Mirando dar güelta el sol.</l>
+                <lg n="387" rhyme="abbccb">
+                  <note>la rima en el cuarto y quinto verso es asonante</note>
+                    <l>Allá no hay que trabaj<rhyme label="ar" type="aguda">ar</rhyme>,</l>
+                    <l>Vive uno como un señ<rhyme label="or" type="aguda">or</rhyme>-</l>
+                    <l>De cuando en cuando un mal<rhyme label="on" type="aguda">on</rhyme></l>
+                    <l>Y si de él sale con v<rhyme label="ida" type="grave">ida</rhyme>,</l>
+                    <l>Lo pasa echao panza arr<rhyme label="iba" type="grave">iba</rhyme></l>
+                    <l>Mirando dar güelta el s<rhyme label="ol" type="aguda">ol</rhyme>.</l>
                 </lg>
                 
-                <lg n="388">
-                    <l>Y ya que á juerza de golpes</l>
-                    <l>La suerte nos dejó á flus</l>
-                    <l>Puede que allá veamos luz</l>
-                    <l>Y se acaben nuestras penas;</l>
-                    <l>Todas las tierras son güenas</l>
-                    <l>Vamosnos amigo Cruz.</l>
+                <lg n="388" rhyme="abbccb">
+                    <l>Y ya que á juerza de g<rhyme label="olpes" type="grave">olpes</rhyme></l>
+                    <l>La suerte nos dejó á fl<rhyme label="us" type="aguda">us</rhyme></l>
+                    <l>Puede que allá veamos l<rhyme label="uz" type="aguda">uz</rhyme></l>
+                    <l>Y se acaben nuestras p<rhyme label="enas" type="grave">enas</rhyme>;</l>
+                    <l>Todas las tierras son g<rhyme label="uenas" type="grave">üenas</rhyme></l>
+                    <l>Vamosnos amigo Cr<rhyme label="uz" type="aguda">uz</rhyme>.</l>
                 </lg>
                 
-                <lg n="389">
-                    <l>El que maneja las bolas,</l>
-                    <l>El que sabe echar un pial,</l>
-                    <l>Y sentarse en un bagual</l>
-                    <l>Sin miedo de que lo baje,</l>
-                    <l>Entre los mesmos salvajes</l>
-                    <l>No puede pasarlo mal.</l>
+                <lg n="389" rhyme="abbccb">
+                    <l>El que maneja las b<rhyme label="olas" type="grave">olas</rhyme>,</l>
+                    <l>El que sabe echar un p<rhyme label="ial" type="aguda">ial</rhyme>,</l>
+                    <l>Y sentarse en un bag<rhyme label="ual" type="aguda">ual</rhyme></l>
+                    <l>Sin miedo de que lo b<rhyme label="aje" type="grave">aje</rhyme>,</l>
+                    <l>Entre los mesmos salv<rhyme label="ajes" type="grave">ajes</rhyme></l>
+                    <l>No puede pasarlo m<rhyme label="al" type="aguda">al</rhyme>.</l>
                 </lg>
                 
-                <lg n="390">
-                    <l>El amor como la guerra</l>
-                    <l>Lo hace el criollo con canciones</l>
-                    <l>A más de eso en los malones</l>
-                    <l>Podemos aviarnos de algo,</l>
-                    <l>En fin amigo, yo salgo,</l>
-                    <l>De estas pelegrinaciones.</l>
+                <lg n="390" rhyme="abbccb">
+                    <l>El amor como la gu<rhyme label="erra" type="grave">erra</rhyme></l>
+                    <l>Lo hace el criollo con canc<rhyme label="iones" type="grave">iones</rhyme></l>
+                    <l>A más de eso en los mal<rhyme label="ones" type="grave">ones</rhyme></l>
+                    <l>Podemos<term n="132"> aviarnos</term> de <rhyme label="algo" type="grave">algo</rhyme>,</l>
+                    <l>En fin amigo, yo s<rhyme label="algo" type="grave">algo</rhyme>,</l>
+                    <l>De estas pelegrinac<rhyme label="iones" type="grave">iones</rhyme>.</l>
                 </lg>
                 
                 <lg>
@@ -221,76 +223,76 @@
                     <l>--------------------------------</l>
                 </lg>
                 
-                <lg n="391">
-                    <l>En este punto, el cantor</l>
-                    <l>Buscó un porron pa consuelo,</l>
-                    <l>Echó un trago como un cielo,</l>
-                    <l>Dando fin á su argumento;</l>
-                    <l>Y de un golpe al instrumento</l>
-                    <l>Lo hizo astillas contra el suelo.</l>
+                <lg n="391" rhyme="abbccb">
+                    <l>En este punto, el cant<rhyme label="or" type="aguda">or</rhyme></l>
+                    <l>Buscó un porron pa cons<rhyme label="uelo" type="grave">uelo</rhyme>,</l>
+                    <l>Echó un trago como un c<rhyme label="ielo" type="grave">ielo</rhyme>,</l>
+                    <l>Dando fin á su argum<rhyme label="ento" type="grave">ento</rhyme>;</l>
+                    <l>Y de un golpe al instrum<rhyme label="ento" type="grave">ento</rhyme></l>
+                    <l>Lo hizo astillas contra el s<rhyme label="uelo" type="grave">uelo</rhyme>.</l>
                 </lg>
                 
-                <lg n="392">
-                    <l>-"Ruempo, dijo, la guitarra,</l>
-                    <l>Pa no volverla á templar,</l>
-                    <l>Ninguno la ha de tocar</l>
-                    <l>Por siguro tenganló;</l>
-                    <l>Pues naides ha de cantar</l>
-                    <l>Cuando este gaucho cantó.</l>
+                <lg n="392" rhyme="abbcbc">
+                    <l>-"Ruempo, dijo, la guit<rhyme label="arra" type="grave">arra</rhyme>,</l>
+                    <l>Pa no volverla á templ<rhyme label="ar" type="aguda">ar</rhyme>,</l>
+                    <l>Ninguno la ha de toc<rhyme label="ar" type="aguda">ar</rhyme></l>
+                    <l>Por siguro tenganl<rhyme label="o" type="aguda">ó</rhyme>;</l>
+                    <l>Pues naides ha de cant<rhyme label="ar" type="aguda">ar</rhyme></l>
+                    <l>Cuando este gaucho cant<rhyme label="o" type="aguda">ó</rhyme>.</l>
                 </lg>
                 
-                <lg n="393">
-                    <l>Y daré fin á mis coplas</l>
-                    <l>Con aire de relacion,</l>
-                    <l>Nunca falta un pregunton</l>
-                    <l>Mas curioso que mujer,</l>
-                    <l>Y tal vez quiera saber</l>
-                    <l>Como fué la conclusion.</l>
+                <lg n="393" rhyme="abbccb">
+                    <l>Y daré fin á mis c<rhyme label="oplas" type="grave">oplas</rhyme></l>
+                    <l>Con aire de relac<rhyme label="ion" type="aguda">ion</rhyme>,</l>
+                    <l>Nunca falta un pregunt<rhyme label="ion" type="aguda">on</rhyme></l>
+                    <l>Mas curioso que muj<rhyme label="er" type="aguda">er</rhyme>,</l>
+                    <l>Y tal vez quiera sab<rhyme label="er" type="aguda">er</rhyme></l>
+                    <l>Como fué la conclus<rhyme label="ion" type="aguda">ion</rhyme>.</l>
                 </lg>
                 
-                <lg n="394">
-                    <l>Cruz y Fierro de una estancia</l>
-                    <l>Una tropilla se arriaron-</l>
-                    <l>Por delante se la echaron</l>
-                    <l>Como criollos entendidos,</l>
-                    <l>Y pronto, sin ser sentidos</l>
-                    <l>Por la frontera cruzaron.</l>
+                <lg n="394" rhyme="abbccb">
+                    <l>Cruz y Fierro de una est<rhyme label="ancia" type="grave">ancia</rhyme></l>
+                    <l>Una tropilla se arr<rhyme label="iaron" type="grave">iaron</rhyme>-</l>
+                    <l>Por delante se la ech<rhyme label="aron" type="grave">aron</rhyme></l>
+                    <l>Como criollos entend<rhyme label="idos" type="grave">idos</rhyme>,</l>
+                    <l>Y pronto, sin ser sent<rhyme label="idos" type="grave">idos</rhyme></l>
+                    <l>Por la frontera cruz<rhyme label="aron" type="grave">aron</rhyme>.</l>
                 </lg>
                 
-                <lg n="395">
-                    <l>Y cuando la habian pasao,</l>
-                    <l>Una madrugada clara</l>
-                    <l>Le dijo Cruz que mirara</l>
-                    <l>Las últimas poblaciones;</l>
-                    <l>Y á Fierro dos lagrimones</l>
-                    <l>Le rodaron por la cara.</l>
+                <lg n="395" rhyme="abbccb">
+                    <l>Y cuando la habian pas<rhyme label="ao" type="grave">ao</rhyme>,</l>
+                    <l>Una madrugada cl<rhyme label="ara" type="grave">ara</rhyme></l>
+                    <l>Le dijo Cruz que mir<rhyme label="ara" type="grave">ara</rhyme></l>
+                    <l>Las últimas poblac<rhyme label="iones" type="grave">iones</rhyme>;</l>
+                    <l>Y á Fierro dos lagrim<rhyme label="ones" type="grave">ones</rhyme></l>
+                    <l>Le rodaron por la c<rhyme label="ara" type="grave">ara</rhyme>.</l>
                 </lg>
                 
-                <lg n="396">
-                    <l>Y siguiendo el fiel del rumbo,</l>
-                    <l>Se entraron en el desierto,</l>
-                    <l>No sé sílos habran muerto</l>
-                    <l>En alguna <corr>correria</corr></l>
-                    <l>Pero espero que algun dia</l>
-                    <l>Saber de ellos algo cierto.</l>
+                <lg n="396" rhyme="abbccb">
+                    <l>Y siguiendo el fiel del r<rhyme label="umbo" type="grave">umbo</rhyme>,</l>
+                    <l>Se entraron en el des<rhyme label="ierto" type="grave">ierto</rhyme>,</l>
+                    <l>No sé sílos habran m<rhyme label="uerto" type="grave">uerto</rhyme></l>
+                    <l>En alguna <corr>correr<rhyme label="ia" type="grave">ia</rhyme></corr></l>
+                    <l>Pero espero que algun d<rhyme label="ia" type="grave">ia</rhyme></l>
+                    <l>Saber de ellos algo c<rhyme label="ierto" type="grave">ierto</rhyme>.</l>
                 </lg>
                 
-                <lg n="397">
-                    <l>Y ya con estas noticias</l>
-                    <l>Mi relacion acabé,</l>
-                    <l>Por ser ciertas las conté,</l>
-                    <l>Todas la desgracias dichas</l>
-                    <l>Es un telar de desdichas</l>
-                    <l>Cada gaucho que usté vé.</l>
+                <lg n="397" rhyme="abbccb">
+                    <l>Y ya con estas not<rhyme label="icias" type="grave">icias</rhyme></l>
+                    <l>Mi relacion acab<rhyme label="e" type="aguda">é</rhyme>,</l>
+                    <l>Por ser ciertas las cont<rhyme label="e" type="aguda">é</rhyme>,</l>
+                    <l>Todas la desgracias d<rhyme label="ichas" type="grave">ichas</rhyme></l>
+                    <l>Es un telar de desd<rhyme label="ichas" type="grave">ichas</rhyme></l>
+                    <l>Cada gaucho que usté v<rhyme label="e" type="aguda">é</rhyme>.</l>
                 </lg>
                 
-                <lg n="398">
-                    <l>Pero ponga su esperanza</l>
-                    <l>En el Dios que lo formó</l>
-                    <l>Y aquí me despido yo</l>
-                    <l>Que <corr>referi</corr> ansi á mi modo,</l>
-                    <l><watermark>Males que conocen todos</watermark></l>
-                    <l><watermark>Pero que naides contó.</watermark></l>
+                <lg n="398" rhyme="abbccb">
+                    <l>Pero ponga su esper<rhyme label="anza" type="grave">anza</rhyme></l>
+                    <l>En el Dios que lo form<rhyme label="o" type="aguda">ó</rhyme></l>
+                    <l>Y aquí me despido y<rhyme label="o" type="aguda">o</rhyme></l>
+                    <l>Que <corr>referi</corr> ansi á mi m<rhyme label="odo" type="grave">odo</rhyme>,</l>
+                    <l><watermark>Males que conocen t<rhyme label="odos" type="grave">odos</rhyme></watermark></l>
+                    <l><watermark>Pero que naides cont<rhyme label="o" type="aguda">ó</rhyme>.</watermark></l>
                 </lg>
 
 
