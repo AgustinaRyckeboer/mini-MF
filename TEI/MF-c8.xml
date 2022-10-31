@@ -23,7 +23,7 @@
             <body> 
 
             <head>Canto VIII</head>
-             <lg type="poema" style="cuarteto" unisonancia="singular" isometrismo="isométrico" isoestrofismo="isoestrófico" asonancia="libre" met="4x8">
+             <lg type="poema" style="cuarteto" unisonancia="singular" isometrismo="isométrico" isoestrofismo="isoestrófico" asonancia="null" met="4x8">
              
              
                     <lg n="222" rhyme="abbc">             
@@ -35,7 +35,7 @@
                                      
                     <lg n="223" rhyme="abba">
                         <l>A la llegada met<rhyme label="io" type="aguda">ió</rhyme></l>
-                        <l>El pingo <term n="95">hasta la ram<rhyme label="ada" type="grave">ada</rhyme></term>-</l>
+                        <l>El pingo <term n="94">hasta la ram<rhyme label="ada" type="grave">ada</rhyme></term>-</l>
                         <l>Y yo sin decirle n<rhyme label="ada" type="grave">ada</rhyme></l>
                         <l>Me quedé en el mostrad<rhyme label="or" type="aguda">or</rhyme>.</l>
                     </lg>
@@ -84,7 +84,7 @@
                     <note>el quinto verso tiene rima asonante</note>
                         <l>"Ah! gaucho, me respond<rhyme label="io" type="aguda">ió</rhyme></l>
                         <l>"De que pago será cri<rhyme label="ollo" type="grave">ollo</rhyme>-</l>
-                        <l>"Lo andará buscando el <term n="96"><rhyme label="oyo" type="grave">oyo</rhyme></term></l>
+                        <l>"Lo andará buscando el <term n="95"><rhyme label="oyo" type="grave">oyo</rhyme></term></l>
                         <l>"Deberá tener güen c<rhyme label="uero" type="grave">uero</rhyme>-</l>
                         <l>"Pero ande bala este t<rhyme label="oro" type="grave">oro</rhyme></l>
                         <l>"No bala ningun tern<rhyme label="ero" type="grave">ero</rhyme>"</l>
@@ -96,7 +96,7 @@
                         <l>Por que el hombre no era l<rhyme label="erdo" type="grave">erdo</rhyme>-</l>
                         <l>Mas como el tino no p<rhyme label="ierdo" type="grave">ierdo</rhyme>,</l>
                         <l>Y soy medio lijer<rhyme label="on" type="aguda">on</rhyme>,</l>
-                        <l>Le dejé mostrando el <term n="97">s<rhyme label="ebo" type="grave">ebo</rhyme></term></l>
+                        <l>Le dejé mostrando el <term n="96">s<rhyme label="ebo" type="grave">ebo</rhyme></term></l>
                         <l>De un revéz con el fac<rhyme label="on" type="aguda">on</rhyme>.</l>
                     </lg>
                     
@@ -128,7 +128,7 @@
                     </lg>
                     
                     <lg n="234" rhyme="abbccb">
-                        <l>Es como el <term n="98">patrio de p<rhyme label="osta" type="grave">osta</rhyme></term></l>
+                        <l>Es como el <term n="97">patrio de p<rhyme label="osta" type="grave">osta</rhyme></term></l>
                         <l>Lo larga este, aquel lo t<rhyme label="oma" type="grave">oma</rhyme>-</l>
                         <l>Nunca se acaba la br<rhyme label="oma" type="grave">oma</rhyme>-</l>
                         <l>Dende chico se par<rhyme label="ece" type="grave">ece</rhyme></l>
@@ -177,7 +177,7 @@
                         <l>Su guarida es el des<rhyme label="ierto" type="grave">ierto</rhyme>;-</l>
                         <l>Y si de hambre medio m<rhyme label="uerto" type="grave">uerto</rhyme></l>
                         <l>Le echa el lazo á algun <corr>mam<rhyme label="on" type="grave">on</rhyme></corr>,</l>
-                        <l>Lo persiguen como á <term n="99">pl<rhyme label="aito" type="grave">aito</rhyme></term></l>
+                        <l>Lo persiguen como á <term n="98">pl<rhyme label="aito" type="grave">aito</rhyme></term></l>
                         <l>Porque es un "gaucho ladr<rhyme label="on" type="aguda">on</rhyme>"</l>
                     </lg>
                     
@@ -205,7 +205,7 @@
                         <l>Para él las duras pris<rhyme label="iones" type="grave">iones</rhyme>-</l>
                         <l>En su boca no hay raz<rhyme label="ones" type="grave">ones</rhyme></l>
                         <l>Aunque la razon le s<rhyme label="obre" type="grave">obre</rhyme>,</l>
-                        <l>Que son <term n="100">campanas de p<rhyme label="alo" type="grave">alo</rhyme></term></l>
+                        <l>Que son <term n="99">campanas de p<rhyme label="alo" type="grave">alo</rhyme></term></l>
                         <l>Las razones de los p<rhyme label="obres" type="grave">obres</rhyme>.</l>
                     </lg>
                     
