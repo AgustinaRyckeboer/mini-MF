@@ -154,7 +154,8 @@
                     <l>La pucha-que la quer<rhyme label="ia" type="grave">ia</rhyme>!</l>
                 </lg>
                 
-                <lg n="308" rhyme="">
+                <lg n="308" rhyme="abcbdb">
+                <note>asonancia libre</note>
                     <l>Era la águila que á un <rhyme label="arbol" type="grave">arbol</rhyme></l>
                     <l>Dende las nubes baj<rhyme label="o" type="aguda">ó</rhyme>,</l>
                     <l>Era mas linda que el <rhyme label="alba" type="grave">alba</rhyme></l>
@@ -218,7 +219,7 @@
                 </lg>
                 
                 <lg n="315" rhyme="abbcbc">
-                  <note> la rima en el quinto verso es asonante</note>
+                  <note>la rima en el quinto verso es asonante</note>
                     <l>Tenia el viejito una c<rhyme label="ara" type="grave">ara</rhyme></l>
                     <l>De ternero mal lam<rhyme label="ido" type="grave">ido</rhyme>,</l>
                     <l>Y al verle tan atrev<rhyme label="ido" type="grave">ido</rhyme></l>
@@ -227,7 +228,8 @@
                     <l>"Como guacho pa la l<rhyme label="eche" type="grave">eche</rhyme>."</l>
                 </lg>
                 
-                <lg n="316" rhyme="">
+                <lg n="316" rhyme="abbcdc">
+                <note>la rima en el quinto verso es libre</note>
                     <l>Peló la espada-y se v<rhyme label="ino" type="grave">ino</rhyme></l>
                     <l>Como á quererme ensart<rhyme label="ar" type="aguda">ar</rhyme>,</l>
                     <l>Pero yo sin tutub<rhyme label="iar" type="aguda">iar</rhyme></l>
@@ -272,7 +274,7 @@
                     <l>Sin dejarlo resoll<rhyme label="ar" type="aguda">ar</rhyme>.</l>
                 </lg>
                 
-                <lg n="321" >
+                <lg n="321" rhyme="abbccb">
                     <l>Dentré á campiar en segu<rhyme label="ida" type="grave">ida</rhyme></l>
                     <l>Al viejito enamor<rhyme label="ao" type="grave">ao</rhyme>,</l>
                     <l>El pobre se habia gan<rhyme label="ao" type="grave">ao</rhyme></l>
@@ -299,7 +301,7 @@
                     <l>Como chico con lumbr<rhyme label="ices" type="grave">ices</rhyme>.</l>
                 </lg>
                 
-                <lg n="324" rhyme="">
+                <lg n="324" rhyme="abbaab">
                     <l>Cuando la mula rec<rhyme label="ula" type="grave">ula</rhyme></l>
                     <l>Señal que quiere cos<rhyme label="iar" type="aguda">iar</rhyme>-</l>
                     <l>Ansi se suele port<rhyme label="ar" type="aguda">ar</rhyme></l>

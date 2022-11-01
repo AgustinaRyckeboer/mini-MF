@@ -227,8 +227,9 @@
                     <l>Es que les gané el tir<rhyme label="on" type="aguda">on</rhyme>,</l>
                     <l>Sin aguardar <term n="110">voz de pr<rhyme label="eso" type="grave">eso</rhyme></term>.</l>
                 </lg>
+              </lg>  
                 
-                <lg n="267" style="octava" rhyme="abbccddc">
+                <lg n="267" style="octava" rhyme="abbccddc" type="poema" unisonancia="singular" isometrismo="isométrico"  isoestrofismo="isoestrófico" asonancia="consonante" met="8x8">
                     <l>-"Vos sos un gaucho matr<rhyme label="ero" type="grave">ero</rhyme>"</l>
                     <l>Dijo uno haciendose el g<rhyme label="ueno" type="grave">üeno</rhyme>,</l>
                     <l>"Vos matastes un mor<rhyme label="eno" type="grave">eno</rhyme></l>
@@ -238,6 +239,8 @@
                     <l>"Te va á <term n="111">alzar por las cuar<rhyme label="enta" type="grave">enta</rhyme></term></l>
                     <l>"Si te resistís hoy d<rhyme label="ia" type="grave">ia</rhyme>"</l>
                 </lg>
+
+            <lg type="poema"  style="sexteto" unisonancia="singular" isometrismo="isométrico"  isoestrofismo="isoestrófico" asonancia="consonante" met="6x8">    
                 
                 <lg n="268" rhyme="abbccb">
                     <l>No me vengan, contest<rhyme label="e" type="aguda">é</rhyme>,</l>

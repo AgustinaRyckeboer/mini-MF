@@ -24,9 +24,10 @@
 
             <head>Canto VII</head>
                 
-                <lg type="poema" style="cuarteto" unisonancia="singular" isometrismo="isométrico" isoestrofismo="isoestrófico" asonancia="libre" met="4x8">
+                <lg type="poema" style="cuarteto" unisonancia="singular" isometrismo="isométrico" isoestrofismo="isoestrófico" met="4x8">
                     
-                    <lg n="188" rhyme="abcb"> 
+                    <lg n="188" rhyme="abcb">
+                    <note>asonancia libre</note> 
                         <l>De carta de mas me v<rhyme label="ia" type="aguda">ia</rhyme></l>
                         <l>Sin saber á donde d<rhyme label="irme" type="grave">irme</rhyme>,</l>
                         <l>Mas dijeron que era v<rhyme label="ago" type="grave">ago</rhyme></l>
@@ -34,6 +35,7 @@
                     </lg>
                     
                     <lg n="189" rhyme="abcb">
+                    <note>asonancia libre</note>
                         <l>Nunca se achican los m<rhyme label="ales" type="grave">ales</rhyme></l>
                         <l>Van poco á poco crec<rhyme label="iendo" type="grave">iendo</rhyme></l>
                         <l>Y ansina me vide pr<rhyme label="onto" type="grave">onto</rhyme></l>
@@ -41,6 +43,7 @@
                     </lg>
                     
                     <lg n="190" rhyme="abcb">
+                    <note>asonancia libre</note>
                         <l>No tenia muger ni r<rhyme label="ancho" type="grave">ancho</rhyme>,</l>
                         <l>Y á mas, era resert<rhyme label="or" type="aguda">or</rhyme>,</l>
                         <l>No tenia una prenda g<rhyme label="uena" type="grave">üena</rhyme></l>
@@ -48,6 +51,7 @@
                     </lg>
                     
                     <lg n="191" rhyme="abcb">
+                    <note>asonancia libre</note>
                         <l>A mis hijos infel<rhyme label="ices" type="grave">ices</rhyme></l>
                         <l>Pensé volverlos á hall<rhyme label="ar" type="aguda">ar</rhyme>-</l>
                         <l>Y andaba de un lao al <rhyme label="otro" type="grave">otro</rhyme></l>
@@ -55,6 +59,7 @@
                     </lg>
                     
                     <lg n="192" rhyme="abcb">
+                    <note>asonancia libre</note>
                         <l>Supe una vez por desgr<rhyme label="acia" type="grave">acia</rhyme></l>
                         <l>Que habia un baile por all<rhyme label="i" type="aguda">i</rhyme>-</l>
                         <l>Y medio desesper<rhyme label="ao" type="grave">ao</rhyme></l>
@@ -62,6 +67,7 @@
                     </lg>
                     
                     <lg n="193" rhyme="abcb">
+                    <note>asonancia libre</note>
                         <l>Riunidos al <term n="83">peric<rhyme label="on" type="aguda">on</rhyme></term></l>
                         <l>Tantos amigos hall<rhyme label="e" type="aguda">é</rhyme></l>
                         <l>Que alegre de verme entre <rhyme label="ellos" type="grave">ellos</rhyme></l>
@@ -69,6 +75,7 @@
                     </lg>
                     
                     <lg n="194" rhyme="abcb">
+                    <note>asonancia libre</note>
                         <l>Como nunca, en la ocas<rhyme label="ion" type="aguda">ion</rhyme></l>
                         <l>Por peliar me dió la tr<rhyme label="anca" type="grave">anca</rhyme>.</l>
                         <l>Y la emprendi con un n<rhyme label="egro" type="grave">egro</rhyme></l>
@@ -76,6 +83,7 @@
                     </lg>
                     
                     <lg n="195" rhyme="abcb">
+                    <note>asonancia libre</note>
                         <l>Al ver llegar la mor<rhyme label="ena" type="grave">ena</rhyme></l>
                         <l>Que no hacia caso de n<rhyme label="aides" type="grave">aides</rhyme>,</l>
                         <l>Le dije con la mam<rhyme label="ua" type="grave">úa</rhyme></l>
@@ -83,6 +91,7 @@
                     </lg>
                     
                     <lg n="196" rhyme="abcb">
+                    <note>asonancia libre</note>
                         <l>La negra entendió la c<rhyme label="osa" type="grave">osa</rhyme></l>
                         <l>Y no tardó en contest<rhyme label="arme" type="grave">arme</rhyme>-</l>
                         <l>Mirandome como á p<rhyme label="erro" type="grave">erro</rhyme>-</l>
@@ -90,6 +99,7 @@
                     </lg>
                     
                     <lg n="197" rhyme="abcb">
+                    <note>asonancia libre</note>
                         <l>Y dentró al baile muy t<rhyme label="iesa" type="grave">iesa</rhyme></l>
                         <l>Con mas cola que una z<rhyme label="orra" type="grave">orra</rhyme></l>
                         <l>Haciendo blanquiar los d<rhyme label="ientes" type="grave">ientes</rhyme></l>
@@ -97,6 +107,7 @@
                     </lg>
                     
                     <lg n="198" rhyme="abcb">
+                    <note>asonancia libre</note>
                         <l>"Negra linda"....dije y<rhyme label="o" type="aguda">o</rhyme>-</l>
                         <l>"Me gusta pa la <term n="85">car<rhyme label="ona" type="grave">ona</rhyme></term>"-</l>
                         <l>Y me puse á talar<rhyme label="iar" type="aguda">iar</rhyme></l>
@@ -104,6 +115,7 @@
                     </lg>
                     
                     <lg n="199" rhyme="abcb">
+                    <note>asonancia libre</note>
                         <l>"A los blancos hizo D<rhyme label="ios" type="aguda">ios</rhyme></l>
                         <l>"A los mulatos San P<rhyme label="edro" type="grave">edro</rhyme></l>
                         <l>"A los negros hizo el d<rhyme label="eablo" type="grave">iablo</rhyme></l>
@@ -111,6 +123,7 @@
                     </lg>
                     
                     <lg n="200" rhyme="abcb">
+                    <note>asonancia libre</note>
                         <l>Habia estao juntando r<rhyme label="abia" type="grave">abia</rhyme></l>
                         <l>El moreno dende aj<rhyme label="uera" type="grave">uera</rhyme>-</l>
                         <l>En lo escuro le brill<rhyme label="aban" type="grave">aban</rhyme></l>
@@ -118,6 +131,7 @@
                     </lg>
                                         
                     <lg n="201" rhyme="abcb">
+                    <note>asonancia libre</note>
                         <l>Lo conoci retob<rhyme label="ao" type="grave">ao</rhyme></l>
                         <l>Me acerqué y le dije pr<rhyme label="esto" type="grave">esto</rhyme>:</l>
                         <l>"Po....r....rudo que un hombre s<rhyme label="ea" type="grave">ea</rhyme></l>
@@ -125,6 +139,7 @@
                     </lg>
                     
                     <lg n="202" rhyme="abcb">
+                    <note>asonancia libre</note>
                         <l>Corcobió el de los <term n="86">tam<rhyme label="angos" type="grave">angos</rhyme></term></l>
                         <l>Y creyendose muy f<rhyme label="ijo" type="grave">ijo</rhyme>-</l>
                         <l>"Mas <term n="87"><watermark>porrudo</watermark></term> serás v<rhyme label="oz" type="aguda">oz</rhyme>,</l>
@@ -132,6 +147,7 @@
                     </lg>
                     
                     <lg n="203" rhyme="abcb">
+                    <note>asonancia libre</note>
                         <l>Y ya se me vino al h<rhyme label="umo" type="grave">umo</rhyme></l>
                         <l>Como á buscarme la h<rhyme label="ebra" type="grave">ebra</rhyme>-</l>
                         <l>Y un golpe le acomod<rhyme label="e" type="aguda">é</rhyme></l>
@@ -139,6 +155,7 @@
                     </lg>
                     
                     <lg n="204" rhyme="abcb">
+                    <note>asonancia libre</note>
                         <l>Ay no mas pegó el de oll<rhyme label="in" type="aguda">ín</rhyme></l>
                         <l>Mas gruñidos que un chanch<rhyme label="ito" type="ito">ito</rhyme>,</l>
                         <l>Y pelando el enven<rhyme label="ao" type="grave">ao</rhyme></l>
@@ -146,6 +163,7 @@
                     </lg>
                     
                     <lg n="205" rhyme="abcb">
+                    <note>asonancia libre</note>
                         <l>Pegué un brinco y abrí c<rhyme label="ancha" type="grave">ancha</rhyme></l>
                         <l>Diciendoles "Caball<rhyme label="eros" type="grave">eros</rhyme></l>
                         <l>"Dejen venir á ese t<rhyme label="oro" type="grave">oro</rhyme>"</l>
@@ -153,6 +171,7 @@
                     </lg>
                     
                     <lg n="206" rhyme="abab">
+                    <note>asonancia libre</note>
                         <l>El negro despues del g<rhyme label="olpe" type="grave">olpe</rhyme></l>
                         <l>Se habia el poncho refal<rhyme label="ao" type="grave">ao</rhyme></l>
                         <l>Y dijo "Vas á sab<rhyme label="er" type="aguda">er</rhyme></l>
@@ -160,6 +179,7 @@
                     </lg>
                     
                     <lg n="207" rhyme="abab">
+                    <note>asonancia libre</note>
                         <l>Y mientras se arremang<rhyme label="o" type="aguda">ó</rhyme></l>
                         <l>Yo me saqué las esp<rhyme label="uelas" type="gave">uelas</rhyme>,</l>
                         <l>Pues malicié que aquel t<rhyme label="io" type="grave">io</rhyme></l>
@@ -167,6 +187,7 @@
                     </lg>
                     
                     <lg n="208" rhyme="abcb">
+                    <note>asonancia libre</note>
                         <l>No hay cosa como el pel<rhyme label="igro" type="grave">igro</rhyme></l>
                         <l>Pa refrescar un mam<rhyme label="ao" type="grave">ao</rhyme>,</l>
                         <l>Hasta la vista se acl<rhyme label="ara" type="grave">ara</rhyme></l>
@@ -174,6 +195,7 @@
                     </lg>
                     
                     <lg n="209" rhyme="abab">
+                    <note>asonancia libre</note>
                         <l>El negro me atropell<rhyme label="o" type="aguda">ó</rhyme></l>
                         <l>Como á quererme com<rhyme label="er" type="aguda">er</rhyme>-</l>
                         <l>Me hizo dos tiros segu<rhyme label="idos" type="grave">idos</rhyme></l>
@@ -181,13 +203,15 @@
                     </lg>
                     
                     <lg n="210" rhyme="abcb">
-                        <l>Yo tenia un facon con S</l>
+                    <note>asonancia libre</note>
+                        <l>Yo tenia un facon con <rhyme label="ese" type="grave">S</rhyme></l>
                         <l>Que era de lima de ac<rhyme label="ero" type="grave">ero</rhyme></l>
                         <l>Le hize un tiro, lo quit<rhyme label="o" type="aguda">o</rhyme></l>
                         <l>Y vino ciego el mor<rhyme label="eno" type="grave">eno</rhyme>.</l>
                     </lg>
                     
                     <lg n="211" rhyme="abcb">
+                    <note>asonancia libre</note>
                         <l>y en el medio de las <term n="88"><rhyme label="aspas" type="grave">aspas</rhyme></term></l>
                         <l>Un <term n="89">planaso</term> le asent<rhyme label="e" type="aguda">é</rhyme></l>
                         <l>Que lo largué culebr<rhyme label="iando" type="grave">iando</rhyme></l>
@@ -195,6 +219,7 @@
                     </lg>
                     
                     <lg n="212" rhyme="abcb">
+                    <note>asonancia libre</note>
                         <l>Le coloriaron las <term n="91">m<rhyme label="otas" type="grave">otas</rhyme></term></l>
                         <l>Con la sangre de la her<rhyme label="ida" type="grave">ida</rhyme></l>
                         <l>Y volvio á venir fur<rhyme label="ioso" type="grave">ioso</rhyme></l>
@@ -202,6 +227,7 @@
                     </lg>
                     
                     <lg n="213" rhyme="abcb">
+                    <note>asonancia libre</note>
                         <l>Y ya me hizo relumbr<rhyme label="ar" type="aguda">ar</rhyme></l>
                         <l>Por los ojos el cuch<rhyme label="illo" type="grave">illo</rhyme>-</l>
                         <l>Alcansando con la p<rhyme label="unta" type="grave">unta</rhyme></l>
@@ -209,6 +235,7 @@
                     </lg>
                     
                     <lg n="214" rhyme="abcb">
+                    <note>asonancia libre</note>
                         <l>Me hirbió la sangre en las v<rhyme label="enas" type="grave">enas</rhyme></l>
                         <l>Y me le afirmé al mor<rhyme label="eno" type="grave">eno</rhyme></l>
                         <l>Dandole de punta y h<rhyme label="acha" type="grave">acha</rhyme></l>
@@ -216,6 +243,7 @@
                     </lg>
                                         
                     <lg n="215" rhyme="abcb">
+                    <note>asonancia libre</note>
                         <l>Por fin en una top<rhyme label="ada" type="grave">ada</rhyme></l>
                         <l>En el cuchillo lo alc<rhyme label="e" type="aguda">é</rhyme></l>
                         <l>Y como un saco de g<rhyme label="uesos" type="grave">üesos</rhyme></l>
@@ -223,13 +251,16 @@
                     </lg>
                     
                     <lg n="216" rhyme="abab">
+                    <note>asonancia libre</note>
                         <l>Tiró unas cuantas pat<rhyme label="adas" type="grave">adas</rhyme></l>
                         <l>Y ya cantó pa el carn<rhyme label="ero" type="grave">ero</rhyme>-</l>
                         <l>Nunca me puedo olvid<rhyme label="ar" type="aguda">ar</rhyme></l>
                         <l>De la agonia de aquel n<rhyme label="egro" type="grave">egro</rhyme>.</l>
                     </lg>
+
+              </lg>      
                                         
-                    <lg n="217" style="décima" asonancia="consonante" rhyme="abbccddeed" met="10x8">
+                    <lg n="217" type="poema" style="décima" unisonancia="singular" isometrismo="isométrico" isoestrofismo="isoestrófico" asonancia="consonante" rhyme="abbccddeed" met="10x8">
                         <l>En esto la negra v<rhyme label="ino" type="grave">ino</rhyme></l>
                         <l>Con los ojos como ag<rhyme label="i" type="aguda">i</rhyme>-</l>
                         <l>Y empeso la pobre all<rhyme label="i" type="aguda">i</rhyme></l>
@@ -241,8 +272,11 @@
                         <l>Y por respeto al dij<rhyme label="unto" type="grave">unto</rhyme></l>
                         <l>No la quise castig<rhyme label="ar" type="aguda">ar</rhyme>.</l>
                     </lg>
+
+              <lg type="poema" style="cuarteto" unisonancia="singular" isometrismo="isométrico" isoestrofismo="isoestrófico" met="4x8">      
                     
                     <lg n="218" rhyme="abcb">
+                    <note>asonancia libre</note>
                         <l>Limpié el facón en los p<rhyme label="atos" type="atos">atos</rhyme>,</l>
                         <l>Desaté mi redom<rhyme label="on" type="aguda">on</rhyme>,</l>
                         <l>Monte despacio, y sal<rhyme label="i" type="aguda">í</rhyme></l>
@@ -250,6 +284,7 @@
                     </lg>
                     
                     <lg n="219" rhyme="abcb">
+                    <note>asonancia libre</note>
                         <l>Despues supe que al fin<rhyme label="ao" type="aguda">ao</rhyme></l>
                         <l>Ni siquiera lo vel<rhyme label="aron" type="grave">aron</rhyme></l>
                         <l>Y <term n="93">retobao</term> en un c<rhyme label="uero" type="grave">uero</rhyme></l>
@@ -257,6 +292,7 @@
                     </lg>
                     
                     <lg n="220" rhyme="abcb">
+                    <note>asonancia libre</note>
                         <l>Y dicen que dende ent<rhyme label="onces" type="grave">onces</rhyme></l>
                         <l>Cuando es la noche ser<rhyme label="ena" type="grave">ena</rhyme></l>
                         <l>Suele verse una luz m<rhyme label="ala" type="grave">ala</rhyme></l>
@@ -264,6 +300,7 @@
                     </lg>
                     
                     <lg n="221" rhyme="abcb">
+                    <note>asonancia libre</note>
                         <l>Yo tengo intencion á v<rhyme label="eces" type="grave">eces</rhyme>,</l>
                         <l>Para que no pene t<rhyme label="anto" type="grave">anto</rhyme>,</l>
                         <l>De sacar de alli los g<rhyme label="uesos" type="grave">uesos</rhyme></l>
