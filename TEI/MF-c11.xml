@@ -136,7 +136,7 @@
                     <l>Como por rairse de m<rhyme label="i" type="aguda">í</rhyme>:</l>
                 </lg>
                                 
-                <lg n="339" rhyme="">
+                <lg n="339" rhyme="ababcb" asonancia="asonante">                  
                     <l>"Las mujeres son t<rhyme label="odas" type="grave">odas</rhyme></l>
                     <l>"Como las m<rhyme label="ulas" type="grave">ulas</rhyme>-</l>
                     <l>"Yo no digo que t<rhyme label="odas" type="grave">odas</rhyme></l>
@@ -145,7 +145,7 @@
                     <l>"Les sacan pl<rhyme label="umas" type="grave">umas</rhyme>"</l>
                 </lg>
                 
-                <lg n="340" rhyme="">
+                <lg n="340" rhyme="ababcb" asonancia="asonante">
                     <l>"Hay gauchos que pres<rhyme label="umen" type="grave">umen</rhyme></l>
                     <l>"De tener d<rhyme label="amas" type="grave">amas</rhyme>-</l>
                     <l>"No digo que pres<rhyme label="umen" type="grave">umen</rhyme></l>
