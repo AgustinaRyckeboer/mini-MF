@@ -41,7 +41,7 @@
                         <l>Aquello era raton<rhyme label="era" type="grave">era</rhyme></l>
                         <l>En que es mas gato, el mas j<rhyme label="uerte" type="grave">uerte</rhyme>-</l>
                         <l>Era jugar á la s<rhyme label="uerte" type="grave">uerte</rhyme></l>
-                        <l>Con una <term n="67">taba cul<rhyme label="era" type="grave">era</rhyme></term>.</l>
+                        <l>Con una <term ref="67">taba cul<rhyme label="era" type="grave">era</rhyme></term>.</l>
                     </lg>
                     
                     <lg n="136" rhyme="abbccb">
@@ -64,7 +64,7 @@
                     
                     <lg n="138" rhyme="abbccb"> 
                         <l>Y colijo que no qu<rhyme label="ieren" type="grave">ieren</rhyme></l>
-                        <l>La <term n="68">barunda</term> compon<rhyme label="er" type="aguda">er</rhyme>-</l>
+                        <l>La <term ref="68">barunda</term> compon<rhyme label="er" type="aguda">er</rhyme>-</l>
                         <l>Para esto no ha de ten<rhyme label="er" type="aguda">er</rhyme></l>
                         <l>El Gefe, aunque esté de est<rhyme label="able" type="grave">able</rhyme>-</l>
                         <l>Mas que su poncho, y su s<rhyme label="able" type="grave">able</rhyme>,</l>
@@ -72,7 +72,7 @@
                     </lg>
                     
                     <lg n="139" rhyme="abbccb">
-                        <l><term n="69">Ansina</term>, pues, conoc<rhyme label="iendo" type="grave">iendo</rhyme></l>
+                        <l><term ref="69">Ansina</term>, pues, conoc<rhyme label="iendo" type="grave">iendo</rhyme></l>
                         <l>Que aquel mal no tiene c<rhyme label="ura" type="grave">ura</rhyme>,</l>
                         <l>Que tal vez mi sepult<rhyme label="ura" type="grave">ura</rhyme></l>
                         <l>Si me quedo iba á encontr<rhyme label="ar" type="aguda">ar</rhyme></l>
@@ -93,7 +93,7 @@
                         <l>Jamás me puedo olvid<rhyme label="ar" type="aguda">ar</rhyme></l>
                         <l>Lo que esa vez me pas<rhyme label="o" type="aguda">ó</rhyme>-</l>
                         <l>Dentrando una noche y<rhyme label="o" type="aguda">o</rhyme></l>
-                        <l>Al fortin-un <term n="70">enganch<rhyme label="ao" type="grave">ao</rhyme></term></l>
+                        <l>Al fortin-un <term ref="70">enganch<rhyme label="ao" type="grave">ao</rhyme></term></l>
                         <l>Que estaba medio mam<rhyme label="ao" type="grave">ao</rhyme></l>
                         <l>Allí me desconoci<rhyme label="o" type="aguda">ó</rhyme>.</l>
                     </lg>
@@ -109,7 +109,7 @@
                     
                     <lg n="143" rhyme="abbcbc"> 
                         <l>Estaba de centin<rhyme label="ela" type="grave">ela</rhyme></l>
-                        <l>Y por causa del <term n="71">pel<rhyme label="udo" type="grave">udo</rhyme></term></l>
+                        <l>Y por causa del <term ref="71">pel<rhyme label="udo" type="grave">udo</rhyme></term></l>
                         <l>Verme mas claro no p<rhyme label="udo" type="grave">udo</rhyme></l>
                         <l>Y esa jué la culpa t<rhyme label="oda" type="grave">oda</rhyme>-</l>
                         <l>El bruto se asustó al ñ<rhyme label="udo" type="grave">udo</rhyme></l>
@@ -182,7 +182,7 @@
                     
                     <lg n="151" rhyme="abbccb">
                         <l>Y lo pasan sus merc<rhyme label="edes" type="grave">edes</rhyme></l>
-                        <l><term n="72">Lengüetiando pico á p<rhyme label="ico" type="grave">ico</rhyme></term>-</l>
+                        <l><term ref="72">Lengüetiando pico á p<rhyme label="ico" type="grave">ico</rhyme></term>-</l>
                         <l>Hasta que viene un mil<rhyme label="ico" type="grave">ico</rhyme></l>
                         <l>A servirles al as<rhyme label="ao" type="grave">ao</rhyme>-</l>
                         <l>Y eso sí en lo delic<rhyme label="aos" type="grave">aos</rhyme></l>
@@ -194,7 +194,7 @@
                         <l>Si yela, todos tir<rhyme label="itan" type="grave">itan</rhyme>-</l>
                         <l>Si usté no les da, no p<rhyme label="itan" type="grave">itan</rhyme></l>
                         <l>Por no gastar en tab<rhyme label="aco" type="grave">aco</rhyme>,-</l>
-                        <l>Y cuando pescan un <term n="73">n<rhyme label="aco" type="grave">aco</rhyme></term></l>
+                        <l>Y cuando pescan un <term ref="73">n<rhyme label="aco" type="grave">aco</rhyme></term></l>
                         <l>Uno á otros se lo qu<rhyme label="itan" type="grave">itan</rhyme>.</l>
                     </lg>
                     
@@ -208,7 +208,7 @@
                     </lg>
                     
                     <lg n="154" rhyme="abbccb">
-                        <l>Pa <term n="74">vichar</term> son como c<rhyme label="iegos" type="grave">iegos</rhyme>,</l>
+                        <l>Pa <term ref="74">vichar</term> son como c<rhyme label="iegos" type="grave">iegos</rhyme>,</l>
                         <l>Ni hay ejemplo de que ent<rhyme label="ienda" type="grave">iendan</rhyme>,</l>
                         <l>No hay uno solo que apr<rhyme label="ienda" type="grave">ienda</rhyme></l>
                         <l>Al ver un bulto que cr<rhyme label="uza" type="grave">uza</rhyme>,</l>
