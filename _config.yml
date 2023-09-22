@@ -1,9 +1,9 @@
 
 title: Poesía Medieval
 description: Reconstrucción y contrafactum en la poesía ibérica medieval.
-baseurl: "/Poesia-Medieval" # the subpath of your site, e.g. /blog
-url: "http://hdlab.space/" # the base hostname & protocol for your site
-github_repo: Poesia-Medieval # the GitHub repo name for your project
+baseurl: "/mini-MF" # the subpath of your site, e.g. /blog
+url: "http://github.com/AgustinaRyckeboer/" # the base hostname & protocol for your site
+github_repo: mini-MF # the GitHub repo name for your project
 github_username: hdcaicyt
 
 social_link: twitter
