@@ -85,7 +85,7 @@
                         <l>Pero, ¡que habia de mand<rhyme label="ar" type="aguda">ar</rhyme>!</l>
                         <l>Anoche al irlo á tom<rhyme label="ar" type="aguda">ar</rhyme></l>
                         <l>Vide güena coyont<rhyme label="ura" type="grave">ura</rhyme>-</l>
-                        <l>Y ami no me gusta and<rhyme label="ar" type="aguda">ar</rhyme></l>
+                        <l>Y <orig>ami</orig> no me gusta and<rhyme label="ar" type="aguda">ar</rhyme></l>
                         <l>Con la <term ref="126">lata</term> á la cint<rhyme label="ura" type="grave">ura</rhyme>.</l>
                     </lg>
                 
@@ -96,7 +96,7 @@
                     
                     <lg n="357" rhyme="abbccb">
                         <l>Ya conoce, pues, quien s<rhyme label="oy" type="aguda">oy</rhyme>,</l>
-                        <l>Tenga confianza con m<rhyme label="igo" type="grave">igo</rhyme>,</l>
+                        <l>Tenga confianza <orig>con m<rhyme label="igo" type="grave">igo</rhyme></orig>,</l>
                         <l>Cruz le dió mano de am<rhyme label="igo" type="grave">igo</rhyme></l>
                         <l>Y no lo ha de abandon<rhyme label="ar" type="aguda">ar</rhyme>-</l>
                         <l>Juntos podemos busc<rhyme label="ar" type="aguda">ar</rhyme></l>
